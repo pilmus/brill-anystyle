@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="p8000100">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Aesop</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Baumbach, Manuel%22">
+               <name type="person">Baumbach, Manuel</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Baumbach, Manuel%22">
+               <name type="person">Baumbach, Manuel</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title level="m"/></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p><!-- <h>Aesop</h> --><!-- <abstract> --><!-- </abstract> --></p>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Classical Studies</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20150603" status="first-online"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>(Αἴσωπος/Aísōpos, lat. Aesopus)</p>
+         <div xml:id="p8000100_010"><!-- <decl>
+				<title>A. Historische Dimension</title>
+				<auth loc="Bochum">
+					<name>Baumbach</name>
+					<fn>Manuel</fn>
+				</auth>
+				<cit typ="DNP">
+					<vol>8</vol>
+					<col>1&#8211;2</col>
+				</cit>
+			</decl> -->
+            <head>A. Historische Dimension</head>
+            <!-- <h hno="A.">Historische Dimension</h> -->
+            <p><!-- <kwp kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" kwp_name="Aesop*/Aesopus" kwp_fn="" kwp_alt_name="Aisopos" kwp_alt_fn="" posnr="p1" col="1" vol="8"/> -->Zu Ae., der in der Antike als Archeget der Fabel galt, gibt es keine gesicherten Lebensdaten. Zum ersten Mal erwähnt wird er in Herodots <hi rendition="#italic">Historien</hi> (2,134,3) als Zeitgenosse und Mitsklave der Hetäre Rhodopis, was eine Datierung in die erste Hälfte des 6. Jh.s. v. Chr. nahelegt <ref target="p8000100_000_01">[01]</ref>. Herodot bezeichnet Ae. als <hi rendition="#italic">logopoiós</hi> (»Schriftsteller, Fabeldichter«) und erwähnt seinen gewaltsamen Tod in Delphi, auf den auch Aristophanes in den <hi rendition="#italic">Wespen</hi> (422 v. Chr.) anspielt (1446–1448). Dieser könnte 564/63 v. Chr. erfolgt sein (Eusebios, <hi rendition="#italic">Chronica</hi> 2 p. 94 Schoene) und beruhte vielleicht auf einer falschen Anklage wegen Hierosylie (Tempelraub), nach welcher Ae. zum Felsensturz verurteilt wurde (vgl. Plut.mor. 556f–557a). Ob es sich dabei um einen Teil der bereits im 5. Jh. v. Chr. einsetzenden Legendenbildung handelt <ref target="p8000100_000_17">[17]</ref>, die aitiologisch begründet sein könnte <ref target="p8000100_000_18">[18]</ref>, oder um Angaben von histor. Wert, ist nicht zu klären. </p>
+            <p>Ae. stammte wohl aus Thrakien (vgl. Euagon, FGrH 535 F4; Aristoteles fr. 573 Rose), wobei spätere biographische und lit. Zeugnisse auch Phrygien, Lydien oder Samos (vgl. <hi rendition="#italic">Suda</hi>, Eintrag Aísōpos) als Herkunftsorte nennen. Über seinen möglichen Sklavenstatus gibt es nur vage Angaben. Neben dem bei Herodot erwähnten Besitzer Iadmon soll Ae. zuvor einem Xanthos (Aristoteles fr. 573 Rose) gehört haben, wobei die Umstände der Versklavung sowie deren Dauer unklar bleiben. Legendär war Ae.s körperliche Hässlichkeit, die am ausführlichsten zu Beginn des frühkaiserzeitlichen biographischen Aesop-Romans (<hi rendition="#italic">Bíos Aisṓpu</hi>) geschildert wird, wo zwölf körperliche Defizite Ae. selbst als einen »Fehler der Natur« (<hi rendition="#italic">hamártēma</hi>, § 1) erscheinen lassen.</p>
+            <p>So schemenhaft Ae. als histor. Person in den ant. Zeugnissen zu fassen ist, so unsicher ist die Bestimmung seines Œuvres. Zwar verweist bereits Aristophanes mehrfach (<hi rendition="#italic">Vögel</hi> 651–653, <hi rendition="#italic">Frieden</hi> 129) auf die Bekanntheit seiner als <hi rendition="#italic">lógoi</hi> bzw. <hi rendition="#italic">mýthoi</hi> bezeichneten Fabeln; es ist jedoch unklar, ob bereits im 5. Jh. v. Chr. eine eigene Ausgabe von Fabeln Ae.s vorlag. Vielmehr kursierten ›aesopische‹ Fabeln als Einzelerzählungen in mündlicher oder schriftlicher Form, wobei es falsche Zuschreibungen schon am Ende des 5. Jh.s v. Chr. gegeben zu haben scheint (vgl. Schol. zu Aristophanes' <hi rendition="#italic">Vögeln</hi> 651–653). Die erste sicher bezeugte Sammlung aesopischer Fabeln wurde von Demetrios von Phaleron am Ende des 4. Jh.s v. Chr. zusammengestellt (Diog.Laert. 4,112).</p>
+            <div>
+               <byline>Baumbach, Manuel</byline>
+            </div>
+         </div>
+         <div xml:id="p8000100_020"><!-- <decl>
+				<title>B. Rezeption</title>
+				<auth loc="Bochum">
+					<name>Baumbach</name>
+					<fn>Manuel</fn>
+				</auth>
+				<cit typ="DNP">
+					<vol>8</vol>
+					<col>2&#8211;8</col>
+				</cit>
+			</decl> -->
+            <head>B. Rezeption</head>
+            <!-- <h hno="B.">Rezeption </h> -->
+            <div><!-- <decl>
+					<title>B.1. Antike</title>
+					<cit typ="DNP">
+						<vol>8</vol>
+						<col>2</col>
+					</cit>
+				</decl> -->
+               <head>B.1. Antike</head>
+               <!-- <h hno="B.1.">Antike</h> -->
+               <p>Vor diesem Hintergrund ist es nicht erstaunlich, dass die zahlreichen von der ant. biographischen Ae.-Tradition bereitgestellten Leerstellen Raum für Spekulationen und Anekdoten gaben, die etwa der Ae.-Roman zu einem umfassenden Lebensbild verarbeiten konnte <ref target="p8000100_000_11">[11]</ref>. Damit trat die histor. Person Ae. hinter einer Kunstfigur zurück, die mit Tieren redete und in Fabeln auftrat. Dieser Überlagerungsprozess wurde von Ae. insofern initiiert, als er sich selbst zum Sprecher und Akteur einzelner Fabeln machte und damit die eigene Vita mit der Fabelwelt verknüpfte, die er selbst erschaffen hatte. Entsprechend schwierig und weder produktions- noch rezeptionsästhetisch sinnvoll erscheint eine Abgrenzung der histor. Person Ae. von der fiktiven Gestalt, die Platzhalter und Projektionsfigur für alle mit der aesopischen Fabel verbundenen Wirkungsabsichten und Vorstellungswelten ist. Da diese – wie etwa <!-- <kwp kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" kwp_name="Philostrat (Philostratos [5])" kwp_fn="" kwp_alt_name="" kwp_alt_fn="" posnr="p2" col="2" vol="8"/> -->Philostrat in den <hi rendition="#italic">Eikónes</hi> sagt – das ganze menschliche Leben betreffen (Philostr.imag. 1,3), tritt Ae. in ant. Texten mit ganz unterschiedlichen polit., sozialen oder auch kulturellen Ansichten auf, wobei sich keine sicheren Rückschlüsse auf die histor. Gestalt oder ihr mögliches dichterisches Programm ziehen lassen. Entsprechend zeigt die seit der Antike beliebte Engführung von Ae.s Fabeln mit den sozialkritischen Anliegen des vermeintlichen Sklaven Ae. (vgl. Phaedrus, Prolog III, V. 33–37) auch nur eine Facette der Figur, die ohne Anspruch auf Historizität ist und sich zudem anhand des unter Ae.s Namen überlieferten Fabelcorpus nicht nachweisen lässt <ref target="p8000100_000_03">[03]</ref>.</p>
+            </div>
+            <div><!-- <decl>
+					<title>B.2. Sp&#228;tantike und mittelalterliche &#220;berlieferung</title>
+					<cit typ="DNP">
+						<vol>8</vol>
+						<col>2&#8211;3</col>
+					</cit>
+				</decl> -->
+               <head>B.2. Spätantike und mittelalterliche Überlieferung</head>
+               <!-- <h hno="B.2.">Sp&#228;tantike und mittelalterliche &#220;berlieferung</h> -->
+               <p>Die spärlichen, sehr verstreut zu findenden biographischen Eckdaten zu Ae., die vielen Anekdoten sowie das unsichere Textcorpus, in welchem zahlreiche kreative Nachahmungen seiner Fabeln immer neue Facetten der Ae.-Gestalt hinzufügten, haben der nachant. Rezeption den Blick auf den histor. Ae. weitgehend verstellt. Hinzu kommt, dass vielen Hss. und frühen Drucken von aesopischen Fabeln eine romanhafte Vita Ae.s (oft eine gekürzte Version des Ae.-Romans) als vermeintliche Biographie vorangestellt war, die zu seiner romanhaften Verklärung beitrug. Als bes. wirkmächtig erwies sich hierbei die Ae.-Ausgabe des Byzantiners <!-- <kwp kwp_name="Planudes" kwp_fn="Maximos" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p3" col="3" vol="8"/> -->Maximos Planudes, die zahlreiche Nachdrucke erfuhr und in fast alle europ. Sprachen übersetzt wurde <ref target="p8000100_000_03">[03]</ref>; nach <!-- <kwp kwp_name="Bentley" kwp_fn="Richard" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p4" col="3" vol="8"/> -->Richard Bentley war es sogar die Popularität eben dieser Ausgabe, welche auch die Ikonographie Ae.s maßgeblich beeinflusste. Bentley schrieb in seiner <hi rendition="#italic">Dissertation on the Fables of Aesop</hi> (London 1697) über Planudes: <hi rendition="#italic">»But of all his injuries to Ae., that which can least be forgiven him, is the making such a Monster of him for Ugliness: an Abuse, that has found credit so universally; that all the modern Painters, since the time of Planudes, have drawn him in the worst Shapes and Features, that Fancy could invent«</hi> (zit. nach <ref target="p8000100_000_10">[10]</ref>). Wahrscheinlich hatte Bentley die zahlreichen Holzschnitte und Illustrationen Ae.s in den frühen Hss. und Ae.-Ausgaben im Blick, die häufig Szenen der romanhaften Vita darstellten. Ein prominentes Beispiel findet sich in den Holzschnitten der stark rezipierten Ulmer Ausgabe (1476) von <!-- <kwp kwp_name="Steinh&#246;wel" kwp_fn="Heinrich" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p5" col="3" vol="8"/> -->Heinrich Steinhöwel, welche die Dickbäuchigkeit und die Unförmigkeit des vermeintlichen Sklaven Ae. zeigen.</p>
+            </div>
+            <div><!-- <decl>
+					<title>B.3. Neuzeit</title>
+					<cit typ="DNP">
+						<vol>8</vol>
+						<col>3&#8211;5</col>
+					</cit>
+				</decl> -->
+               <head>B.3. Neuzeit</head>
+               <!-- <h hno="B.3.">Neuzeit</h> -->
+               <p>Über die starke Rezeption illustrierter Fabelausgaben <ref target="p8000100_000_01">[01]</ref> konnte sich das Bild des dicken, hässlichen Ae. etablieren, das bis in das ausgehende 17. Jh. in zahlreichen Kupferstichen umgesetzt wurde (vgl. <!-- <kwp kwp_name="Hollar" kwp_fn="Wenzel" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p6" col="3" vol="8"/> -->Wenzel Hollar zu John Ogilbys <hi rendition="#italic">Aesopicks</hi>, 1668, oder Francis Barlows <hi rendition="#italic">Aesop's Fables with His Life</hi>, 1687) und auch in Skulpturen Verbreitung fand (vgl. die Ae.-Statue am Eingang des Versailler Labyrinths von <!-- <kwp kwp_name="Bailly" kwp_fn="Jacques" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p7" col="3" vol="8"/> -->Jacques Bailly, ca. 1675). Daneben gibt es unter den Bildern, die man sich von Ae. machte, jedoch auch typisierte Darstellungen von Gelehrten, Evangelisten oder Hofnarren <ref target="p8000100_000_05">[05]</ref>; <ref target="p8000100_000_01">[01]</ref>, sodass man bis in die Moderne von keiner einheitlichen Ae.-Ikonographie sprechen kann. Vielmehr schuf sich jeder Künstler seinen eigenen Ae., sei es den hübschen jungen Mann, den <!-- <kwp kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" kwp_name="Kauffmann" kwp_fn="Angelika/Angelica" kwp_alt_name="" kwp_alt_fn="" posnr="p8" col="3" vol="8"/> -->Angelika Kauffmann darstellte (<hi rendition="#italic">The Beautiful Rhodope in Love with Aesop</hi>, 1780), sei es <!-- <kwp kwp_name="Vel&#225;zquez" kwp_fn="" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p9" col="3" vol="8"/> -->Velázquez' tatkräftige, ironie-verkörpernde Gestalt (<hi rendition="#italic">Aesop</hi>, 1639/40) <ref target="p8000100_000_06">[06]</ref>, sei es <!-- <kwp kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" kwp_name="Ribera" kwp_fn="Jusepe de" kwp_alt_name="Spagnoletto" kwp_alt_fn="" posnr="p10" col="3" vol="8"/> -->Jusepe de Riberas <hi rendition="#italic">Aesop in Beggar's Rags</hi> (1640–1650). Da bis heute kein sicher identifiziertes Porträt Ae.s aus der Antike bekannt ist – die Statuen von Aristodemos und <!-- <kwp kwp_name="Lysipp (Lysippos [2])" kwp_fn="" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p11" col="3" vol="8"/> -->Lysipp sind nicht erhalten, und die bekannte Darstellung eines deformierten alten Mannes mit einem Fuchs auf einer Kylix um 480 v. Chr. <ref target="p8000100_000_12">[12]</ref> ist nicht sicher mit Ae. zu identifizieren –, entzieht sich der ›histor.‹ Ae. auch im Bild dem Zugriff seiner Rezipienten. </p>
+               <p>Das Problem der mangelnden Fassbarkeit der histor. Person Ae. in Wort und Bild wurde bereits im Humanismus gesehen. <!-- <kwp kwp_name="Luther" kwp_fn="Martin" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p12" col="4" vol="8"/> -->Martin Luther bemerkte in der Vorrede zu seiner 1530 entstandenen Übersetzung von Fabeln aus dem <hi rendition="#italic">Aesopus Latinus</hi>, einer Sammlung von Prosafabeln im Stil Ae.s aus dem 4. Jh. n. Chr.: »das mans aber dem Esopo zuschreibet / ist meines achtens ein Geticht / und vieleicht nie kein Mensch auff Erden / Esopus geheissen« (<hi rendition="#italic">Etliche Fabeln aus Esopo verdeudscht</hi>, Coburg 1530). Gleichwohl beförderte gerade diese Unbestimmtheit der Vita Ae.s die kreative Rezeption v. a. in romanhafter und dramatischer Gestaltung. Dabei spielten bes. drei Aspekte seines Lebens eine Rolle: die Verkörperung des schlauen Antihelden, sein vermeintlicher Sklavenstatus und die Liebe zu <!-- <kwp kwp_name="Rhodopis (Rhodope)" kwp_fn="" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p13" col="4" vol="8"/> -->Rhodopis.</p>
+               <p>In der ant. Gestalt(ung) des hässlichen, aber gewitzten Fabeldichters wurde Ae. zum Prototyp für den europ. Schelmenroman, wobei er zumeist in indirekter Rezeption die Vorlage für neue Helden wie Bertoldo in <!-- <kwp kwp_name="Croces" kwp_fn="Giulio Cesare" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p14" col="4" vol="8"/> -->Giulio Cesare Croces <hi rendition="#italic">Le sottilissime astuzie di Bertoldo</hi> (1606) oder Lázaro in dem anonymen span. Roman <hi rendition="#italic">La vida de Lazarillo de Tormes y de sus fortunas y adversidades</hi> (1552) bildete <ref target="p8000100_000_10">[10]</ref>. In dieser Rezeptionslinie des Ae.-Romans steht auch der dt. Eulenspiegel <ref target="p8000100_000_04">[04]</ref>; <ref target="p8000100_000_16">[16]</ref> sowie <hi rendition="#italic">Der brave Soldat Schwejk</hi> (1911–1923) des tschech. Autors <!-- <kwp kwp_name="H&#259;sek" kwp_fn="Jaroslav" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p15" col="4" vol="8"/> -->Jaroslav Hašek. Demgegenüber trat der Aspekt des Schelmenhaften in der direkten Rezeption der Figur zurück, die ebenfalls weitgehend auf dem Ae.-Roman basierte, jedoch stärker die emotionalen und gesellschaftspolit. Seiten der Figur nutzte.</p>
+               <p>Der franz. Dramatiker <!-- <kwp kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" kwp_name="Boursault" kwp_fn="Edme" kwp_alt_name="" kwp_alt_fn="" posnr="p16" col="4" vol="8"/> -->Edme Boursault verfasste zwei Komödien, <hi rendition="#italic">Les fables d'Ésope</hi> (1690) und <hi rendition="#italic">Ésope à la cour</hi> (1701), in denen Ae. mithilfe seiner Fabeln moralische Belehrungen gibt und bes. im zweiten Stück Gesellschaftskritik übt, indem er die Missstände am Hof des <!-- <kwp kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" kwp_name="Kroisos*" kwp_fn="" kwp_alt_name="Croesus" kwp_alt_fn="" posnr="p17" col="4" vol="8"/> --><ref type="bnp-s" target="placeholder">Kroisos</ref> anprangert. Da die fiktive Handlung in Analogie zu den Verhältnissen am Hof <!-- <kwp kwp_name="Ludwig XIV. von Frankreich" kwp_fn="" kwp_alt_name="Louis XIV" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p18" col="4" vol="8"/> -->Ludwigs XIV. gesetzt werden kann, wird Ae. hier zu einem Protagonisten der Frühaufklärung, dessen universelles philos. und naturwiss. Wissen neue Perspektiven eröffnet und zudem gesellschaftliche Grenzen in Frage stellt. Beide Stücke waren nicht nur in Frankreich ein großer Erfolg, sondern <hi rendition="#italic">Les fables d'Ésope</hi> in der engl. Überarbeitung durch <!-- <kwp kwp_name="Vanbrugh" kwp_fn="John" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p19" col="4" vol="8"/> -->John Vanbrugh (<hi rendition="#italic">Aesop. A Comedy,</hi> 1697) machte Ae. darüber hinaus populär und ließ ihn zum Sprecher zahlreicher gesellschaftspolit. Schriften werden, etwa <!-- <kwp kwp_name="Yalden" kwp_fn="Thomas" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p20" col="4" vol="8"/> -->Thomas Yaldens <hi rendition="#italic">Old Æsop at White-Hall, Giving Advice to the Young Æsops at Tunbridge and Bath: or, Some Fables Relating to Government</hi> (London 1698), vgl. auch die polit. Satire <hi rendition="#italic">Aesop at Court. Or, State Fables</hi> (London 1702) sowie die anonym erschienene Sammlung illustrierter Dialoge über aktuelle polit. Ereignisse <hi rendition="#italic">Esopus in Europa</hi> (Amsterdam 1701 und 1738). Über die Fabel wurde Ae. zu einer wichtigen Sprecherfigur der Aufklärung und erhielt bei Fabeldichtern wie <!-- <kwp kwp_name="Lessing" kwp_fn="Gotthold Ephraim" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p21" col="5" vol="8"/> -->Lessing in jener von ihm begründeten Gattung wieder vermehrt eigene Auftritte.</p>
+               <p>Basierte die Rezeption der Gestalt in der Aufklärung noch wesentlich auf Ae. als dem Erfinder der Fabel und deren aufklärerischem Potential als Gattung, so wurde in der Romantik eine aus der ant. Biographie entlehnte Facette Ae.s betont: seine Beziehung zur Mitsklavin Rhodopis, die bereits in der Antike (Plin.nat. 36,17) als eine Liebesbeziehung gedeutet und möglicherweise in einem verlorenen Gedicht des hell. Dichters <!-- <kwp kwp_name="Poseidippos [2] von Pella" kwp_fn="" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p22" col="5" vol="8"/> -->Poseidippos von Pella dargestellt war (Athen. 13,596). Die 1780 anonym erschienene Novelle <hi rendition="#italic">The History and Amours of Rhodope</hi> erzählt die Geschichte der ungleichen Liebenden – <!-- <kwp kwp_name="Rhodopis (Rhodope)" kwp_fn="" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p23" col="5" vol="8"/> -->Rhodopis wird als sehr schön, Ae. als hässlich beschrieben –, wobei es am Ende doch zur Trennung kommt, da die Protagonistin sich mit dem ägypt. König Psammetichus vermählt. Diese Liebesgeschichte war äußerst populär; sie inspirierte <!-- <kwp kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" kwp_name="Kauffmann" kwp_fn="Angelika/Angelica" kwp_alt_name="" kwp_alt_fn="" posnr="p24" col="5" vol="8"/> -->Angelika Kauffmanns Ölgemälde <hi rendition="#italic">The Beautiful Rhodope in Love with Aesop</hi> (1780) sowie <!-- <kwp kwp_name="Bartolozzi" kwp_fn="Francesco" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p25" col="5" vol="8"/> -->Francesco Bartolozzis Zeichnungen <hi rendition="#italic">The Loves of Rhodope and Aesopus</hi> und <hi rendition="#italic">Psammetichus, King of Egypt, Chosing Rhodope for His Queen</hi> (beide 1782), die einigen Ausgaben der Erzählung als Illustrationen beigegeben waren. Dagegen tritt das Thema Liebe in den beiden fiktiven Dialogen zwischen Ae. und Rhodope von <!-- <kwp kwp_name="Landor" kwp_fn="Walter Savage" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p26" col="5" vol="8"/> -->Walter Savage Landor (1844) hinter einer Diskussion von kulturellen und relig. Aspekten sowie der Umstände der Versklavung Rhodopes zurück.</p>
+            </div>
+            <div><!-- <decl>
+					<title>B.4. Moderne</title>
+					<cit typ="DNP">
+						<vol>8</vol>
+						<col>5&#8211;8</col>
+					</cit>
+				</decl> -->
+               <head>B.4. Moderne</head>
+               <!-- <h hno="B.4.">Moderne</h> -->
+               <p>Auch im 20. Jh. finden sich mehrere dramatische Auftritte Ae.s, wobei eine stärkere Mythisierung zu beobachten ist: In <!-- <kwp kwp_name="Terson" kwp_fn="Peter" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p27" col="5" vol="8"/> -->Peter Tersons Drama <hi rendition="#italic">Aesop's Fables: A Play</hi> (1983) wird sein Weg zum olympischen Zeus inszeniert, den Ae. um die Freiheit bitten möchte, und in <!-- <kwp kwp_name="Davies" kwp_fn="Robertson" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p28" col="5" vol="8"/> -->Robertson Davies' <hi rendition="#italic">Masque of Aesop</hi> (1952) wird der Prozess um den angeblichen Tempelraub in Delphi in eine Anklage wegen der Falschheit seiner in den Fabeln transportierten Lehren umgewandelt und vor den Augen Apolls und der Parzen entschieden <ref target="p8000100_000_15">[15]</ref>. Ae. wird freigesprochen und aus einem hässlichen Krüppel zu einem schönen Mann verwandelt. In beiden Dramen fällt auf, dass die Rezeptionen der histor. Gestalt zugunsten der Auseinandersetzung mit der aesopischen Gattung und ihren Wirkungsabsichten zurücktritt und auf romanhafte Motive zurückgreift: Sowohl die Fabel vom Adler und Mistkäfer <ref target="p8000100_000_09">[09]</ref> als auch der Zorn Apolls wegen des angeblichen Tempelraubs werden im Ae.-Roman erzählt. Ae. wird durch die Nähe zum Göttlichen wieder stärker in die zeitlose Welt des Mythos entrückt, in welcher sich seine möglichen histor. Spuren verlieren. </p>
+               <p>Die beiden romanhaften Nacherzählungen des ant. Ae.-Romans von <!-- <kwp kwp_name="Bronnen" kwp_fn="Arnolt" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p29" col="6" vol="8"/> -->Arnolt Bronnen (<hi rendition="#italic">Aisopos. Sieben Berichte aus Hellas</hi>, 1956) und <!-- <kwp kwp_name="Sch&#228;dlich" kwp_fn="Hans Joachim" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p30" col="6" vol="8"/> -->Hans Joachim Schädlich (<hi rendition="#italic">Gib ihm Sprache. Leben und Tod des Dichters Äsop</hi>, 1999) führen ebenfalls nicht zur histor. Figur zurück, im Gegenteil: Schädlichs Werk basiert auf der dt. Übersetzung des Romans von Günther Poethke (1974) und Bronnen schmückt den Roman mit zahlreichen in anderen ant. Texten und Kontexten hinzugedichteten Episoden aus, wobei die Handlung aus unterschiedlichen Erzählperspektiven verschiedener (fiktiver) Figuren aus Ae.s Umfeld (u. a. des Sklavenhändlers Ophelion, des Sklaven Sosos oder der Hetäre <!-- <kwp kwp_name="Rhodopis (Rhodope)" kwp_fn="" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p31" col="6" vol="8"/> -->Rhodopis) berichtet wird. Da wir aber gerade über das Leben dieser Erzähler aus den ant. Zeugnissen so gut wie nichts wissen, verklärt sich Ae. nun vollends in eine – zwar vielbetrachtete, aber dadurch gerade nicht fassbare – fiktive Figur, woran auch die vermeintlich stärkere Nähe des ›histor.‹ Romans zu »dokumentarischen Quellen« (Untertitel) und der beigegebene wiss. Anhang mit Angaben zur ant. Zeitrechnung sowie Bibliographie und Kartenmaterial nichts ändern.</p>
+               <p>Auch in Verfilmungen des Ae.-Stoffes lässt sich diese Tendenz beobachten: Während der amerikan. Fernsehfilm <hi rendition="#italic">Aesop and Rhodope</hi> (1953) noch auf der Spannung zwischen dem ungleichen Paar aufbaut, wird Ae. in <hi rendition="#italic">A Night in Paradise</hi> (USA, 1946; R: <!-- <kwp kwp_name="Lubin" kwp_fn="Arthur" kwp_alt_name="" kwp_alt_fn="" kwp2="" kwp_prof1="" kwp_prof2="" kwp_prof3="" kwp_nat="" kwp_life="" posnr="p33" col="6" vol="8"/> -->Arthur Lubin) in einer fiktiven Erzählung als weiser Berater an den Hof von König <ref type="bnp-s" target="placeholder">Kroisos</ref> nach Lydien versetzt. Zu diesem Zweck schlüpft er in die für die Weisheit topische Maske eines (hässlichen) alten Mannes, hinter der sich jedoch ein junger schöner Ae. verbirgt, der am Ende die pers. Prinzessin Delarai für sich gewinnt. Hier mischen sich die drei verschiedenen Rezeptionsstränge, insofern als der schelmenhafte, junge Ae. die Rolle des hässlichen, weisen Ae. übernimmt, um sein Liebesglück zu erreichen.</p>
+               <p>Ae. spielt ganz verschiedene Rollen, wobei die Offenheit der Figur für immer neue Gestaltungen bereits in byz. Lebensbeschreibungen symbolisch vorweggenommen bzw. angestoßen wurde: Wie der ›histor.‹ Ae. nach seinem Tod eine Wiedergeburt erlebt haben soll (Photios, <hi rendition="#italic">Suda</hi>), so wird der lit. Ae. bis heute in kreativen Rezeptionen immer wieder neu geschaffen.</p>
+               <p>
+                        <ref type="bnp-s" target="placeholder">Anakreon</ref>
+                        <ref type="bnp-s" target="placeholder">Homer</ref>
+                        <ref type="bnp-s" target="placeholder">Kroisos</ref>
+                     </p>
+               <div>
+                  <head>Bibliography</head>
+                  <listBibl>
+                     <bibl xml:id="p8000100_bibl_1_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_2_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_3_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_4_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_5_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_6_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_7_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_8_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_9_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_10_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_11_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_12_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_13_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_14_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_15_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_16_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_17_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_18_1"><title level="m"/></bibl>
+                  </listBibl>
+               </div>
+               <!-- <writ>Manuel Baumbach</writ> -->
+            </div>
+            <div>
+               <byline>Baumbach, Manuel</byline>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

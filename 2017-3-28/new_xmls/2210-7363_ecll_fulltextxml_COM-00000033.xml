@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-00000033">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Běijīng, The Language of</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Katia CHIRKOVA%22">
+               <name type="person">Katia CHIRKOVA</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Yiya CHEN%22">
+               <name type="person">Yiya CHEN</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title level="m"/></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Language and Linguistics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20151230" status="first-online"/>
+         <change when="20160922" status="last-update"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <hi rendition="#smallcaps">1. General</hi>
+            </head>
+            <p>Běijīng Mandarin (Běijīnghuà 北京話, Pekingese, hereafter BM) is a language spoken in the city of Běijīng (Peking) by its natives. The development of BM in this definition is essentially influenced by two factors: the special status as capital that the city enjoyed almost uninterruptedly for nearly a millennium, and the normative language(s) of its successive ruling elites.</p>
+            <p>Situated for many centuries in the borderlands between China proper and the Altaic peoples to its north, the predecessor cities of present-day Běijīng served as capital to many non-Chinese dynasties, such as Jīn (1115–1234), Yuán (1260–1368), and Qīng (1644–1911). Each dynasty had an impact on the city’s demographics. It was inhabited at different times by the Jurchen, Mongolians, and Manchus who respectively ruled those three dynasties. At the same time, the city always remained home to Hàn 漢 Chinese speakers. Especially during the Míng period (1368–1644), the transfer of the capital to Běijīng in 1421 led to a sizeable migration from the central linguistic zone of China to the new capital. The normative language of the city elites changed along with these developments. It accumulated non-Sinitic features under the non-Chinese dynasties. It became more oriented towards Jiāng-Huái 江淮 dialects during the Míng (cf. Coblin 2007) (see <hi rendition="#italic">Jiāng-Huái Mandarin</hi>). Finally, under the Qīng, it developed a more northern-oriented standard, based on the Mandarin as spoken by descendants of Manchu, Mongol and (essentially Shāndōng-based) Chinese military garrisons or “bannermen” (e.g., Astraxan <hi rendition="#italic">et al.</hi> 1985:7–33).</p>
+            <p>The 20th century brought new changes to the language of Běijīng, following (i) the unprecedented territorial expansion of the city beginning in the 1960s, (ii) the changing population, characterized by a considerable influx of migrants from all over the country, bringing with them their native dialects and languages, and (iii) the large scale promotion of a new normative standard, Standard Mandarin (currently known in Chinese as Pǔtōnghuà 普通話), based on the dialect of Běijīng (hereafter, SM; see <hi rendition="#italic">Standard Mandarin</hi>).</p>
+            <p>Under the common assumption that BM is identical to SM (e.g., Li and Thompson 1981:1, Norman 1988:136–137), the former is arguably the best researched of all Chinese dialects, as the latter is outlined in many normative grammars and dictionaries (e.g., Chao 1968, Li and Thompson 1981, Huáng and Liào 1997). However, in actual fact BM and SM are far from identical, as important differences can be observed in all linguistic sub-systems (Astraxan <hi rendition="#italic">et al.</hi> 1985:19–33, Zhū 1987). Even the phonological organization of SM, the one sub-system that is established by definition as akin to BM, does not directly reflect any of the three distinct sub-varieties of BM (West-City, East-City, and Outer City) that were still spoken in Běijīng at the time of the introduction of SM (Astraxan <hi rendition="#italic">et al.</hi> 1985:22, Lín 1987:167).</p>
+            <p>As the language of education and administration, SM is defined as based on the speech of educated BM speakers and it is closely related to the literary language (e.g., De Francis 1950:76, 228–229; Chao 1976a:79–80; Kratochvil 1968:21, see <hi rendition="#italic">National language and dialects</hi>). By contrast, the local spoken idiom BM is essentially restricted to those Běijīng natives who have lower education and socio-economic status. Consequently, this spoken BM traditionally has lower prestige and is much less studied. Existing studies include collections of articles by Hú (1987, 1992) and Zhōu (2002), and outlines of BM by Hóu <hi rendition="#italic">et al.</hi> (1998) (accompanied by tape recordings), Zhōu (1998), and Shi (2004). Lexicon is arguably the most researched facet of the (spoken) language of the capital, with numerous dictionaries of Běijīng colloquial idioms published to date, e.g., Lù (1956), Jīn (1961), Xú (1990), Jiǎ (1990), Cháng Xīzhēn (1992), Zhōu (1992), Chén <hi rendition="#italic">et al.</hi> (1997), Gāo and Fù (2001).</p>
+            <p>Earlier attestations of BM can be found in a number of textbooks of the late 19th century (e.g., Wú and Zhèng 1881, Wade and Hillier 1886). This variety can also be glimpsed at through literary works by Běijīng authors, such as <hi rendition="#italic">Hónglóumèng</hi>《紅樓夢》 [A dream of red mansions] by Cáo Xuěqín 曹雪芹 (1715?–1763?), the oeuvre of Lǎo Shě 老舍 (1899–1966), or comic sketches (<hi rendition="#italic">xiàngshēng</hi> 相聲), most importantly by Hóu Bǎolín 侯寶林 (1917–1993) (e.g., Hóu 1980). More recent attestations of BM include a few corpora collected since the 1980s (e.g., Cháng Bǎorú <hi rendition="#italic">et al.</hi> 1992, Nakajima 1995, Chirkova 2003). Unfortunately, most of these corpora are of limited extent and availability. In sum, BM as actually spoken by Běijīng natives remains poorly researched and requires further documentation and analysis.</p>
+            <p>The description below outlines features held to be characteristic for spoken BM, and comments on the relationship between BM and SM in matters of grammar.</p>
+         </div>
+         <div>
+            <head>
+               <hi rendition="#smallcaps">2. Description of the Language</hi>
+            </head>
+            <div>
+               <head>2.1 Phonology: BM and SM</head>
+               <p>The phonological system of BM is the basis for that of SM, as codified in <hi rendition="#italic">Hànyǔ pīnyīn fāng'àn</hi> 漢語拼音方案 (1958/1978) [Scheme for the Chinese Phonetic Alphabet]. In normative descriptions (e.g., Chao 1968:18–57, Li and Thompson 1981:3–9, Norman 1988:138–151, Huáng and Liào 1997:36–165, see also <hi rendition="#italic">Modern Mandarin phonology</hi>), BM has 21 consonants, /p, pʰ, t, tʰ, k, kʰ, ts, tsʰ, tʂ, tʂʰ, m, n, ŋ, f, s, ʂ, x, w, j, ɹ, l/, of which /ŋ/ only appears in coda position. Three additional consonants (alveopalatals [tɕ, tɕʰ, ɕ]) occur only before the high front vowels /i, y/ (and their corresponding glides /j, ɥ/), and are therefore in complementary distribution with the velars /k, kʰ, x/, the dentals /ts, tsʰ, s/, and the retroflexes /tʂ, tʂʰ, ʂ/ (e.g., Hóu <hi rendition="#italic">et al</hi>. 1998, Lee and Zee 2003). Their phonemic status is debatable (see further discussion on this issue in Modern Mandarin phonology). Vowels exhibit a wide range of surface realization with most vowel sounds occurring in a rather narrow range of contexts. This has led to different proposals on the number of underlying vowels and consequently, the relationship between the surface vowel realizations and the phonemic vowel categories (e.g., Chao 1968, Wang 1993, Lee and Zee 2003). For simplicity, we here focus upon the vowel surface realizations, treating them as separate phonemes. In open syllables, BM has /i, y, ɐ, ɜ, u, o, e/ (e.g., <hi rendition="#italic">dí</hi> 敵 ‘enemy’, <hi rendition="#italic">lǘ</hi> 驢 ‘donkey’, <hi rendition="#italic">dá</hi> 答 ‘answer’, <hi rendition="#italic">gē</hi> 哥 ‘brother’, <hi rendition="#italic">dú</hi> 毒 ‘poison’, <hi rendition="#italic">bō</hi> 波 ‘wave’), among which /e/ occurs only after the glides /j, ɥ/ (as in <hi rendition="#italic">miè</hi> 滅 ‘extinguish’, <hi rendition="#italic">yuè</hi> 月 ‘month’). /i, u, y/, when occurring before another vowel, are often considered as glides (/j, w, ɥ/) and part of the syllable onset (e.g., <hi rendition="#italic">liǎ</hi> 俩 ‘two’, <hi rendition="#italic">guā</hi> 瓜 ‘melon’, <hi rendition="#italic">jùn</hi> 俊 ‘handsome’). Diphthongs in open syllables include /ei, ai, ɑu, əu/ (as in <hi rendition="#italic">lèi</hi> 類 ‘type’, <hi rendition="#italic">lái</hi> 來 ‘come’, <hi rendition="#italic">lǎo</hi> 老 ‘old’, <hi rendition="#italic">lòu</hi> 漏 ‘leak’). /a, ɛ, i, y, ə/ occur before an alveolar nasal coda (as in <hi rendition="#italic">kàn</hi> 看 ‘look’, <hi rendition="#italic">diàn</hi> 店 ‘store’, <hi rendition="#italic">jìn</hi> 近 ‘near’, <hi rendition="#italic">jùn</hi> 俊 ‘handsome’, <hi rendition="#italic">lùn</hi> 論 ‘argue’), and /ɑ, ə, i, ʊ/ occur before a velar nasal coda (as in <hi rendition="#italic">kàng</hi> 抗 ‘resist’, <hi rendition="#italic">kēng</hi> 坑 ‘hole’, <hi rendition="#italic">tīng</hi> 聽 ‘listen’, <hi rendition="#italic">dòng</hi> 動 ‘move’). In addition, BM has the retroflex vowel /ɚ/ (as in <hi rendition="#italic">ěr</hi> 耳 ‘ear’). After the dental sibilants and retroflexes, there are two apical vowels ([z̩] and [ʐ̩] respectively), conventionally transcribed as ɿ and ʅ. Syllable structure is (CG)V(N), where V can be a monophthong or a diphthong, N stands for an alveolar or velar nasal, and elements in brackets are optional. In addition, most syllables can be suffixed with the sub-syllabic retroflex suffix [ɻ], which often causes changes in the final of the preceding syllable (Chao 1968:46–52). The standard form of BM has a total of 403 syllables, which can be further differentiated by tone. The four lexical tones are: high level [55], rising [35], low or dipping [214], high falling [51], also conventionally referred to as the 1st, 2nd, 3rd, and 4th tone, respectively (see Tone). In addition, BM has neutral tone syllables, which do not occur in initial position and surface with different pitch contours essentially depending on the lexical tone of the preceding syllable (see <hi rendition="#italic">Neutral tone</hi>). </p>
+               <p>In view of the large number of lexical items containing neutral tone syllables, BM is commonly analyzed as having stress. Unstressed neutral tone syllables are reduced in their segmental articulation. For example, in a bi-syllabic item <hi rendition="#italic">zhīdao</hi> /tʂʅtau/ 知道 ‘know, understand’, in which the second syllable /tau/ takes the neutral tone, the voiceless /t/ is often realized as voiced (i.e., [d]), and the vowel is centralized. In addition, neutral tone syllables are realized with shortened duration and less intensity (Lín and Yán 1980). Neutral tone syllables also show weak F0 realization, as manifested in their great variability after different lexical tones and the fact that it takes two to three consecutive neutral tone syllables for the neutral tone pitch target to surface (Chen and Xu 2006).</p>
+               <p>The issue of whether bi-syllabic words with two full lexical tones also have stress is unsettled. Existing proposals include both trochaic and iambic stress patterns (e.g., Kratochvil 1964, Wáng and Féng 2006). While some perceptual data suggest that native BM listeners are able to detect prominence differences in iambic vs. trochaic stress patterns, although much variability is observed both across and within listeners (Lín <hi rendition="#italic">et al.</hi> 1984). Notably, the differences in many minimal pairs claimed to differ only in stress may be attributed to their different morpho-syntactic constituency.</p>
+               <p>Compared to other Chinese dialects, BM has a relatively simple system of tone sandhi, which includes (i) the low tone sandhi, where a low tone is realized with a rising pitch contour when followed by another low tone; and (ii) the rising tone sandhi, where a rising tone is realized with a level pitch contour when it occurs in the medial, unstressed position of a tri-syllabic constituent, preceded by a high-ending tone (Chao 1968:26–27). In addition, a falling tone is often realized with only a half fall when it immediately precedes another falling tone. The low tone sandhi is by far the best studied. While it applies consistently within a disyllabic word, its application across linguistic boundaries above the word level is determined by a number of factors such as syntactic structure and speaking rate (Speer <hi rendition="#italic">et al.</hi> 1989, Shěn 1994, see Chen 2000 for review, see also <hi rendition="#italic">Tone sandhi</hi>). Early impressionistic descriptions and corpus data suggest that the sandhi rising tone and the lexical rising tone are not the same (e.g., Hockett 1947, Kratochvil 1984), but the difference between them is so subtle that listeners often fail to perceive it reliably (Wang and Li 1967). Recent psycholinguistic evidence suggests that native speakers of BM do process the two rising tonal contours differently (Chen <hi rendition="#italic">et al.</hi> 2011, Nixon <hi rendition="#italic">et al.</hi> 2014). It is conceivable that due to the explicit classroom instruction of the low tone sandhi change into a lexical rising tone, speakers of SM have the same representation for the sandhi rising tone and the lexical rising tone, which is different from that of native BM speakers.</p>
+               <p>Finally, the lexical items <hi rendition="#italic">yī</hi> 一 ‘one’, and <hi rendition="#italic">bù</hi> 不 ‘not’ surface with a rising tone when followed by a 4th-tone syllable (e.g., <hi rendition="#italic">yí kè</hi> 一克 ‘one gram’, <hi rendition="#italic">bú qù</hi> 不去 ‘not go’), and with a falling tone when followed by a syllable with any other tone (e.g., <hi rendition="#italic">yì diǎn</hi> 一點 ‘a little’, <hi rendition="#italic">yì xiē</hi> 一些 ‘a number of’).</p>
+            </div>
+            <div>
+               <head>2.2 Some features of BM not included in the definition of SM</head>
+               <p>Some additional and mostly sporadic features of BM that set it up apart from SM include (based on Chao 1968:27–29, 45, 52–56, Táng 1974, Hú 1987, Xú 1990:3–4, Chen 1999:37–41):</p>
+               <p>
+                  <list>
+                     <label>1.</label>
+                     <item>realization of the initials /ts tsʰ s/ as [tθ tθʰ θ] for some speakers;</item>
+                     <label>2.</label>
+                     <item>realization of the initials /tɕ, tɕʰ, ɕ/ before the high front vowels /i, y/ as /ts, tsʰ, s/, respectively. For example, /tɕia⁵⁵/ <hi rendition="#italic">jiā</hi> 家 ‘home, family’ can be realized as [tsia⁵⁵], and /ɕia⁵¹/ <hi rendition="#italic">xià</hi> 下 ‘down’ can be realized as [sia⁵¹]. This feature is commonly attributed to young female speakers and is known as <hi rendition="#italic">nǚguóyīn</hi> 女國音 ‘female Mandarin pronunciation’;</item>
+                     <label>3.</label>
+                     <item>variable realization of the approximant /w/: (a) as a bilabial approximant /w/, typically before /o/ (e.g., <hi rendition="#italic">wǒ</hi> 我 ‘I’), and (b) as a labial-dental approximant /ʋ/, which seems to be more preferred before other vowels (e.g., <hi rendition="#italic">wǎn</hi> 晚 ‘late’);</item>
+                     <label>4.</label>
+                     <item>extensive use of rhotacization, which is much greater than that in SM (see below); and</item>
+                     <label>5.</label>
+                     <item>syllable shapes that do not make part of the standard syllable inventory of SM, such as <hi rendition="#italic">diǎ</hi> 嗲 ‘coy, childish’, <hi rendition="#italic">sēi</hi> 塞 ‘fill in, to stuff’, <hi rendition="#italic">béng</hi> 甭 ‘there is no need to’, <hi rendition="#italic">tēi</hi> 忒 ‘very’.</item>
+                  </list>
+               </p>
+               <p>In addition, some morphemes have pronunciation or tone values that are different from their normative pronunciations as codified, for instance, by the character readings given in <hi rendition="#italic">Xīnhuá Zìdiǎn</hi> 《新華字典》 [New China character dictionary]. For example, older BM speakers tend to pronounce the disposal marker <hi rendition="#italic">bǎ</hi> 把 as <hi rendition="#italic">bǎi</hi>, <hi rendition="#italic">gàosu</hi> 告訴 ‘tell’ as <hi rendition="#italic">gàosong</hi>, and <hi rendition="#italic">jiéshù</hi> 結束 ‘end, conclude’ as <hi rendition="#italic">jiésù</hi>. <hi rendition="#italic">Shì</hi> 室 ‘room’ is commonly pronounced in BM with the 3rd tone (as in <hi rendition="#italic">jiàoshǐ</hi> 教室 ‘classroom’) instead of the normative 4th tone. In a similar fashion, <hi rendition="#italic">jiào</hi> 酵 ‘yeast’ in BM is rendered as <hi rendition="#italic">xiào</hi> (as in <hi rendition="#italic">fāxiào</hi> 發酵 ‘ferment’), and <hi rendition="#italic">zhǔ</hi> 主 as <hi rendition="#italic">zhú</hi> (as in <hi rendition="#italic">chū zhúyi</hi> 出主意 ‘provide an idea’).</p>
+               <p>Compared to SM, BM also exhibits more robust and recurrent weakening of articulation in unstressed (neutral tone) syllables, which include: (i) vowel neutralization, as in <hi rendition="#italic">zhīma</hi> 芝麻 [-mə] ‘sesame’, <hi rendition="#italic">dòufu</hi> 豆腐 [-fə] ‘tofu’, <hi rendition="#italic">gūniang</hi> 姑娘 [-niəŋ] ‘girl’, (ii) loss of aspiration, as in <hi rendition="#italic">pípa</hi> 琵琶 [-pa] ‘lute’, <hi rendition="#italic">hútu</hi> 糊塗 [-tu] ‘muddle, confused’, (iii) lenition of affricates into fricatives, as in <hi rendition="#italic">máocè</hi> 茅厠 [-sz̩] ‘toilet’, (iv) intervocalic realization of the voiceless retroflex <hi rendition="#italic">sh</hi> /ʂ/ as a retroflex approximant [ɻ] in rapid speech tempo. This change in neutral tone syllables is accompanied by weakening and disappearance of the vowel following /ʂ/. For example, in rapid speech tempo, the word <hi rendition="#italic">diànshitái</hi> 電視台 ‘TV station’ can be realized as [tiɛ̃ɻ⁵¹tʰai³⁵].</p>
+               <p>Finally, BM has an additional tone sandhi for the words <hi rendition="#italic">qī</hi> 七 ‘seven’ and <hi rendition="#italic">bā</hi> 八 ‘eight’, which is similar to that for the words <hi rendition="#italic">yī</hi> ‘one’ and <hi rendition="#italic">bù</hi> ‘not’ in SM (see above).</p>
+            </div>
+            <div>
+               <head>2.3 Lexicon and morphology</head>
+               <p>Lexicon and morphology are two linguistic sub-systems that have long attracted scholarly attention. The notable features held to be characteristic of spoken BM are (i) distinct dialectal vocabulary, (ii) high frequency of words with the suffix <hi rendition="#italic">-r</hi> 兒, and (iii) high frequency of words with neutral tone syllables (including many neutral tone suffixes) (e.g., Zhōu 1992:1–70, Hóu <hi rendition="#italic">et al.</hi> 1998:51). All three features are currently on the decline (e.g., Péng 2005:20, 64). Many dialectal words typical for spoken BM (some of which are also shared with other Northern Mandarin dialects) are being progressively abandoned, e.g., <hi rendition="#italic">diānr</hi> 顛兒 ‘slip away’, <hi rendition="#italic">gěrle</hi> 隔兒了 ‘die’, <hi rendition="#italic">bànlǎ</hi> 半拉 ‘half’, <hi rendition="#italic">chǒu</hi> 瞅 or <hi rendition="#italic">qiáo</hi> 瞧 ‘watch, look’, <hi rendition="#italic">kēi</hi> 剋 ‘hit; scold’, <hi rendition="#italic">tēi</hi> (or <hi rendition="#italic">tuī</hi>) 忒 ‘very’. At the same time, some words have been retained and have even been absorbed into the written language, e.g., <hi rendition="#italic">gēn</hi> 跟 as the coordinative conjunction ‘and’, <hi rendition="#italic">béng</hi> 甭, short for <hi rendition="#italic">bú yòng</hi> 不用 ‘there is no need to’, and <hi rendition="#italic">tǐng</hi> 挺 ‘very’.</p>
+               <p>A similar trend is observed in the pronominal system, which in old BM included a distinct series of honorific pronouns, developed on the basis of plural personal pronouns: (i) the second-person form <hi rendition="#italic">nín</hi> 您, and (ii) the third-person form <hi rendition="#italic">tān</hi> 怹 (Chao 1976b:314), as well as (iii) the humilific first-person form [m̩²¹⁴] or [m̩²¹⁴mə⁴] 我們, in reference to the speaker (e.g., Xú 1990:11). While the second-person form, <hi rendition="#italic">nín</hi> 您, is firmly part of the standard language, the first and the third forms are all but obsolete.</p>
+               <p>Rhotacization (<hi rendition="#italic">érhuàyīn</hi> 兒化音) refers to the addition of the retroflex suffix <hi rendition="#italic">-r</hi> [ɻ] 兒 to the syllable final, causing the final to become rhotacized (see above, <hi rendition="#italic">Rhotacization</hi>). It is often regarded as most typical for BM, e.g., <hi rendition="#italic">qiánr</hi> 錢兒 ‘money’, <hi rendition="#italic">bǎndèngr</hi> 板凳兒 ‘bench, stool’, <hi rendition="#italic">diànyǐngr</hi> 電影兒 ‘film’. In addition to its function as a diminutive suffix, which is shared by BM with SM (e.g., <hi rendition="#italic">bīnggùnr</hi> 冰棍兒 ‘popsicle’), <hi rendition="#italic">-r</hi> can be used in BM as a derivational suffix, deriving nouns from verbs, e.g., <hi rendition="#italic">jiǎngjiu</hi> 講究 ‘demand’ vs. <hi rendition="#italic">jiǎngjiur</hi> 講究兒 ‘rule, custom’ (Péng 2005:56).</p>
+               <p>The many neutral tone suffixes that used to be characteristic for the language of the city (e.g., Zhōu 1998:117–118) are also progressively falling out of use. The most commonly seen suffixes (some of which are also shared with other Northern Mandarin dialects) include: (i) verbal suffixes -<hi rendition="#italic">ba</hi> 巴 (e.g., <hi rendition="#italic">ānba</hi> 安巴 ‘install’), -<hi rendition="#italic">da</hi> 達 (e.g., <hi rendition="#italic">liūda</hi> 溜達 ‘take a stroll’), -<hi rendition="#italic">la</hi> 拉 (e.g., <hi rendition="#italic">huòla</hi> 攉拉 ‘stir’), -<hi rendition="#italic">ge</hi> 咯 (e.g., <hi rendition="#italic">dāge</hi> 答咯 ‘respond’); (ii) adjectival suffixes <hi rendition="#italic">-ba</hi> 巴 (e.g., <hi rendition="#italic">zhǎiba</hi> 窄巴 ‘narrow’), -<hi rendition="#italic">teng</hi> 騰 (e.g., <hi rendition="#italic">nàoteng</hi> 鬧騰 ‘noisy’), -<hi rendition="#italic">labaji/-lebaji</hi> 了巴唧 (e.g., <hi rendition="#italic">zāng labaji de</hi> 髒了巴唧的 ‘extremely dirty’).</p>
+               <p>Related to tone and vowel neutralization in unstressed syllables typical for the phonological organization of BM is the development of many fused forms in this dialect. One example are the expressions <hi rendition="#italic">yí</hi> ‘one item, a specimen of’, invariably pronounced with the rising tone, <hi rendition="#italic">liǎ</hi> 倆 ‘two items’, and <hi rendition="#italic">sā</hi> 仨 ‘three items’ (Chao 1936:36–38, 1968:571, Dù 1993:142, Chirkova 2004). These forms are etymologically fusions of the numerals <hi rendition="#italic">yī</hi> ‘one’, <hi rendition="#italic">liǎng</hi> ‘two’, and <hi rendition="#italic">sān</hi> ‘three’, respectively, with the measure word <hi rendition="#italic">ge</hi> 個. They arise through the following three steps (Chao 1936:37). First, loss of nasal endings, which become only a nasalizing factor of the preceding vowel (<hi rendition="#italic">liã</hi>, <hi rendition="#italic">sã</hi>). Second, weakening of the intervocalic <hi rendition="#italic">g</hi> into [ɣ], followed by its subsequent disappearance (resulting in the forms <hi rendition="#italic">liã-ə</hi>, <hi rendition="#italic">sã-ə</hi>). Three, loss of nasalization and dropping of <hi rendition="#italic">-ə</hi>, due to the instability of the forms resulting from step 2 in the phonological system of BM. This type of fusion exemplifies two characteristic features of BM at once: on the one hand, its tendency to overgeneralize the use of the classifier <hi rendition="#italic">ge</hi> ‘item’ (which phenomenon, broadly common in northern Mandarin, is ascribed by Hashimoto (1986:93) to the influences of Altaic languages), and, on the other hand, the stress-based organization of BM lexicon. A parallel case is the independent form <hi rendition="#italic">bú</hi> ‘not be’, the fusion of the negative marker <hi rendition="#italic">bù</hi> ‘not’ and the copular <hi rendition="#italic">shì</hi> ‘be’, in which the rising tone comes from the changed form of <hi rendition="#italic">bù</hi>, i.e., <hi rendition="#italic">bú</hi> (<hi rendition="#italic">shì</hi>) (Wiedenhof 1995:62–73).</p>
+            </div>
+            <div>
+               <head>2.4 Syntax</head>
+               <p>While the differences between BM and SM in phonology, lexicon, and morphology are relatively straightforward, the exact divergences between the two varieties in matters of syntax are more complex. One generalization can be made: while BM generally faithfully conforms to its neighboring northern Mandarin dialects, SM tends to be more composite, so that one construction or a particular function word may combine characteristics of northern and southern Mandarin dialects. In other words, BM is first and foremost a northern Mandarin dialect, whereas SM is by and large transdialectal, marrying syntactic features of distinct linguistic varieties. For example, similar to the surrounding Héběi dialects (e.g., Lamarre 2003a, 2003b), spoken BM strictly distinguishes between the durative meaning for preverbal locative constructions and the terminative meaning for postverbal locative constructions, as in examples (1–2) (Chirkova and Lamarre 2005; unless otherwise specified, all examples are from Chirkova 2003), whereas SM exhibits a composite pattern, combining for the postverbal locative phrase with the verbs of posture and placement (such as <hi rendition="#italic">zuò</hi> 坐 ‘sit’, <hi rendition="#italic">zhàn</hi> 站 ‘stand’, <hi rendition="#italic">fàng</hi> 放 ‘put’, <hi rendition="#italic">guà</hi> 掛 ‘hang’) (i) the terminative interpretation, as in northern Mandarin, and (ii) the durative interpretation, as in the Mandarin dialects of the central linguistic zone (e.g., Wáng 1957, Jaxontov 1957, Li and Thompson 1981:397–409, Zhū 1997 (1982):182–184, Zhào 1995), as in examples (3–4), from Fàn (1982:82–84).</p>
+               <p>
+                  <table style="1 , colwidth: 2%" cols="2">
+                     <head/>
+                     <!--
+  @style= 
+   1  
+  :colwidth: 
+   2% 
+  @style= 
+   2  
+  :colwidth: 
+   98%-->
+                     <row>
+                        <cell>           1.
+          </cell>
+                        <cell>           BM: 我們在城裡住，不在這兒住。
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           Wǒmen  zài      chéngli       zhù, bú   zài    zhèr  zhù.
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           1<hi rendition="#smallcaps">pl</hi>           be.in  city.inside  live  not  <hi rendition="#smallcaps">loc</hi>  here  live
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           ‘We live downtown, not here.’
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>            
+          </cell>
+                     </row>
+                     <row>
+                        <cell>           2.
+          </cell>
+                        <cell>           BM: 這《晚報》昨天我擱哪兒了？
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           Zhèi  <hi rendition="#italic">Wǎnbào</hi>            zuótian     wǒ   gē    nǎr        le?
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           this   evening.paper  yesterday  1<hi rendition="#smallcaps">sg</hi>  put  where  <hi rendition="#smallcaps">pf</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           ‘Where did I put the <hi rendition="#italic">Peking Evening News</hi> yesterday?’
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>            
+          </cell>
+                     </row>
+                     <row>
+                        <cell>           3.
+          </cell>
+                        <cell>           SM: 他一屁股就坐在沙發上。
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           Tā    yí      pìgǔ          jiu    zuò  zai    shāfā  shang.
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           3<hi rendition="#smallcaps">sg</hi>  one  buttocks  just  sit    <hi rendition="#smallcaps">loc</hi>  sofa     up
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           ‘He flopped into the sofa.’, or ‘He sat with all his weight on the sofa.’ (change of location)
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>            
+          </cell>
+                     </row>
+                     <row>
+                        <cell>           4.
+          </cell>
+                        <cell>           SM: 他安安靜靜地坐在沙發上。
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           Tā    ān’ānjìngjìng  de    zuò  zai    shāfā  shang.
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           3<hi rendition="#smallcaps">sg</hi>  quiet.quiet     <hi rendition="#smallcaps">sub</hi>  sit     <hi rendition="#smallcaps">loc</hi>  sofa    up
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           ‘He was quietly sitting on the sofa.’ (durative)
+          </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>One more example of divergence between BM and SM in matters of grammar relates to the expression of tense and aspect. The respective tense and aspect systems of the two varieties overlap only partially, whereas those markers that do overlap may have dissimilar meanings and functions. While SM is argued to have a purely aspectual system (e.g., Wáng 1955, vol. I, p. 282, Li and Thompson 1981:13, 184), BM can express both temporal and aspectual distinctions (e.g., Dragunov 1952:128–129, Jaxontov 1957:73–164). Furthermore, BM lacks the SM progressive marker <hi rendition="#italic">zài</hi> 在. Instead, to express the progressive meaning, BM uses a construction consisting of the verb <hi rendition="#italic">zài</hi> ‘be in’ followed by the object <hi rendition="#italic">zhèr</hi> 這兒 ‘here’ or <hi rendition="#italic">nàr</hi> 那兒 ‘there’, which is in turn followed by another verbal phrase, i.e., <hi rendition="#italic">zài zhèr/nàr zuò shéme</hi> 在這兒<hi rendition="#italic">/</hi>那兒做什麼, literally ‘be right here/there (in the process of) doing something’, as in example (5):</p>
+               <p>
+                  <table style="1 , colwidth: 2%" cols="2">
+                     <head/>
+                     <!--
+  @style= 
+   1  
+  :colwidth: 
+   2% 
+  @style= 
+   2  
+  :colwidth: 
+   98%-->
+                     <row>
+                        <cell>           5.
+          </cell>
+                        <cell>           BM: 兩個人在那兒走要飯。
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           Liǎng  ge    rén         zài    nàr     zǒu    yào     fàn.
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           two     <hi rendition="#smallcaps">clf </hi> person  <hi rendition="#smallcaps">loc</hi>  there  walk  want  rice
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           ‘Two people were (in the process of) walking and begging for food.’
+          </cell>
+                     </row>
+                  </table>
+               </p>
+               <p> </p>
+               <p>Unlike in SM, the particle <hi rendition="#italic">ne</hi> 呢 in BM not only marks the contextual relevance of the situation under discussion, but also expresses continuousness or durativity of an event (e.g., Liú 2001:88, Zhū 1997:209–211). In addition to its core functions of expressing subordination and nominalization (which are shared by BM and SM), the particle <hi rendition="#italic">de</hi> 的 in BM also has an aspectual meaning when it is used with verbal phrases, either following a verb and its object or being infixed between a verb and its object. In such construction, <hi rendition="#italic">de</hi> signals a situation resulting from an event that precedes the narrated time, e.g., <hi rendition="#italic">fā de cái</hi> 發的財 generate /<hi rendition="#italic">de</hi>/ wealth ‘had made a good deal of money’ (Chirkova 2003:46–91). Finally, the aspecto-temporal particle <hi rendition="#italic">laide/laizhe</hi> 來的<hi rendition="#italic">/</hi>來著, which signals an event as having taken place in the absolute recent past and often also as being durative, is specific to BM (e.g., Wáng 1955, vol I, p. 292, Chao 1968:810, Iljic 1983:65), as in the following example:</p>
+               <p>
+                  <table style="1 , colwidth: 2%" cols="2">
+                     <head/>
+                     <!--
+  @style= 
+   1  
+  :colwidth: 
+   2% 
+  @style= 
+   2  
+  :colwidth: 
+   98%-->
+                     <row>
+                        <cell>           6.
+          </cell>
+                        <cell>           BM: 剛才說你來的。
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           Gāngcái   shuō   nǐ     laide.
+          </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           just.now  speak  2<hi rendition="#smallcaps">sg</hi>  <hi rendition="#smallcaps">rp</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>            
+          </cell>
+                        <cell>           ‘We were just speaking about you.’
+          </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>In concluding this overview, it must be noted that the language of Běijīng, like most Sinitic languages, is insufficiently documented and researched. More corpus studies are required to contribute to a better understanding of its precise make-up and to a more coherent assessment of its relationship to other northern Mandarin dialects, and to the standard language of China.</p>
+            </div>
+         </div>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <listBibl>
+               <bibl xml:id="COM-00000033_bibl_1_1"><author><name>Astraxan, E.B. and Zav'jalova, O.I. and Sofronov, M.V.</name></author><title level="m">Dialekty i natsional'nyj jazyk v Kitae [Chinese dialects and the National Language of</title><date>1985</date><pubPlace>China], Moscow</pubPlace><publisher>Nauka</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_2_1"><title level="m">Cháng Bǎorú 常宝儒, Liú Jié 刘杰, Mǎ Xīnhuá 马欣华, Chén Zhōng 陈忠 and Hú Xiáng 胡翔, Běijīng kǒuyǔ diàochá yǔliàokù 北京口语调查语料库 [Materials of the survey of the Běijīng colloquial], Běijīng 北京: Beijing Language and Culture University 北京语言大学</title><date>1992</date><ref target="http://www.blcu.edu.cn/yys/6_beijing/wenjian/">http://www.blcu.edu.cn/yys/6_beijing/wenjian/</ref></bibl>
+               <bibl xml:id="COM-00000033_bibl_3_1"><title level="m">Cháng Xīzhēn 常锡桢, Běijīng tǔhuà 北京土话 [Colloquial Běijīng Mandarin], Běijīng 北京: Wénjīn 文津出版社</title><date>1992</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_4_1"><author><name>Chao, Yuen Ren</name></author><title level="a">A Note on liǎ (俩), sā, etc.</title><title level="j">Harvard Journal of Asiatic studies</title><volume>1</volume><pages>33–38</pages><date>1936</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_5_1"><author><name>Chao, Yuen Ren</name></author><title level="m">A Grammar of Spoken Chinese</title><date>1968</date><pubPlace>Berkeley</pubPlace><publisher>University of California Press</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_6_1"><author><name>Chao, Yuen Ren</name></author><title level="m">What Is Correct Chinese?</title><pages>72–83</pages><editor><name>Dil, Anwar S.</name></editor><date>1976</date><pubPlace>Stanford</pubPlace><publisher>Stanford University Press</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_7_1"><author><name>Chao, Yuen Ren</name></author><title level="m">Chinese Terms of Address</title><pages>309–342</pages><editor><name>Dil, Anwar S.</name></editor><date>1976</date><pubPlace>Stanford</pubPlace><publisher>Stanford University Press</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_8_1"><title level="m">Chén Gāng 陈刚, Sòng Xiàocái 宋孝才 and Zhāng Xiùzhēn 张秀珍, eds., Xiàndài Běijīng kǒuyǔ cídiǎn 现代北京口语词典 [Dictionary of Modern Běijīng Mandarin], Běijīng 北京: Yǔwén 语文出版社</title><date>1997</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_9_1"><author><name>Chen, Matthew</name></author><title level="m">Tone Sandhi</title><date>2000</date><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_10_1"><author><name>Chen, Ping</name></author><title level="m">Modern Chinese: History and Sociolinguistics</title><date>1999</date><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_11_1"><author><name>Chen, Yiya and Shen, Rachel and Schiller, Niels O.</name></author><title level="m">Representation of Allophonic Tone Sandhi Variants</title><pages>38–42</pages><date>2011</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_12_1"><author><name>Chen, Yiya and Xu, Yi</name></author><title level="m">“Production of Weak Elements in Speech: Evidence from Neutral</title><pages>47–75</pages><date>2006</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_13_1"><author><name>Chirkova, Ekaterina</name></author><title level="m"/><date>2003</date><pubPlace>Leiden</pubPlace><publisher>CNWS Publications</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_14_1"><author><name>Chirkova, Katia</name></author><title level="a">On yí ‘One Item’, liǎ ‘Two Items’, and sā ‘Three Items’</title><title level="j">Journal of the Chinese Language Teachers Association</title><volume>39</volume><pages>19–34</pages></bibl>
+               <bibl xml:id="COM-00000033_bibl_15_1"><author><name>Chirkova, Katia and Lamarre, Christine</name></author><title level="a">The Paradox of the Construction [Vzai NPloc] and Its Meanings in the Beijing Dialect of Mandarin</title><title level="j">Cahiers de Linguistique —Asie Orientale</title><volume>34</volume><pages>169–219</pages></bibl>
+               <bibl xml:id="COM-00000033_bibl_16_1"><author><name>Coblin, South W.</name></author><title level="m">Modern Chinese Phonology: From Guānhuà to Mandarin, Collection des Cahiers de Linguistique —</title><date>2007</date><pubPlace>Paris</pubPlace><publisher>EHESS/CRLAO</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_17_1"><author><name>Francis, De and John</name></author><title level="m">Nationalism and Language Reform in</title><date>1950</date><pubPlace>China, Princeton</pubPlace><publisher>Princeton University Press</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_18_1"><author><name>Dragunov, Aleksandr Aleksandrovič</name></author><title level="m">Issledovanija po grammatike sovremennogo kitajskogo jazyka [Studies in Modern Chinese grammar]</title><date>1952</date><pubPlace>Moscow</pubPlace><publisher>Akademija Nauk</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_19_1"><title level="m">Dù Yǒngdào 杜永道, “Běijīnghuà zhōng de ‘yí + míng’ 北京话中的‘一+名’”</title><volume>2</volume><pages>142</pages><date>1993</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_20_1"><title level="m">Fàn Jìyān 范继淹, “Lùn jiècí duǎnyǔ zai + chùsuǒ 论介词短语‘在+处所’” [On the prepositional phrase “zài + location”]</title><volume>1</volume><pages>71–87</pages><date>1982</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_21_1"><title level="m">Gāo Àijūn 高艾军 and Fù Mín 傅民, Běijīnghuà cíyǔ 北京话词语 [Dialectal words and phrases in Běijīng Mandarin], Běijīng 北京: Běijīng Dàxué 北京大学出版社</title><date>2001</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_22_1"><title level="m">Hànyǔ pīnyīn fāng'àn (Cǎo'àn) 漢語拼音方案（草案）[Scheme for the Chinese Phonetic Alphabet (Draft)], The Committee for Language Reform</title><date>1958</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_23_1"><title level="m">Hànyǔ pīnyīn fāng'àn 汉语拼音方案 [Scheme for the Chinese Phonetic Alphabet], The Committee for Language Reform, eds., Běijīng 北京: Script Reform Press 文字改革出版社</title><date>1978</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_24_1"><author><name>Mantaro, Hashimoto</name></author><title level="m">“The Altaicization of Northern Chinese”, in John McCoy and Timothy Light, eds., Contributions to Sino-Tibetan Studies</title><pages>76–101</pages><date>1986</date><pubPlace>Leiden</pubPlace><publisher>Brill</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_25_1"><author><name>Hockett, Charles</name></author><title level="a">Peiping Phonology</title><title level="j">Journal of American Oriental Society</title><volume>67</volume><pages>253–267</pages><date>1947</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_26_1"><title level="m">Hóu Bǎolín 侯宝林, Hóu Bǎolín xiàngsheng xuǎn 侯宝林相声选 [A collection of comic sketches by Hóu Bǎolín], Běijīng 北京: Rénmín Wénxué 人民文学出版社</title><date>1980</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_27_1"><title level="m">Hóu Jīngyī 侯精一, Lín Tāo 林焘, Zhōu Yìmín 周一民 and Cài Wénlán 蔡文兰, Běijīnghuà yīndàng 北京话音档 [Recordings of Běijīng Mandarin], Xiàndài Hànyǔ fāngyán yīnkù 现代汉语方言音库 [Phonetic database of Modern Chinese dialects], Shànghǎi 上海: Shànghǎi Jiàoyù 上海教育出版社</title><date>1998</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_28_1"><title level="m">Hú Míngyáng 胡明扬, Běijīnghuà chūtàn 北京话初探 [A preliminary study of the dialect of Běijīng], Běijīng 北京: Shāngwù 商务印书馆</title><date>1987</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_29_1"><title level="m">Hú Míngyáng 胡明扬, ed., Běijīnghuà yánjiū 北京话研究 [Studies in colloquial Běijīng Mandarin], Běijīng 北京: Běijīng Yānshān 北京燕山出版社</title><date>1992</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_30_1"><title level="m">Huáng Bóróng 黄伯荣 and Liào Xùdōng 廖序东, Xiàndài Hànyǔ 现代汉语 [Modern Chinese], Běijīng 北京: Higher Education Press 高等教育出版社</title><date>1997</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_31_1"><author><name>Iljic, Robert</name></author><title level="m">“Le Marqueur Laizhe”, Cahiers de Linguistique—Asie Orientale 12/2</title><pages>65–102</pages><date>1983</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_32_1"><author><name>Jaxontov, Sergej Evgen’evič</name></author><title level="m">Kategorija glagola v kitajskom jazyke [The verbal category</title><date>1957</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_33_1"><title level="m">Jiǎ Cǎizhū 贾采珠, Běijīnghuà érhuà cídiǎn 北京话儿化辞典 [Dictionary of rhotacized forms in colloquial Běijīng Mandarin], Běijīng 北京: Yǔwén 语文出版社</title><date>1990</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_34_1"><title level="m">Jīn Shòushēn 金受申, Běijīnghuà yǔhuì 北京话语汇 [Pekingese vocabulary], Běijīng 北京: Shāngwù 商务印书馆</title><date>1961</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_35_1"><author><name>Kratochvil, Paul</name></author><title level="m">Disyllabic Stress Patterns in Peking Dialect</title><pages>383–402</pages><date>1964</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_36_1"><author><name>Kratochvil, Paul</name></author><title level="m">The Chinese Language Today</title><date>1968</date><pubPlace>London</pubPlace><publisher>Hutchinson University Library</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_37_1"><author><name>Kratochvil, Paul</name></author><title level="m">Phonetic Tone Sandhi in Beijing Dialect Stage Speech</title><pages>135–174</pages><date>1984</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_38_1"><author><name>Lamarre, Christine</name></author><title level="m">“Jootai henka, koobun, sosite gengo kanshoo – chuugokugo no [V + zai + basho] koobun no keesu 状態変化、構文、そして言語干渉:中国語の「V+在+場 所」構文のケース” [Change of state, construction meaning and language interference: The case of Chinese [V zai L] construction], Kaihen 開篇</title><volume>22</volume><pages>144–172</pages></bibl>
+               <bibl xml:id="COM-00000033_bibl_39_1"><author><name>Lamarre, Christine</name></author><title level="m">“Cóng Héběi Jìzhōu fāngyán duì xiàndài Hànyǔ [V zai L] géshì de zài tàntǎo 从河北冀州方言对现代汉语[V在+处所词]格式的再探讨” [A new analysis of the Modern Chinese [V zai L] construction based on the Jìzhōu dialect data], in: Dài Zhàomíng 戴昭铭, ed., Hànyǔ fāngyán yǔfǎ yánjiū hé tànsuǒ 汉语方言语法研究和探索</title><volume>2003</volume><pages>144–154</pages></bibl>
+               <bibl xml:id="COM-00000033_bibl_40_1"><author><name>Lee, Wai</name></author><title level="a">Sum and Eric Zee, “The Illustrations of the IPA: Standard Chinese (Beijing)”</title><title level="j">Journal of the International Phonetic Association</title><volume>33</volume><pages>109–112</pages></bibl>
+               <bibl xml:id="COM-00000033_bibl_41_1"><author><name>Li, Charles N. and Thompson, Sandra A.</name></author><title level="m">Mandarin Chinese: A Functional Reference Grammar</title><date>1981</date><pubPlace>Berkeley</pubPlace><publisher>University of California Press</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_42_1"><title level="m">Lín Maòcàn 林茂灿 and Yán Jǐngzhù 颜景助, “Běijīnghuà qīngshēng de shēngxué xìngzhi 北京话轻声的声学性质” [The acoustic nature of the neutral tone</title><volume>3</volume><pages>161–165</pages><date>1980</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_43_1"><title level="m">Lín Maòcàn 林茂灿, Yán Jǐngzhù 颜景助, Sūn Guóhuá 孙国华, “Běijīnghuà liǎng zì zǔ zhèngcháng zhòngyīn de chūbù shíyàn 北京话两字组正常重音的初步实验” [First look at the normal stress of bi-syllabic constituents</title><volume>1</volume><pages>57–73</pages><date>1984</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_44_1"><author><name>Tāo, Lín</name></author><title level="m">“Běijīng guānhuà sùyuán 北京官话溯源” [On the origins of Běijīng Mandarin], Zhōngguó Yǔwén 中国语文</title><pages>161–170</pages><date>1987</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_45_1"><title level="m">Liú Yìzhī 刘一之, Běijīnghuà zhōng de “zhe” zì xīn tàn 北京话中的‘着 (zhe)’字新探 [Zhe in Běijīng Mandarin revisited], Běijīng 北京: Běijīng Dàxué 北京大学出版社</title><date>2001</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_46_1"><title level="m">Lù Zhìwěi 陆志韦, Běijīnghuà dānyīncí cíhuì 北京话单音词词汇 [A lexicon of the monosyllabic words in Běijīng Mandarin], Běijīng 北京: Kēxué 科学出版社</title><date>1956</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_47_1"><title level="m">Nakajima Motoki 中嶋幹起, Konpyuta ni yoru Pekin kogo goi no kenkyu / Computational Analysis of Field Data on Peking Colloquial, Tokyo 東京</title><date>1995</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_48_1"><author><name>Norman, Jerry</name></author><title level="m">Chinese</title><date>1988</date><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_49_1"><author><name>Nixon, Jessie and Chen, Yiya and Schiller, Niels</name></author><title level="a">Multi-level processing of phonetic variants in speech production and visual word processing: evidence from Mandarin lexical tones</title><title level="j">Language, Cognition and Neuroscience</title><volume>2014</volume><pages>1–15</pages></bibl>
+               <bibl xml:id="COM-00000033_bibl_50_1"><title level="m">Péng Zōngpíng 彭宗平, Běijīnghuà érhuàcí yánjiū 北京话儿化词研究 [A study of rhotacized forms in colloquial Běijīng Mandarin], Běijīng 北京: Zhōngguó Chuánméi Dàxué 中国传媒大学出版社</title><date>2005</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_51_1"><title level="m">Shěn Jiǒng 沈迥, “Běijīnghuà shàngshēng liándú de diàoxíng zǔhé hé jiézòu xíngshì 北京话上声连读的调型组合和节奏形式” [F0 and rhythm of the 3rd tone sandhi</title><volume>4</volume><pages>274–281</pages><date>1994</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_52_1"><author><name>Dingxu, Shi</name></author><title level="m">Peking Mandarin, Language of the World 377</title><date>2004</date><pubPlace>Munich</pubPlace><publisher>LINCOM Europa</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_53_1"><title level="m">Shí Fēng 石峰 and Wáng Píng 王萍, “Běijīnghuà dānzìyīn shēngdiào de tǒngjì fēnxī 北京话单字音声调的统计分析” [Statistical analyses of the tonal contours of monosyllables</title><volume>1</volume><pages>324–333</pages><date>2006</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_54_1"><author><name>Speer, Shari R. and Shih, Chi-lin and Slowiaczek, Maria L.</name></author><title level="m">“Prosodic Structure in Language Comprehension: Evidence from</title><pages>337–354</pages><date>1989</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_55_1"><title level="m">Táng Hóng 唐宏, Běijīnghuà yǔ Hànyǔ pīnyīn 北京話與漢語拼音 [Běijīng Mandarin and the pīnyīn system of Standard Mandarin], Hong Kong 香港: Xiānggǎng Shànghǎi Shūjú 香港上海书局出版社</title><date>1974</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_56_1"><author><name>Wade, Thomas Francis and Hillier, Walter Caine</name></author><title level="a">A Progressive Course Designed to Assist the Student of Colloquial Chinese as Spoken in the Capital and the Metropolitan Department / Yǔyán zì’ěrjí 語言自邇集</title><title level="j">The Statistical Department of the Inspectorate General of Customs</title><volume>21886</volume><pubPlace>Shanghai</pubPlace></bibl>
+               <bibl xml:id="COM-00000033_bibl_57_1"><title level="m">Wáng Huán 王还, “Shuō zài 说 ‘在’” [On zài], Zhōngguó Yǔwén 中国语文</title><pages>55–26</pages><date>1957</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_58_1"><author><name>Wang, Jenny</name></author><title level="m">Zhijie, “The Geometry of Segmental Features in Beijing Mandarin”</title><date>1993</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_59_1"><title level="m">Wáng Zhìjié 王志洁 and Féng Shènglì 冯胜利, “Shēngdiào duìbǐfǎ yǔ Běijīnghuà shuāngyīnzǔ de zhòngyīn lèixíng 声调对比法与北京话双音组的重音类型” [Tonal contrast and disyllabic stress patterns</title><volume>5</volume><pages>3–22</pages></bibl>
+               <bibl xml:id="COM-00000033_bibl_60_1"><title level="m">Wáng Lì 王力, Zhōngguó yǔfá lǐlùn 中国语法理论 [Theory of Chinese grammar], vol. II, Běijīng 北京: Zhōnghuá 中华书局</title><date>1955</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_61_1"><author><name>Wang, William S.-Y. and</name></author><title level="m">Kung-Pu Li, “Tone 3 in Pekinese”</title><pages>629–636</pages><date>1967</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_62_1"><author><name>Wiedenhof, Jeroen</name></author><title level="m">Meaning and Syntax in Spoken Mandarin</title><date>1995</date><pubPlace>Leiden</pubPlace><publisher>Research School CNWS</publisher></bibl>
+               <bibl xml:id="COM-00000033_bibl_63_1"><title level="m">Wú Qǐtài 吳啟太 and Zhèng Yǒngbāng 鄭永邦, Guānhuà zhǐnán / A Guide to the Mandarin Language 官話指南, 1881, quoted from the 1989 reprint edition, Zhōu Chángxīng 周長星, ed., Yì bǎi nián qián de guóyǔ: Guānhuà zhǐnán 一百年前的國語:官話指南 [Chinese of one hundred years ago: A guide to the Mandarin language], Taipei 臺北: Yìzhì 益智文具圖書公司</title></bibl>
+               <bibl xml:id="COM-00000033_bibl_64_1"><author><name>Dan, Xu</name></author><title level="a">The Status of Marker gěi in Mandarin Chinese</title><title level="j">Journal of Chinese Linguistics</title><volume>22</volume><pages>363–394</pages><date>1994</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_65_1"><title level="m">Xú Shìróng 徐世荣, Běijīng túyǔ cídiǎn 北京土语辞典 [Běijīng local dialect dictionary], Běijīng 北京: Běijīng 北京出版社</title><date>1990</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_66_1"><title level="m">Zhào Jīnmíng 赵金铭, “Xiàndài Hànyǔ bǔyǔ wèizhì shàng de zài hé dào jíqí ruòhuà xíngshì de 现代汉语补语位置上的‘在’和‘到’及其弱化形式‘的’” [Zài and dào in the complement position and their weak form de</title><pages>1–14</pages><date>1995</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_67_1"><title level="m">Zhōu Yìmín 周一民, Běijīng xiàndài liúxíngyǔ 北京现代流行语 [Modern popular idioms in Běijīng Mandarin], Běijīng 北京: Běijīng Yānshān 北京燕山出版社</title><date>1992</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_68_1"><title level="m">Zhōu Yìmín 周一民, Běijīng kǒuyǔ yǔfǎ – Cífǎ juàn 北京口语语法—词法卷 [Grammar of the Běijīng colloquial: Lexicon], Běijīng 北京: Yǔwén 语文出版社</title><date>1998</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_69_1"><title level="m">Zhōu Yìmín 周一民, Xiàndài Běijīnghuà yánjiū 现代北京话研究, Běijīng 北京: Běijīng Shīfàn Dàxué 北京师范大学出版社</title><date>2002</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_70_1"><title level="m">Zhū Déxī 朱德熙, Yǔfá jiǎngyì 语法讲义 [Handout on grammar], Běijīng 北京: Shāngwù 商务印书馆</title><date>1997</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_71_1"><title level="m">Zhū Déxī 朱德熙, “Xiàndài Hànyǔ yǔfǎ yánjiū de duìxiàng shi shénme? 现代汉语语法研究的对象是什么?” [What is the aim of Modern Chinese grammar studies?], Zhōngguó Yǔwén 中国语文 5</title><pages>321–329</pages><date>1987</date></bibl>
+               <bibl xml:id="COM-00000033_bibl_72_1"><title level="m"/></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-00000010">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Bābā Rukn al-Dīn Shīrāzī, Mausoleum</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Mahbanoo Alizadeh%22">
+               <name type="person">Mahbanoo Alizadeh</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Tr. Matthew Melvin-Koushki%22">
+               <name type="person">Tr. Matthew Melvin-Koushki</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title level="m"/></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Middle East and Islamic Studies</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20131209" status="first-print">Print publication</change>
+         <change when="20131204" status="first-online"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+                  <hi rendition="#bold">Bābā Rukn al-Dīn Shīrāzī, Mausoleum</hi>, the mausoleum and <hi rendition="#italic">takiyya</hi> of Bābā Rukn al-Dīn Shīrāzī (q.v.) is an Īlkhānid structure located in the Takht-i Fūlād district of Iṣfahān (see Fig. 3). The earliest reference to this building in historical sources relates to its renovation during the Ṣafawid period by order of Shāh ʿAbbās I (r. 995–1038/1587–1629) (see Jābirī Anṣārī, 326). This information, together with the style of its structure, suggest that the mausoleum was first built in the Īlkhānid period, i.e. soon after Bābā Rukn al-Dīn al-Shīrāzī’s death in 769/1368. Some sources likewise indicate that he was buried in the grounds of the <hi rendition="#italic">takiyya</hi> dedicated to his memory—which points to the existence of the <hi rendition="#italic">takiyya</hi> during his life-time (Mahdawī, 153). Notwithstanding the inscription over the mausoleum’s entrance <hi rendition="#italic">īwān</hi>, which refers to the decree by Shāh ʿAbbās and to the date of the completion of construction being 1039/1630 (i.e. during the reign of Shāh Ṣafī, r. 1038–1052/1629–1642) (see Hunarfar, 494; cf. Humāʾī, vi), the dome is clearly of Īlkhānid style, a feature that many scholars have acknowledged (Humāʾī, ii; Nīkzād, ‘Āthār’, 27). A comparison of this mausoleum with that of Bābā Qāsim (q.v.), built in Iṣfahān in 741/1340 (see Godard, 2(1)/38–39), reveals many similarities that further support the earlier date for the initial construction of Bābā Rukn al-Dīn’s mausoleum.</p>
+         <p>The tomb of this renowned Sufi is situated on the southern bank of the Zāyandah-rūd in the Takht-i Fūlād cemetery, and is considered one of the more important of the many historic tombs there. Even in the post-Ṣafawid period, Bābā Rukn al-Dīn had such renown that the cemetery was known by his name; indeed the Kh<hi rendition="#superscript">ʷ</hi>ājū Bridge, which is on the way to the shrine, came to be known by the same name as well (Mahdawī, 153).</p>
+         <p>According to Pīrniyā (pp. 143, 147), the mausoleum with its conical dome was built in the ‘Rāzī’ style—a combination of Khurāsānī and Tabrīzī elements. The base of the dome is pentagonal, rising into a pyramid, one side of which bears an inscription. <pb ana="4" n="23" corresp="2"/>The axis of the building is exactly aligned with the <hi rendition="#italic">qibla</hi> (towards Mecca). The drum of the dome (<hi rendition="#italic">sāqah</hi>) is decagonal. The harmonious correspondence of all the dimensions and details of the building testifies to the devotion applied to its planning and construction (Hunarfar, 494; Godard, 1(1)/127–128). Pope refers to the existence of a mausoleum with a conical dome in the Takht-i Fūlād cemetery, without identifying it by name (2/1217).</p>
+         <p>The building boasts five identical <hi rendition="#italic">īwān</hi>s which underpin the circumference of the dome, one of which houses Bābā Rukn al-Dīn’s tomb. The tomb itself is covered by a large marble slab some 2 m long and 1.16 m wide. Another, upright, stone tablet bearing an inscription in fine <hi rendition="#italic">thulth</hi> script is installed at the head of the tomb (for a full transcription, see ‘Āthār-i bāstān’, 43). The inscription over the front entrance of the mausoleum is in a white <hi rendition="#italic">thulth</hi> script on an azure tile background (Hunarfar, 494–495). According to Humāʾī (pp. iv–v), the words <hi rendition="#italic">kalb al-fuqarāʾ</hi> (dog of the poor men) which appear on the damaged inscription should in fact read <hi rendition="#italic">katabahu al-faqīr</hi> (penned by the humble man) (cf. Hunarfar, 495).</p>
+         <p>The original ceiling tilework featured designs in blue, white and black on a turquoise background (Godard, 2(1)/125, 127), but none of these can be seen today. The only tilework that remains is that of a fine inscription over the entrance antechamber (<hi rendition="#italic">pīsh-kh<hi rendition="#superscript">ʷ</hi>ān</hi>), together with that on four of the ten sides of the pyramid structure of the dome (Hunarfar, 494–495).</p>
+         <p>Renovations to the structure were first carried out under Shāh ʿAbbās I and completed at the beginning of the reign of Shāh Ṣafī. Further renovations were undertaken by the Ṣafawid Shāh Sulṭān Ḥusayn (r. 1105–1135/1694–1722), as evidenced by an inscription containing a verse with the date 1112/1701; this inscription, in a fine <hi rendition="#italic">nastaʿlīq</hi>, is found on a plasterwork wall in one of the chambers known as the <hi rendition="#italic">chillah-khānah</hi>, or solitary cell, located adjacent to the tomb (see Humāʾī, vi).</p>
+         <p>
+                  <pb ana="4" n="24" corresp="1"/>According to another <hi rendition="#italic">nastaʿlīq</hi> inscription, a certain Mīrzā Muḥammad Naṣīr Bāyazīdī Basṭāmī undertook further renovations of the building in 1200/1786. This inscription which is carved on a stone tablet on the western wall of the entrance <hi rendition="#italic">īwān</hi>, is situated just below the Shāh ʿAbbās inscription. Mīrzā Muḥammad’s renovations were continued by both Ḥājj Mīrzā Sulaymān Khān Rukn al-Mulk Shīrāzī (d. 1331/1913), who was for a while deputy governor of Iṣfahān, and Chirāgh ʿAlī Khān Sirāj al-Mulk during the period of his governorship of Iṣfahān in 1267–1271/1851–1855 (Humāʾī, vii–viii; Hunarfar, 499–500). In 1950, repairs to the mausoleum were undertaken by the Iranian Archaeological Organisation (Nīkzād, <hi rendition="#italic">Fihrist</hi>, 195; see also Mishk<hi rendition="#superscript">ʷ</hi>ātī, 53).</p>
+         <div type="bibliography">
+            <head>
+                     Bibliography
+                  </head>
+            <listBibl>
+               <bibl xml:id="COM-00000010_bibl_1_1"><title level="m">Āqā Buzurg, al-Dharīʿa</title></bibl>
+               <bibl xml:id="COM-00000010_bibl_2_1"><title level="m">Bābā Rukn al-Dīn Shīrāzī, Masʿūd, Nuṣūṣ al-khuṣūṣ fī tarjamat al-Fuṣūṣ, ed. Rajab ʿAlī Maẓlūmī</title><date>1359</date><pubPlace>Tehran</pubPlace><publisher>Sh./1980</publisher></bibl>
+               <bibl xml:id="COM-00000010_bibl_3_1"><title level="a">Āthār-i bāstān: Bābā Rukn al-Dīn wa qabr-i ū</title><title level="j">Yādigār</title><volume>4</volume><pages>42–46</pages></bibl>
+               <bibl xml:id="COM-00000010_bibl_4_1"><title level="m">al-Baghdādī, Īḍāḥ</title></bibl>
+               <bibl xml:id="COM-00000010_bibl_5_1"><title level="m"/><publisher>Brockelmann, SI</publisher></bibl>
+               <bibl xml:id="COM-00000010_bibl_6_1"><author><name>Dānishpazhūh, Muḥammad-Taqī</name></author><title level="m">and Īraj Afshār, Nuskha-hā-yi khaṭṭī-yi nashriyya-yi kitābkhānah-yi Markazī-yi Dānishgāh-i Tihrān</title><pubPlace>Tehran, 1348</pubPlace><publisher>Sh./1969</publisher></bibl>
+               <bibl xml:id="COM-00000010_bibl_7_1"><title level="m">Gazī Iṣfahānī, ʿAbd al-Karīm, Tadhkirat al-qubūr</title></bibl>
+               <bibl xml:id="COM-00000010_bibl_8_1"><author><name>Ghulam, Yousif Mahmud</name></author><title level="m">Introduction to the</title><pubPlace>Tehran, [197</pubPlace></bibl>
+               <bibl xml:id="COM-00000010_bibl_9_1"><author><name>Godard, André</name></author><title level="a">‘Iṣfahān’, Athār-é</title><title level="j">Īrān</title><volume>2</volume><pages>1–169</pages><date>1937</date></bibl>
+               <bibl xml:id="COM-00000010_bibl_10_1"><title level="m"/></bibl>
+               <bibl xml:id="COM-00000010_bibl_11_1"><author><name>Humāʾī</name></author><title level="m">Jalāl al-Dīn, ‘Bābā Rukn al-Dīn Shīrāzī’, in Nuṣūṣ al-khuṣūṣ fī tarjamat al-Fuṣūṣ</title><pages>pp. i–xxxi</pages><date>1359</date><pubPlace>Tehran</pubPlace></bibl>
+               <bibl xml:id="COM-00000010_bibl_12_1"><author><name>Hunarfar</name></author><title level="m">Luṭf Allāh, Ganjīnah-yi āthār-i tārīkhī-yi Īrān</title></bibl>
+               <bibl xml:id="COM-00000010_bibl_13_1"><title level="a">Iqbāl Āshtiyānī, ʿAbbās, ‘Bābā Rukn al-Dīn wa maqbara-yi ū’</title><title level="j">Yādigār</title><volume>2</volume><pages>42–46</pages></bibl>
+               <bibl xml:id="COM-00000010_bibl_14_1"><author><name>Anṣārī, Jābirī and Ḥasan</name></author><title level="m">Tārīkh-i Iṣfahān wa Rayy</title><date>1321</date><pubPlace>Tehran</pubPlace><publisher>Sh./1942</publisher></bibl>
+               <bibl xml:id="COM-00000010_bibl_15_1"><author><name>Kadoi, Y.</name></author><title level="m">Aspects of Frescoes in Fourteenth-century Iranian Architecture: The Case of Yazd</title><pages>["43", "pp. 217–240"]</pages><date>2005</date><pubPlace>Iran</pubPlace></bibl>
+               <bibl xml:id="COM-00000010_bibl_16_1"><author><name>Mahdawī</name></author><title level="m">Muṣliḥ al-Dīn, Tadhkirat al-qubūr</title><pubPlace>Iṣfahān, n.d</pubPlace></bibl>
+               <bibl xml:id="COM-00000010_bibl_17_1"><author><name>Mishkʷātī</name></author><title level="m">Nuṣrat Allāh, Fihrist-i banā-hā-yi tārīkhī wa amākin-i bāstānī-yi Īrān</title><date>1349</date><pubPlace>Tehran</pubPlace><publisher>Sh./1970</publisher></bibl>
+               <bibl xml:id="COM-00000010_bibl_18_1"><title level="m"/></bibl>
+               <bibl xml:id="COM-00000010_bibl_19_1"><title level="a">Nīkzād Amīr Ḥusaynī, Karīm, ‘Āthār-i tārīkhī-yi Iṣfahān’</title><title level="j">Hilāl</title><volume>7</volume><pages>20–27</pages><date>1959</date></bibl>
+               <bibl xml:id="COM-00000010_bibl_20_1"><title level="m">idem, Fihrist-i tārīkhchah-yi muṣawwar-i abniya-yi tārīkhī-yi Iṣfahān</title></bibl>
+               <bibl xml:id="COM-00000010_bibl_21_1"><author><name>Pīrniyā, Muḥammad Karīm</name></author><title level="m">Shīwah-hā-yi miʿmārī-yi Īrānī</title><date>1369</date><pubPlace>Tehran</pubPlace><publisher>Sh./1990</publisher></bibl>
+               <bibl xml:id="COM-00000010_bibl_22_1"><title level="m"/></bibl>
+               <bibl xml:id="COM-00000010_bibl_23_1"><author><name>Qummī, ʿAbbās</name></author><title level="m">Hadiyat al-aḥbāb</title><date>1362</date><pubPlace>Tehran</pubPlace><publisher>Sh./1983</publisher></bibl>
+               <bibl xml:id="COM-00000010_bibl_24_1"><author><name>Tihrānī, ʿAlī, Mard-i</name></author><title level="m">tawḥīd: Zindigī-nāmah-yi ʿārif-i siturg, Bābā Rukn al-Dīn Shīrāzī</title></bibl>
+               <bibl xml:id="COM-00000010_bibl_25_1"><author><name>Wilber, Donald Newton</name></author><title level="m">The Architecture of Islamic Iran: The Il Khānid Period</title><date>1955</date><pubPlace>Princeton, NJ</pubPlace></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
