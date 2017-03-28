@@ -1,0 +1,8 @@
+<title>Statutes of the Realm: The National Archives (TNA)</title><url>http://www.nationalarchives.gov.uk/</url>
+<editor>Given-Wilson, C. et al.</editor><title>The Parliament Rolls of Medieval England 16 vols and 1 CD-Rom</title><date>2005</date><location>Woodbridge Suffolk</location><location>Rochester, NY</location><pages>passim</pages>
+<author>Egan, G. et al.</author><title>Lead Cloth Seals and the Related Items in the British Museum</title><journal>British Museum Occasional Paper</journal><volume>93</volume><date>1994</date><location>London</location>
+<author>Hulton, M.</author><title>True as Coventry Blue</title><date>1995</date><location>Coventry</location>
+<title>The Early Yorkshire Woollen Trade, Extracts from the Hull Customs' Rolls and Complete Transcripts of the Ulnagers' Rolls</title><journal>Yorkshire Archaeological Society Record Series 64</journal><editor>Lister, J.</editor><date>1924</date>
+<author>Merrick, P.</author><title>The administration of the ulnage and subsidy on woollen cloth between 1394 and 1485, with a case study of Hampshire</title><date>1997</date><journal>Unpublished MPhil Thesis University of Southampton</journal><location>Southampton</location>
+<author>Pearce Chope, R.</author><title>The Aulnager in Devon</title><journal>Transactions of the Devon Association</journal><volume>44</volume><pages>568–96</pages><date>1912</date>
+<author>Riu, M.</author><title>The Woollen Industry in Catalonia in the Later Middle Ages</title><volume>2</volume><pages>205–29</pages><editor>N. B. Harte</editor><editor>K. G. Ponting</editor><date>1983</date><location>London</location><journal>Cloth and Clothing in Medieval Europe: Essays in Memory of Prof. E.M. Carus-Wilson, Pasol Studies in Textile History</journal>

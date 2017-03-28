@@ -7,8 +7,8 @@ def transform(file)
     xml = Nokogiri::XML(File.open(file))
     xml.css("bibl").each do |bibl|
 	bt = bibl.text
-	bibl.content = ""
 	next if bt.include? ("Primary sources" || "Secondary sources")
+	bibl.content = ""
 	tagged = Anystyle.parse bt 
         stringify(tagged,bibl)
     end
@@ -30,7 +30,7 @@ def stringify(tags,bibl)
     end
     
     if tagdict.key?(:journal)
-	bibl.add_child "<journal>#{tagdict[:journal]}</journal>"
+	bibl.add_child "<title level="j">#{tagdict[:journal]}</title>"
     end
 
     if tagdict.key?(:volume)
@@ -55,6 +55,14 @@ def stringify(tags,bibl)
 
     if tagdict.key?(:publisher)
         bibl.add_child "<publisher>#{tagdict[:publisher]}</publisher>"
+    end
+
+    if tagdict.key?(:unknown)
+	bibl.add_child "<unclear>#{tagdict[:unknown]}</unclear>"
+    end
+
+    if tagdict.key?(:url)
+	bibl.add_child "<ref target=\"#{tagdict[:url]}\">#{tagdict[:url]}</ref>"
     end
 end
 
