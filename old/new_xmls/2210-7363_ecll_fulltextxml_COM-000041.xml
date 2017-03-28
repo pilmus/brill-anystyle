@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-000041">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Intercultural Pragmatics</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Helen SPENCER-OATEY%22">
+               <name type="person">Helen SPENCER-OATEY</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Jiayi WANG%22">
+               <name type="person">Jiayi WANG</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl><title level="m"/></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Language and Linguistics</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20151230" status="first-online"/>
+         <change when="20160922" status="last-update"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <head>
+               <hi rendition="#bold">
+                  <hi rendition="#smallcaps">1. What is Intercultural Pragmatics?</hi>
+               </hi>
+            </head>
+            <p>Intercultural pragmatics has emerged as a relatively new area of linguistic research, building on earlier work in cross-cultural pragmatics. Pragmatics examines how language is used and interpreted in context, and cross-cultural pragmatics analyzes differences across languages and cultures in these respects. Intercultural pragmatics, on the other hand, focuses on the interaction between people from different cultural backgrounds, so whereas cross-cultural pragmatics is comparative in orientation, intercultural pragmatics examines the dynamics of language use and (mis)interpretation, as the interlocutors interact with each other. What, though, is meant by “different cultural backgrounds”? Many authors (Cheng and Warren 2001; Rogerson-Revell 2007; Bailey 2000; Spencer-Oatey and Xing 2003; Gumperz and Roberts 1991; Gudykunst and Mody 2002; Bilbow 2002) treat interaction between members of different language or ethnic groups as automatically intercultural and label them as such. Yet if culture is associated with membership of any type of social group (i.e., not only national, linguistic and/or ethnic, but also other types such as professional or religious), virtually all communication can be regarded as intercultural, especially since people simultaneously belong to multiple different cultural groups. As a result, some would regard this interpretation as too all-encompassing, also because culture does not necessarily impact on the communication process at all times. Žegarac (2007:41), for example, takes a cognitive pragmatic perspective to distinguish between intracultural and intercultural communication, and identifies an intercultural situation as one in which “the cultural distance between the participants is significant enough to have an adverse effect on communicative success, unless it is appropriately accommodated by the participants”. In this lemma we include both interpretations, and report on research into Chinese–non-Chinese interaction, especially in English, that may or may not report culture as having an effect.</p>
+         </div>
+         <div>
+            <head>
+               <hi rendition="#smallcaps">2. Intercultural Pragmatics and the Co-Construction of Meaning</hi>
+            </head>
+            <p>A number of factors influence how well participants of an intercultural interaction understand each other’s messages. Clearly, one of the most fundamental of these is use of the linguistic code because, if people cannot speak a given language fluently, and/or if proficient speakers use it in “unhelpful” ways, it will be very difficult for them to understand each other. However, even when there are no problems of this kind, achieving understanding can still be extremely difficult because it is never feasible for everything to be conveyed explicitly in the code. Much has to be left for the interlocutors to work out, drawing on their background knowledge, including their pragmatic knowledge – the conventions and principles that underlie language use in a given sociocultural group. As a result of different pragmatic knowledge, combined with possible pragmatic transfer (Žegarac and Pennington 2008; Kirkpatrick and Xu 2002), people may focus on different clues when inferring meanings, and/or they may arrive at different meanings from the same clues. Mismatches may thus occur in the messages that people think have been communicated.</p>
+            <p>A number of studies (Bilbow 2002; Li 1999; Cheng 2003a; Cheng and Warren 2001; Du-Babcock and Babcock 1996; Fung 2007; Ewington <hi rendition="#italic">et al.</hi> 2009; Spencer-Oatey and Xing 2005; Stadler and Spencer-Oatey 2009; Young 1994; Yeung 2000; Ulijn and Li 1995) have examined how language is used in intercultural interactions to achieve mutual understanding. Elements focused on include the use of commissive speech acts, level of language proficiency, the use of vague language, strategies for checking understanding, the use of self-repetition, speed of speech, information structuring, and stylistic choice. Some studies have found that culture has little impact on language use and mutual understanding; for example, Cheng and Warren (2001) report that Hong Kong Chinese and English native speakers employ vague language in very similar ways in their interactions with each other, and achieve successful and cooperative communication.</p>
+            <p>This can be illustrated by the following two excerpts. In the first, the non-native speakers of English, probably not knowing the term in English, resort to vague language (Cheng and Warren 2001:91; bold original): </p>
+            <p>      b: what kind of peanuts are you planning to bring</p>
+            <p>      a: <hi rendition="#bold">kind of traditional thing</hi>
+            </p>
+            <p>      b: traditional  </p>
+            <p>In the second, the native speaker, accomodating the non-native speaker’s linguistic competence, resorts to vague language too (from Cheng and Warren 2001:94; bold original).</p>
+            <p>      a: yea well all my life in Thailand they don’t eat that much you know</p>
+            <p>          what I mean is <hi rendition="#bold">the food is light</hi> (.) you have <hi rendition="#bold">rice and vegetables</hi>
+            </p>
+            <p>          <hi rendition="#bold">and soups things like that</hi> and then all of a sudden</p>
+            <p>Other studies have found some noticeable differences. For instance, Young (1994) reports differences in preferred information sequencing that can impact on understanding, and Ewington <hi rendition="#italic">et al.</hi> (2009) describe how differences in British and Chinese preferences for formality of interaction influenced the negotiations and planning of a joint workshop.</p>
+            <p>Du-Babcock and Babcock (1996) examined the use of Chinese by expatriate staff working for multinationals in Táiwān, and explored the impact that level of competence had on communication processes and effectiveness. They found that proficiency was a two-edged sword:</p>
+            <p>
+               <list>
+                  <item>      ...expatriate second language competence almost always aided effective communication if confined to social situations for speaking and listening and in business situations for listening. Expansion of the use of Chinese to business situations carried with it the potential of improved communication but also the potential pitfall of miscommunication and cultural alienation. (Du-Babcock and D.Babcock 1996:159–160)     </item>
+               </list>
+            </p>
+         </div>
+         <div>
+            <head>
+               <hi rendition="#smallcaps">3. Intercultural Pragmatics and the Management of Interpersonal Relations</hi>
+            </head>
+            <p>An important focus of much pragmatics research is the role of language in the management of interpersonal relations, and here issues such as politeness, face, and rapport are explored. Early research in the intercultural field took a cross-cultural approach, with comparative studies of speech acts being particularly common (e.g., Bilbow 1995; Chen 1993; Clancy <hi rendition="#italic">et al.</hi> 1996; Jiang 2006; Loh 1993; Spencer-Oatey <hi rendition="#italic">et al.</hi> 2000; Tang and Zhang 2009; Yeung 2000). Various differences were reported; for example, Chen (1993), Spencer-Oatey <hi rendition="#italic">et al.</hi> (2000/2008) and Tang and Zhang (2009) compared the responses to compliments of Chinese and English speakers (American, British, and Australian respectively) and found that their Chinese respondents consistently used fewer “accept” strategies and more “evade” and “reject” strategies than their English-speaking counterparts. From an intercultural pragmatic perspective, this raises the question as to whether such normative differences affect the ways in which relational management is handled and interpreted in intercultural interactions. Spencer-Oatey <hi rendition="#italic">et al.</hi> (2000/2008) found that British and Chinese respondents evaluated “reject” responses significantly differently, with the Chinese associating them with modesty and with the British having difficulty understanding why they had been used. Similarly, Chang and Haugh (2011), in a study of an apology between an Australian and a Taiwanese, report that Australians and Taiwanese informants who evaluated the authentic apology in a follow-up study, displayed significant differences in their ratings of the degree of (im)politeness of the apology. Chang and Haugh (2011:434) also report another important finding: that evaluations of (im)politeness are not necessarily centered on individual utterances but may arise from discourse-based impressions. This finding reflects the more recent trend towards the analysis of intercultural discourse, rather than the study of (often) de-contextualized speech acts. Issues that have been investigated in this way include negotiation styles (e.g., Ladegaard 2011; Li <hi rendition="#italic">et al.</hi> 2001; Zhu 2011), small talk (e.g., Ladegaard 2011; Li <hi rendition="#italic">et al.</hi> 2001; Spencer-Oatey and Xing 1998), humor (Rogerson-Revell 2007; Cheng 2003b), impression management (Bilbow 1997), and face and rapport (Spencer-Oatey and Xing 2000/2008, 2003, 2004).</p>
+            <p>Li <hi rendition="#italic">et al.</hi> (2001), for example, analyzed the last five minutes of a business negotiation meeting between a British businessman and three Chinese businessmen. They found that the Chinese businessmen used a high involvement style and paid great attention to non-task relationship creation through small talk before getting down to business. The British businessman commented that despite being familiar with “the blurring between business and non-business matters”, he still had problems with it:</p>
+            <p>
+               <list>
+                  <item>      Everything seems to take a long time. I’m used to that now, but I’m still having a little trouble with what we’ve agreed, or not agreed for that matter. They talk a lot, about nothing really. At the end of the day, I want to go home and tell my colleagues, yes we have a deal. (Li <hi rendition="#italic">et al.</hi> 2001:144)     </item>
+               </list>
+            </p>
+            <p>Spencer-Oatey and Xing (2000/2008, 2003, 2004) report even greater problems in a business meeting, when British hosts failed to offer their Chinese visitors the opportunity to give a return speech during a welcome meeting. The Chinese interpreted it extremely negatively, with the head of the delegation commenting as follows:</p>
+            <p>
+               <list>
+                  <item>      According to our home customs and protocol, speech is delivered on the basis of reciprocity. He has made his speech and I am expected to say something. … Condescension was implied. In fact I was reluctant to speak, and I had nothing to say. But I had to, to say a few words. Right for the occasion, right? But he had finished his speech, and he didn’t give me the opportunity, and they each introduced themselves, wasn’t this clearly implied that they do look down upon us Chinese. (Spencer-Oatey and Xing 2008:263)     </item>
+               </list>
+            </p>
+            <p>Yet as far as the British chairman was concerned, he thought everyone would prefer the meeting to remain informal.</p>
+         </div>
+         <div>
+            <head>
+               <hi rendition="#smallcaps">4. Is there an East-West Divide?</hi>
+            </head>
+            <p>Some scholars (e.g., Chen 2010; Leech 2007) claim that there is no “East-West divide” in pragmatics, while others (e.g., Gu 1990; Mao 1994; Kirkpatrick and Xu 2002; Zhu <hi rendition="#italic">et al.</hi> 2000; Kasper 1995) hold the view that Chinese pragmatics is very different from Euro-American pragmatics. In fact, there is still a comparative dearth of pragmatic studies of authentic intercultural interaction, especially ones that analyze not only the discourse but also the perspectives and interpretations of the participants themselves. Much more research of this kind is needed, along with appropriate theorizing, if we are to resolve this debate convincingly.</p>
+         </div>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <listBibl>
+               <bibl xml:id="COM-000041_bibl_1_1"><author><name>Bailey, Benjamin</name></author><title level="a">Communicative Behavior and Conflict between African-American Customers and Korean Immigrant Retailers in Los Angeles</title><journal>Discourse &amp; Society</journal><volume>11</volume><pages>86–108</pages><date>2000</date></bibl>
+               <bibl xml:id="COM-000041_bibl_2_1"><author><name>Bilbow, Grahame T.</name></author><title level="m">Requesting Strategies in the Cross-Cultural Business Meeting</title><pages>45–55</pages><date>1995</date></bibl>
+               <bibl xml:id="COM-000041_bibl_3_1"><author><name>Bilbow, Grahame T.</name></author><title level="a">Cross-Cultural Impression Management in the Multicultural Workplace: The Special Case of Hong Kong</title><journal>Journal of Pragmatics</journal><volume>28</volume><pages>461–487</pages><date>1997</date></bibl>
+               <bibl xml:id="COM-000041_bibl_4_1"><author><name>Bilbow, Grahame T.</name></author><title level="m">Commissive Speech Act Use in Intercultural Business Meetings</title><volume>2002</volume><pages>287–303</pages></bibl>
+               <bibl xml:id="COM-000041_bibl_5_1"><author><name>Chang, Wei-Lin Melody and Haugh, Michael</name></author><title level="m">Evaluations of Im/Politeness of an Intercultural Apology</title><pages>411–442</pages><date>2011</date></bibl>
+               <bibl xml:id="COM-000041_bibl_6_1"><author><name>Chen, Rong</name></author><title level="a">Responding to Compliments A Contrastive Study of Politeness Strategies between American English and Chinese Speakers</title><journal>Journal of Pragmatics</journal><volume>20</volume><pages>49–75</pages><date>1993</date></bibl>
+               <bibl xml:id="COM-000041_bibl_7_1"><author><name>Chen, Rong</name></author><title level="m">Pragmatics East and West: Similar or Different</title><pages>167–188</pages><editor><name>Trosborg, Anna</name></editor><date>2010</date><pubPlace>Berlin</pubPlace><publisher>Mouton de Gruyter</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_8_1"><author><name>Cheng, Winnie</name></author><title level="m">Intercultural Conversation</title><date>2003</date><pubPlace>Amsterdam</pubPlace><publisher>John Benjamins</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_9_1"><author><name>Cheng, Winnie</name></author><title level="a">Humor in Intercultural Conversations</title><journal>Semiotica</journal><volume>146</volume><pages>2003–287</pages></bibl>
+               <bibl xml:id="COM-000041_bibl_10_1"><author><name>Cheng, Winnie and Warren, Martin</name></author><title level="m">“The Use of Vague Language</title><pages>81–104</pages><date>2001</date></bibl>
+               <bibl xml:id="COM-000041_bibl_11_1"><author><name>Clancy, M.Patricia and Thompson, Sandra A.</name></author><title level="m">Ryoko Suzuki and Hongyin Tao, “The Conversational Use of Reactive Tokens</title><pages>355–387</pages><date>1996</date></bibl>
+               <bibl xml:id="COM-000041_bibl_12_1"><author><name>Du-Babcock, Bertha and Babcock, Richard D.</name></author><title level="a">Patterns of Expatriate-Local Personnel Communication in Multinational Corporations</title><journal>Journal of Business Communication</journal><volume>33</volume><pages>141–164</pages><date>1996</date></bibl>
+               <bibl xml:id="COM-000041_bibl_13_1"><author><name>Ewington, Nigel and Reid, Stuart and Helen</name></author><title level="m">Spencer-Oatey and Stefanie Stadler, “The Global People Toolbook: Managing the Life Cycle of Intercultural Partnerships”</title></bibl>
+               <bibl xml:id="COM-000041_bibl_14_1"><author><name>Fung, Lancy</name></author><title level="m">The Communicative Role of Self-repetition in a Specialised Corpus of Business Discourse</title><pages>224–238</pages><date>2007</date></bibl>
+               <bibl xml:id="COM-000041_bibl_15_1"><author><name>Gu, Yueguo</name></author><title level="a">Politeness Phenomena in Modern Chinese</title><journal>Journal of Pragmatics</journal><volume>14</volume><pages>237–257</pages><date>1990</date></bibl>
+               <bibl xml:id="COM-000041_bibl_16_1"><author><name>Gudykunst, William B. and Mody, Bella</name></author><title level="m"/><pubPlace>Sage, 20022</pubPlace></bibl>
+               <bibl xml:id="COM-000041_bibl_17_1"><author><name>Gumperz, John and Roberts, Celia</name></author><title level="m">“Understanding in Intercultural Encounters”, in: Jan Bloomaert and Jef Verschueren</title><pages>51–90</pages><date>1991</date><pubPlace>Amsterdam</pubPlace><publisher>John Benjamins</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_18_1"><author><name>Jiang, Xiangying</name></author><title level="a">Cross-Cultural Pragmatic Differences in US and Chinese Press Conferences: The Case of the North Korea Nuclear Crisis</title><journal>Discourse &amp; Society</journal><volume>17</volume><pages>237–257</pages><date>2006</date></bibl>
+               <bibl xml:id="COM-000041_bibl_19_1"><author><name>Kasper, Gabriele</name></author><title level="m">Pragmatics of Chinese as Native and Target Language</title><date>1995</date><pubPlace>Honolulu</pubPlace><publisher>University of Hawai'i Press</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_20_1"><author><name>Kirkpatrick, Andy and</name></author><title level="a">Zhichang Xu, “Chinese Pragmatic Norms and ‘China English’”</title><journal>World Englishes</journal><volume>21</volume><pages>269–279</pages></bibl>
+               <bibl xml:id="COM-000041_bibl_21_1"><author><name>Ladegaard, Hans J.</name></author><title level="m">Negotiation Style, Speech Accommodation and Small Talk in Sino-Western Business Negotiations: A Hong Kong Case Study</title><date>2011</date></bibl>
+               <bibl xml:id="COM-000041_bibl_22_1"><author><name>Leech, Geoffrey</name></author><title level="m">Politeness: Is There an East-West Divide?</title><pages>167–206</pages><date>2007</date></bibl>
+               <bibl xml:id="COM-000041_bibl_23_1"><author><name>Li, Wei and Zhu, Hua and Li, Yue</name></author><title level="a">Conversational Management and Involvement in Chinese-English Business Talk</title><journal>Language and Intercultural Communication</journal><volume>1</volume><pages>135–250</pages><date>2001</date></bibl>
+               <bibl xml:id="COM-000041_bibl_24_1"><author><name>Li, Xiangling</name></author><title level="m">Chinese-Dutch Business Negotiations: Insights from Discourse</title><date>1999</date><pubPlace>Amsterdam</pubPlace><publisher>Rodopi B.V. Editions</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_25_1"><author><name>Loh, Wai-chee Teresa</name></author><title level="m">Responses to Compliments across Languages and Cultures: A Comparative Study of British and Hong Kong Chinese</title><date>1993</date></bibl>
+               <bibl xml:id="COM-000041_bibl_26_1"><author><name>Mao, LuMing Robert</name></author><title level="a">Beyond Politeness Theory : ‘Face’ Revisited and Renewed</title><journal>Journal of Pragmatics</journal><volume>21</volume><pages>451–486</pages><date>1994</date></bibl>
+               <bibl xml:id="COM-000041_bibl_27_1"><author><name>Rogerson-Revell, Pamela</name></author><title level="a">Humour in Business: A Double-Edged Sword: A Study of Humour and Style Shifting in Intercultural Business Meetings</title><journal>Journal of Pragmatics</journal><volume>39</volume><pages>4–28</pages></bibl>
+               <bibl xml:id="COM-000041_bibl_28_1"><author><name>Spencer-Oatey, Helen and Xing, Jianyu</name></author><title level="m">Relational management in Chinese-British business meetings</title><pages>31–46</pages><editor><name>Hunston, Susan</name></editor><date>1998</date><pubPlace>Clevedon</pubPlace><publisher>Multilingual</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_29_1"><author><name>Spencer-Oatey, Helen and Xing, Jianyu</name></author><title level="a">Managing Rapport in Intercultural Business Interactions: A Comparison of Two Chinese-British Welcome Meetings</title><journal>Journal of Intercultural Communicaiton</journal><volume>24</volume><pages>33–46</pages></bibl>
+               <bibl xml:id="COM-000041_bibl_30_1"><author><name>Spencer-Oatey, Helen and Xing, Jianyu</name></author><title level="m">Rapport Management Problems in Chinese-British Business Interactions</title><pages>197–211</pages><editor><name>House, Juliane and Rehbein, Jochen</name></editor><date>2004</date><pubPlace>Amsterdam</pubPlace><publisher>John Benjamins</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_31_1"><author><name>Spencer-Oatey, Helen and Xing, Jianyu</name></author><title level="a">Managing Talk and Non-Talk in Intercultural Interactions: Insights from Two Chinese-British Business Meetings</title><journal>Multilingua: Journal of Cross-Cultural and Interlanguage Communication</journal><volume>24</volume><pages>2005–55</pages></bibl>
+               <bibl xml:id="COM-000041_bibl_32_1"><author><name>Spencer-Oatey, Helen and</name></author><title level="m">Jianyu Xing, “Issues of Face in a Chinese Business Visit to Britain”, in Helen Spencer-Oatey, ed., Culturally Speaking: Managing Rapport through Talk across Cultures</title><pages>258–273</pages><date>2000</date><pubPlace>London</pubPlace><publisher>Continuum</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_33_1"><author><name>Spencer-Oatey, Helen and Patrick</name></author><title level="m">Ng and Li Dong, “Responding to Compliments: British and Chinese Evaluative Judgements”</title><pages>98–120</pages><editor><name>Spencer-Oatey, Helen</name></editor><date>2008</date><pubPlace>London</pubPlace><publisher>Continuum</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_34_1"><author><name>Stadler, Stefanie and Spencer-Oatey, Helen</name></author><title level="m">Sino-British Interaction in Professional Contexts</title></bibl>
+               <bibl xml:id="COM-000041_bibl_35_1"><author><name>Tang, Chen-Hsin and Zhang, Grace Qiao</name></author><title level="a">A Contrastive Study of Compliment Responses among Australian English and Mandarin Chinese Speakers</title><journal>Journal of Pragmatics</journal><volume>4</volume><pages>325–345</pages></bibl>
+               <bibl xml:id="COM-000041_bibl_36_1"><author><name>Ulijn, Jan M. and</name></author><title level="m">Xiangling Li, “Is Interrupting Impolite? Some Temporal Aspects of Turn-Taking in Chinese-Western and other Intercultural Business Encounters”</title><pages>589–628</pages><date>1995</date></bibl>
+               <bibl xml:id="COM-000041_bibl_37_1"><author><name>Yeung</name></author><title level="m">Lorrita Ngor-To, “The Question of Chinese Indirectness: A Comparison of Chinese and English Participative Decision-Making Discourse”</title><pages>221–264</pages><date>2000</date></bibl>
+               <bibl xml:id="COM-000041_bibl_38_1"><author><name>Young, Wai Ling Linda</name></author><title level="m">Crosstalk and Culture in Sino-American Communication</title><date>1994</date><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_39_1"><author><name>Žegarac, Vladimir</name></author><title level="m">“A Cognitive Pragmatic Perspective on Communication and Culture”, in: Helga Kotthoff and</title><pages>31–53</pages><date>2007</date><pubPlace>Berlin</pubPlace><publisher>Mouton de Gruyter</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_40_1"><author><name>Žegarac, Vladimir and Pennington, Martha C.</name></author><title level="m">Pragmatic Transfer in Intercultural Communication</title><pages>141–163</pages><editor><name>Spencer-Oatey, Helen</name></editor><date>2000</date><pubPlace>London</pubPlace><publisher>Continuum</publisher></bibl>
+               <bibl xml:id="COM-000041_bibl_41_1"><author><name>Hua, Zhu and Wei, Li and Yuan, Qian</name></author><title level="m">“The Sequential Organisation of Gift Offering and Acceptance</title><pages>81–103</pages><date>2000</date></bibl>
+               <bibl xml:id="COM-000041_bibl_42_1"><author><name>Zhu, Yunxia</name></author><title level="m">“Building Intercultural Alliances: A Study of Moves and</title><pages>101–125</pages><date>2011</date></bibl>
+               <bibl xml:id="COM-000041_bibl_43_1"><title level="m"/></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
