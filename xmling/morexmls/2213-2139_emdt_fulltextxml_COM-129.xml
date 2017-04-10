@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-129">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:xs="http://relaxng.org/ns/structure/1.0"
+     xmlns:type="application/tei+xml"
+     xml:id="COM-129">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -17,7 +22,18 @@
             <pubPlace>Leiden | Boston</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title level="m"/></bibl>
+            <bibl>
+               <title level="m">Encyclopedia of Medieval Dress and Textiles</title>
+               <editor/>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">0</biblScope>
+               <idno type="DOI">10.1163/2213-2139_emdt_COM_129</idno>
+               <idno type="sams-id">emdt</idno>
+               <idno type="publisher-id"/>
+               <idno type="ISBN">9789004124356</idno>
+               <idno type="ISSN">2213-2139</idno>
+               <idno type="URI">http://referenceworks.brillonline.com/entries/encyclopedia-of-medieval-dress-and-textiles/*COM_129</idno>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -97,24 +113,24 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="COM-129_bibl_1_1"><author><name>Crawford, B.E. and Ballin Smith, B.</name></author><title level="a">The Biggings, Papa Stour, Shetland: the History and Archaeology of a</title><title level="j">Royal Norwegian Farm, Society of Antiquaries of Scotland Monograph Series</title><volume>No.</volume><pages>15</pages><date>1999</date><pubPlace>Edinburgh</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_2_1"><author><name>Crowfoot, E. and Pritchard, F. and Staniland</name></author><title level="m">K.,Textiles and Clothing c.1150-c.1450, Medieval Finds from Excavations in London 4</title><date>1992</date><pubPlace>London</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_3_1"><author><name>Granger-Taylor, H. and Pritchard, F.</name></author><title level="m">A fine quality Insular embroidery from Llan-gors Crannog, near Brecon</title><pages>["3-6", "91-9"]</pages><editor><name>Redknap, M. and Edwards, N.</name></editor><date>1998-09</date></bibl>
-               <bibl xml:id="COM-129_bibl_4_1"><author><name>Gabra-Sanders, T.</name></author><title level="m">'Textiles, textile fibres and animal hairs, dyes and ropes' in</title><pages>222–41</pages><date>2002</date></bibl>
-               <bibl xml:id="COM-129_bibl_5_1"><author><name>Heckett, E.</name></author><title level="a">The Textiles</title><title level="j">Cork', Journal of the Cork Historical and Archaeological Society</title><volume>249</volume><pages>65–90</pages><editor><name>Hurley, M.F.</name></editor><date>1985</date></bibl>
-               <bibl xml:id="COM-129_bibl_6_1"><author><name>Heckett, E.W.</name></author><title level="m">Textiles, cordage, basketry and raw fibre</title><editor><name>Hurley, M. and Scully, O. and McCutcheon, S. and Late</name></editor><date>1997</date><pubPlace>Waterford</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_7_1"><author><name>Henry, P.</name></author><title level="m">Changing weaving styles and fabric types: the Scandinavian influence</title><pages>443–56</pages><editor><name>Hines, J. and Lane, A. and Redknap, M. and Land, Sea</name></editor><date>2001-07</date><pubPlace>Cardiff</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_8_1"><author><name>Owen, O. and Dalland, M.</name></author><title level="m">Scar: A Viking Boat Burial on</title><date>1999</date><pubPlace>Sanday, Orkney (East Linton</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_9_1"><author><name>Pritchard, F.M.</name></author><title level="a">Late Saxon textiles from the City of London</title><title level="j">Medieval Archaeology</title><pages>46–76</pages><date>1984</date></bibl>
-               <bibl xml:id="COM-129_bibl_10_1"><author><name>Pritchard, F.</name></author><title level="m">Aspects of the wool textiles from Viking Age Dublin</title><pages>93–104</pages><editor><name>Jørgensen, L.Bender and Munksgaard, E.</name></editor><date>1992</date><pubPlace>Copenhagen</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_11_1"><author><name>Salzman, L.F.</name></author><title level="m">English Industries of the Middle Ages</title><date>1923</date><pubPlace>Oxford</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_12_1"><author><name>Walton, P.</name></author><title level="m">The textiles" in B. Harbottle and M. Ellison, 'An excavation in the castle ditch, Newcastle upon Tyne, 1974-76</title><pages>["9", "190-228, 248-9."]</pages><date>1981</date></bibl>
-               <bibl xml:id="COM-129_bibl_13_1"><author><name>Walton, P.</name></author><title level="m">Medieval and 17th century textiles from High Street/Blackfriargate</title><pages>227–32</pages><date>1987</date></bibl>
-               <bibl xml:id="COM-129_bibl_14_1"><author><name>Walton, P. and Textiles</name></author><title level="m">Cordage and Raw Fibre from 16–22 Coppergate, The Archaeology of York 17.5</title><date>1989</date><pubPlace>London</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_15_1"><author><name>Walton, P.</name></author><title level="m">Textiles</title><pages>319–54</pages><editor><name>Blair, J. and Ramsay, N. and English</name></editor><date>1991</date><pubPlace>London</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_16_1"><author><name>Walton Rogers, P.</name></author><title level="m">The re-appearance of an old Roman loom in medieval England</title><pages>158–71</pages><editor><name>Rogers, P.Walton and Jørgensen, L.Bender and Rast-Eicher, A.</name></editor><date>2001</date><pubPlace>Oxford</pubPlace></bibl>
-               <bibl xml:id="COM-129_bibl_17_1"><author><name>Walton</name></author><title level="m">Rogers database</title><ref target="http://ads.ahds.ac.uk/catalogue/archive/clothing_eh_2007/">http://ads.ahds.ac.uk/catalogue/archive/clothing_eh_2007/</ref></bibl>
-               <bibl xml:id="COM-129_bibl_18_1"><author><name>Walton Rogers, P.</name></author><title level="m">Cloth and Clothing in Early Anglo-Saxon England, AD 450-700, Council for British Archaeology Research Reports 145</title><date>2007</date><pubPlace>York</pubPlace></bibl>
+               <bibl xml:id="COM-129_bibl_1_1">Crawford, B. E. and Ballin Smith, B., The Biggings, Papa Stour, Shetland: the History and Archaeology of a Royal Norwegian Farm, Society of Antiquaries of Scotland Monograph Series No. 15 (Edinburgh: 1999).</bibl>
+               <bibl xml:id="COM-129_bibl_2_1">Crowfoot, E., Pritchard, F. and Staniland, K.,Textiles and Clothing c.1150-c.1450, Medieval Finds from Excavations in London 4 (London: 1992).</bibl>
+               <bibl xml:id="COM-129_bibl_3_1">Granger-Taylor, H. and Pritchard, F., 'A fine quality Insular embroidery from Llan-gors Crannog, near Brecon' in Ed. M. Redknap, N. Edwards, S. Youngs, A. Lane and J. Knight, Pattern and Purpose in Insular Art, Proceedings of the Fourth International Conference on Insular Art held at the National Museum and Gallery, Cardiff 3-6 September 1998 (Oxford: 2001), 91-9 and plates IV-VI.</bibl>
+               <bibl xml:id="COM-129_bibl_4_1">Gabra-Sanders, T., 'Textiles, textile fibres and animal hairs, dyes and ropes' in A. S. Cameron and J. A. Stones, Aberdeen: an In-depth View of the City's Past, Society of Antiquaries of Scotland Monograph Series No.19 (2002), 222-41.</bibl>
+               <bibl xml:id="COM-129_bibl_5_1">Heckett, E ., "The Textiles" in M. F. Hurley, 'Excavations of part of the medieval city wall at Grand Parade, Cork', Journal of the Cork Historical and Archaeological Society 249 (1985), 65-90 at 85-7.</bibl>
+               <bibl xml:id="COM-129_bibl_6_1">Heckett, E. W., 'Textiles, cordage, basketry and raw fibre' in Ed. M. Hurley, O. Scully, and S. McCutcheon, Late Viking Age and Medieval Waterford Excavations 1986-92 (Waterford: 1997).</bibl>
+               <bibl xml:id="COM-129_bibl_7_1">Henry, P., 'Changing weaving styles and fabric types: the Scandinavian influence' in Ed. J. Hines, A. Lane and M. Redknap, Land, Sea and Home: Proceedings of a Conference on Viking-Period Settlement at Cardiff, July 2001 (Leeds: 2004), 443-56.</bibl>
+               <bibl xml:id="COM-129_bibl_8_1">Owen, O. and Dalland, M., Scar: A Viking Boat Burial on Sanday, Orkney (East Linton: 1999).</bibl>
+               <bibl xml:id="COM-129_bibl_9_1">Pritchard, F. M., 'Late Saxon textiles from the City of London', Medieval Archaeology 28 (1984), 46-76.</bibl>
+               <bibl xml:id="COM-129_bibl_10_1">Pritchard, F., 'Aspects of the wool textiles from Viking Age Dublin' in Ed. L. Bender Jørgensen and E. Munksgaard, NESAT IV: Archaeological Textiles in Northern Europe (Copenhagen: 1992), 93-104.</bibl>
+               <bibl xml:id="COM-129_bibl_11_1">Salzman, L. F., English Industries of the Middle Ages (Oxford: 1923).</bibl>
+               <bibl xml:id="COM-129_bibl_12_1">Walton, P., "The textiles" in B. Harbottle and M. Ellison, 'An excavation in the castle ditch, Newcastle upon Tyne, 1974-76', Archaeologia Aeliana, 5th series 9 (1981), 190-228, 248-9.</bibl>
+               <bibl xml:id="COM-129_bibl_13_1">Walton, P., 'Medieval and 17th century textiles from High Street/Blackfriargate' in P. Armstrong and B. Ayers, 'Excavation in High Street and Blackfriargate', East Riding Archaeologist 8, Hull Old Town Report Series 5 (1987), 227-32.</bibl>
+               <bibl xml:id="COM-129_bibl_14_1">Walton, P., Textiles, Cordage and Raw Fibre from 16–22 Coppergate, The Archaeology of York 17.5 (London: 1989).</bibl>
+               <bibl xml:id="COM-129_bibl_15_1">Walton, P., 'Textiles' in Ed. J. Blair and N. Ramsay, English Medieval Industries (London: 1991), 319-54.</bibl>
+               <bibl xml:id="COM-129_bibl_16_1">Walton Rogers, P., 'The re-appearance of an old Roman loom in medieval England' in Ed. P. Walton Rogers, L. Bender Jørgensen and A. Rast-Eicher, The Roman Textile Industry and its Influence: a Birthday Tribute to John Peter Wild (Oxford: 2001), 158-71.</bibl>
+               <bibl xml:id="COM-129_bibl_17_1">Walton Rogers database: http://ads.ahds.ac.uk/catalogue/archive/clothing_eh_2007/</bibl>
+               <bibl xml:id="COM-129_bibl_18_1">Walton Rogers, P., Cloth and Clothing in Early Anglo-Saxon England, AD 450-700, Council for British Archaeology Research Reports 145 (York: 2007).</bibl>
             </listBibl>
          </div>
       </body>

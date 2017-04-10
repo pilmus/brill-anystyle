@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-118">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:xs="http://relaxng.org/ns/structure/1.0"
+     xmlns:type="application/tei+xml"
+     xml:id="COM-118">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -17,7 +22,18 @@
             <pubPlace>Leiden | Boston</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title level="m"/></bibl>
+            <bibl>
+               <title level="m">Encyclopedia of Medieval Dress and Textiles</title>
+               <editor/>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">0</biblScope>
+               <idno type="DOI">10.1163/2213-2139_emdt_COM_118</idno>
+               <idno type="sams-id">emdt</idno>
+               <idno type="publisher-id"/>
+               <idno type="ISBN">9789004124356</idno>
+               <idno type="ISSN">2213-2139</idno>
+               <idno type="URI">http://referenceworks.brillonline.com/entries/encyclopedia-of-medieval-dress-and-textiles/*COM_118</idno>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -64,15 +80,17 @@
                <bibl xml:id="COM-118_bibl_1_1">
 								Primary sources:
 							</bibl>
-               <bibl xml:id="COM-118_bibl_2_1"><title level="m">Statutes of the Realm: The National Archives (TNA): http://www.nationalarchives.gov.uk/ search using terms ulnage</title></bibl>
-               <bibl xml:id="COM-118_bibl_3_1"><author><name>Given-Wilson, C.</name></author><title level="m">The Parliament Rolls of Medieval</title><pages>passim.</pages><editor><name>vols and 1 CD-Rom (Woodbridge</name></editor><date>2005</date><pubPlace>England, 16</pubPlace></bibl>
-               <bibl xml:id="COM-118_bibl_4_1"><title level="m"/></bibl>
-               <bibl xml:id="COM-118_bibl_5_1"><author><name>Egan, G.</name></author><title level="m">Cloth Seals and the</title><date>1994</date><pubPlace>London</pubPlace></bibl>
-               <bibl xml:id="COM-118_bibl_6_1"><author><name>Hulton, M.</name></author><title level="m">True as Coventry Blue</title><date>1995</date><pubPlace>Coventry</pubPlace></bibl>
-               <bibl xml:id="COM-118_bibl_7_1"><title level="a">The Early Yorkshire Woollen Trade, Extracts from the Hull Customs' Rolls and Complete Transcripts of the Ulnagers'</title><title level="j">Rolls, Yorkshire Archaeological Society Record Series 64</title><editor><name>Lister, J.</name></editor><date>1924</date></bibl>
-               <bibl xml:id="COM-118_bibl_8_1"><author><name>Merrick, P.</name></author><title level="m">The administration of the ulnage and subsidy on woollen cloth between 1394 and 1485, with a case study of Hampshire</title><date>1997</date></bibl>
-               <bibl xml:id="COM-118_bibl_9_1"><author><name>Pearce Chope, R.</name></author><title level="a">The Aulnager in Devon</title><title level="j">Transactions of the Devon Association</title><volume>44</volume><pages>568–96</pages><date>1912</date></bibl>
-               <bibl xml:id="COM-118_bibl_10_1"><author><name>Riu, M.</name></author><title level="m">The Woollen Industry in Catalonia in the Later Middle Ages</title><volume>2</volume><pages>205–29</pages><editor><name>N. B. Harte and</name></editor><date>1983</date><pubPlace>London</pubPlace></bibl>
+               <bibl xml:id="COM-118_bibl_2_1">Statutes of the Realm: The National Archives (TNA): http://www.nationalarchives.gov.uk/ search using terms ulnage, ulnager, E101. Rolls E358/8 and 358/9 have not been calendared.</bibl>
+               <bibl xml:id="COM-118_bibl_3_1">Given-Wilson, C., et al., ed., The Parliament Rolls of Medieval England, 16 vols and 1 CD-Rom (Woodbridge, Suffolk and Rochester, NY: 2005), passim.</bibl>
+               <bibl xml:id="COM-118_bibl_4_1">
+								Secondary sources:
+							</bibl>
+               <bibl xml:id="COM-118_bibl_5_1">Egan, G., et al., Lead Cloth Seals and the Related Items in the British Museum, British Museum Occasional Paper 93 (London: 1994).</bibl>
+               <bibl xml:id="COM-118_bibl_6_1">Hulton, M., True as Coventry Blue (Coventry: 1995).</bibl>
+               <bibl xml:id="COM-118_bibl_7_1">Lister, J., ed., The Early Yorkshire Woollen Trade, Extracts from the Hull Customs' Rolls and Complete Transcripts of the Ulnagers' Rolls, Yorkshire Archaeological Society Record Series 64 (1924).</bibl>
+               <bibl xml:id="COM-118_bibl_8_1">Merrick, P., 'The administration of the ulnage and subsidy on woollen cloth between 1394 and 1485, with a case study of Hampshire' (Unpublished MPhil thesis University of Southampton: 1997).</bibl>
+               <bibl xml:id="COM-118_bibl_9_1">Pearce Chope, R., 'The Aulnager in Devon', Transactions of the Devon Association 44 (1912), 568-96.</bibl>
+               <bibl xml:id="COM-118_bibl_10_1">Riu, M., 'The Woollen Industry in Catalonia in the Later Middle Ages' in Ed. N. B. Harte and K. G. Ponting, Cloth and Clothing in Medieval Europe: Essays in Memory of Prof. E.M. Carus-Wilson, Pasold Studies in Textile History 2 (London: 1983), 205-29.</bibl>
             </listBibl>
          </div>
       </body>

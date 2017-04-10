@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-000041">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:xs="http://relaxng.org/ns/structure/1.0"
+     xmlns:type="application/tei+xml"
+     xml:id="COM-000041">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -21,7 +26,22 @@
             <pubPlace>Leiden | Boston</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title level="m"/></bibl>
+            <bibl>
+               <title level="m">Encyclopedia of Chinese Language and Linguistics</title>
+               <editor>
+                  <persName>
+                     <forename>Rint</forename>
+                     <surname>Sybesma</surname>
+                  </persName>
+               </editor>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">0</biblScope>
+               <idno type="DOI">10.1163/2210-7363_ecll_COM_000041</idno>
+               <idno type="sams-id">ecll</idno>
+               <idno type="publisher-id"/>
+               <idno type="ISSN">2210-7363</idno>
+               <idno type="URI">http://referenceworks.brillonline.com/entries/encyclopedia-of-chinese-language-and-linguistics/*COM_000041</idno>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -115,49 +135,49 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="COM-000041_bibl_1_1"><author><name>Bailey, Benjamin</name></author><title level="a">Communicative Behavior and Conflict between African-American Customers and Korean Immigrant Retailers in Los Angeles</title><title level="j">Discourse &amp; Society</title><volume>11</volume><pages>86–108</pages><date>2000</date></bibl>
-               <bibl xml:id="COM-000041_bibl_2_1"><author><name>Bilbow, Grahame T.</name></author><title level="m">Requesting Strategies in the Cross-Cultural Business Meeting</title><pages>45–55</pages><date>1995</date></bibl>
-               <bibl xml:id="COM-000041_bibl_3_1"><author><name>Bilbow, Grahame T.</name></author><title level="a">Cross-Cultural Impression Management in the Multicultural Workplace: The Special Case of Hong Kong</title><title level="j">Journal of Pragmatics</title><volume>28</volume><pages>461–487</pages><date>1997</date></bibl>
-               <bibl xml:id="COM-000041_bibl_4_1"><author><name>Bilbow, Grahame T.</name></author><title level="m">Commissive Speech Act Use in Intercultural Business Meetings</title><volume>2002</volume><pages>287–303</pages></bibl>
-               <bibl xml:id="COM-000041_bibl_5_1"><author><name>Chang, Wei-Lin Melody and Haugh, Michael</name></author><title level="m">Evaluations of Im/Politeness of an Intercultural Apology</title><pages>411–442</pages><date>2011</date></bibl>
-               <bibl xml:id="COM-000041_bibl_6_1"><author><name>Chen, Rong</name></author><title level="a">Responding to Compliments A Contrastive Study of Politeness Strategies between American English and Chinese Speakers</title><title level="j">Journal of Pragmatics</title><volume>20</volume><pages>49–75</pages><date>1993</date></bibl>
-               <bibl xml:id="COM-000041_bibl_7_1"><author><name>Chen, Rong</name></author><title level="m">Pragmatics East and West: Similar or Different</title><pages>167–188</pages><editor><name>Trosborg, Anna</name></editor><date>2010</date><pubPlace>Berlin</pubPlace><publisher>Mouton de Gruyter</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_8_1"><author><name>Cheng, Winnie</name></author><title level="m">Intercultural Conversation</title><date>2003</date><pubPlace>Amsterdam</pubPlace><publisher>John Benjamins</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_9_1"><author><name>Cheng, Winnie</name></author><title level="a">Humor in Intercultural Conversations</title><title level="j">Semiotica</title><volume>146</volume><pages>2003–287</pages></bibl>
-               <bibl xml:id="COM-000041_bibl_10_1"><author><name>Cheng, Winnie and Warren, Martin</name></author><title level="m">“The Use of Vague Language</title><pages>81–104</pages><date>2001</date></bibl>
-               <bibl xml:id="COM-000041_bibl_11_1"><author><name>Clancy, M.Patricia and Thompson, Sandra A.</name></author><title level="m">Ryoko Suzuki and Hongyin Tao, “The Conversational Use of Reactive Tokens</title><pages>355–387</pages><date>1996</date></bibl>
-               <bibl xml:id="COM-000041_bibl_12_1"><author><name>Du-Babcock, Bertha and Babcock, Richard D.</name></author><title level="a">Patterns of Expatriate-Local Personnel Communication in Multinational Corporations</title><title level="j">Journal of Business Communication</title><volume>33</volume><pages>141–164</pages><date>1996</date></bibl>
-               <bibl xml:id="COM-000041_bibl_13_1"><author><name>Ewington, Nigel and Reid, Stuart and Helen</name></author><title level="m">Spencer-Oatey and Stefanie Stadler, “The Global People Toolbook: Managing the Life Cycle of Intercultural Partnerships”</title><ref target="http://www.globalpeople.org.uk.">http://www.globalpeople.org.uk.</ref></bibl>
-               <bibl xml:id="COM-000041_bibl_14_1"><author><name>Fung, Lancy</name></author><title level="m">The Communicative Role of Self-repetition in a Specialised Corpus of Business Discourse</title><pages>224–238</pages><date>2007</date></bibl>
-               <bibl xml:id="COM-000041_bibl_15_1"><author><name>Gu, Yueguo</name></author><title level="a">Politeness Phenomena in Modern Chinese</title><title level="j">Journal of Pragmatics</title><volume>14</volume><pages>237–257</pages><date>1990</date></bibl>
-               <bibl xml:id="COM-000041_bibl_16_1"><author><name>Gudykunst, William B. and Mody, Bella</name></author><title level="m"/><pubPlace>Sage, 20022</pubPlace></bibl>
-               <bibl xml:id="COM-000041_bibl_17_1"><author><name>Gumperz, John and Roberts, Celia</name></author><title level="m">“Understanding in Intercultural Encounters”, in: Jan Bloomaert and Jef Verschueren</title><pages>51–90</pages><date>1991</date><pubPlace>Amsterdam</pubPlace><publisher>John Benjamins</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_18_1"><author><name>Jiang, Xiangying</name></author><title level="a">Cross-Cultural Pragmatic Differences in US and Chinese Press Conferences: The Case of the North Korea Nuclear Crisis</title><title level="j">Discourse &amp; Society</title><volume>17</volume><pages>237–257</pages><date>2006</date></bibl>
-               <bibl xml:id="COM-000041_bibl_19_1"><author><name>Kasper, Gabriele</name></author><title level="m">Pragmatics of Chinese as Native and Target Language</title><date>1995</date><pubPlace>Honolulu</pubPlace><publisher>University of Hawai'i Press</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_20_1"><author><name>Kirkpatrick, Andy and</name></author><title level="a">Zhichang Xu, “Chinese Pragmatic Norms and ‘China English’”</title><title level="j">World Englishes</title><volume>21</volume><pages>269–279</pages></bibl>
-               <bibl xml:id="COM-000041_bibl_21_1"><author><name>Ladegaard, Hans J.</name></author><title level="m">Negotiation Style, Speech Accommodation and Small Talk in Sino-Western Business Negotiations: A Hong Kong Case Study</title><date>2011</date></bibl>
-               <bibl xml:id="COM-000041_bibl_22_1"><author><name>Leech, Geoffrey</name></author><title level="m">Politeness: Is There an East-West Divide?</title><pages>167–206</pages><date>2007</date></bibl>
-               <bibl xml:id="COM-000041_bibl_23_1"><author><name>Li, Wei and Zhu, Hua and Li, Yue</name></author><title level="a">Conversational Management and Involvement in Chinese-English Business Talk</title><title level="j">Language and Intercultural Communication</title><volume>1</volume><pages>135–250</pages><date>2001</date></bibl>
-               <bibl xml:id="COM-000041_bibl_24_1"><author><name>Li, Xiangling</name></author><title level="m">Chinese-Dutch Business Negotiations: Insights from Discourse</title><date>1999</date><pubPlace>Amsterdam</pubPlace><publisher>Rodopi B.V. Editions</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_25_1"><author><name>Loh, Wai-chee Teresa</name></author><title level="m">Responses to Compliments across Languages and Cultures: A Comparative Study of British and Hong Kong Chinese</title><date>1993</date></bibl>
-               <bibl xml:id="COM-000041_bibl_26_1"><author><name>Mao, LuMing Robert</name></author><title level="a">Beyond Politeness Theory : ‘Face’ Revisited and Renewed</title><title level="j">Journal of Pragmatics</title><volume>21</volume><pages>451–486</pages><date>1994</date></bibl>
-               <bibl xml:id="COM-000041_bibl_27_1"><author><name>Rogerson-Revell, Pamela</name></author><title level="a">Humour in Business: A Double-Edged Sword: A Study of Humour and Style Shifting in Intercultural Business Meetings</title><title level="j">Journal of Pragmatics</title><volume>39</volume><pages>4–28</pages></bibl>
-               <bibl xml:id="COM-000041_bibl_28_1"><author><name>Spencer-Oatey, Helen and Xing, Jianyu</name></author><title level="m">Relational management in Chinese-British business meetings</title><pages>31–46</pages><editor><name>Hunston, Susan</name></editor><date>1998</date><pubPlace>Clevedon</pubPlace><publisher>Multilingual</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_29_1"><author><name>Spencer-Oatey, Helen and Xing, Jianyu</name></author><title level="a">Managing Rapport in Intercultural Business Interactions: A Comparison of Two Chinese-British Welcome Meetings</title><title level="j">Journal of Intercultural Communicaiton</title><volume>24</volume><pages>33–46</pages></bibl>
-               <bibl xml:id="COM-000041_bibl_30_1"><author><name>Spencer-Oatey, Helen and Xing, Jianyu</name></author><title level="m">Rapport Management Problems in Chinese-British Business Interactions</title><pages>197–211</pages><editor><name>House, Juliane and Rehbein, Jochen</name></editor><date>2004</date><pubPlace>Amsterdam</pubPlace><publisher>John Benjamins</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_31_1"><author><name>Spencer-Oatey, Helen and Xing, Jianyu</name></author><title level="a">Managing Talk and Non-Talk in Intercultural Interactions: Insights from Two Chinese-British Business Meetings</title><title level="j">Multilingua: Journal of Cross-Cultural and Interlanguage Communication</title><volume>24</volume><pages>2005–55</pages></bibl>
-               <bibl xml:id="COM-000041_bibl_32_1"><author><name>Spencer-Oatey, Helen and</name></author><title level="m">Jianyu Xing, “Issues of Face in a Chinese Business Visit to Britain”, in Helen Spencer-Oatey, ed., Culturally Speaking: Managing Rapport through Talk across Cultures</title><pages>258–273</pages><date>2000</date><pubPlace>London</pubPlace><publisher>Continuum</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_33_1"><author><name>Spencer-Oatey, Helen and Patrick</name></author><title level="m">Ng and Li Dong, “Responding to Compliments: British and Chinese Evaluative Judgements”</title><pages>98–120</pages><editor><name>Spencer-Oatey, Helen</name></editor><date>2008</date><pubPlace>London</pubPlace><publisher>Continuum</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_34_1"><author><name>Stadler, Stefanie and Spencer-Oatey, Helen</name></author><title level="m">Sino-British Interaction in Professional Contexts</title><ref target="http://www.globalpeople.org.uk.">http://www.globalpeople.org.uk.</ref></bibl>
-               <bibl xml:id="COM-000041_bibl_35_1"><author><name>Tang, Chen-Hsin and Zhang, Grace Qiao</name></author><title level="a">A Contrastive Study of Compliment Responses among Australian English and Mandarin Chinese Speakers</title><title level="j">Journal of Pragmatics</title><volume>4</volume><pages>325–345</pages></bibl>
-               <bibl xml:id="COM-000041_bibl_36_1"><author><name>Ulijn, Jan M. and</name></author><title level="m">Xiangling Li, “Is Interrupting Impolite? Some Temporal Aspects of Turn-Taking in Chinese-Western and other Intercultural Business Encounters”</title><pages>589–628</pages><date>1995</date></bibl>
-               <bibl xml:id="COM-000041_bibl_37_1"><author><name>Yeung</name></author><title level="m">Lorrita Ngor-To, “The Question of Chinese Indirectness: A Comparison of Chinese and English Participative Decision-Making Discourse”</title><pages>221–264</pages><date>2000</date></bibl>
-               <bibl xml:id="COM-000041_bibl_38_1"><author><name>Young, Wai Ling Linda</name></author><title level="m">Crosstalk and Culture in Sino-American Communication</title><date>1994</date><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_39_1"><author><name>Žegarac, Vladimir</name></author><title level="m">“A Cognitive Pragmatic Perspective on Communication and Culture”, in: Helga Kotthoff and</title><pages>31–53</pages><date>2007</date><pubPlace>Berlin</pubPlace><publisher>Mouton de Gruyter</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_40_1"><author><name>Žegarac, Vladimir and Pennington, Martha C.</name></author><title level="m">Pragmatic Transfer in Intercultural Communication</title><pages>141–163</pages><editor><name>Spencer-Oatey, Helen</name></editor><date>2000</date><pubPlace>London</pubPlace><publisher>Continuum</publisher></bibl>
-               <bibl xml:id="COM-000041_bibl_41_1"><author><name>Hua, Zhu and Wei, Li and Yuan, Qian</name></author><title level="m">“The Sequential Organisation of Gift Offering and Acceptance</title><pages>81–103</pages><date>2000</date></bibl>
-               <bibl xml:id="COM-000041_bibl_42_1"><author><name>Zhu, Yunxia</name></author><title level="m">“Building Intercultural Alliances: A Study of Moves and</title><pages>101–125</pages><date>2011</date></bibl>
-               <bibl xml:id="COM-000041_bibl_43_1"><title level="m"/></bibl>
+               <bibl xml:id="COM-000041_bibl_1_1">Bailey, Benjamin, “Communicative Behavior and Conflict between African-American Customers and Korean Immigrant Retailers in Los Angeles”, Discourse &amp; Society 11/1, 2000, 86–108.</bibl>
+               <bibl xml:id="COM-000041_bibl_2_1">Bilbow, Grahame T., “Requesting Strategies in the Cross-Cultural Business Meeting”, Pragmatics 5/1, 1995, 45–55.</bibl>
+               <bibl xml:id="COM-000041_bibl_3_1">Bilbow, Grahame T., “Cross-Cultural Impression Management in the Multicultural Workplace: The Special Case of Hong Kong”, Journal of Pragmatics 28/4, 1997, 461–487.</bibl>
+               <bibl xml:id="COM-000041_bibl_4_1">Bilbow, Grahame T., “Commissive Speech Act Use in Intercultural Business Meetings”, International Review of Applied Linguistics in Language Teaching 40/4, 2002, 287–303.</bibl>
+               <bibl xml:id="COM-000041_bibl_5_1">Chang, Wei-Lin Melody and Michael Haugh, “Evaluations of Im/Politeness of an Intercultural Apology”, Intercultural Pragmatics 8/3, 2011, 411–442.</bibl>
+               <bibl xml:id="COM-000041_bibl_6_1">Chen, Rong, “Responding to Compliments A Contrastive Study of Politeness Strategies between American English and Chinese Speakers”, Journal of Pragmatics 20/1, 1993, 49–75.</bibl>
+               <bibl xml:id="COM-000041_bibl_7_1">Chen, Rong, “Pragmatics East and West: Similar or Different”, in: Anna Trosborg, ed., Pragmatics across Languages and Cultures, Berlin: Mouton de Gruyter, 2010, 167–188.</bibl>
+               <bibl xml:id="COM-000041_bibl_8_1">Cheng, Winnie, Intercultural Conversation, Amsterdam: John Benjamins, 2003a.</bibl>
+               <bibl xml:id="COM-000041_bibl_9_1">Cheng, Winnie, “Humor in Intercultural Conversations”, Semiotica 146/1–4, 2003b, 287–306.</bibl>
+               <bibl xml:id="COM-000041_bibl_10_1">Cheng, Winnie and Martin Warren, “The Use of Vague Language in Intercultural Conversations in Hong Kong”, English World-Wide 22/1, 2001, 81–104.</bibl>
+               <bibl xml:id="COM-000041_bibl_11_1">Clancy, M. Patricia, Sandra A. Thompson, Ryoko Suzuki and Hongyin Tao, “The Conversational Use of Reactive Tokens in English, Japanese, and Mandarin”, Journal of Pragmatics 26/3, 1996, 355–387.</bibl>
+               <bibl xml:id="COM-000041_bibl_12_1">Du-Babcock, Bertha and Richard D. Babcock, “Patterns of Expatriate-Local Personnel Communication in Multinational Corporations”, Journal of Business Communication 33/2, 1996, 141–164.</bibl>
+               <bibl xml:id="COM-000041_bibl_13_1">Ewington, Nigel, Stuart Reid, Helen Spencer-Oatey and Stefanie Stadler, “The Global People Toolbook: Managing the Life Cycle of Intercultural Partnerships”, Warwick Occasional Papers in Applied Linguistics 2, 2009, http://www.globalpeople.org.uk.</bibl>
+               <bibl xml:id="COM-000041_bibl_14_1">Fung, Lancy, “The Communicative Role of Self-repetition in a Specialised Corpus of Business Discourse”, Language Awareness 16/3, 2007, 224–238.</bibl>
+               <bibl xml:id="COM-000041_bibl_15_1">Gu, Yueguo, “Politeness Phenomena in Modern Chinese”, Journal of Pragmatics 14/2, 1990, 237–257.</bibl>
+               <bibl xml:id="COM-000041_bibl_16_1">Gudykunst, William B. and Bella Mody, Handbook of International and Intercultural Communication, Thousand Oaks: Sage, 20022.</bibl>
+               <bibl xml:id="COM-000041_bibl_17_1">Gumperz, John and Celia Roberts, “Understanding in Intercultural Encounters”, in: Jan Bloomaert and Jef Verschueren, eds., The Pragmatics of Intercultural and International Communication, Amsterdam: John Benjamins, 1991, 51–90.</bibl>
+               <bibl xml:id="COM-000041_bibl_18_1">Jiang, Xiangying, “Cross-Cultural Pragmatic Differences in US and Chinese Press Conferences: The Case of the North Korea Nuclear Crisis”, Discourse &amp; Society 17/2, 2006, 237–257.</bibl>
+               <bibl xml:id="COM-000041_bibl_19_1">Kasper, Gabriele, Pragmatics of Chinese as Native and Target Language, Honolulu: University of Hawai'i Press, 1995.</bibl>
+               <bibl xml:id="COM-000041_bibl_20_1">Kirkpatrick, Andy and Zhichang Xu, “Chinese Pragmatic Norms and ‘China English’”, World Englishes 21/2, 2002, 269–279.</bibl>
+               <bibl xml:id="COM-000041_bibl_21_1">Ladegaard, Hans J., “Negotiation Style, Speech Accommodation and Small Talk in Sino-Western Business Negotiations: A Hong Kong Case Study”, Intercultural Pragmatics 8/2, 2011, 197–226.</bibl>
+               <bibl xml:id="COM-000041_bibl_22_1">Leech, Geoffrey, “Politeness: Is There an East-West Divide?”, Journal of Politeness Research: Language, Behaviour, Culture 3/2, 2007, 167–206.</bibl>
+               <bibl xml:id="COM-000041_bibl_23_1">Li, Wei, Hua Zhu and Yue Li, “Conversational Management and Involvement in Chinese-English Business Talk”, Language and Intercultural Communication 1/2, 2001, 135–250.</bibl>
+               <bibl xml:id="COM-000041_bibl_24_1">Li, Xiangling, Chinese-Dutch Business Negotiations: Insights from Discourse, Amsterdam: Rodopi B.V. Editions, 1999.</bibl>
+               <bibl xml:id="COM-000041_bibl_25_1">Loh, Wai-chee Teresa, “Responses to Compliments across Languages and Cultures: A Comparative Study of British and Hong Kong Chinese”, Research Report No. 30, Hong Kong: Department of English, City University of Hong Kong, 1993.</bibl>
+               <bibl xml:id="COM-000041_bibl_26_1">Mao, LuMing Robert, “Beyond Politeness Theory : ‘Face’ Revisited and Renewed”, Journal of Pragmatics 21/5, 1994, 451–486.</bibl>
+               <bibl xml:id="COM-000041_bibl_27_1">Rogerson-Revell, Pamela, “Humour in Business: A Double-Edged Sword: A Study of Humour and Style Shifting in Intercultural Business Meetings”, Journal of Pragmatics 39/1, 2007, 4–28.</bibl>
+               <bibl xml:id="COM-000041_bibl_28_1">Spencer-Oatey, Helen and Jianyu Xing, “Relational management in Chinese-British business meetings”, in: Susan Hunston, ed., Language at Work, Clevedon: Multilingual Matters, 1998, 31–46.</bibl>
+               <bibl xml:id="COM-000041_bibl_29_1">Spencer-Oatey, Helen and Jianyu Xing, “Managing Rapport in Intercultural Business Interactions: A Comparison of Two Chinese-British Welcome Meetings”, Journal of Intercultural Communicaiton 24/1, 2003, 33–46.</bibl>
+               <bibl xml:id="COM-000041_bibl_30_1">Spencer-Oatey, Helen and Jianyu Xing, “Rapport Management Problems in Chinese-British Business Interactions”, in: Juliane House and Jochen Rehbein, eds., Multilingual Communication, Amsterdam: John Benjamins, 2004, 197–211.</bibl>
+               <bibl xml:id="COM-000041_bibl_31_1">Spencer-Oatey, Helen and Jianyu Xing, “Managing Talk and Non-Talk in Intercultural Interactions: Insights from Two Chinese-British Business Meetings”, Multilingua: Journal of Cross-Cultural and Interlanguage Communication 24/1–2, 2005, 55–74.</bibl>
+               <bibl xml:id="COM-000041_bibl_32_1">Spencer-Oatey, Helen and Jianyu Xing, “Issues of Face in a Chinese Business Visit to Britain”, in Helen Spencer-Oatey, ed., Culturally Speaking: Managing Rapport through Talk across Cultures, London: Continuum, [2000] 2008, 258–273.</bibl>
+               <bibl xml:id="COM-000041_bibl_33_1">Spencer-Oatey, Helen, Patrick Ng and Li Dong, “Responding to Compliments: British and Chinese Evaluative Judgements”, in: Helen Spencer-Oatey, ed., Culturally Speaking: Managing Rapport through Talk across Cultures, London: Continuum, [2008] 2000, 98–120.</bibl>
+               <bibl xml:id="COM-000041_bibl_34_1">Stadler, Stefanie and Helen Spencer-Oatey, “Sino-British Interaction in Professional Contexts”, Warwick Occasional Papers in Applied Linguistics 6, 2009, http://www.globalpeople.org.uk.</bibl>
+               <bibl xml:id="COM-000041_bibl_35_1">Tang, Chen-Hsin and Grace Qiao Zhang, “A Contrastive Study of Compliment Responses among Australian English and Mandarin Chinese Speakers”, Journal of Pragmatics 4/2, 2009, 325–345.</bibl>
+               <bibl xml:id="COM-000041_bibl_36_1">Ulijn, Jan M. and Xiangling Li, “Is Interrupting Impolite? Some Temporal Aspects of Turn-Taking in Chinese-Western and other Intercultural Business Encounters”, Text 15/4, 1995, 589–628.</bibl>
+               <bibl xml:id="COM-000041_bibl_37_1">Yeung, Lorrita Ngor-To, “The Question of Chinese Indirectness: A Comparison of Chinese and English Participative Decision-Making Discourse”, Multilingua 19/3, 2000, 221–264.</bibl>
+               <bibl xml:id="COM-000041_bibl_38_1">Young, Wai Ling Linda, Crosstalk and Culture in Sino-American Communication, Cambridge: Cambridge University Press, 1994.</bibl>
+               <bibl xml:id="COM-000041_bibl_39_1">Žegarac, Vladimir, “A Cognitive Pragmatic Perspective on Communication and Culture”, in: Helga Kotthoff and Helen Spencer-Oatey, eds., Handbook of Intercultural Communication, Berlin: Mouton de Gruyter, 2007, 31–53.</bibl>
+               <bibl xml:id="COM-000041_bibl_40_1">Žegarac, Vladimir and Martha C. Pennington, “Pragmatic Transfer in Intercultural Communication”, in: Helen Spencer-Oatey, ed., Culturally Speaking: Managing Rapport through Talk across Cultures, London: Continuum, [2000] 2008, 141–163.</bibl>
+               <bibl xml:id="COM-000041_bibl_41_1">Zhu Hua, Li Wei and Qian Yuan, “The Sequential Organisation of Gift Offering and Acceptance in Chinese”, Journal of Pragmatics 32/1, 2000, 81–103.</bibl>
+               <bibl xml:id="COM-000041_bibl_42_1">Zhu, Yunxia, “Building Intercultural Alliances: A Study of Moves and Strategies in Initial Business Negotiation Meetings”, Text &amp; Talk 31/1, 2011, 101–125.</bibl>
+               <bibl xml:id="COM-000041_bibl_43_1"> </bibl>
             </listBibl>
          </div>
       </body>

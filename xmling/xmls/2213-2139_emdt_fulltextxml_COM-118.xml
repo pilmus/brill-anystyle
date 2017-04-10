@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:xs="http://relaxng.org/ns/structure/1.0"
+     xmlns:type="application/tei+xml"
+     xml:id="COM-118">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Alnage or Ulnage</title>
+            <title level="a" type="sub">Alnage or Ulnage</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Phoebe Merrick%22">
+               <name type="person">Phoebe Merrick</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title level="m">Encyclopedia of Medieval Dress and Textiles</title>
+               <editor/>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">0</biblScope>
+               <idno type="DOI">10.1163/2213-2139_emdt_COM_118</idno>
+               <idno type="sams-id">emdt</idno>
+               <idno type="publisher-id"/>
+               <idno type="ISBN">9789004124356</idno>
+               <idno type="ISSN">2213-2139</idno>
+               <idno type="URI">http://referenceworks.brillonline.com/entries/encyclopedia-of-medieval-dress-and-textiles/*COM_118</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p><!-- <info><sumpara>A tax levied on cloth in England from the 14<hi rend="superscript">th</hi> to the 18<hi rend="superscript">th</hi> centuries.</sumpara></info> --></p>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>History</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20120503" status="first-print">Print publication</change>
+         <change when="20120423" status="first-online"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Ulnage (the preferred term in The National Archives) means 'measurement', but in England the word came to be associated with a subsidy levied on high quality <ref target="SIM-000975">woollen</ref> cloths. In addition many towns appointed their own ulnagers whose duties were to measure lengths of cloth for sale. The only other country to levy a tax on cloth in medieval Europe was Catalonia, where it was known as <hi rendition="#italic">bolla</hi>.</p>
+         <p>The king appointed ulnagers, whose duties included buying cloths for his household. There were long-running disputes about the sizes of cloth, and standards were laid down in the Statute of Northampton, 1328. Originally this statute applied to imported cloths but it was extended in 1350 to cover all cloth for sale. The king's ulnagers were so zealous that the number of cloths seized adversely affected trade. In 1353 a compromise was reached and the merchants agreed to pay a levy on each cloth.</p>
+         <p>There were two parts to the charges, known colloquially as 'the ulnage'. The first was a subsidy of 4d per cloth of assize, worth 13s 4d or more with <hi rendition="#italic">pro rata</hi> payments on larger or smaller cloths, and 6d on <ref target="COM-550">scarlets</ref>. The revenue went to the Exchequer. In addition there was an ulnage fee of ½d per cloth, or ¼d for half cloths, paid to the ulnager. <ref target="COM-697">Worsted</ref> cloths were always excluded.</p>
+         <p>There was a major re-structuring of the administration of the ulnage in 1394. The records from 1394 to 1485 are the most comprehensive, although the revenue was always small. The ulnage lasted until the tax was abolished in 1724. When a merchant paid the tax, a lead <ref target="COM-555">seal</ref> would be affixed in evidence. Some of these seals have survived and are to be found in museums.</p>
+         <p>The tax was sometimes administered by ulnagers directly employed by the exchequer and sometimes by 'farmers' (who paid an annual fee and kept all the receipts: see <ref target="COM-119">alnagers</ref>), but the use of deputies was explicitly not allowed. The directly-employed ulnagers were expected to account in detail for the cloths that they had taxed, whereas the farmers had only to account for their farm fee. Both groups had the power to seize untaxed cloths offered for sale and they had to account for these. The returns describe such cloths and give their value. Seized cloths were valued locally and auctioned.</p>
+         <p>Nearly all the surviving records are stored in The National Archives (TNA). Most of the appointments of ulnagers are recorded in the Fine Rolls. There are two Ulnage Rolls on which the returns of ulnagers are inscribed. In addition TNA holds a substantial number of particular records. Those of the directly-employed ulnagers of the 1390s, early 1400s and some from the 1460s are reasonably reliable and show who was paying the ulnage. There is a later series from the 1460s and 1470s which is clearly fictitious in part, if not in whole.</p>
+         <p>The revenue, like most other royal income of the time, was usually allocated in advance and often the ulnagers were authorised to pay it directly to the designated recipients, thereby avoiding the risk and expense of sending it to London. The use of the tax can be ascertained from items in the Patent Rolls and Close Rolls. These include the upkeep of the walls of the city of Winchester, and the maintenance of the king's hunting dogs.</p>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <listBibl>
+               <bibl xml:id="COM-118_bibl_1_1">
+								Primary sources:
+							</bibl>
+               <bibl xml:id="COM-118_bibl_2_1">Statutes of the Realm: The National Archives (TNA): http://www.nationalarchives.gov.uk/ search using terms ulnage, ulnager, E101. Rolls E358/8 and 358/9 have not been calendared.</bibl>
+               <bibl xml:id="COM-118_bibl_3_1">Given-Wilson, C., et al., ed., The Parliament Rolls of Medieval England, 16 vols and 1 CD-Rom (Woodbridge, Suffolk and Rochester, NY: 2005), passim.</bibl>
+               <bibl xml:id="COM-118_bibl_4_1">
+								Secondary sources:
+							</bibl>
+               <bibl xml:id="COM-118_bibl_5_1">Egan, G., et al., Lead Cloth Seals and the Related Items in the British Museum, British Museum Occasional Paper 93 (London: 1994).</bibl>
+               <bibl xml:id="COM-118_bibl_6_1">Hulton, M., True as Coventry Blue (Coventry: 1995).</bibl>
+               <bibl xml:id="COM-118_bibl_7_1">Lister, J., ed., The Early Yorkshire Woollen Trade, Extracts from the Hull Customs' Rolls and Complete Transcripts of the Ulnagers' Rolls, Yorkshire Archaeological Society Record Series 64 (1924).</bibl>
+               <bibl xml:id="COM-118_bibl_8_1">Merrick, P., 'The administration of the ulnage and subsidy on woollen cloth between 1394 and 1485, with a case study of Hampshire' (Unpublished MPhil thesis University of Southampton: 1997).</bibl>
+               <bibl xml:id="COM-118_bibl_9_1">Pearce Chope, R., 'The Aulnager in Devon', Transactions of the Devon Association 44 (1912), 568-96.</bibl>
+               <bibl xml:id="COM-118_bibl_10_1">Riu, M., 'The Woollen Industry in Catalonia in the Later Middle Ages' in Ed. N. B. Harte and K. G. Ponting, Cloth and Clothing in Medieval Europe: Essays in Memory of Prof. E.M. Carus-Wilson, Pasold Studies in Textile History 2 (London: 1983), 205-29.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

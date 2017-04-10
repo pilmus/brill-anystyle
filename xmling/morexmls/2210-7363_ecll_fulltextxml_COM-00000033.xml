@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-00000033">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:xs="http://relaxng.org/ns/structure/1.0"
+     xmlns:type="application/tei+xml"
+     xml:id="COM-00000033">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -21,7 +26,22 @@
             <pubPlace>Leiden | Boston</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title level="m"/></bibl>
+            <bibl>
+               <title level="m">Encyclopedia of Chinese Language and Linguistics</title>
+               <editor>
+                  <persName>
+                     <forename>Rint</forename>
+                     <surname>Sybesma</surname>
+                  </persName>
+               </editor>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">0</biblScope>
+               <idno type="DOI">10.1163/2210-7363_ecll_COM_00000033</idno>
+               <idno type="sams-id">ecll</idno>
+               <idno type="publisher-id"/>
+               <idno type="ISSN">2210-7363</idno>
+               <idno type="URI">http://referenceworks.brillonline.com/entries/encyclopedia-of-chinese-language-and-linguistics/*COM_00000033</idno>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -324,78 +344,78 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="COM-00000033_bibl_1_1"><author><name>Astraxan, E.B. and Zav'jalova, O.I. and Sofronov, M.V.</name></author><title level="m">Dialekty i natsional'nyj jazyk v Kitae [Chinese dialects and the National Language of</title><date>1985</date><pubPlace>China], Moscow</pubPlace><publisher>Nauka</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_2_1"><title level="m">Cháng Bǎorú 常宝儒, Liú Jié 刘杰, Mǎ Xīnhuá 马欣华, Chén Zhōng 陈忠 and Hú Xiáng 胡翔, Běijīng kǒuyǔ diàochá yǔliàokù 北京口语调查语料库 [Materials of the survey of the Běijīng colloquial], Běijīng 北京: Beijing Language and Culture University 北京语言大学</title><date>1992</date><ref target="http://www.blcu.edu.cn/yys/6_beijing/wenjian/">http://www.blcu.edu.cn/yys/6_beijing/wenjian/</ref></bibl>
-               <bibl xml:id="COM-00000033_bibl_3_1"><title level="m">Cháng Xīzhēn 常锡桢, Běijīng tǔhuà 北京土话 [Colloquial Běijīng Mandarin], Běijīng 北京: Wénjīn 文津出版社</title><date>1992</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_4_1"><author><name>Chao, Yuen Ren</name></author><title level="a">A Note on liǎ (俩), sā, etc.</title><title level="j">Harvard Journal of Asiatic studies</title><volume>1</volume><pages>33–38</pages><date>1936</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_5_1"><author><name>Chao, Yuen Ren</name></author><title level="m">A Grammar of Spoken Chinese</title><date>1968</date><pubPlace>Berkeley</pubPlace><publisher>University of California Press</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_6_1"><author><name>Chao, Yuen Ren</name></author><title level="m">What Is Correct Chinese?</title><pages>72–83</pages><editor><name>Dil, Anwar S.</name></editor><date>1976</date><pubPlace>Stanford</pubPlace><publisher>Stanford University Press</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_7_1"><author><name>Chao, Yuen Ren</name></author><title level="m">Chinese Terms of Address</title><pages>309–342</pages><editor><name>Dil, Anwar S.</name></editor><date>1976</date><pubPlace>Stanford</pubPlace><publisher>Stanford University Press</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_8_1"><title level="m">Chén Gāng 陈刚, Sòng Xiàocái 宋孝才 and Zhāng Xiùzhēn 张秀珍, eds., Xiàndài Běijīng kǒuyǔ cídiǎn 现代北京口语词典 [Dictionary of Modern Běijīng Mandarin], Běijīng 北京: Yǔwén 语文出版社</title><date>1997</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_9_1"><author><name>Chen, Matthew</name></author><title level="m">Tone Sandhi</title><date>2000</date><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_10_1"><author><name>Chen, Ping</name></author><title level="m">Modern Chinese: History and Sociolinguistics</title><date>1999</date><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_11_1"><author><name>Chen, Yiya and Shen, Rachel and Schiller, Niels O.</name></author><title level="m">Representation of Allophonic Tone Sandhi Variants</title><pages>38–42</pages><date>2011</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_12_1"><author><name>Chen, Yiya and Xu, Yi</name></author><title level="m">“Production of Weak Elements in Speech: Evidence from Neutral</title><pages>47–75</pages><date>2006</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_13_1"><author><name>Chirkova, Ekaterina</name></author><title level="m"/><date>2003</date><pubPlace>Leiden</pubPlace><publisher>CNWS Publications</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_14_1"><author><name>Chirkova, Katia</name></author><title level="a">On yí ‘One Item’, liǎ ‘Two Items’, and sā ‘Three Items’</title><title level="j">Journal of the Chinese Language Teachers Association</title><volume>39</volume><pages>19–34</pages></bibl>
-               <bibl xml:id="COM-00000033_bibl_15_1"><author><name>Chirkova, Katia and Lamarre, Christine</name></author><title level="a">The Paradox of the Construction [Vzai NPloc] and Its Meanings in the Beijing Dialect of Mandarin</title><title level="j">Cahiers de Linguistique —Asie Orientale</title><volume>34</volume><pages>169–219</pages></bibl>
-               <bibl xml:id="COM-00000033_bibl_16_1"><author><name>Coblin, South W.</name></author><title level="m">Modern Chinese Phonology: From Guānhuà to Mandarin, Collection des Cahiers de Linguistique —</title><date>2007</date><pubPlace>Paris</pubPlace><publisher>EHESS/CRLAO</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_17_1"><author><name>Francis, De and John</name></author><title level="m">Nationalism and Language Reform in</title><date>1950</date><pubPlace>China, Princeton</pubPlace><publisher>Princeton University Press</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_18_1"><author><name>Dragunov, Aleksandr Aleksandrovič</name></author><title level="m">Issledovanija po grammatike sovremennogo kitajskogo jazyka [Studies in Modern Chinese grammar]</title><date>1952</date><pubPlace>Moscow</pubPlace><publisher>Akademija Nauk</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_19_1"><title level="m">Dù Yǒngdào 杜永道, “Běijīnghuà zhōng de ‘yí + míng’ 北京话中的‘一+名’”</title><volume>2</volume><pages>142</pages><date>1993</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_20_1"><title level="m">Fàn Jìyān 范继淹, “Lùn jiècí duǎnyǔ zai + chùsuǒ 论介词短语‘在+处所’” [On the prepositional phrase “zài + location”]</title><volume>1</volume><pages>71–87</pages><date>1982</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_21_1"><title level="m">Gāo Àijūn 高艾军 and Fù Mín 傅民, Běijīnghuà cíyǔ 北京话词语 [Dialectal words and phrases in Běijīng Mandarin], Běijīng 北京: Běijīng Dàxué 北京大学出版社</title><date>2001</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_22_1"><title level="m">Hànyǔ pīnyīn fāng'àn (Cǎo'àn) 漢語拼音方案（草案）[Scheme for the Chinese Phonetic Alphabet (Draft)], The Committee for Language Reform</title><date>1958</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_23_1"><title level="m">Hànyǔ pīnyīn fāng'àn 汉语拼音方案 [Scheme for the Chinese Phonetic Alphabet], The Committee for Language Reform, eds., Běijīng 北京: Script Reform Press 文字改革出版社</title><date>1978</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_24_1"><author><name>Mantaro, Hashimoto</name></author><title level="m">“The Altaicization of Northern Chinese”, in John McCoy and Timothy Light, eds., Contributions to Sino-Tibetan Studies</title><pages>76–101</pages><date>1986</date><pubPlace>Leiden</pubPlace><publisher>Brill</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_25_1"><author><name>Hockett, Charles</name></author><title level="a">Peiping Phonology</title><title level="j">Journal of American Oriental Society</title><volume>67</volume><pages>253–267</pages><date>1947</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_26_1"><title level="m">Hóu Bǎolín 侯宝林, Hóu Bǎolín xiàngsheng xuǎn 侯宝林相声选 [A collection of comic sketches by Hóu Bǎolín], Běijīng 北京: Rénmín Wénxué 人民文学出版社</title><date>1980</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_27_1"><title level="m">Hóu Jīngyī 侯精一, Lín Tāo 林焘, Zhōu Yìmín 周一民 and Cài Wénlán 蔡文兰, Běijīnghuà yīndàng 北京话音档 [Recordings of Běijīng Mandarin], Xiàndài Hànyǔ fāngyán yīnkù 现代汉语方言音库 [Phonetic database of Modern Chinese dialects], Shànghǎi 上海: Shànghǎi Jiàoyù 上海教育出版社</title><date>1998</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_28_1"><title level="m">Hú Míngyáng 胡明扬, Běijīnghuà chūtàn 北京话初探 [A preliminary study of the dialect of Běijīng], Běijīng 北京: Shāngwù 商务印书馆</title><date>1987</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_29_1"><title level="m">Hú Míngyáng 胡明扬, ed., Běijīnghuà yánjiū 北京话研究 [Studies in colloquial Běijīng Mandarin], Běijīng 北京: Běijīng Yānshān 北京燕山出版社</title><date>1992</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_30_1"><title level="m">Huáng Bóróng 黄伯荣 and Liào Xùdōng 廖序东, Xiàndài Hànyǔ 现代汉语 [Modern Chinese], Běijīng 北京: Higher Education Press 高等教育出版社</title><date>1997</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_31_1"><author><name>Iljic, Robert</name></author><title level="m">“Le Marqueur Laizhe”, Cahiers de Linguistique—Asie Orientale 12/2</title><pages>65–102</pages><date>1983</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_32_1"><author><name>Jaxontov, Sergej Evgen’evič</name></author><title level="m">Kategorija glagola v kitajskom jazyke [The verbal category</title><date>1957</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_33_1"><title level="m">Jiǎ Cǎizhū 贾采珠, Běijīnghuà érhuà cídiǎn 北京话儿化辞典 [Dictionary of rhotacized forms in colloquial Běijīng Mandarin], Běijīng 北京: Yǔwén 语文出版社</title><date>1990</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_34_1"><title level="m">Jīn Shòushēn 金受申, Běijīnghuà yǔhuì 北京话语汇 [Pekingese vocabulary], Běijīng 北京: Shāngwù 商务印书馆</title><date>1961</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_35_1"><author><name>Kratochvil, Paul</name></author><title level="m">Disyllabic Stress Patterns in Peking Dialect</title><pages>383–402</pages><date>1964</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_36_1"><author><name>Kratochvil, Paul</name></author><title level="m">The Chinese Language Today</title><date>1968</date><pubPlace>London</pubPlace><publisher>Hutchinson University Library</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_37_1"><author><name>Kratochvil, Paul</name></author><title level="m">Phonetic Tone Sandhi in Beijing Dialect Stage Speech</title><pages>135–174</pages><date>1984</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_38_1"><author><name>Lamarre, Christine</name></author><title level="m">“Jootai henka, koobun, sosite gengo kanshoo – chuugokugo no [V + zai + basho] koobun no keesu 状態変化、構文、そして言語干渉:中国語の「V+在+場 所」構文のケース” [Change of state, construction meaning and language interference: The case of Chinese [V zai L] construction], Kaihen 開篇</title><volume>22</volume><pages>144–172</pages></bibl>
-               <bibl xml:id="COM-00000033_bibl_39_1"><author><name>Lamarre, Christine</name></author><title level="m">“Cóng Héběi Jìzhōu fāngyán duì xiàndài Hànyǔ [V zai L] géshì de zài tàntǎo 从河北冀州方言对现代汉语[V在+处所词]格式的再探讨” [A new analysis of the Modern Chinese [V zai L] construction based on the Jìzhōu dialect data], in: Dài Zhàomíng 戴昭铭, ed., Hànyǔ fāngyán yǔfǎ yánjiū hé tànsuǒ 汉语方言语法研究和探索</title><volume>2003</volume><pages>144–154</pages></bibl>
-               <bibl xml:id="COM-00000033_bibl_40_1"><author><name>Lee, Wai</name></author><title level="a">Sum and Eric Zee, “The Illustrations of the IPA: Standard Chinese (Beijing)”</title><title level="j">Journal of the International Phonetic Association</title><volume>33</volume><pages>109–112</pages></bibl>
-               <bibl xml:id="COM-00000033_bibl_41_1"><author><name>Li, Charles N. and Thompson, Sandra A.</name></author><title level="m">Mandarin Chinese: A Functional Reference Grammar</title><date>1981</date><pubPlace>Berkeley</pubPlace><publisher>University of California Press</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_42_1"><title level="m">Lín Maòcàn 林茂灿 and Yán Jǐngzhù 颜景助, “Běijīnghuà qīngshēng de shēngxué xìngzhi 北京话轻声的声学性质” [The acoustic nature of the neutral tone</title><volume>3</volume><pages>161–165</pages><date>1980</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_43_1"><title level="m">Lín Maòcàn 林茂灿, Yán Jǐngzhù 颜景助, Sūn Guóhuá 孙国华, “Běijīnghuà liǎng zì zǔ zhèngcháng zhòngyīn de chūbù shíyàn 北京话两字组正常重音的初步实验” [First look at the normal stress of bi-syllabic constituents</title><volume>1</volume><pages>57–73</pages><date>1984</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_44_1"><author><name>Tāo, Lín</name></author><title level="m">“Běijīng guānhuà sùyuán 北京官话溯源” [On the origins of Běijīng Mandarin], Zhōngguó Yǔwén 中国语文</title><pages>161–170</pages><date>1987</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_45_1"><title level="m">Liú Yìzhī 刘一之, Běijīnghuà zhōng de “zhe” zì xīn tàn 北京话中的‘着 (zhe)’字新探 [Zhe in Běijīng Mandarin revisited], Běijīng 北京: Běijīng Dàxué 北京大学出版社</title><date>2001</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_46_1"><title level="m">Lù Zhìwěi 陆志韦, Běijīnghuà dānyīncí cíhuì 北京话单音词词汇 [A lexicon of the monosyllabic words in Běijīng Mandarin], Běijīng 北京: Kēxué 科学出版社</title><date>1956</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_47_1"><title level="m">Nakajima Motoki 中嶋幹起, Konpyuta ni yoru Pekin kogo goi no kenkyu / Computational Analysis of Field Data on Peking Colloquial, Tokyo 東京</title><date>1995</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_48_1"><author><name>Norman, Jerry</name></author><title level="m">Chinese</title><date>1988</date><pubPlace>Cambridge</pubPlace><publisher>Cambridge University Press</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_49_1"><author><name>Nixon, Jessie and Chen, Yiya and Schiller, Niels</name></author><title level="a">Multi-level processing of phonetic variants in speech production and visual word processing: evidence from Mandarin lexical tones</title><title level="j">Language, Cognition and Neuroscience</title><volume>2014</volume><pages>1–15</pages></bibl>
-               <bibl xml:id="COM-00000033_bibl_50_1"><title level="m">Péng Zōngpíng 彭宗平, Běijīnghuà érhuàcí yánjiū 北京话儿化词研究 [A study of rhotacized forms in colloquial Běijīng Mandarin], Běijīng 北京: Zhōngguó Chuánméi Dàxué 中国传媒大学出版社</title><date>2005</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_51_1"><title level="m">Shěn Jiǒng 沈迥, “Běijīnghuà shàngshēng liándú de diàoxíng zǔhé hé jiézòu xíngshì 北京话上声连读的调型组合和节奏形式” [F0 and rhythm of the 3rd tone sandhi</title><volume>4</volume><pages>274–281</pages><date>1994</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_52_1"><author><name>Dingxu, Shi</name></author><title level="m">Peking Mandarin, Language of the World 377</title><date>2004</date><pubPlace>Munich</pubPlace><publisher>LINCOM Europa</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_53_1"><title level="m">Shí Fēng 石峰 and Wáng Píng 王萍, “Běijīnghuà dānzìyīn shēngdiào de tǒngjì fēnxī 北京话单字音声调的统计分析” [Statistical analyses of the tonal contours of monosyllables</title><volume>1</volume><pages>324–333</pages><date>2006</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_54_1"><author><name>Speer, Shari R. and Shih, Chi-lin and Slowiaczek, Maria L.</name></author><title level="m">“Prosodic Structure in Language Comprehension: Evidence from</title><pages>337–354</pages><date>1989</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_55_1"><title level="m">Táng Hóng 唐宏, Běijīnghuà yǔ Hànyǔ pīnyīn 北京話與漢語拼音 [Běijīng Mandarin and the pīnyīn system of Standard Mandarin], Hong Kong 香港: Xiānggǎng Shànghǎi Shūjú 香港上海书局出版社</title><date>1974</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_56_1"><author><name>Wade, Thomas Francis and Hillier, Walter Caine</name></author><title level="a">A Progressive Course Designed to Assist the Student of Colloquial Chinese as Spoken in the Capital and the Metropolitan Department / Yǔyán zì’ěrjí 語言自邇集</title><title level="j">The Statistical Department of the Inspectorate General of Customs</title><volume>21886</volume><pubPlace>Shanghai</pubPlace></bibl>
-               <bibl xml:id="COM-00000033_bibl_57_1"><title level="m">Wáng Huán 王还, “Shuō zài 说 ‘在’” [On zài], Zhōngguó Yǔwén 中国语文</title><pages>55–26</pages><date>1957</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_58_1"><author><name>Wang, Jenny</name></author><title level="m">Zhijie, “The Geometry of Segmental Features in Beijing Mandarin”</title><date>1993</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_59_1"><title level="m">Wáng Zhìjié 王志洁 and Féng Shènglì 冯胜利, “Shēngdiào duìbǐfǎ yǔ Běijīnghuà shuāngyīnzǔ de zhòngyīn lèixíng 声调对比法与北京话双音组的重音类型” [Tonal contrast and disyllabic stress patterns</title><volume>5</volume><pages>3–22</pages></bibl>
-               <bibl xml:id="COM-00000033_bibl_60_1"><title level="m">Wáng Lì 王力, Zhōngguó yǔfá lǐlùn 中国语法理论 [Theory of Chinese grammar], vol. II, Běijīng 北京: Zhōnghuá 中华书局</title><date>1955</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_61_1"><author><name>Wang, William S.-Y. and</name></author><title level="m">Kung-Pu Li, “Tone 3 in Pekinese”</title><pages>629–636</pages><date>1967</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_62_1"><author><name>Wiedenhof, Jeroen</name></author><title level="m">Meaning and Syntax in Spoken Mandarin</title><date>1995</date><pubPlace>Leiden</pubPlace><publisher>Research School CNWS</publisher></bibl>
-               <bibl xml:id="COM-00000033_bibl_63_1"><title level="m">Wú Qǐtài 吳啟太 and Zhèng Yǒngbāng 鄭永邦, Guānhuà zhǐnán / A Guide to the Mandarin Language 官話指南, 1881, quoted from the 1989 reprint edition, Zhōu Chángxīng 周長星, ed., Yì bǎi nián qián de guóyǔ: Guānhuà zhǐnán 一百年前的國語:官話指南 [Chinese of one hundred years ago: A guide to the Mandarin language], Taipei 臺北: Yìzhì 益智文具圖書公司</title></bibl>
-               <bibl xml:id="COM-00000033_bibl_64_1"><author><name>Dan, Xu</name></author><title level="a">The Status of Marker gěi in Mandarin Chinese</title><title level="j">Journal of Chinese Linguistics</title><volume>22</volume><pages>363–394</pages><date>1994</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_65_1"><title level="m">Xú Shìróng 徐世荣, Běijīng túyǔ cídiǎn 北京土语辞典 [Běijīng local dialect dictionary], Běijīng 北京: Běijīng 北京出版社</title><date>1990</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_66_1"><title level="m">Zhào Jīnmíng 赵金铭, “Xiàndài Hànyǔ bǔyǔ wèizhì shàng de zài hé dào jíqí ruòhuà xíngshì de 现代汉语补语位置上的‘在’和‘到’及其弱化形式‘的’” [Zài and dào in the complement position and their weak form de</title><pages>1–14</pages><date>1995</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_67_1"><title level="m">Zhōu Yìmín 周一民, Běijīng xiàndài liúxíngyǔ 北京现代流行语 [Modern popular idioms in Běijīng Mandarin], Běijīng 北京: Běijīng Yānshān 北京燕山出版社</title><date>1992</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_68_1"><title level="m">Zhōu Yìmín 周一民, Běijīng kǒuyǔ yǔfǎ – Cífǎ juàn 北京口语语法—词法卷 [Grammar of the Běijīng colloquial: Lexicon], Běijīng 北京: Yǔwén 语文出版社</title><date>1998</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_69_1"><title level="m">Zhōu Yìmín 周一民, Xiàndài Běijīnghuà yánjiū 现代北京话研究, Běijīng 北京: Běijīng Shīfàn Dàxué 北京师范大学出版社</title><date>2002</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_70_1"><title level="m">Zhū Déxī 朱德熙, Yǔfá jiǎngyì 语法讲义 [Handout on grammar], Běijīng 北京: Shāngwù 商务印书馆</title><date>1997</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_71_1"><title level="m">Zhū Déxī 朱德熙, “Xiàndài Hànyǔ yǔfǎ yánjiū de duìxiàng shi shénme? 现代汉语语法研究的对象是什么?” [What is the aim of Modern Chinese grammar studies?], Zhōngguó Yǔwén 中国语文 5</title><pages>321–329</pages><date>1987</date></bibl>
-               <bibl xml:id="COM-00000033_bibl_72_1"><title level="m"/></bibl>
+               <bibl xml:id="COM-00000033_bibl_1_1">Astraxan, E.B., O.I. Zav'jalova and M.V. Sofronov, Dialekty i natsional'nyj jazyk v Kitae [Chinese dialects and the National Language of China], Moscow: Nauka, 1985.</bibl>
+               <bibl xml:id="COM-00000033_bibl_2_1">Cháng Bǎorú 常宝儒, Liú Jié 刘杰, Mǎ Xīnhuá 马欣华, Chén Zhōng 陈忠 and Hú Xiáng 胡翔, Běijīng kǒuyǔ diàochá yǔliàokù 北京口语调查语料库 [Materials of the survey of the Běijīng colloquial], Běijīng 北京: Beijing Language and Culture University 北京语言大学, 1992, http://www.blcu.edu.cn/yys/6_beijing/wenjian/北京口语语料查询系统简介.pdf.</bibl>
+               <bibl xml:id="COM-00000033_bibl_3_1">Cháng Xīzhēn 常锡桢, Běijīng tǔhuà 北京土话 [Colloquial Běijīng Mandarin], Běijīng 北京: Wénjīn 文津出版社, 1992.</bibl>
+               <bibl xml:id="COM-00000033_bibl_4_1">Chao, Yuen Ren, “A Note on liǎ (俩), sā, etc.”, Harvard Journal of Asiatic studies 1/1, 1936, 33–38.</bibl>
+               <bibl xml:id="COM-00000033_bibl_5_1">Chao, Yuen Ren, A Grammar of Spoken Chinese, Berkeley: University of California Press, 1968.</bibl>
+               <bibl xml:id="COM-00000033_bibl_6_1">Chao, Yuen Ren, “What Is Correct Chinese?” in: Anwar S. Dil, ed., Aspects of Chinese Sociolinguistics: Essays by Yuen Ren Chao, Stanford: Stanford University Press, 1976a, 72–83.</bibl>
+               <bibl xml:id="COM-00000033_bibl_7_1">Chao, Yuen Ren, “Chinese Terms of Address”, in: Anwar S. Dil, ed., Aspects of Chinese Sociolinguistics: Essays by Yuen Ren Chao, Stanford: Stanford University Press, 1976b, 309–342.</bibl>
+               <bibl xml:id="COM-00000033_bibl_8_1">Chén Gāng 陈刚, Sòng Xiàocái 宋孝才 and Zhāng Xiùzhēn 张秀珍, eds., Xiàndài Běijīng kǒuyǔ cídiǎn 现代北京口语词典 [Dictionary of Modern Běijīng Mandarin], Běijīng 北京: Yǔwén 语文出版社, 1997.</bibl>
+               <bibl xml:id="COM-00000033_bibl_9_1">Chen, Matthew, Tone Sandhi, Cambridge: Cambridge University Press, 2000.</bibl>
+               <bibl xml:id="COM-00000033_bibl_10_1">Chen, Ping, Modern Chinese: History and Sociolinguistics, Cambridge: Cambridge University Press, 1999.</bibl>
+               <bibl xml:id="COM-00000033_bibl_11_1">Chen, Yiya, Rachel Shen and Niels O. Schiller, “Representation of Allophonic Tone Sandhi Variants”, Proceedings of the Psycholinguistic Representation of Tone Conference, A Satellite Conference of 17th International Congress of Phonetic Sciences, Hong Kong, 2011, 38–42.</bibl>
+               <bibl xml:id="COM-00000033_bibl_12_1">Chen, Yiya and Yi Xu, “Production of Weak Elements in Speech: Evidence from Neutral Tone in Standard Chinese”, Phonetica 63, 2006, 47–75.</bibl>
+               <bibl xml:id="COM-00000033_bibl_13_1">Chirkova, Ekaterina, In Search of Time in Peking Mandarin, Leiden: CNWS Publications, 2003.</bibl>
+               <bibl xml:id="COM-00000033_bibl_14_1">Chirkova, Katia, “On yí ‘One Item’, liǎ ‘Two Items’, and sā ‘Three Items’”, Journal of the Chinese Language Teachers Association 39/2, 2004, 19–34.</bibl>
+               <bibl xml:id="COM-00000033_bibl_15_1">Chirkova, Katia and Christine Lamarre, “The Paradox of the Construction [Vzai NPloc] and Its Meanings in the Beijing Dialect of Mandarin”, Cahiers de Linguistique —Asie Orientale, 34/2, 2005, 169–219.</bibl>
+               <bibl xml:id="COM-00000033_bibl_16_1">Coblin, South W., Modern Chinese Phonology: From Guānhuà to Mandarin, Collection des Cahiers de Linguistique — Asie Orientale 11, Paris: EHESS/CRLAO, 2007.</bibl>
+               <bibl xml:id="COM-00000033_bibl_17_1">De Francis, John, Nationalism and Language Reform in China, Princeton: Princeton University Press, 1950.</bibl>
+               <bibl xml:id="COM-00000033_bibl_18_1">Dragunov, Aleksandr Aleksandrovič, Issledovanija po grammatike sovremennogo kitajskogo jazyka [Studies in Modern Chinese grammar], Moscow: Akademija Nauk, 1952.</bibl>
+               <bibl xml:id="COM-00000033_bibl_19_1">Dù Yǒngdào 杜永道, “Běijīnghuà zhōng de ‘yí + míng’ 北京话中的‘一+名’” [Yí + N in Běijīng Mandarin], Zhōngguó Yǔwén 中国语文 2, 1993, 142.</bibl>
+               <bibl xml:id="COM-00000033_bibl_20_1">Fàn Jìyān 范继淹, “Lùn jiècí duǎnyǔ zai + chùsuǒ 论介词短语‘在+处所’” [On the prepositional phrase “zài + location”], Yǔyán Yánjiū 语言研究 1, 1982, 71–87.</bibl>
+               <bibl xml:id="COM-00000033_bibl_21_1">Gāo Àijūn 高艾军 and Fù Mín 傅民, Běijīnghuà cíyǔ 北京话词语 [Dialectal words and phrases in Běijīng Mandarin], Běijīng 北京: Běijīng Dàxué 北京大学出版社, rev.ed. 2001 (first published in 1986).</bibl>
+               <bibl xml:id="COM-00000033_bibl_22_1">Hànyǔ pīnyīn fāng'àn (Cǎo'àn) 漢語拼音方案（草案）[Scheme for the Chinese Phonetic Alphabet (Draft)], The Committee for Language Reform, eds., Běijīng 北京: People's Educational Press 人民教育出版社, 1958.</bibl>
+               <bibl xml:id="COM-00000033_bibl_23_1">Hànyǔ pīnyīn fāng'àn 汉语拼音方案 [Scheme for the Chinese Phonetic Alphabet], The Committee for Language Reform, eds., Běijīng 北京: Script Reform Press 文字改革出版社, 1978.</bibl>
+               <bibl xml:id="COM-00000033_bibl_24_1">Hashimoto Mantaro, “The Altaicization of Northern Chinese”, in John McCoy and Timothy Light, eds., Contributions to Sino-Tibetan Studies, Leiden: Brill, 1986, 76–101.</bibl>
+               <bibl xml:id="COM-00000033_bibl_25_1">Hockett, Charles, “Peiping Phonology”, Journal of American Oriental Society 67, 1947, 253–267.</bibl>
+               <bibl xml:id="COM-00000033_bibl_26_1">Hóu Bǎolín 侯宝林, Hóu Bǎolín xiàngsheng xuǎn 侯宝林相声选 [A collection of comic sketches by Hóu Bǎolín], Běijīng 北京: Rénmín Wénxué 人民文学出版社, 1980.</bibl>
+               <bibl xml:id="COM-00000033_bibl_27_1">Hóu Jīngyī 侯精一, Lín Tāo 林焘, Zhōu Yìmín 周一民 and Cài Wénlán 蔡文兰, Běijīnghuà yīndàng 北京话音档 [Recordings of Běijīng Mandarin], Xiàndài Hànyǔ fāngyán yīnkù 现代汉语方言音库 [Phonetic database of Modern Chinese dialects], Shànghǎi 上海: Shànghǎi Jiàoyù 上海教育出版社, 1998.</bibl>
+               <bibl xml:id="COM-00000033_bibl_28_1">Hú Míngyáng 胡明扬, Běijīnghuà chūtàn 北京话初探 [A preliminary study of the dialect of Běijīng], Běijīng 北京: Shāngwù 商务印书馆, 1987.</bibl>
+               <bibl xml:id="COM-00000033_bibl_29_1">Hú Míngyáng 胡明扬, ed., Běijīnghuà yánjiū 北京话研究 [Studies in colloquial Běijīng Mandarin], Běijīng 北京: Běijīng Yānshān 北京燕山出版社, 1992.</bibl>
+               <bibl xml:id="COM-00000033_bibl_30_1">Huáng Bóróng 黄伯荣 and Liào Xùdōng 廖序东, Xiàndài Hànyǔ 现代汉语 [Modern Chinese], Běijīng 北京: Higher Education Press 高等教育出版社, 1997 (first published in 1991).</bibl>
+               <bibl xml:id="COM-00000033_bibl_31_1">Iljic, Robert, “Le Marqueur Laizhe”, Cahiers de Linguistique—Asie Orientale 12/2, 1983, 65–102.</bibl>
+               <bibl xml:id="COM-00000033_bibl_32_1">Jaxontov, Sergej Evgen’evič, Kategorija glagola v kitajskom jazyke [The verbal category in the Chinese language], Leningrad: Izdatel’stvo Leningradskogo Universiteta, 1957.</bibl>
+               <bibl xml:id="COM-00000033_bibl_33_1">Jiǎ Cǎizhū 贾采珠, Běijīnghuà érhuà cídiǎn 北京话儿化辞典 [Dictionary of rhotacized forms in colloquial Běijīng Mandarin], Běijīng 北京: Yǔwén 语文出版社, 1990.</bibl>
+               <bibl xml:id="COM-00000033_bibl_34_1">Jīn Shòushēn 金受申, Běijīnghuà yǔhuì 北京话语汇 [Pekingese vocabulary], Běijīng 北京: Shāngwù 商务印书馆, 1961.</bibl>
+               <bibl xml:id="COM-00000033_bibl_35_1">Kratochvil, Paul, “Disyllabic Stress Patterns in Peking Dialect”, Archiv Orientální 32, 1964, 383–402.</bibl>
+               <bibl xml:id="COM-00000033_bibl_36_1">Kratochvil, Paul, The Chinese Language Today, London: Hutchinson University Library, 1968.</bibl>
+               <bibl xml:id="COM-00000033_bibl_37_1">Kratochvil, Paul, “Phonetic Tone Sandhi in Beijing Dialect Stage Speech”, Cahiers de Linguistique—Asie Orientale 13, 1984, 135–174.</bibl>
+               <bibl xml:id="COM-00000033_bibl_38_1">Lamarre, Christine, “Jootai henka, koobun, sosite gengo kanshoo – chuugokugo no [V + zai + basho] koobun no keesu 状態変化、構文、そして言語干渉:中国語の「V+在+場 所」構文のケース” [Change of state, construction meaning and language interference: The case of Chinese [V zai L] construction], Kaihen 開篇 22, 2003a, 144–172.</bibl>
+               <bibl xml:id="COM-00000033_bibl_39_1">Lamarre, Christine, “Cóng Héběi Jìzhōu fāngyán duì xiàndài Hànyǔ [V zai L] géshì de zài tàntǎo 从河北冀州方言对现代汉语[V在+处所词]格式的再探讨” [A new analysis of the Modern Chinese [V zai L] construction based on the Jìzhōu dialect data], in: Dài Zhàomíng 戴昭铭, ed., Hànyǔ fāngyán yǔfǎ yánjiū hé tànsuǒ 汉语方言语法研究和探索 [Studies and research in Chinese dialectal grammar], Harbin 哈尔滨: Hēilóngjiāng Rénmín 黑龙江人民出版社, 2003b, 144–154.</bibl>
+               <bibl xml:id="COM-00000033_bibl_40_1">Lee, Wai Sum and Eric Zee, “The Illustrations of the IPA: Standard Chinese (Beijing)”, Journal of the International Phonetic Association 33, 2003, 109–112.</bibl>
+               <bibl xml:id="COM-00000033_bibl_41_1">Li, Charles N. and Sandra A. Thompson, Mandarin Chinese: A Functional Reference Grammar, Berkeley: University of California Press, 1981.</bibl>
+               <bibl xml:id="COM-00000033_bibl_42_1">Lín Maòcàn 林茂灿 and Yán Jǐngzhù 颜景助, “Běijīnghuà qīngshēng de shēngxué xìngzhi 北京话轻声的声学性质” [The acoustic nature of the neutral tone in Běijīng Mandarin], Fāngyán 方言 3, 1980, 161–165.</bibl>
+               <bibl xml:id="COM-00000033_bibl_43_1">Lín Maòcàn 林茂灿, Yán Jǐngzhù 颜景助, Sūn Guóhuá 孙国华, “Běijīnghuà liǎng zì zǔ zhèngcháng zhòngyīn de chūbù shíyàn 北京话两字组正常重音的初步实验” [First look at the normal stress of bi-syllabic constituents in Běijīng Mandarin], Fāngyán 方言 1, 1984, 57–73.</bibl>
+               <bibl xml:id="COM-00000033_bibl_44_1">Lín Tāo, “Běijīng guānhuà sùyuán 北京官话溯源” [On the origins of Běijīng Mandarin], Zhōngguó Yǔwén 中国语文 3, 1987, 161–170.</bibl>
+               <bibl xml:id="COM-00000033_bibl_45_1">Liú Yìzhī 刘一之, Běijīnghuà zhōng de “zhe” zì xīn tàn 北京话中的‘着 (zhe)’字新探 [Zhe in Běijīng Mandarin revisited], Běijīng 北京: Běijīng Dàxué 北京大学出版社, 2001.</bibl>
+               <bibl xml:id="COM-00000033_bibl_46_1">Lù Zhìwěi 陆志韦, Běijīnghuà      dānyīncí      cíhuì 北京话单音词词汇 [A lexicon of the monosyllabic words in Běijīng Mandarin], Běijīng 北京: Kēxué 科学出版社, 1956.</bibl>
+               <bibl xml:id="COM-00000033_bibl_47_1">Nakajima Motoki 中嶋幹起, Konpyuta ni yoru Pekin kogo goi no kenkyu / Computational Analysis of Field Data on Peking Colloquial, Tokyo 東京: Tokyo University of Foreign Studies東京外國語大學, 1995.</bibl>
+               <bibl xml:id="COM-00000033_bibl_48_1">Norman, Jerry, Chinese, Cambridge: Cambridge University Press, 1988.</bibl>
+               <bibl xml:id="COM-00000033_bibl_49_1">Nixon, Jessie, Yiya Chen and Niels Schiller, "Multi-level processing of phonetic variants in speech production and visual word processing: evidence from Mandarin lexical tones”, Language, Cognition and Neuroscience, 2014, 1–15.</bibl>
+               <bibl xml:id="COM-00000033_bibl_50_1">Péng Zōngpíng 彭宗平, Běijīnghuà érhuàcí yánjiū 北京话儿化词研究 [A study of rhotacized forms in colloquial Běijīng Mandarin], Běijīng 北京: Zhōngguó Chuánméi Dàxué 中国传媒大学出版社, 2005.</bibl>
+               <bibl xml:id="COM-00000033_bibl_51_1">Shěn Jiǒng 沈迥, “Běijīnghuà shàngshēng liándú de diàoxíng zǔhé hé jiézòu xíngshì 北京话上声连读的调型组合和节奏形式” [F0 and rhythm of the 3rd tone sandhi in Běijīng Mandarin], Zhōngguó Yǔwén 中国语文 4, 1994, 274–281.</bibl>
+               <bibl xml:id="COM-00000033_bibl_52_1">Shi Dingxu, Peking Mandarin, Language of the World 377, Munich: LINCOM Europa, 2004.</bibl>
+               <bibl xml:id="COM-00000033_bibl_53_1">Shí Fēng 石峰 and Wáng Píng 王萍, “Běijīnghuà dānzìyīn shēngdiào de tǒngjì fēnxī 北京话单字音声调的统计分析” [Statistical analyses of the tonal contours of monosyllables in Běijīng Mandarin], Zhōngguó Yǔwén 中国语文 1, 2006, 324–333.</bibl>
+               <bibl xml:id="COM-00000033_bibl_54_1">Speer, Shari R., Chi-lin Shih and Maria L. Slowiaczek, “Prosodic Structure in Language Comprehension: Evidence from Tone Sandhi in Mandarin”, Language and Speech 32/4, 1989, 337–354.</bibl>
+               <bibl xml:id="COM-00000033_bibl_55_1">Táng Hóng 唐宏, Běijīnghuà yǔ Hànyǔ pīnyīn 北京話與漢語拼音 [Běijīng Mandarin and the pīnyīn system of Standard Mandarin], Hong Kong 香港: Xiānggǎng Shànghǎi Shūjú 香港上海书局出版社, 1974.</bibl>
+               <bibl xml:id="COM-00000033_bibl_56_1">Wade, Thomas Francis and Walter Caine Hillier, A Progressive Course Designed to Assist the Student of Colloquial Chinese as Spoken in the Capital and the Metropolitan Department / Yǔyán zì’ěrjí 語言自邇集, Shanghai: The Statistical Department of the Inspectorate General of Customs, 21886.</bibl>
+               <bibl xml:id="COM-00000033_bibl_57_1">Wáng Huán 王还, “Shuō zài 说 ‘在’” [On zài], Zhōngguó Yǔwén 中国语文 2, 1957, 55–26.</bibl>
+               <bibl xml:id="COM-00000033_bibl_58_1">Wang, Jenny Zhijie, “The Geometry of Segmental Features in Beijing Mandarin”, dissertation, University of Delaware, 1993.</bibl>
+               <bibl xml:id="COM-00000033_bibl_59_1">Wáng Zhìjié 王志洁 and Féng Shènglì 冯胜利, “Shēngdiào duìbǐfǎ yǔ Běijīnghuà shuāngyīnzǔ de zhòngyīn lèixíng 声调对比法与北京话双音组的重音类型” [Tonal contrast and disyllabic stress patterns in Běijīng Mandarin], Yǔyán Kēxué 语言科学 5, 2006, 3–22.</bibl>
+               <bibl xml:id="COM-00000033_bibl_60_1">Wáng Lì 王力, Zhōngguó yǔfá lǐlùn 中国语法理论 [Theory of Chinese grammar], vol. II, Běijīng 北京: Zhōnghuá 中华书局, 1955.</bibl>
+               <bibl xml:id="COM-00000033_bibl_61_1">Wang, William S.-Y. and Kung-Pu Li, “Tone 3 in Pekinese”, Journal of Speech and Hearing Research 10, 1967, 629–636. </bibl>
+               <bibl xml:id="COM-00000033_bibl_62_1">Wiedenhof, Jeroen, Meaning and Syntax in Spoken Mandarin, Leiden: Research School CNWS, 1995.</bibl>
+               <bibl xml:id="COM-00000033_bibl_63_1">Wú Qǐtài 吳啟太 and Zhèng Yǒngbāng 鄭永邦, Guānhuà zhǐnán / A Guide to the Mandarin Language 官話指南, 1881, quoted from the 1989 reprint edition, Zhōu Chángxīng 周長星, ed., Yì bǎi nián qián de guóyǔ: Guānhuà zhǐnán 一百年前的國語:官話指南 [Chinese of one hundred years ago: A guide to the Mandarin language], Taipei 臺北: Yìzhì 益智文具圖書公司.</bibl>
+               <bibl xml:id="COM-00000033_bibl_64_1">Xu Dan, “The Status of Marker gěi in Mandarin Chinese”, Journal of Chinese Linguistics 22/2, 1994, 363–394.</bibl>
+               <bibl xml:id="COM-00000033_bibl_65_1">Xú Shìróng 徐世荣, Běijīng túyǔ cídiǎn 北京土语辞典 [Běijīng local dialect dictionary], Běijīng 北京: Běijīng 北京出版社, 1990. </bibl>
+               <bibl xml:id="COM-00000033_bibl_66_1">Zhào Jīnmíng 赵金铭, “Xiàndài Hànyǔ bǔyǔ wèizhì shàng de zài hé dào jíqí ruòhuà xíngshì de 现代汉语补语位置上的‘在’和‘到’及其弱化形式‘的’” [Zài and dào in the complement position and their weak form de in contemporary Chinese], Zhōngguó Yǔyán Xuébào 中国语言学报 7, 1995, 1–14.</bibl>
+               <bibl xml:id="COM-00000033_bibl_67_1">Zhōu Yìmín 周一民, Běijīng xiàndài liúxíngyǔ 北京现代流行语 [Modern popular idioms in Běijīng Mandarin], Běijīng 北京: Běijīng Yānshān 北京燕山出版社, 1992.</bibl>
+               <bibl xml:id="COM-00000033_bibl_68_1">Zhōu Yìmín 周一民, Běijīng kǒuyǔ yǔfǎ – Cífǎ juàn 北京口语语法—词法卷 [Grammar of the Běijīng colloquial: Lexicon], Běijīng 北京: Yǔwén 语文出版社, 1998.</bibl>
+               <bibl xml:id="COM-00000033_bibl_69_1">Zhōu Yìmín 周一民, Xiàndài      Běijīnghuà yánjiū 现代北京话研究, Běijīng 北京: Běijīng Shīfàn Dàxué 北京师范大学出版社, 2002.</bibl>
+               <bibl xml:id="COM-00000033_bibl_70_1">Zhū Déxī 朱德熙, Yǔfá jiǎngyì 语法讲义 [Handout on grammar], Běijīng 北京: Shāngwù 商务印书馆, 1997. First published in 1982.</bibl>
+               <bibl xml:id="COM-00000033_bibl_71_1">Zhū Déxī 朱德熙, “Xiàndài Hànyǔ yǔfǎ yánjiū de duìxiàng shi shénme? 现代汉语语法研究的对象是什么?” [What is the aim of Modern Chinese grammar studies?], Zhōngguó Yǔwén 中国语文 5, 1987, 321–329.</bibl>
+               <bibl xml:id="COM-00000033_bibl_72_1"> </bibl>
             </listBibl>
          </div>
       </body>

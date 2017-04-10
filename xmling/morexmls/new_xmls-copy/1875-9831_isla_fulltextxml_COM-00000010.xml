@@ -21,7 +21,27 @@
             <pubPlace>Leiden | Boston</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title level="m"/></bibl>
+            <bibl>
+               <title level="m">Encyclopaedia Islamica</title>
+               <editor>
+                  <persName>
+                     <forename>Wilferd</forename>
+                     <surname>Madelung and</surname>
+                  </persName>
+                  <persName>
+                     <forename>Farhad</forename>
+                     <surname>Daftary</surname>
+                  </persName>
+               </editor>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">4:23a</biblScope>
+               <idno type="DOI">10.1163/1875-9831_isla_COM_00000010</idno>
+               <idno type="sams-id">isla</idno>
+               <idno type="publisher-id"/>
+               <idno type="ISBN">9789004246911</idno>
+               <idno type="ISSN">1875-9831</idno>
+               <idno type="URI">http://referenceworks.brillonline.com/entries/encyclopaedia-islamica/*COM_00000010</idno>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -69,31 +89,36 @@
                      Bibliography
                   </head>
             <listBibl>
-               <bibl xml:id="COM-00000010_bibl_1_1"><title level="m">Āqā Buzurg, al-Dharīʿa</title></bibl>
-               <bibl xml:id="COM-00000010_bibl_2_1"><title level="m">Bābā Rukn al-Dīn Shīrāzī, Masʿūd, Nuṣūṣ al-khuṣūṣ fī tarjamat al-Fuṣūṣ, ed. Rajab ʿAlī Maẓlūmī</title><date>1359</date><pubPlace>Tehran</pubPlace><publisher>Sh./1980</publisher></bibl>
-               <bibl xml:id="COM-00000010_bibl_3_1"><title level="a">Āthār-i bāstān: Bābā Rukn al-Dīn wa qabr-i ū</title><title level="j">Yādigār</title><volume>4</volume><pages>42–46</pages></bibl>
-               <bibl xml:id="COM-00000010_bibl_4_1"><title level="m">al-Baghdādī, Īḍāḥ</title></bibl>
-               <bibl xml:id="COM-00000010_bibl_5_1"><title level="m"/><publisher>Brockelmann, SI</publisher></bibl>
-               <bibl xml:id="COM-00000010_bibl_6_1"><author><name>Dānishpazhūh, Muḥammad-Taqī</name></author><title level="m">and Īraj Afshār, Nuskha-hā-yi khaṭṭī-yi nashriyya-yi kitābkhānah-yi Markazī-yi Dānishgāh-i Tihrān</title><pubPlace>Tehran, 1348</pubPlace><publisher>Sh./1969</publisher></bibl>
-               <bibl xml:id="COM-00000010_bibl_7_1"><title level="m">Gazī Iṣfahānī, ʿAbd al-Karīm, Tadhkirat al-qubūr</title></bibl>
-               <bibl xml:id="COM-00000010_bibl_8_1"><author><name>Ghulam, Yousif Mahmud</name></author><title level="m">Introduction to the</title><pubPlace>Tehran, [197</pubPlace></bibl>
-               <bibl xml:id="COM-00000010_bibl_9_1"><author><name>Godard, André</name></author><title level="a">‘Iṣfahān’, Athār-é</title><title level="j">Īrān</title><volume>2</volume><pages>1–169</pages><date>1937</date></bibl>
-               <bibl xml:id="COM-00000010_bibl_10_1"><title level="m"/></bibl>
-               <bibl xml:id="COM-00000010_bibl_11_1"><author><name>Humāʾī</name></author><title level="m">Jalāl al-Dīn, ‘Bābā Rukn al-Dīn Shīrāzī’, in Nuṣūṣ al-khuṣūṣ fī tarjamat al-Fuṣūṣ</title><pages>pp. i–xxxi</pages><date>1359</date><pubPlace>Tehran</pubPlace></bibl>
-               <bibl xml:id="COM-00000010_bibl_12_1"><author><name>Hunarfar</name></author><title level="m">Luṭf Allāh, Ganjīnah-yi āthār-i tārīkhī-yi Īrān</title></bibl>
-               <bibl xml:id="COM-00000010_bibl_13_1"><title level="a">Iqbāl Āshtiyānī, ʿAbbās, ‘Bābā Rukn al-Dīn wa maqbara-yi ū’</title><title level="j">Yādigār</title><volume>2</volume><pages>42–46</pages></bibl>
-               <bibl xml:id="COM-00000010_bibl_14_1"><author><name>Anṣārī, Jābirī and Ḥasan</name></author><title level="m">Tārīkh-i Iṣfahān wa Rayy</title><date>1321</date><pubPlace>Tehran</pubPlace><publisher>Sh./1942</publisher></bibl>
-               <bibl xml:id="COM-00000010_bibl_15_1"><author><name>Kadoi, Y.</name></author><title level="m">Aspects of Frescoes in Fourteenth-century Iranian Architecture: The Case of Yazd</title><pages>["43", "pp. 217–240"]</pages><date>2005</date><pubPlace>Iran</pubPlace></bibl>
-               <bibl xml:id="COM-00000010_bibl_16_1"><author><name>Mahdawī</name></author><title level="m">Muṣliḥ al-Dīn, Tadhkirat al-qubūr</title><pubPlace>Iṣfahān, n.d</pubPlace></bibl>
-               <bibl xml:id="COM-00000010_bibl_17_1"><author><name>Mishkʷātī</name></author><title level="m">Nuṣrat Allāh, Fihrist-i banā-hā-yi tārīkhī wa amākin-i bāstānī-yi Īrān</title><date>1349</date><pubPlace>Tehran</pubPlace><publisher>Sh./1970</publisher></bibl>
-               <bibl xml:id="COM-00000010_bibl_18_1"><title level="m"/></bibl>
-               <bibl xml:id="COM-00000010_bibl_19_1"><title level="a">Nīkzād Amīr Ḥusaynī, Karīm, ‘Āthār-i tārīkhī-yi Iṣfahān’</title><title level="j">Hilāl</title><volume>7</volume><pages>20–27</pages><date>1959</date></bibl>
-               <bibl xml:id="COM-00000010_bibl_20_1"><title level="m">idem, Fihrist-i tārīkhchah-yi muṣawwar-i abniya-yi tārīkhī-yi Iṣfahān</title></bibl>
-               <bibl xml:id="COM-00000010_bibl_21_1"><author><name>Pīrniyā, Muḥammad Karīm</name></author><title level="m">Shīwah-hā-yi miʿmārī-yi Īrānī</title><date>1369</date><pubPlace>Tehran</pubPlace><publisher>Sh./1990</publisher></bibl>
-               <bibl xml:id="COM-00000010_bibl_22_1"><title level="m"/></bibl>
-               <bibl xml:id="COM-00000010_bibl_23_1"><author><name>Qummī, ʿAbbās</name></author><title level="m">Hadiyat al-aḥbāb</title><date>1362</date><pubPlace>Tehran</pubPlace><publisher>Sh./1983</publisher></bibl>
-               <bibl xml:id="COM-00000010_bibl_24_1"><author><name>Tihrānī, ʿAlī, Mard-i</name></author><title level="m">tawḥīd: Zindigī-nāmah-yi ʿārif-i siturg, Bābā Rukn al-Dīn Shīrāzī</title></bibl>
-               <bibl xml:id="COM-00000010_bibl_25_1"><author><name>Wilber, Donald Newton</name></author><title level="m">The Architecture of Islamic Iran: The Il Khānid Period</title><date>1955</date><pubPlace>Princeton, NJ</pubPlace></bibl>
+               <bibl xml:id="COM-00000010_bibl_1_1"><title level="m">Āqā Buzurg, al-Dharīʿa</title><unclear>
+                     </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_2_1"><title level="m">Bābā Rukn al-Dīn Shīrāzī, Masʿūd, Nuṣūṣ al-khuṣūṣ fī tarjamat al-Fuṣūṣ, ed. Rajab ʿAlī Maẓlūmī</title><date>1359</date><pubPlace>Tehran</pubPlace><publisher>Sh./1980</publisher><unclear> (,  )</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_3_1"><title level="a">Āthār-i bāstān: Bābā Rukn al-Dīn wa qabr-i ū</title><title level="j">Yādigār</title><biblScope unit="volume">4</biblScope><biblScope unit="page">42–46</biblScope><unclear>‘’, ,  (1324 Sh./1945), pp. </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_4_1"><title level="m">al-Baghdādī, Īḍāḥ</title><unclear>
+                     </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_5_1"><title level="m"/><publisher>Brockelmann, SI</publisher><unclear/></bibl>
+               <bibl xml:id="COM-00000010_bibl_6_1"><author><name>Dānishpazhūh, Muḥammad-Taqī</name></author><title level="m">and Īraj Afshār, Nuskha-hā-yi khaṭṭī-yi nashriyya-yi kitābkhānah-yi Markazī-yi Dānishgāh-i Tihrān</title><pubPlace>Tehran, 1348</pubPlace><publisher>Sh./1969</publisher><unclear>  ( )</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_7_1"><title level="m">Gazī Iṣfahānī, ʿAbd al-Karīm, Tadhkirat al-qubūr</title><unclear>, ed. Nāṣir Bāqirī Bīdhindī (Qumm, 1371/1952)</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_8_1"><author><name>Ghulam, Yousif Mahmud</name></author><title level="m">Introduction to the</title><pubPlace>Tehran, [197</pubPlace><unclear>,  Art of Arabic Calligraphy in Iran (–])</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_9_1"><author><name>Godard, André</name></author><title level="a">‘Iṣfahān’, Athār-é</title><title level="j">Īrān</title><biblScope unit="volume">2</biblScope><biblScope unit="page">1–169</biblScope><date>1937</date><unclear>,  ,  (1) (), pp. </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_10_1"><title level="m"/><unclear>Ḥājjī Khalīfa, Kashf
+                     </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_11_1"><author><name>Humāʾī</name></author><title level="m">Jalāl al-Dīn, ‘Bābā Rukn al-Dīn Shīrāzī’, in Nuṣūṣ al-khuṣūṣ fī tarjamat al-Fuṣūṣ</title><biblScope unit="page">pp. i–xxxi</biblScope><date>1359</date><pubPlace>Tehran</pubPlace><unclear>,  (,  Sh./1980), </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_12_1"><author><name>Hunarfar</name></author><title level="m">Luṭf Allāh, Ganjīnah-yi āthār-i tārīkhī-yi Īrān</title><unclear>,  (Iṣfahān, 1344 Sh./1965)</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_13_1"><title level="a">Iqbāl Āshtiyānī, ʿAbbās, ‘Bābā Rukn al-Dīn wa maqbara-yi ū’</title><title level="j">Yādigār</title><biblScope unit="volume">2</biblScope><biblScope unit="page">42–46</biblScope><unclear>, , , 4 (1324 Sh./1945), pp. </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_14_1"><author><name>Anṣārī, Jābirī and Ḥasan</name></author><title level="m">Tārīkh-i Iṣfahān wa Rayy</title><date>1321</date><pubPlace>Tehran</pubPlace><publisher>Sh./1942</publisher><unclear>Jābirī Anṣārī, Ḥasan,  (,  )</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_15_1"><author><name>Kadoi, Y.</name></author><title level="m">Aspects of Frescoes in Fourteenth-century Iranian Architecture: The Case of Yazd</title><biblScope unit="page">["43", "pp. 217–240"]</biblScope><date>2005</date><pubPlace>Iran</pubPlace><unclear>, ‘’, , 43 (), pp. 217–240</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_16_1"><author><name>Mahdawī</name></author><title level="m">Muṣliḥ al-Dīn, Tadhkirat al-qubūr</title><pubPlace>Iṣfahān, n.d</pubPlace><unclear>,  (.)</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_17_1"><author><name>Mishkʷātī</name></author><title level="m">Nuṣrat Allāh, Fihrist-i banā-hā-yi tārīkhī wa amākin-i bāstānī-yi Īrān</title><date>1349</date><pubPlace>Tehran</pubPlace><publisher>Sh./1970</publisher><unclear>,  (,  )</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_18_1"><title level="m"/><unclear>Munzawī, Khaṭṭī
+                     </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_19_1"><title level="a">Nīkzād Amīr Ḥusaynī, Karīm, ‘Āthār-i tārīkhī-yi Iṣfahān’</title><title level="j">Hilāl</title><biblScope unit="volume">7</biblScope><biblScope unit="page">20–27</biblScope><date>1959</date><unclear>, , , 2 (Karachi, ), pp. </unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_20_1"><title level="m">idem, Fihrist-i tārīkhchah-yi muṣawwar-i abniya-yi tārīkhī-yi Iṣfahān</title><unclear> (Iṣfahān, 1335 Sh./1956)</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_21_1"><author><name>Pīrniyā, Muḥammad Karīm</name></author><title level="m">Shīwah-hā-yi miʿmārī-yi Īrānī</title><date>1369</date><pubPlace>Tehran</pubPlace><publisher>Sh./1990</publisher><unclear>,  (,  )</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_22_1"><title level="m"/><unclear>Pope, Arthur Upham, 
+                        A Survey of Persian Art (London, 1967)</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_23_1"><author><name>Qummī, ʿAbbās</name></author><title level="m">Hadiyat al-aḥbāb</title><date>1362</date><pubPlace>Tehran</pubPlace><publisher>Sh./1983</publisher><unclear>,  (,  )</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_24_1"><author><name>Tihrānī, ʿAlī, Mard-i</name></author><title level="m">tawḥīd: Zindigī-nāmah-yi ʿārif-i siturg, Bābā Rukn al-Dīn Shīrāzī</title><unclear>  (Qumm, 1388 Sh./2009)</unclear></bibl>
+               <bibl xml:id="COM-00000010_bibl_25_1"><author><name>Wilber, Donald Newton</name></author><title level="m">The Architecture of Islamic Iran: The Il Khānid Period</title><date>1955</date><pubPlace>Princeton, NJ</pubPlace><unclear>,  (, ).</unclear></bibl>
             </listBibl>
          </div>
       </body>

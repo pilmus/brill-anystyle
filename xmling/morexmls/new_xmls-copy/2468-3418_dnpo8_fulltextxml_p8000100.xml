@@ -21,7 +21,17 @@
             <pubPlace>Leiden | Boston</pubPlace>
          </publicationStmt>
          <sourceDesc>
-            <bibl><title level="m"/></bibl>
+            <bibl>
+               <title level="m">Der Neue Pauly Supplemente II Online - Band 8 : Historische Gestalten</title>
+               <editor/>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">1-8</biblScope>
+               <idno type="DOI">10.1163/2468-3418_dnpo8_p8000100</idno>
+               <idno type="sams-id">dnpo8</idno>
+               <idno type="publisher-id"/>
+               <idno type="ISSN">2468-3418</idno>
+               <idno type="URI">http://referenceworks.brillonline.com/entries/brill-s-new-pauly-supplements-ii-8/*p8000100</idno>
+            </bibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -146,24 +156,42 @@
                <div>
                   <head>Bibliography</head>
                   <listBibl>
-                     <bibl xml:id="p8000100_bibl_1_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_2_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_3_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_4_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_5_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_6_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_7_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_8_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_9_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_10_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_11_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_12_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_13_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_14_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_15_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_16_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_17_1"><title level="m"/></bibl>
-                     <bibl xml:id="p8000100_bibl_18_1"><title level="m"/></bibl>
+                     <bibl xml:id="p8000100_bibl_1_1"><title level="m"/><unclear>
+                                 [1] R. Hilpert, Bild und Text in Heinrich Steinhöwels ›Leben des hochberümten Fabeldichters Esopi‹, in: N. Holzberg (Hrsg.), Der Äsop-Roman. Motivgeschichte und Erzählstruktur, 1992, 131–154</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_2_1"><title level="m"/><unclear>
+                                 [2] N. Holzberg, Der Äsop-Roman. Eine strukturanalytische Interpretation, in: N. Holzberg (Hrsg.), Der Äsop-Roman. Motivgeschichte und Erzählstruktur, 1992, 33–75</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_3_1"><title level="m"/><unclear>
+                                 [3] N. Holzberg, Die antike Fabel. Eine Einführung, 1993</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_4_1"><title level="m"/><unclear>
+                                 [4] H. Kunstmann, »Wie Eulenspiegel vom Parnaß in das Riesengebirge kam«, in: Jb. der Brüder-Grimm-Gesellschaft 10, 2000, 41–57</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_5_1"><title level="m"/><unclear>
+                                 [5] Ch. L. Küster, Illustrierte Aesop-Ausgaben des 15. und 16. Jh.s, 2 Bde. (Diss. Hamburg), 1970</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_6_1"><title level="m"/><unclear>
+                                 [6] F. Lissarrague, Aesop, between Man and Beast. Ancient Portraits and Illustrations, in: B. Cohen (Hrsg.), Not the Classical Ideal. Athens and the Construction of the Other in Greek Art, 2000, 132–149</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_7_1"><title level="m"/><unclear>
+                                 [7] M. J. Luzzatto, Art. Aisop-Roman, in: DNP 1, 1996, 359–360</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_8_1"><title level="m"/><unclear>
+                                 [8] M. J. Luzzatto, Art. Aisopos, in: DNP 1, 1996, 360–365</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_9_1"><title level="m"/><unclear>
+                                 [9] P. von Möllendorff, Die Fabel von Adler und Mistkäfer im Äsoproman, in: RhM 137, 1994, 141–161</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_10_1"><title level="m"/><unclear>
+                                 [10] J.-Th. A. Papademetriou, Aesop as an Archetypal Hero, 1997</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_11_1"><title level="m"/><unclear>
+                                 [11] B. E. Perry, Studies in the Text History of the Life and Fables of Aesop, 1936</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_12_1"><title level="m"/><unclear>
+                                 [12] G. M. A. Richter, The Portraits of the Greeks, 1965</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_13_1"><title level="m"/><unclear>
+                                 [13] M. Schauer / S. Merkle, Äsop und Sokrates, in: N. Holzberg (Hrsg.), Der Äsop-Roman. Motivgeschichte und Erzählstruktur, 1992, 85–96</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_14_1"><title level="m"/><unclear>
+                                 [14] Th. Spoerri, Der Aufstand der Fabel, in: Trivium 1, 1942–1943, 31–63</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_15_1"><title level="m"/><unclear>
+                                 [15] S. Stone-Blackburn, Robertson Davies, Playwright. A Search for the Self on the Canadian Stage, 1985</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_16_1"><title level="m"/><unclear>
+                                 [16] R. Tenberg, Die deutsche Till-Eulenspiegel-Rezeption bis zum Ende des 16. Jh.s (Diss. Göttingen), 1996</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_17_1"><title level="m"/><unclear>
+                                 [17] M. L. West, The Ascription of Fables to Aesop in Archaic and Classical Greece, in: La Fable. Entretiens sur l'Antiquité classique 30, 1984, 105–136</unclear></bibl>
+                     <bibl xml:id="p8000100_bibl_18_1"><title level="m"/><unclear>
+                                 [18] A. Wiechers, Aesop in Delphi (Diss. Köln), 1961</unclear></bibl>
                   </listBibl>
                </div>
                <!-- <writ>Manuel Baumbach</writ> -->
