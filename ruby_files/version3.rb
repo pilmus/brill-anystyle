@@ -5,10 +5,13 @@ require 'nokogiri'
 
 def transform(file)
   xml = Nokogiri::XML(File.open(file))
-  xml.css("bibl").each do |bibl|
+
+  # find the tag named listBibl and every bibl under it
+  xml.css("listBibl bibl").each do |bibl|
     bt = bibl.text
     next if bt.include? ("Primary sources" || "Secondary sources")
 
+    # replaces numbers within brackets that may be at the beginning of a bibl
     bt.sub! "\[^\d{1,2}\]", ""
 
     bibl.content = ""
