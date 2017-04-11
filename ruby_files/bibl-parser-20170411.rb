@@ -14,7 +14,8 @@ def transform(file)
     next if bt.include? ("Primary sources" || "Secondary sources")
 
     # replaces numbers within brackets that may be at the beginning of a bibl
-    bt.sub! "\[^\d{1,2}\]", ""
+    bt.sub! "^\[\d{1,2}\]", ""
+    bt.sub! "^\d{1,2}", ""
 
     bibl.content = ""
     tagged = Anystyle.parse bt
@@ -77,7 +78,7 @@ def stringify(tags, bibl, unknown)
 
   if tagdict.key?(:unknown) && unknown != ""
     bibl.add_child "<unclear>#{tagdict[:unknown]}</unclear>"
-  elseif tagdict.key?(:unknown) && unknown == ""
+  elsif tagdict.key?(:unknown) && unknown == ""
     bibl.add_child "<unclear>#{tagdict[:unknown]}</unclear>"
   else
     bibl.add_child "<unclear>#{unknown}</unclear>"
