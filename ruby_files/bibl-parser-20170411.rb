@@ -14,8 +14,8 @@ def transform(file)
     next if bt.include? ("Primary sources" || "Secondary sources")
 
     # replaces numbers within brackets that may be at the beginning of a bibl
-    bt.sub! "^\[\d{1,2}\]", ""
-    bt.sub! "^\d{1,2}", ""
+    bt.gsub(/^\[\d{1,2}\]/, '')
+    bt.gsub(/^\d{1,2}/, '')
 
     bibl.content = ""
     tagged = Anystyle.parse bt
@@ -120,6 +120,5 @@ xmlfolders.each do |item|
   current_path = Dir.pwd
   target_path = File.expand_path("..", current_path)
   Dir.chdir target_path
-  puts Dir.pwd
 end
 

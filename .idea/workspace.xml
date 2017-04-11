@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b88fcbf4-6f5f-4149-a766-95d3b725b57a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/ruby_files/version3.rb" afterPath="$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb" afterPath="$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +19,8 @@
       <file leaf-file-name="bibl-parser-20170411.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            <state relative-caret-position="374">
+              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -96,6 +95,7 @@
       <find>print</find>
       <find>bt</find>
       <find>elseif</find>
+      <find>puts</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -324,12 +324,12 @@
       <option name="presentableId" value="Default" />
       <updated>1491831042512</updated>
       <workItem from="1491831043678" duration="4332000" />
-      <workItem from="1491905716076" duration="147000" />
+      <workItem from="1491905716076" duration="698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4479000" />
+    <option name="totallyTimeSpent" value="5030000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -471,8 +471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="374">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
       </provider>
