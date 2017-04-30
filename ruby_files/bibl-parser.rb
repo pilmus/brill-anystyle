@@ -10,7 +10,13 @@ def transform(file)
   xml = Nokogiri::XML(File.open(file))
 
   # find the tag named listBibl and every bibl under it
-  xml.css("listBibl bibl").each do |bibl|
+  bibls = xml.css("listBibl bibl")
+
+  # count the number of bibls in the file
+  numbibls = bibls.length
+  puts numbibls
+
+  bibls.each do |bibl|
     bt = bibl.text
 
     # skips tags that include the words w/in the brackets, because we want to leave them unchanged
