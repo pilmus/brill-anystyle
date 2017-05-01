@@ -2,6 +2,7 @@
 
 require 'anystyle/parser'
 require 'nokogiri'
+require_relative 'bibl-counter'
 
 def transform(file)
 
@@ -12,15 +13,14 @@ def transform(file)
   # find the tag named listBibl and every bibl under it
   bibls = xml.css("listBibl bibl")
 
-  # count the number of bibls in the file
-  numbibls = bibls.length
-  puts numbibls
-
   bibls.each do |bibl|
     bt = bibl.text
 
     # skips tags that include the words w/in the brackets, because we want to leave them unchanged
     next if (bt.include? ("Primary sources" || "Secondary sources")) || bt == ""
+
+    # strip leading and trailing whitespaces
+    bt.strip!
 
     # replaces numbers within brackets that may be at the beginning of a bibl
     bt.gsub(/^\[\d{1,2}\]/, '')
@@ -124,6 +124,10 @@ xmlfolders.each do |item|
   # for each xml file in the folder, perform the transformation and save the result
   xmls.each do |xml|
     transformed = transform(xml)
+
+    # count the number of m and j level bibls
+    biblcounter(transformed)
+
     # make new file to write the transformed xml into
     outfile = File.new(File.join(Dir.pwd, dirname, xml), "w")
     outfile.write(transformed)
