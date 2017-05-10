@@ -2,10 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b88fcbf4-6f5f-4149-a766-95d3b725b57a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ruby_files/bibl-counter.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/crossreffing.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017-3-28/1875-9831_isla_fulltextxml_COM-00000010.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017-3-28/1877-0339_bec_fulltextxml_COM-00007.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017-3-28/2210-7363_ecll_fulltextxml_COM-00000033.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017-3-28/2210-7363_ecll_fulltextxml_COM-000041.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017-3-28/2213-2139_emdt_fulltextxml_COM-118.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017-3-28/2213-2139_emdt_fulltextxml_COM-129.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017-3-28/2468-3418_dnpo8_fulltextxml_p8000100.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/2017-3-28/brill.mod" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bad_xmling/dgwe/newProject.xpr" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_xmls/2210-7363_ecll_fulltextxml_COM-000041.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_xmls/2213-2139_emdt_fulltextxml_COM-118.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/old_xmls/brill.mod" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ruby_files/testnoko.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/1875-9831_isla_fulltextxml_COM-00000010.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/1877-0339_bec_fulltextxml_COM-00007.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/2210-7363_ecll_fulltextxml_COM-00000033.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/2210-7363_ecll_fulltextxml_COM-000041.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/2213-2139_emdt_fulltextxml_COM-118.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/2213-2139_emdt_fulltextxml_COM-129.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/2468-3418_dnpo8_fulltextxml_p8000100.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/2210-7363_ecll_fulltextxml_COM-00000033.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/2210-7363_ecll_fulltextxml_COM-000041.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/2213-2139_emdt_fulltextxml_COM-118.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/2213-2139_emdt_fulltextxml_COM-129.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/2468-3418_dnpo8_fulltextxml_p8000100.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/xmls/1877-0339_bec_fulltextxml_COM-00007.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/xmls/2210-7363_ecll_fulltextxml_COM-000041.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/xmls/2213-2139_emdt_fulltextxml_COM-118.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/xmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/xmls/new_xmls-copy/2210-7363_ecll_fulltextxml_COM-000041.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/xmling/xmls/new_xmls-copy/2213-2139_emdt_fulltextxml_COM-118.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ruby_files/bibl-counter.rb" afterPath="$PROJECT_DIR$/scripts/bibl-counter.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ruby_files/bibl-parser.rb" afterPath="$PROJECT_DIR$/scripts/bibl-parser.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Anystyle.2.iml" afterPath="$PROJECT_DIR$/.idea/Anystyle.2.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruby_files/bibl-parser.rb" afterPath="$PROJECT_DIR$/ruby_files/bibl-parser.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +50,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Anystyle2@crossreffing.coverage" NAME="crossreffing Coverage Results" MODIFIED="1494440730783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" MODULE_NAME="Anystyle.2" />
     <SUITE FILE_PATH="coverage/Anystyle2@bibl_parser.coverage" NAME="bibl-parser Coverage Results" MODIFIED="1493582793130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby_files" MODULE_NAME="Anystyle.2" />
     <SUITE FILE_PATH="coverage/Anystyle2@biblcounter.coverage" NAME="biblcounter Coverage Results" MODIFIED="1493582540201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby_files" MODULE_NAME="Anystyle.2" />
     <SUITE FILE_PATH="coverage/Anystyle2@bibl_counter.coverage" NAME="bibl-counter Coverage Results" MODIFIED="1493633266738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ruby_files" MODULE_NAME="Anystyle.2" />
@@ -24,32 +60,32 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="bibl-parser.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="bibl-parser.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="135" column="8" lean-forward="false" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+            <state relative-caret-position="714">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crossreffing.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/crossreffing.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="bibl-counter.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ruby_files/bibl-counter.rb">
+        <entry file="file://$PROJECT_DIR$/scripts/bibl-counter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="445">
+            <state relative-caret-position="567">
               <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1877-5888_rpp_fulltextxml_SIM-12633.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/new_xmls-copy/1877-5888_rpp_fulltextxml_SIM-12633.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -80,6 +116,10 @@
         <option value="$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb" />
         <option value="$PROJECT_DIR$/ruby_files/bibl-counter.rb" />
         <option value="$PROJECT_DIR$/ruby_files/bibl-parser.rb" />
+        <option value="$PROJECT_DIR$/ruby_files/crossreffing.rb" />
+        <option value="$PROJECT_DIR$/ruby_files/out.json" />
+        <option value="$PROJECT_DIR$/scripts/bibl-parser.rb" />
+        <option value="$PROJECT_DIR$/scripts/crossreffing.rb" />
       </list>
     </option>
   </component>
@@ -90,9 +130,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1140" />
-    <option name="width" value="788" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -109,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -133,106 +173,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ruby_files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby_files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruby_files" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_xmls-copy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bad_xmling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bad_xmling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bad_xmls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anystyle2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bad_xmling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bad_xmls" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="new_xmls-copy" />
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,11 +212,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Ruby.bibl-counter">
+  <component name="RunManager" selected="Ruby.crossreffing">
     <configuration default="false" name="bibl-counter" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Anystyle.2" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/ruby_files" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/scripts" />
       <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
       <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
       <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
@@ -277,7 +224,22 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/ruby_files/bibl-counter.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/scripts/bibl-counter.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="crossreffing" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="Anystyle.2" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/scripts" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/scripts/crossreffing.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <method />
     </configuration>
@@ -408,12 +370,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Ruby.bibl-counter" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.crossreffing" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Ruby.bibl-counter" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Ruby.crossreffing" />
+        <item index="1" class="java.lang.String" itemvalue="Ruby.bibl-counter" />
       </list>
     </recent_temporary>
   </component>
@@ -433,46 +397,58 @@
       <updated>1491831042512</updated>
       <workItem from="1491831043678" duration="4332000" />
       <workItem from="1491905716076" duration="147000" />
+      <workItem from="1494440639458" duration="102000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7395000" />
+    <option name="totallyTimeSpent" value="12684000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1140" y="0" width="788" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.68117976" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13104188" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3325967" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25026852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896176" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -485,23 +461,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/1877-5888_rpp_fulltextxml_SIM-12633.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="87" column="24" lean-forward="false" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/new_xmls-copy/1877-5888_rpp_fulltextxml_SIM-12633.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
@@ -509,23 +469,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/1877-5888_rpp_fulltextxml_SIM-12633.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/new_xmls-copy/1877-5888_rpp_fulltextxml_SIM-12633.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/1877-5888_rpp_fulltextxml_SIM-12633.xml" />
+    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/new_xmls-copy/1877-5888_rpp_fulltextxml_SIM-12633.xml" />
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -534,7 +480,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bad_xmling/dgwe/1873-8338_dgwe_fulltextxml_DGWE-161.xml" />
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -542,36 +488,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="108" column="347" lean-forward="false" selection-start-line="108" selection-start-column="347" selection-end-line="108" selection-end-column="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="99" column="268" lean-forward="false" selection-start-line="99" selection-start-column="268" selection-end-line="99" selection-end-column="268" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml" />
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml" />
+    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb" />
+    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml" />
     <entry file="file://$PROJECT_DIR$/ruby_files/attempt_0.rb" />
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -579,7 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
@@ -587,36 +509,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="108" column="347" lean-forward="true" selection-start-line="108" selection-start-column="347" selection-end-line="108" selection-end-column="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml" />
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml" />
+    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb" />
+    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml" />
     <entry file="file://$PROJECT_DIR$/ruby_files/attempt_0.rb" />
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -624,37 +522,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="108" column="347" lean-forward="false" selection-start-line="108" selection-start-column="347" selection-end-line="108" selection-end-column="347" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml" />
     <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/new_xmls-copy/1873-8338_dgwe_fulltextxml_DGWE-097.xml" />
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="99" column="268" lean-forward="false" selection-start-line="99" selection-start-column="268" selection-end-line="99" selection-end-column="268" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml" />
+    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb" />
+    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml" />
     <entry file="file://$PROJECT_DIR$/ruby_files/attempt_0.rb" />
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -664,23 +538,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bad_xmling/dgwe/1873-8338_dgwe_fulltextxml_DGWE-161.xml" />
     <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser-20170412.rb" />
-    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/1877-5888_rpp_fulltextxml_SIM-12633.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1827">
-          <caret line="87" column="24" lean-forward="false" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/1877-5888_rpp_fulltextxml_SIM-12633.xml" />
     <entry file="file://C:/Ruby23-x64/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="55" column="7" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="7" />
@@ -688,50 +554,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="108" column="347" lean-forward="true" selection-start-line="108" selection-start-column="347" selection-end-line="108" selection-end-column="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/attempt_0.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb" />
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml" />
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml" />
+    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb" />
+    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml" />
+    <entry file="file://$PROJECT_DIR$/ruby_files/attempt_0.rb" />
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
@@ -739,85 +568,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/attempt_0.rb">
+    <entry file="file://$PROJECT_DIR$/ruby_files/attempt_0.rb" />
+    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml" />
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml" />
+    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml" />
+    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb" />
+    <entry file="file://$PROJECT_DIR$/ruby_files/biblcounter.rb" />
+    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/new_xmls-copy/1877-5888_rpp_fulltextxml_SIM-12633.xml" />
+    <entry file="file://$PROJECT_DIR$/scripts/1877-0339_bec_fulltextxml_COM-00007.xml" />
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-counter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_xmls/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1875-9831_isla_fulltextxml_COM-00000010.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="108" column="347" lean-forward="false" selection-start-line="108" selection-start-column="347" selection-end-line="108" selection-end-column="347" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xmling/morexmls/new_xmls-copy/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="99" column="268" lean-forward="false" selection-start-line="99" selection-start-column="268" selection-end-line="99" selection-end-column="268" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser-20170411.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/biblcounter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bad_xmling/bad_xmls/new_xmls-copy/1877-5888_rpp_fulltextxml_SIM-12633.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/1877-0339_bec_fulltextxml_COM-00007.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-counter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
+        <state relative-caret-position="567">
           <caret line="27" column="3" lean-forward="false" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruby_files/bibl-parser.rb">
+    <entry file="file://$PROJECT_DIR$/ruby_files/out.json" />
+    <entry file="file://$PROJECT_DIR$/ruby_files/testnoko.rb" />
+    <entry file="file://$PROJECT_DIR$/scripts/bibl-parser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="135" column="8" lean-forward="false" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+        <state relative-caret-position="714">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crossreffing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>

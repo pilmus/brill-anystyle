@@ -32,6 +32,7 @@ def transform(file)
     # puts "Here is the tagdict: " + tagged.to_s
 
     stringify(tagged, bibl, bt)
+
   end
 
   return xml
