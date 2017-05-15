@@ -34,7 +34,6 @@ def biblcounter(xml)
 end
 
 
-
 if ARGV.length != 0
   biblcounter(ARGV[0])
 end

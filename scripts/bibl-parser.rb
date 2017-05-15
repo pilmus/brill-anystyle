@@ -4,10 +4,8 @@ require 'anystyle/parser'
 require 'nokogiri'
 require_relative 'bibl-counter'
 
+
 def tag(file)
-
-  # puts "\nCurrently transforming " + file.to_s + "\n"
-
   xml = Nokogiri::XML(File.open(file))
 
   # find the tag named listBibl and every bibl under it
@@ -16,7 +14,7 @@ def tag(file)
   bibls.each do |bibl|
     bt = bibl.text
 
-    # skips tags that include the words w/in the brackets, because we want to leave them unchanged
+    # skips certain tags we wish to leave unchanged
     next if (bt.include? ("Primary sources" || "Secondary sources")) || bt == ""
 
     # strip leading and trailing whitespaces
@@ -26,13 +24,11 @@ def tag(file)
     bt.gsub(/^\[\d{1,2}\]/, '')
     bt.gsub(/^\d{1,2}/, '')
 
+    # empty the tag so we can fill it with tagged information
     bibl.content = ""
     tagged = Anystyle.parse bt
 
-    # puts "Here is the tagdict: " + tagged.to_s
-
     stringify(tagged, bibl, bt)
-
   end
 
   return xml
