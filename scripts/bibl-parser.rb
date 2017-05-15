@@ -4,9 +4,9 @@ require 'anystyle/parser'
 require 'nokogiri'
 require_relative 'bibl-counter'
 
-def transform(file)
+def tag(file)
 
-  puts "\nCurrently transforming " + file.to_s + "\n"
+  # puts "\nCurrently transforming " + file.to_s + "\n"
 
   xml = Nokogiri::XML(File.open(file))
 
@@ -103,39 +103,3 @@ def stringify(tags, bibl, unknown)
 end
 
 Anystyle.parser.model.path = "." #put your model in the same folder as your script
-
-# select all the xml folders in the current directory
-# !!NOTE!! this assumes the only folders in the current directory are folders with xml files that
-# need to be converted!
-xmlfolders = Dir.glob('*').select {|f| File.directory? f}
-
-# name of the folder that will contain the transformed xmls
-dirname = "new_xmls-copy"
-
-xmlfolders.each do |item|
-  # go to the folder with the xml files
-  Dir.chdir item
-  puts "Currently converting files in " + Dir.pwd
-  # create the folder that will contain the new xmls if it does not yet exist
-  FileUtils.mkdir(dirname) unless Dir.exists?(dirname)
-
-  # list all the xml files in the folder
-  xmls = Dir.glob('*.xml')
-
-  # for each xml file in the folder, perform the transformation and save the result
-  xmls.each do |xml|
-    transformed = transform(xml)
-
-    # count the number of m and j level bibls
-    biblcounter(transformed)
-
-    # make new file to write the transformed xml into
-    outfile = File.new(File.join(Dir.pwd, dirname, xml), "w")
-    outfile.write(transformed)
-    outfile.close
-  end
-  current_path = Dir.pwd
-  target_path = File.expand_path("..", current_path)
-  Dir.chdir target_path
-end
-
