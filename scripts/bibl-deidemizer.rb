@@ -83,7 +83,8 @@ end
 if ARGV.length == 0
   deidemizeall
 elsif ARGV.length != 0
-  deidemized = deidemize(ARGV[0])
+  xml = ARGV[0]
+  deidemized = deidemize(xml)
   outfile = File.new(File.join(Dir.pwd, "deidemized_xmls-copy", xml), "w")
   outfile.write(deidemized)
   outfile.close
