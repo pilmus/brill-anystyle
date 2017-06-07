@@ -9,6 +9,8 @@ def biblcounter(xml)
   mbibls = 0
   jbibls = 0
   abibls = 0
+  sbibls = 0
+  ubibls = 0
 
   bibls.each do |bibl|
     # get the level of the title node
@@ -24,16 +26,25 @@ def biblcounter(xml)
     if level == "a"
       abibls += 1
     end
+    if level == "s"
+      sbibls += 1
+    end
+    if level == "u"
+      ubibls += 1
+    end
   end
 
-  # puts "number of bibls: " + totalbibls.to_s
-  # puts "title level=\"m\": " + mbibls.to_s
-  # puts "title level=\"j\": " + jbibls.to_s
-  # puts "title level=\"a\": " + jbibls.to_s
-  return totalbibls, mbibls, jbibls, abibls
+  return totalbibls, mbibls, jbibls, abibls, sbibls, ubibls
 end
 
 
 if ARGV.length != 0
-  biblcounter(ARGV[0])
+  xml = Nokogiri::XML(File.open(ARGV[0]))
+  totalbibls, mbibls, jbibls, abibls, sbibls, ubibls = biblcounter(xml)
+  puts "total bibls: " + totalbibls.to_s
+  puts "m-level bibls: " + mbibls.to_s
+  puts "j-level bibls: " + jbibls.to_s
+  puts "a-level bibls: " + abibls.to_s
+  puts "s-level bibls: " + sbibls.to_s
+  puts "u-level bibls: " + ubibls.to_s
 end

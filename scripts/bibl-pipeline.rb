@@ -25,15 +25,15 @@ def transformfolder(folder)
   csvname = folder.to_s + "_biblcounts.csv"
   # puts csvname
   countfile = CSV.open(csvname, 'w')
-  countfile << ["file", "total bibls", "m-level", "j-level", "a-level"]
+  countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level"]
 
   # for each xml file in the folder, perform the transformation and save the result
   xmls.each do |xml|
     tagged = tag(xml)
 
     # count the number of m and j level bibls
-    totalbibls, totalm, totalj, totala = biblcounter(tagged)
-    countfile << [xml.to_s, totalbibls, totalm, totalj, totala]
+    totalbibls, totalm, totalj, totala, totals, totalu = biblcounter(tagged)
+    countfile << [xml.to_s, totalbibls, totalm, totalj, totala, totals, totalu]
 
     # make new file to write the tagged xml into
     outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", xml), "w")
@@ -48,12 +48,14 @@ def transformall
   rootpath = Dir.pwd
 
   countfile = CSV.open("total_biblcounts.csv", 'w')
-  countfile << ["file", "total bibls", "m-level", "j-level", "a-level"]
+  countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level"]
 
   totalbibls = 0
   totalm = 0
   totalj = 0
   totala = 0
+  totals = 0
+  totalu = 0
 
   # select all the xml folders in the current directory
   # !!NOTE!! this assumes the only folders in the current directory are folders with xml files that
@@ -77,8 +79,10 @@ def transformall
       totalm += row[2]
       totalj += row[3]
       totala += row[4]
+      totals += row[5]
+      totalu += row[6]
     end
-    countfile << [folder, totalbibls, totalm, totalj, totala]
+    countfile << [folder, totalbibls, totalm, totalj, totala, totals, totalu]
     Dir.chdir rootpath
   end
   countfile.close

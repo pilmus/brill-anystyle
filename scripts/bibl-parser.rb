@@ -21,8 +21,8 @@ def tag(file)
     bt.strip!
 
     # replaces numbers within brackets that may be at the beginning of a bibl
-    bt.gsub(/^\[\d{1,2}\]/, '')
-    bt.gsub(/^\d{1,2}/, '')
+    bt.gsub!(/^\[\d{1,2}\]/, '')
+    bt.gsub!(/^\d{1,2}/, '')
 
     # empty the tag so we can fill it with tagged information
     bibl.content = ""
@@ -34,68 +34,81 @@ def tag(file)
   return xml
 end
 
-def stringify(tags, bibl, unknown)
+def stringify(tags, bibl, unclear)
   tagdict = tags[0]
 
   if tagdict.key?(:author)
     bibl.add_child "<author><name>#{tagdict[:author]}</name></author>"
-    unknown.sub! "#{tagdict[:author]}", ""
+    unclear.sub! "#{tagdict[:author]}", ""
   end
 
   if tagdict.key?(:journal)
     bibl.add_child "<title level=\"a\">#{tagdict[:title]}</title>"
-    unknown.sub! "#{tagdict[:title]}", ""
+    unclear.sub! "#{tagdict[:title]}", ""
   else
     bibl.add_child "<title level=\"m\">#{tagdict[:title]}</title>"
-    unknown.sub! "#{tagdict[:title]}", ""
+    unclear.sub! "#{tagdict[:title]}", ""
   end
 
   if tagdict.key?(:journal)
     bibl.add_child "<title level=\"j\">#{tagdict[:journal]}</title>"
-    unknown.sub! "#{tagdict[:journal]}", ""
+    unclear.sub! "#{tagdict[:journal]}", ""
   end
 
   if tagdict.key?(:volume)
     bibl.add_child "<biblScope unit=\"volume\">#{tagdict[:volume]}</biblScope>"
-    unknown.sub! "#{tagdict[:volume]}", ""
+    unclear.sub! "#{tagdict[:volume]}", ""
   end
 
   if tagdict.key?(:pages)
     bibl.add_child "<biblScope unit=\"page\">#{tagdict[:pages]}</biblScope>"
-    unknown.sub! "#{tagdict[:pages]}", ""
+    unclear.sub! "#{tagdict[:pages]}", ""
   end
 
   if tagdict.key?(:editor)
     bibl.add_child "<editor><name>#{tagdict[:editor]}</name></editor>"
-    unknown.sub! "#{tagdict[:editor]}", ""
+    unclear.sub! "#{tagdict[:editor]}", ""
   end
 
   if tagdict.key?(:date)
     bibl.add_child "<date>#{tagdict[:date]}</date>"
-    unknown.sub! "#{tagdict[:date]}", ""
+    unclear.sub! "#{tagdict[:date]}", ""
   end
 
   if tagdict.key?(:location)
     bibl.add_child "<pubPlace>#{tagdict[:location]}</pubPlace>"
-    unknown.sub! "#{tagdict[:location]}", ""
+    unclear.sub! "#{tagdict[:location]}", ""
   end
 
   if tagdict.key?(:publisher)
     bibl.add_child "<publisher>#{tagdict[:publisher]}</publisher>"
-    unknown.sub! "#{tagdict[:publisher]}", ""
-  end
-
-  if tagdict.key?(:unknown) && unknown != ""
-    bibl.add_child "<unclear>#{tagdict[:unknown]}</unclear>"
-  elsif tagdict.key?(:unknown) && unknown == ""
-    bibl.add_child "<unclear>#{tagdict[:unknown]}</unclear>"
-  else
-    bibl.add_child "<unclear>#{unknown}</unclear>"
+    unclear.sub! "#{tagdict[:publisher]}", ""
   end
 
   if tagdict.key?(:url)
     bibl.add_child "<ref target=\"#{tagdict[:url]}\">#{tagdict[:url]}</ref>"
+    unclear.sub! "#{tagdict[:url]}", ""
+  end
+
+  if tagdict.key?(:unknown)
+    bibl.add_child "<unclear>#{tagdict[:unknown]}#{unclear}</unclear>"
+  else
+    unclear.to_s.each_char { |c|
+      if c =~ /[[:punct:]]/ || c == ' '
+      else
+        bibl.add_child "<unclear>#{unclear}</unclear>"
+        break
+      end
+    }
   end
 end
 
 Anystyle.parser.model.path = "." #put your model in the same folder as your script
+
+if ARGV.length != 0
+ tagged = tag(ARGV[0])
+ FileUtils.mkdir("tagged_xmls-copy") unless Dir.exists?("tagged_xmls-copy")
+ outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", ARGV[0]), "w")
+ outfile.write(tagged)
+ outfile.close
+end
