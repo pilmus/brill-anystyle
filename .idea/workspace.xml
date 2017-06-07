@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b88fcbf4-6f5f-4149-a766-95d3b725b57a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Anystyle.2.iml" afterPath="$PROJECT_DIR$/.idea/Anystyle.2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/bibl-pipeline.rb" afterPath="$PROJECT_DIR$/scripts/bibl-pipeline.rb" />
-    </list>
+    <list default="true" id="b88fcbf4-6f5f-4149-a766-95d3b725b57a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -490,12 +486,12 @@
       <workItem from="1494869386070" duration="1749000" />
       <workItem from="1494953891226" duration="135000" />
       <workItem from="1495021489198" duration="10848000" />
-      <workItem from="1496839448717" duration="1301000" />
+      <workItem from="1496839448717" duration="1713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36241000" />
+    <option name="totallyTimeSpent" value="36653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
