@@ -30,16 +30,16 @@ def transformfolder(folder)
   countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level"]
 
   # for each xml file in the folder, perform the transformation and save the result
-  xmls.each do |xml|
+  xmls.each do |xmlfile|
     deidemized = deidemize(xmlfile)
     tagged = tag(deidemized)
     
     # count the number of m and j level bibls
     totalbibls, totalm, totalj, totala, totals, totalu = biblcounter(tagged)
-    countfile << [xml.to_s, totalbibls, totalm, totalj, totala, totals, totalu]
+    countfile << [xmlfile.to_s, totalbibls, totalm, totalj, totala, totals, totalu]
 
     # make new file to write the tagged xml into
-    outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", xml), "w")
+    outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", xmlfile), "w")
     outfile.write(tagged)
     outfile.close
   end
