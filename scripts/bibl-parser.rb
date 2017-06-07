@@ -5,8 +5,8 @@ require 'nokogiri'
 require_relative 'bibl-counter'
 
 
-def tag(file)
-  xml = Nokogiri::XML(File.open(file))
+def tag(xml)
+  xml # = Nokogiri::XML(File.open(file))
 
   # find the tag named listBibl and every bibl under it
   bibls = xml.css("listBibl bibl")
@@ -106,7 +106,8 @@ end
 Anystyle.parser.model.path = "." #put your model in the same folder as your script
 
 if ARGV.length != 0
- tagged = tag(ARGV[0])
+  xml = Nokogiri::XML(File.open(ARGV[0]))
+ tagged = tag(xml)
  FileUtils.mkdir("tagged_xmls-copy") unless Dir.exists?("tagged_xmls-copy")
  outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", ARGV[0]), "w")
  outfile.write(tagged)

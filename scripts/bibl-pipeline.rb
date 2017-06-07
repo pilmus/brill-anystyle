@@ -33,7 +33,7 @@ def transformfolder(folder)
   xmls.each do |xmlfile|
     deidemized = deidemize(xmlfile)
     tagged = tag(deidemized)
-    
+
     # count the number of m and j level bibls
     totalbibls, totalm, totalj, totala, totals, totalu = biblcounter(tagged)
     countfile << [xmlfile.to_s, totalbibls, totalm, totalj, totala, totals, totalu]
