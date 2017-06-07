@@ -84,7 +84,9 @@ if ARGV.length == 0
   deidemizeall
 elsif ARGV.length != 0
   xml = ARGV[0]
+  puts xml
   deidemized = deidemize(xml)
+  FileUtils.mkdir("deidemized_xmls-copy") unless Dir.exists?("deidemized_xmls-copy")
   outfile = File.new(File.join(Dir.pwd, "deidemized_xmls-copy", xml), "w")
   outfile.write(deidemized)
   outfile.close
