@@ -1,5 +1,5 @@
 *.xml
-.xml
+*.csv
 .idea/
 scripts/xmls/deidemized_xmls-copy/
 scripts/xmls/tagged_xmls-copy/
