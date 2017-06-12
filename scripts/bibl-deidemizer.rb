@@ -2,7 +2,7 @@ require 'anystyle/parser'
 require 'nokogiri'
 
 def deidemizeall
-  puts "De-idemizing all the things..."
+  # puts "De-idemizing all the things..."
   rootpath = Dir.pwd
 
   # select all the xml folders in the current directory
@@ -20,7 +20,7 @@ def deidemizeall
 end
 
 def deidemizefolder(folder)
-  puts "De-idemizing " + folder.to_s + "..."
+  # puts "De-idemizing " + folder.to_s + "..."
   # create the folder that will contain the new xmls if it does not yet exist
   # FileUtils.mkdir("deidemized_xmls-copy") unless Dir.exists?("deidemized_xmls-copy")
 
@@ -51,13 +51,13 @@ def deidemize(filename)
   bibls.each do |bibl|
     # puts prevauthor
     bt = bibl.text
-
     # skips certain tags we wish to leave unchanged
-    next if (bt.include? ("Primary sources" || "Secondary sources")) || bt == ""
+    if bt.to_s.empty? || bt == " "
+      bibl.remove
+    end
+    next if (bt.include? ("Primary sources" || "Secondary sources")) || bt.to_s.empty? || bt == " "
 
     bt.gsub!(/\s+/, ' ')
-
-    # puts "bt: " + bt
 
     # strip leading and trailing whitespaces
     bt.strip!
@@ -66,20 +66,25 @@ def deidemize(filename)
     bt.gsub!(/^\[\d{1,2}\]/, '')
     bt.gsub!(/^\d{1,2}/, '')
 
+    btsplit = bt.split(',')
+
     if !prevauthor.to_s.empty?
-      if bt.include? "idem"
+      if bt.include? "——"
+        bt.sub! "——", prevauthor.to_s
+      end
+      if btsplit.include? "idem"
         bt.sub! "idem", prevauthor.to_s
       end
-      if bt.include? "Idem"
+      if btsplit.include? "Idem"
         bt.sub! "Idem", prevauthor.to_s
       end
-      if bt.include? "id."
+      if btsplit.include? "id."
         bt.sub! "id.", prevauthor.to_s
       end
-      if bt.include? "id."
-        bt.sub! "id.", prevauthor.to_s
+      if btsplit.include? "[id.]"
+        bt.sub! "[id.]", prevauthor.to_s
       end
-      if bt.include? "â€”â€”"
+      if btsplit.include? "â€”â€”"
         bt.sub! "â€”â€”", prevauthor.to_s
       end
     end
@@ -88,7 +93,10 @@ def deidemize(filename)
     bibl.content = bt
     tagged = Anystyle.parse bt
 
+    # puts "tagged: " + tagged.to_s
+
     prevauthor = tagged[0][:author]
+
   end
   File.write(filename, doc.to_xml)
   # return doc

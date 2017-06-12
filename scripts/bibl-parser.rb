@@ -37,6 +37,8 @@ end
 def stringify(tags, bibl, unclear)
   tagdict = tags[0]
 
+  puts "tagdict: " + tagdict.to_s
+
   if tagdict.key?(:author)
     bibl.add_child "<author><name>#{tagdict[:author]}</name></author>"
     unclear.sub! "#{tagdict[:author]}", ""
