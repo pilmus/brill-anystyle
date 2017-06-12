@@ -48,6 +48,7 @@ def transformfolder(folder)
 end
 
 def transformall
+
   rootpath = Dir.pwd
 
   countfile = CSV.open("total_biblcounts.csv", 'w')
@@ -93,10 +94,12 @@ end
 
 
 if ARGV.length == 0
+  deidemizeall
   transformall
   # if you have supplied an xml file as a command line argument, this part of the script will be run
 else
   xml = ARGV[0]
+  deidemize(xml)
   transformxml(xml)
 end
 
