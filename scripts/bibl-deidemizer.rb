@@ -63,9 +63,9 @@ def deidemize(filename)
     bt.strip!
 
     # replaces numbers within brackets
-    bt.gsub!(/^\[\d{1,2}\]/, '')
-    bt.gsub!(/^\(\d{1,2}\)/, '')
-    bt.gsub!(/^\d{1,2}/, '')
+    bt.sub!(/^\[\d{1,2}\]\s?/, '')
+    bt.sub!(/^\(\d{1,2}\)\s?/, '')
+    bt.sub!(/^\d{1,2}\s?/, '')
 
 
 
