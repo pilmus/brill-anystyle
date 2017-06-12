@@ -62,29 +62,33 @@ def deidemize(filename)
     # strip leading and trailing whitespaces
     bt.strip!
 
-    # replaces numbers within brackets that may be at the beginning of a bibl
+    # replaces numbers within brackets
     bt.gsub!(/^\[\d{1,2}\]/, '')
+    bt.gsub!(/^\(\d{1,2}\)/, '')
     bt.gsub!(/^\d{1,2}/, '')
 
-    btsplit = bt.split(',')
+
+
+    btsplitcomma = bt.split(',')[0]
+    btsplitdot = bt.split('.')[0]
 
     if !prevauthor.to_s.empty?
       if bt.include? "——"
         bt.sub! "——", prevauthor.to_s
       end
-      if btsplit.include? "idem"
+      if btsplitcomma.include?("idem")|| btsplitdot.include?("idem")
         bt.sub! "idem", prevauthor.to_s
       end
-      if btsplit.include? "Idem"
+      if btsplitcomma.include?("Idem") || btsplitdot.include?("Idem")
         bt.sub! "Idem", prevauthor.to_s
       end
-      if btsplit.include? "id."
+      if btsplitcomma.include?("id.") || btsplitdot.include?("id.")
         bt.sub! "id.", prevauthor.to_s
       end
-      if btsplit.include? "[id.]"
+      if btsplitcomma.include?("[id.]") || btsplitdot.include?("[id.]")
         bt.sub! "[id.]", prevauthor.to_s
       end
-      if btsplit.include? "â€”â€”"
+      if bt.include? "â€”â€”"
         bt.sub! "â€”â€”", prevauthor.to_s
       end
     end
