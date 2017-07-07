@@ -4,14 +4,13 @@ require_relative 'bibl-parser'
 require_relative 'bibl-counter'
 require_relative 'bibl-deidemizer'
 
-def transformxml(xmlfile)
-  deidemized = deidemize(xmlfile)
-  tagged = tag(deidemized)
+def transformxml(xml)
+  tagged = tag(xml)
   biblcounter(tagged)
 
   # create the folder that will contain the new xmls if it does not yet exist
   FileUtils.mkdir("tagged_xmls-copy") unless Dir.exists?("tagged_xmls-copy")
-  outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", xmlfile), "w")
+  outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", xml), "w")
   outfile.write(tagged)
   outfile.close
 end
@@ -31,9 +30,8 @@ def transformfolder(folder)
 
   # for each xml file in the folder, perform the transformation and save the result
   xmls.each do |xml|
-    deidemized = deidemize(xmlfile)
-    tagged = tag(deidemized)
-    
+    tagged = tag(xml)
+
     # count the number of m and j level bibls
     totalbibls, totalm, totalj, totala, totals, totalu = biblcounter(tagged)
     countfile << [xml.to_s, totalbibls, totalm, totalj, totala, totals, totalu]
@@ -48,6 +46,7 @@ def transformfolder(folder)
 end
 
 def transformall
+
   rootpath = Dir.pwd
 
   countfile = CSV.open("total_biblcounts.csv", 'w')
@@ -94,10 +93,12 @@ end
 
 
 if ARGV.length == 0
+  deidemizeall
   transformall
   # if you have supplied an xml file as a command line argument, this part of the script will be run
 else
   xml = ARGV[0]
+  deidemize(xml)
   transformxml(xml)
 end
 
