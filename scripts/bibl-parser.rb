@@ -3,9 +3,11 @@
 require 'anystyle/parser'
 require 'nokogiri'
 require_relative 'bibl-counter'
+require_relative 'crossreffing'
 
 
 def tag(file)
+  puts file.to_s
   xml = Nokogiri::XML(File.open(file))
 
   # find the tag named listBibl and every bibl under it
@@ -35,6 +37,7 @@ def tag(file)
 end
 
 def stringify(tags, bibl, unclear)
+  puts bibl
   tagdict = tags[0]
 
   if tagdict.key?(:author)
@@ -42,7 +45,7 @@ def stringify(tags, bibl, unclear)
     unclear.sub! "#{tagdict[:author]}", ""
   end
 
-  if tagdict.key?(:journal)
+  if tagdict.key?(:title)
     bibl.add_child "<title level=\"a\">#{tagdict[:title]}</title>"
     unclear.sub! "#{tagdict[:title]}", ""
   else
@@ -93,7 +96,7 @@ def stringify(tags, bibl, unclear)
   if tagdict.key?(:unknown)
     bibl.add_child "<unclear>#{tagdict[:unknown]}#{unclear}</unclear>"
   else
-    unclear.to_s.each_char { |c|
+    unclear.to_s.each_char {|c|
       if c =~ /[[:punct:]]/ || c == ' '
       else
         bibl.add_child "<unclear>#{unclear}</unclear>"
@@ -101,14 +104,23 @@ def stringify(tags, bibl, unclear)
       end
     }
   end
+
+  puts tagdict
+
+  if tagdict.key?(:title)
+    doi = finddoi(tagdict[:title])
+    bibl.add_child "<doi>" + doi.to_s + "</doi>"
+  end
+
+
 end
 
-Anystyle.parser.model.path = "." #put your model in the same folder as your script
+# Anystyle.parser.model.path = "." #put your model in the same folder as your script
 
 if ARGV.length != 0
- tagged = tag(ARGV[0])
- FileUtils.mkdir("tagged_xmls-copy") unless Dir.exists?("tagged_xmls-copy")
- outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", ARGV[0]), "w")
- outfile.write(tagged)
- outfile.close
+  tagged = tag(ARGV[0])
+  FileUtils.mkdir("tagged_xmls-copy") unless Dir.exists?("tagged_xmls-copy")
+  outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", ARGV[0]), "w")
+  outfile.write(tagged)
+  outfile.close
 end

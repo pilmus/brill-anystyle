@@ -85,6 +85,7 @@ def transformall
       totals += row[5]
       totalu += row[6]
     end
+
     countfile << [folder, totalbibls, totalm, totalj, totala, totals, totalu]
     Dir.chdir rootpath
   end
