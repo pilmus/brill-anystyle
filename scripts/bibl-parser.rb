@@ -47,7 +47,8 @@ def stringify(tags, bibl, unclear)
     unclear.sub! "#{tagdict[:author]}", ""
   end
 
-  if tagdict.key?(:title)
+  # check if journal, if so title level article, otherwise book
+  if tagdict.key?(:journal)
     bibl.add_child "<title level=\"a\">#{tagdict[:title]}</title>"
     unclear.sub! "#{tagdict[:title]}", ""
   else
