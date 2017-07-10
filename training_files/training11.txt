@@ -1,0 +1,37 @@
+﻿<title>Die Umgangssprache der Juden in Österreich</title><journal>Zeitschrift für Demographie und Statistik der Juden</journal><volume>1</volume><date>1905</date><page>2, 13 f.</page>
+ <author>Bibliothek, Allgemeine Deutsche</author><date>1777</date><location>Berlin/Stettin</location><editor>v. F. Nicolai</editor><unknown>Anhang Bde. 13–24, 2. Abt.</unknown>
+  <author>Ausländer, R.</author><booktitle>Blinder Sommer</booktitle><date>1965</date><location>Wien</location>
+  <author>Bartels, A.</author><booktitle>Jüdische Herkunft und Literaturwissenschaft. Eine gründliche Erörterung</booktitle><date>1925</date><location>Leipzig</location>
+  <author>Behr, I.F.</author><booktitle>Gedichte von einem pohlnischen Juden</booktitle><location>Miethau/Leipzig</location><date>1772</date>
+ <author>Bloch, E.</author><title>Zerstörte Sprache – zerstörte Kultur (Vortrag im Schutzverband Deutscher Schriftsteller</title><editor>E. Bloch</editor><booktitle>Gesamtausgabe in 16 Bänden, Bd. 11: Politische Messungen, Pestzeit, Vormärz</booktitle><page>277–299</page><date>1985</date><location>Frankfurt a. M.</location>
+ <author>Dühring, E.K.</author><booktitle>Die Judenfrage als Racen-, Sitten- und Culturfrage</booktitle><location>Karlsruhe/Leipzig</location><date>1881</date>  
+ <author>Friedländer, D.</author><booktitle>Lesebuch für jüdische Kinder. Zum Besten der jüdischen Freyschule</booktitle><date>1779</date><location>Berlin</location> 
+  <author>Friedländer, D.</author><booktitle>Gebete der Juden auf das ganze Jahr</booktitle><date>1786</date><location>Berlin</location>
+ <author>Geiger, L.</author><booktitle>Die deutsche Literatur und die Juden</booktitle><date>1910</date><location>Berlin</location> 
+ <author>Kafka, F.</author><booktitle>Gesammelte Werke, hg. v. M. Brod, 8 Bde.</booktitle><editor>v. M. Brod</editor><date>1996</date><location>Frankfurt a. M.</location>
+ <author>Klemperer, V.</author><booktitle>LTI. Notizbuch eines Philologen</booktitle><date>1947</date><location>Berlin</location>
+ <author>Kley, E.</author><booktitle>Predigten in dem neuen israelitischen Tempel zu Hamburg, 2 Bde.</booktitle><location>Hamburg</location><date>1819/20</date>
+  <author>Loewe, H.</author><title>Der Nationalismus</title><journal>Zion. Monatsschrift für die nationalen Interessen des Judentums</journal><volume>1</volume><date>1895</date><unknown> 3, 1: 1–8; 2: 33–41.</unknown>
+ <author>Loewe, H.</author><booktitle>Die Sprachen der Juden</booktitle><date>1911</date><location>Köln</location>
+  <author>Loewe, H.</author><booktitle>Die jüdischdeutsche Sprache der Ostjuden</booktitle><date>1915</date><location>Berlin</location>
+ <author>Mendelssohn, M.</author><booktitle>Gesammelte Schriften. Jubiläumsausgabe, begonnen v. I. Elbogen, J. Guttmann, E. Mittwoch. Fortgesetzt v. A. Altmann, E. J. Engel, M. Brocke, D. Krochmalnik</booktitle><location>Stuttgart-Bad Cannstatt</location><date>1971</date>
+ <author>Rée, A.</author><booktitle>Die Sprachverhältnisse der heutigen Juden, im Interesse der Gegenwart und mit besondrer Rücksicht auf Volkserziehung</booktitle><date>1844</date><location>Hamburg</location>
+  <author>v. Schroeter, M.</author><title>Moses Mendelssohn’s Verdienste um die deutsche Sprache</title><journal>Im deutschen Reich</journal><volume>3</volume><page>311–318</page><date>1897</date>
+  <author>Sievers, E.</author><booktitle>Ziele und Wege der Schallanalyse</booktitle><date>1924</date><location>Heidelberg</location>
+ <author>Stapel, W.</author><booktitle>Die literarische Vorherrschaft der Juden in Deutschland 1918–1933</booktitle><date>1937</date><location>Hamburg</location>
+  <author>Steinschneider, M.</author><booktitle>Die hebräischen Übersetzungen des Mittelalters und die Juden als Dolmetscher. Ein Beitrag zur Literaturgeschichte des Mittelalters, meist nach handschriftlichen Quellen</booktitle><date>1893</date><location>Berlin</location>
+  <author>Sternberger, D. u.a.</author><booktitle>Aus dem Wörterbuch des Unmenschen</booktitle><date>1957</date><location>Hamburg</location>
+  <author>Trietsch, D.</author><booktitle>Juden und Deutsche. Eine Sprach- und Interessengemeinschaft</booktitle><date>1915</date><location>Wien</location>
+ <author>R. Wagner [K. Freigedank]</author><title>Das Judenthum in der Musik</title><journal>Neue Zeitschrift für Musik</journal><volume>17</volume><date>1850</date><unknown> Bd. 33, Nr. 19: 101–107; Nr. 20: 109–112.</unknown>
+  <author>Wassermann, J.</author><booktitle>Mein Weg als Deutscher und Jude</booktitle><date>1921</date><location>Berlin</location>
+  <author>Wolfenstein, A.</author><booktitle>Jüdisches Wesen und neue Dichtung</booktitle><date>1922</date><location>Berlin</location>
+  <author>Braese, S.</author><booktitle>Eine europäische Sprache. Deutsche Sprachkultur von Juden 1760–1930</booktitle><date>2010</date><location>Göttingen</location>
+  <editor>Brenner, M.</editor><booktitle>Jüdische Sprachen in deutscher Umwelt. Hebräisch und Jiddisch von der Aufklärung bis ins 20. Jahrhundert</booktitle><date>2002</date><location>Göttingen</location>
+  <author>Freimark, P.</author><title>Language Behaviour and Assimilation. The Situation of the Jews in Northern Germany in the First Half of the 19th Century</title><journal>Leo Baeck Institute Year Book</journal><volume>24</volume><page>157–177</page><date>1979</date>
+  <author>Gilman, S.L.</author><booktitle>Jüdischer Selbsthaß. Antisemitismus und die verborgene Sprache der Juden</booktitle><date>1993</date><location>Frankfurt a. M</location>
+  <author>Kilcher, A.B.</author><title>Was ist deutsch-jüdische Literatur? Eine historische Diskursanalyse</title><journal>Weimarer Beiträge</journal><volume>4</volume><page>485–517</page><date>1999</date>
+  <author>Kilcher, A.B.</author><title>Sprachendiskurse im jüdischen Prag um 1900</title><editor>M. Nekula u. a.</editor><booktitle>Franz Kafka im sprachnationalen Kontext seiner Zeit. Sprache und nationale Identität in öffentlichen Institutionen der böhmischen Länder</booktitle><page>61–86</page><date>2007</date><location>Köln u. a.</location>
+  <author>Kilcher, A.B.</author><title>»Jewish Literature« and »World Literature«. Wissenschaft des Judentums and its Concept of Literature</title><editor>A. Gotzmann/C. Wiese</editor><booktitle>Modern Judaism and Historical Consciousness. Identities, Encounters, Perspectives</booktitle><page>299–325</page><location>Leiden</location><date>2007</date>
+  <editor>A. Kremer</editor><booktitle>Deutsche Juden – deutsche Sprache. Jüdische und judenfeindliche Sprachkonzepte und -konflikte 1893–1933</booktitle><date>2007</date><location>Berlin/New York</location>
+  <author>Volkov, S.</author><title>Sprache als Ort der Auseinandersetzung mit Juden und Judentum in Deutschland, 1780–1933</title><editor>W. Barner/C. König</editor><booktitle>Jüdische Intellektuelle und die Philologien in Deutschland 1871–1933</booktitle><page>223–238</page><location>Göttingen</location><date>2001</date>
+    

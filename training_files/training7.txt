@@ -1,0 +1,11 @@
+<bibl><author>Bielenstein, Hans</author><booktitle>Chinese Historical Demography, A.D. 2–1982</booktitle><date>1987</date><location>Stockholm</location></bibl>
+<bibl><author>Blayo, Yves</author><booktitle>Des Politiques Démographiques en Chine</booktitle><date>1997</date><location>Paris</location></bibl>
+<bibl><author>Cernada, George P.</author><booktitle>Taiwan Family Planning Reader</booktitle><date>1970</date><location>Taichung</location></bibl>
+<bibl><author>Ta, Chen</author><booktitle>Population in Modern China</booktitle><date>1946</date><location>Chicago</location></bibl>
+<bibl><author>Ping-Ti, Ho</author><booktitle>Studies on the Population of China, 1368-1953</booktitle><date>1959</date><location>Cambridge</location></bibl>
+<bibl><author>Swee-Hok, Saw</author><booktitle>Changes in the Fertility Policy of Singapore</booktitle><date>1990</date><location>Singapore</location></bibl>
+<bibl><author>Scharping, Thomas</author><booktitle>Birth Control in China 1949-2000: Polulation Policy and Demographic Development</booktitle><date>2002</date><location>Richmond</location></bibl>
+<bibl><author>Scharping, Thomas</author><title>The Evolution of Regional Birth Planning Norms 1954-97. Documentary collection</title><journal>Chinese Sociology &amp; Anthropology</journal><volume>32.3</volume><page>5–17</page><date>2000</date></bibl>
+<bibl><author>Tien, H.Yuan</author><booktitle>China's Population Struggle</booktitle><date>1973</date><location>Columbus</location></bibl>
+<bibl><author>Tien, HYuan</author><booktitle>China's Strategic Demographic Initiative</booktitle><date>1991</date><location>New York</location></bibl>
+<bibl><booktitle>Population and Development Planning in China</booktitle><editor><name>Jiye, Wang and Terence Hull</name></editor><date>1991</date><location>Sydney</location></bibl>
