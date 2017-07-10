@@ -1,5 +1,6 @@
 require 'csv'
 require 'fileutils'
+require 'anystyle/parser'
 require_relative 'bibl-parser'
 require_relative 'bibl-counter'
 require_relative 'bibl-deidemizer'
@@ -9,8 +10,8 @@ def transformxml(xml)
   biblcounter(tagged)
 
   # create the folder that will contain the new xmls if it does not yet exist
-  FileUtils.mkdir("tagged_xmls-copy") unless Dir.exists?("tagged_xmls-copy")
-  outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", xml), "w")
+  outfilename = "transformedfile.xml"
+  outfile = File.new(outfilename, "w")
   outfile.write(tagged)
   outfile.close
 end
@@ -93,6 +94,7 @@ end
 
 
 if ARGV.length == 0
+  Anystyle.parser.train "/home/pilmus/Anystyle/training_files/originele_training_file_plus_brill_v2.txt", true
   deidemizeall
   transformall
   # if you have supplied an xml file as a command line argument, this part of the script will be run

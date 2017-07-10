@@ -7,7 +7,8 @@ require_relative 'bibl-counter'
 
 
 def tag(file)
-  puts file.to_s
+
+  # puts file.to_s
   xml = Nokogiri::XML(File.open(file))
 
   # find the tag named listBibl and every bibl under it
@@ -28,7 +29,16 @@ def tag(file)
 
     # empty the tag so we can fill it with tagged information
     bibl.content = ""
+
+    # puts "DIR: " + Dir.pwd
+    # Anystyle.parser.model.path = "/home/pilmus/Anystyle/new.mod" #put your model in the same folder as your script
+    # puts Anystyle.parser.model.path
+
+    # Anystyle.parser.train "/home/pilmus/Anystyle/train.txt", true
+
     tagged = Anystyle.parse bt
+
+    puts tagged
 
     stringify(tagged, bibl, bt)
   end
@@ -37,7 +47,7 @@ def tag(file)
 end
 
 def stringify(tags, bibl, unclear)
-  puts bibl
+  # puts bibl
   tagdict = tags[0]
 
   # puts "tagdict: " + tagdict.to_s
@@ -118,12 +128,11 @@ def stringify(tags, bibl, unclear)
 
 end
 
-# Anystyle.parser.model.path = "." #put your model in the same folder as your script
+# Anystyle.parser.model.path = "./origineel_plus_brill.mod" #put your model in the same folder as your script
 
 if ARGV.length != 0
   tagged = tag(ARGV[0])
-  FileUtils.mkdir("tagged_xmls-copy") unless Dir.exists?("tagged_xmls-copy")
-  outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", ARGV[0]), "w")
+  outfile = File.new("taggedfile.xml", "w")
   outfile.write(tagged)
   outfile.close
 end
