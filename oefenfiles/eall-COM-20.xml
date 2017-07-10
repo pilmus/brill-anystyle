@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-     xmlns:xs="http://relaxng.org/ns/structure/1.0"
-     xmlns:type="application/tei+xml"
-     xml:id="EALL-COM-0020">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="EALL-COM-0020">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -187,30 +182,27 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="idx-Diodorus_of_Sicily-01">
-                        Diodorus of Sicily. Trans. C.H. Oldfather. 12 vols. London, New York and Cambridge, Mass.: Loeb Classical Library, 1933–1967.</bibl>
+               <bibl xml:id="idx-Diodorus_of_Sicily-01">Diodorus of Sicily. Trans. C.H. Oldfather. 12 vols. London, New York and Cambridge, Mass.: Loeb Classical Library, 1933–1967.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_2_1d1e898">Herodotus, Historiae. Trans. A.D. Godly. Cambridge, Mass. and London: Loeb Classical Library, 1920–1981.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_3_1d1e907">Ibn Manẓūr, Lisān al-ʿArab. 20 vols. Cairo: Dār al-Maʿārif, n.d.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_4_1d1e916">Ibn Xaldūn, Muqaddima = The Muqaddimah. An introduction to history. Trans. Franz Rosenthal. New York: Routledge and Kegan Paul, 1958.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_5_1d1e928">RÉS = Répertoire d'épigraphie sémitique, vols. V–VII. Paris, 1928–1950.</bibl>
-               <bibl xml:id="idx-Azoury_Negib-01">
-                        Azoury, Negib. 1905. Le réveil de la nation arabe dans l'Asie turque: En présence des intérêts et des rivalités des puissances étrangéres, de la curie romaine et du patriarcat œcuménique. Paris: Plon.</bibl>
+               <bibl xml:id="idx-Azoury_Negib-01">Azoury, Negib. 1905. Le réveil de la nation arabe dans l'Asie turque: En présence des intérêts et des rivalités des puissances étrangéres, de la curie romaine et du patriarcat œcuménique. Paris: Plon.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_7_1d1e949">Bulliet, Richard. 1975. The camel and the wheel. Cambridge, Mass. and London: Harvard University Press.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_8_1d1e958">Caskel, Werner. 1953a. Die Bedeutung der Beduinen für die Geschichte der Araber. Opladen and Cologne.</bibl>
-               <bibl xml:id="EALL-COM-0020_bibl_9_1d1e967">——. 1953b. “Zur Beduinisierung Arabiens”. Zeitschrift der Deutschen Morgenländischen Gesellschaft 28.*28–*36.</bibl>
+               <bibl xml:id="EALL-COM-0020_bibl_9_1d1e967">Caskel, Werner. 1953a. Die. 1953b. “Zur Beduinisierung Arabiens”. Zeitschrift der Deutschen Morgenländischen Gesellschaft 28.*28–*36.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_10_1d1e976">Choueiri, Youssef M. 2000. Arab nationalism: A history. Oxford and Malden, Mass.: Blackwell.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_11_1d1e985">Dagorn, René. 1981. La geste d'Ismaël d'après l'onomastique et la tradition arabes. Geneva and Paris: Librairie Droz and Librairie Champion.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_12_1d1e995">Hourani, Albert. 1967. Arabic thought in the liberal age 1798–1939. Oxford: Oxford University Press.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_13_1d1e1004">Iryani, Muṭahhar ʿAbd ar-Raḥmān al-. 1990. Nuqūš musnadiyya wa-taʿlīqāt. 2nd. ed. Sanaʾ.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_14_1d1e1013">Jamme, Albert. 1962. Sabaean inscriptions from Mahram Bilqîs (Mârib). Baltimore: Johns Hopkins Press.</bibl>
-               <bibl xml:id="EALL-COM-0020_bibl_15_1d1e1022"> Kieffer, Charles M. 1980. “L'arabe et les arabophones de Bactriane (Afghanistan). I. Situation ethnique et linguistique”. Welt des Islams 20.178–196.</bibl>
+               <bibl xml:id="EALL-COM-0020_bibl_15_1d1e1022">Kieffer, Charles M. 1980. “L'arabe et les arabophones de Bactriane (Afghanistan). I. Situation ethnique et linguistique”. Welt des Islams 20.178–196.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_16_1d1e1031">Knauf, E. A. 1985. Ismael: Untersuchungen zur Geschichte Palästinas und Nordarabiens im 1. Jahrtausend v. Chr. Wiesbaden: O. Harrassowitz.</bibl>
-               <bibl xml:id="EALL-COM-0020_bibl_17_1d1e1040">——. 1988. Midian: Untersuchungen zur Geschichte Palästinas und Nordarabiens am Ende des 2. Jahrtausends v. Chr. Wiesbaden: O. Harrassowitz.</bibl>
+               <bibl xml:id="EALL-COM-0020_bibl_17_1d1e1040">Knauf, E.A.. 1988. Midian: Untersuchungen zur Geschichte Palästinas und Nordarabiens am Ende des 2. Jahrtausends v. Chr. Wiesbaden: O. Harrassowitz.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_18_1d1e1050">Lane, Edward William. 1863–1893. Arabic–English lexicon. 8 vols. London: Williams and Norgate.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_19_1d1e1059">Marbach, Amikam. 1992. “Maʿnā l-muṣṭalaḥ ʿarab ḥasb al-maʿājim wa-l-Qurʾān wa-l-Kitāb li-Sībawayhi wa-Muqaddimat Ibn Xaldūn”. al-Karmil 13.145–178.</bibl>
-               <bibl xml:id="idx-Retsö_Jan-01">
-                        Retsö, Jan. 2002. “Das Arabische der vorislamischen Zeit bei klassischen und orientalischen Autoren”. Neue Beiträge zur Semitistik. Erstes Arbeitstreffen der Arbeitsgemeinschaft Semitistik in der Deutschen Morgenländischen Gesellschaft vom 11. bis zum 13. September 2000 and der Friedrich-Schiller-Universität Jena, ed. Norbert Nebes, 139–146. Wiesbaden: O. Harrassowitz.</bibl>
-               <bibl xml:id="EALL-COM-0020_bibl_21_1d1e1088">——. 2003. The Arabs in antiquity: Their history from the Assyrians to the Umayyads. London: Routledge Curzon.</bibl>
+               <bibl xml:id="idx-Retsö_Jan-01">Retsö, Jan. 2002. “Das Arabische der vorislamischen Zeit bei klassischen und orientalischen Autoren”. Neue Beiträge zur Semitistik. Erstes Arbeitstreffen der Arbeitsgemeinschaft Semitistik in der Deutschen Morgenländischen Gesellschaft vom 11. bis zum 13. September 2000 and der Friedrich-Schiller-Universität Jena, ed. Norbert Nebes, 139–146. Wiesbaden: O. Harrassowitz.</bibl>
+               <bibl xml:id="EALL-COM-0020_bibl_21_1d1e1088">Retsö, Jan. 2003. The Arabs in antiquity: Their history from the Assyrians to the Umayyads. London: Routledge Curzon.</bibl>
                <bibl xml:id="EALL-COM-0020_bibl_22_1d1e1097">Robin, Christian and Iwona Gajda. 1994. “L'inscription du Wadi ʿAbadan”. Raydan 6.113–137.</bibl>
             </listBibl>
          </div>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-     xmlns:xs="http://relaxng.org/ns/structure/1.0"
-     xmlns:type="application/tei+xml"
-     xml:id="EWICCOM-0090c">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="EWICCOM-0090c">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -204,34 +199,14 @@ other relatives.</p>
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="EWICCOM-0090c_bibl_1_1d1e142">M. Afkhami, Death of the patriarch, in E. W. Fernea (ed.),
-Remembering childhood in the Middle
-East, Austin, Tex. 2002, 157–62.</bibl>
-               <bibl xml:id="P-V2P254">
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        V. Doubleday, Three women
-of Herat, Austin, Tex. 1988.</bibl>
-               <bibl xml:id="EWICCOM-0090c_bibl_3_1d1e177">S. Farman-Farmaian, Daughter of
-Persia, New York 1992.</bibl>
-               <bibl xml:id="EWICCOM-0090c_bibl_4_1d1e186">E. Friedl, Women of Deh Koh. Lives in an
-Iranian village, Washington, D.C. 1989.</bibl>
-               <bibl xml:id="EWICCOM-0090c_bibl_5_1d1e195">S. Guppy, The blindfold horse. Memories of
-a Persian childhood, Boston 1988.</bibl>
-               <bibl xml:id="EWICCOM-0090c_bibl_6_1d1e205">H. Hansen, The Kurdish woman's
-life, Copenhagen 1961.</bibl>
-               <bibl xml:id="EWICCOM-0090c_bibl_7_1d1e214">M. Kousha, Voices from
-Iran.
-The changing lives of Iranian women, Syracuse, N.Y.
-2002.</bibl>
-               <bibl xml:id="EWICCOM-0090c_bibl_8_1d1e227">N. Tapper, Bartered brides. Politics,
-gender, and marriage in an Afghan tribal society,
-Cambridge 1991.</bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_1_1d1e142">M. Afkhami, Death of the patriarch, in E. W. Fernea (ed.), Remembering childhood in the Middle East, Austin, Tex. 2002, 157–62.</bibl>
+               <bibl xml:id="P-V2P254">V. Doubleday, Three women of Herat, Austin, Tex. 1988.</bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_3_1d1e177">S. Farman-Farmaian, Daughter of Persia, New York 1992.</bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_4_1d1e186">E. Friedl, Women of Deh Koh. Lives in an Iranian village, Washington, D.C. 1989.</bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_5_1d1e195">S. Guppy, The blindfold horse. Memories of a Persian childhood, Boston 1988.</bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_6_1d1e205">H. Hansen, The Kurdish woman's life, Copenhagen 1961.</bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_7_1d1e214">M. Kousha, Voices from Iran. The changing lives of Iranian women, Syracuse, N.Y. 2002.</bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_8_1d1e227">N. Tapper, Bartered brides. Politics, gender, and marriage in an Afghan tribal society, Cambridge 1991.</bibl>
             </listBibl>
          </div>
       </body>

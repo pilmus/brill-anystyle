@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-     xmlns:xs="http://relaxng.org/ns/structure/1.0"
-     xmlns:type="application/tei+xml"
-     xml:id="EALL-COM-vol3-0210">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="EALL-COM-vol3-0210">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -197,34 +192,23 @@
                <bibl xml:id="EALL-COM-vol3-0210_bibl_1_1d1e501">Abdelfattah, Nabil. 1990. Linguistic changes in journalistic language in Egypt, 1937–1997: A quantitative and comparative analysis. Ph.D. diss., University of Texas at Austin.</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_2_1d1e510">Abdu, Ibrahim. 1982. Egyptian press development. Cairo: Association of Arab Register.</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_3_1d1e519">Abu-Lughod, Ibrahim. 1963. “The mass media and Egyptian village life”. Social Forces 42.97–104.</bibl>
-               <bibl xml:id="idx-Al_Gindi_Anwar-01">
-                        Al Gindi, Anwar. 1963. The Arabic language between supporters and opponents. Cairo: Anglo Bookshop.</bibl>
+               <bibl xml:id="idx-Al_Gindi_Anwar-01">Al Gindi, Anwar. 1963. The Arabic language between supporters and opponents. Cairo: Anglo Bookshop.</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_5_1d1e539">Arab States Broadcasting Union. 1969. “The United Arab Republic: TV”. ASBU, Cairo. [Mimeographed.]</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_6_1d1e546">Badawī, as-Saʿīd. 1973. Mustawayāt al-luġa al-ʿarabiyya al-muʿāṣira fī Miṣr. Cairo: Dār al-Maʿārif.</bibl>
-               <bibl xml:id="idx-Barrada_F-01">
-                        Barrada, F. 1970. “The history of the U.A.R. radio since its establishment in 1934 till now”. Arab Broadcasts 63–70. [Transl. from Arabic.]</bibl>
-               <bibl xml:id="idx-Boyd_Douglas_A-01">
-                        
-                        Boyd, Douglas A. 1999. Broadcasting in the Arab world: A survey of the electronic media in the Middle East. Ames: Iowa State University Press.</bibl>
+               <bibl xml:id="idx-Barrada_F-01">Barrada, F. 1970. “The history of the U.A.R. radio since its establishment in 1934 till now”. Arab Broadcasts 63–70. [Transl. from Arabic.]</bibl>
+               <bibl xml:id="idx-Boyd_Douglas_A-01">Boyd, Douglas A. 1999. Broadcasting in the Arab world: A survey of the electronic media in the Middle East. Ames: Iowa State University Press.</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_9_1d1e579">British Broadcasting Corporation. 1980. BBC handbook. London: British Broadcasting Corporation.</bibl>
-               <bibl xml:id="idx-Brunner_Edmund-01">
-                        Brunner, Edmund. 1953. “Rural communications: Behavior and attitudes in the Middle East”. Rural Sociology 18.149–155.</bibl>
+               <bibl xml:id="idx-Brunner_Edmund-01">Brunner, Edmund. 1953. “Rural communications: Behavior and attitudes in the Middle East”. Rural Sociology 18.149–155.</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_11_1d1e599">Egyptian Radio and Television Union. 1988. Egyptian Radio and Television Union in brief. Cairo: Egyptian Radio and Television Union.</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_12_1d1e609">Glubb, John Bagot. 1959. Britain and the Arabs. London: Hodder and Stoughton.</bibl>
-               <bibl xml:id="EALL-COM-vol3-0210_bibl_13_1d1e618"> Hamza, Abdellateef. 1961. Literature and the press. Cairo: Dār al-Fikr al-ʿArabī.</bibl>
-               <bibl xml:id="idx-McArthur_Tom-01">
-                        McArthur, Tom. 1998. The concise Oxford companion to the English language. Oxford: Oxford University Press.</bibl>
+               <bibl xml:id="EALL-COM-vol3-0210_bibl_13_1d1e618">Hamza, Abdellateef. 1961. Literature and the press. Cairo: Dār al-Fikr al-ʿArabī.</bibl>
+               <bibl xml:id="idx-McArthur_Tom-01">McArthur, Tom. 1998. The concise Oxford companion to the English language. Oxford: Oxford University Press.</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_15_1d1e638">Metwally, E.A. N.d. “Historical survey of the Egyptian Broadcast with background of the pre-revolution period”. Egyptian Radio Television Federation, Cairo. [Mimeographed.]</bibl>
-               <bibl xml:id="idx-Okesanya_Ayo-01">
-                        Okesanya, Ayo. 1975. Nigerian Broadcasting Corporation. Lagos.</bibl>
+               <bibl xml:id="idx-Okesanya_Ayo-01">Okesanya, Ayo. 1975. Nigerian Broadcasting Corporation. Lagos.</bibl>
                <bibl xml:id="EALL-COM-vol3-0210_bibl_17_1d1e655">Radio Televisione Italiana. 1979. Rome.</bibl>
-               <bibl xml:id="idx-Regnier_Jean_Pierre-01">
-                        Regnier, Jean Pierre. 1980. Radio Monte Carlo Middle East. Paris.</bibl>
-               <bibl xml:id="idx-Schleifer_Abdallah_S-01">
-                        
-                        Schleifer, Abdallah S. 1998. Transnational broadcasting studies. Cairo: Adham Center for Television and Journalism and The American University in Cairo.</bibl>
-               <bibl xml:id="idx-Youssef_F-01">
-                        Youssef, F. 1971. “What do you know about Egyptian broadcasting?” Arab Broadcasts 63–77. [Transl. from Arabic.]</bibl>
+               <bibl xml:id="idx-Regnier_Jean_Pierre-01">Regnier, Jean Pierre. 1980. Radio Monte Carlo Middle East. Paris.</bibl>
+               <bibl xml:id="idx-Schleifer_Abdallah_S-01">Schleifer, Abdallah S. 1998. Transnational broadcasting studies. Cairo: Adham Center for Television and Journalism and The American University in Cairo.</bibl>
+               <bibl xml:id="idx-Youssef_F-01">Youssef, F. 1971. “What do you know about Egyptian broadcasting?” Arab Broadcasts 63–77. [Transl. from Arabic.]</bibl>
             </listBibl>
          </div>
       </body>

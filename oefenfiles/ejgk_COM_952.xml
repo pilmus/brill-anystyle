@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-     xmlns:xs="http://relaxng.org/ns/structure/1.0"
-     xmlns:type="application/tei+xml"
-     xml:id="COM-0952">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-0952">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -89,8 +84,7 @@
                <idno sortKey="GenIndex"/>Gilgameschepos sowie mehreren Abschnitten im Buch der <rs type="GenIndex" subtype="Psalmen"/>
                <idno sortKey="GenIndex"/>Psalmen und verschiedenen <rs type="GenIndex" subtype="Hymne"/>
                <idno sortKey="GenIndex"/>Hymnen aus dem <rs type="GeoIndex" subtype="Kanaan"/>
-               <idno sortKey="GeoIndex"/>kanaanäischen <rs type="GeoIndex"
-                   subtype="Ugarit(kannäischerStadtstaat,ca.2400v.d.Z.-1184v.d.Z.)"/>
+               <idno sortKey="GeoIndex"/>kanaanäischen <rs type="GeoIndex" subtype="Ugarit(kannäischerStadtstaat,ca.2400v.d.Z.-1184v.d.Z.)"/>
                <idno sortKey="GeoIndex"/>Ugarit. Die Wege der Übertragung lassen sich jedoch nicht verfolgen, weil keinerlei Material überliefert ist, das über die genauen Quellentexte, Übersetzer oder Übersetzungstechniken Aufschluss gibt.</p>
                   <p>Die weitere Geschichte der Übersetzung in der jüdischen Kultur ist eng mit der <rs type="GenIndex" subtype="Diaspora"/>
                <idno sortKey="GenIndex"/>
@@ -131,8 +125,7 @@
                <idno sortKey="GeoIndex"/>Norditalien und <rs type="GeoIndex" subtype="Südfrankreich"/>
                <idno sortKey="GeoIndex"/>Südfrankreich. Die Eliten dieser Gemeinden waren darauf bedacht, sich mit Schriften zum religiösen Gesetz und zur <!--<xref target="">-->Ethik<!--</xref>--> vertraut zu machen, von denen sie nur gerüchteweise Kenntnis besaßen. Daher gewann das Hebräische erneut die Funktion einer Lingua franca und verband Juden aus verschiedenen Sprachräumen, die ansonsten keinerlei Möglichkeiten hatten, miteinander zu kommunizieren.</p>
                   <p>Auf die wichtigen innerkulturellen Übersetzungen <rs type="NamesIndex" subtype="BachjabenJosephibnPakuda"/>
-               <idno sortKey="NamesIndex"/>Bachja ibn Pakudas <rs type="GenIndex"
-                   subtype="»Kitābal-hidāyahilāal-farā’iḍal-qulūb«(BuchüberdieRichtlinienderHerzenspflichten,hebr.SeferḤovotha-Levavot;BachjaibnPakuda,1080)"/>
+               <idno sortKey="NamesIndex"/>Bachja ibn Pakudas <rs type="GenIndex" subtype="»Kitābal-hidāyahilāal-farā’iḍal-qulūb«(BuchüberdieRichtlinienderHerzenspflichten,hebr.SeferḤovotha-Levavot;BachjaibnPakuda,1080)"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Kitāb al-hidāyah ilā al-farā’iḍ al-qulūb</hi> (Buch über die Richtlinien der Herzenspflichten, hebr. <hi rendition="#italic">Sefer Ḥovot ha-Levavot</hi>; 1080), <rs type="NamesIndex" subtype="Maimonides"/>
                <idno sortKey="NamesIndex"/>Maimonides’ <rs type="GenIndex" subtype="»MoreNevukhim«(arab.Dalātātal-ḥayrīn)"/>
@@ -140,13 +133,11 @@
                      <hi rendition="#italic">Dalālāh al-ḥā’irīn</hi> (hebr. <hi rendition="#italic">
                         <!--<xref target="">-->More Nevukhim<!--</xref>-->
                      </hi>, ca. 1190) und <rs type="NamesIndex" subtype="JehudaHalewi"/>
-               <idno sortKey="NamesIndex"/>Jehuda Halewis <rs type="GenIndex"
-                   subtype="Seferha-Kuzari(arab.Kitābal-Khazarī,JehudaHalewi)"/>
+               <idno sortKey="NamesIndex"/>Jehuda Halewis <rs type="GenIndex" subtype="Seferha-Kuzari(arab.Kitābal-Khazarī,JehudaHalewi)"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Kitāb al-Khazarī</hi> (hebr. <hi rendition="#italic">Sefer ha-Kuzari</hi>; Buch des Chasaren, ca. 1140; <!--<xref target="">-->Kuzari<!--</xref>-->) folgte bald ein breiter Strom transkultureller Übertragungen. Sie deckten alle Gebiete des menschlichen Wissens ab. <rs type="NamesIndex" subtype="Steinschneider,Moritz"/>
                <idno sortKey="NamesIndex"/>Moritz Steinschneiders monumentale <!--<xref target="">-->Bibliographie<!--</xref>--> 
-                     <rs type="GenIndex"
-                   subtype="»DiehebräischenÜbersetzungendesMittelaltersunddieJudenalsDolmetscher«(Steinschneider,1893"/>
+                     <rs type="GenIndex" subtype="»DiehebräischenÜbersetzungendesMittelaltersunddieJudenalsDolmetscher«(Steinschneider,1893"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Die hebräischen Übersetzungen des Mittelalters und die Juden als Dolmetscher</hi> (1893) führt hunderte hebräische Übersetzungen aus <rs type="GenIndex" subtype="Philosophie"/>
                <idno sortKey="GenIndex"/>
@@ -208,21 +199,18 @@
                <idno sortKey="GeoIndex"/>europäischen Dichtungen verwendeten <rs type="GenIndex" subtype="syllabotonisches(silbenzählendes)Versmaß"/>
                <idno sortKey="GenIndex"/>syllabotonische (silbenzählende), die hebräische Dichtung hingegen <rs type="GenIndex" subtype="quantitierendesVersmaß"/>
                <idno sortKey="GenIndex"/>quantitierende Versmaße. Ein weiterer Grund für die nahezu vollständige Missachtung der Autonomie übertragener Texte lag in der Tatsache, dass sich Übersetzer in erster Linie der jüdischen Kultur und der hebräischen Sprache verpflichtet fühlten und erst in zweiter Linie dem bearbeiteten Text. So gewannen viele Übertragungen neue Proportionen: Auslassungen und Zusätze wurden nicht als translatorische Überschreitungen betrachtet, solange sie dem Endprodukt dienten. Der Text der ersten hebräischen Übersetzung von <rs type="NamesIndex" subtype="Goethe,JohannWolfgangvon"/>
-               <idno sortKey="NamesIndex"/>Goethes <rs type="GenIndex"
-                   subtype="HermannundDorothea(Goethe)–Neveha-Ẓedek,(wörtl.HortderGerechtigkeit"/>
+               <idno sortKey="NamesIndex"/>Goethes <rs type="GenIndex" subtype="HermannundDorothea(Goethe)–Neveha-Ẓedek,(wörtl.HortderGerechtigkeit"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Hermann und Dorothea</hi> – <hi rendition="#italic">Neve ha-Ẓedek</hi> (wörtl. Hort der Gerechtigkeit, 1857; <!--<xref target="COM-0085">-->Wahlverwandtschaften<!--</xref>-->) etwa ist ein Drittel länger als das Original. Auch gab es eine Reihe von Strategien, um Texte den Lesern annehmbar zu machen: So wurden oftmals die Namen von Figuren hebraisiert: <hi rendition="#italic">Ram we-Ya’el</hi> statt <hi rendition="#italic">Romeo und Julia</hi> ist ein bekanntes Beispiel für die Suche nach lautlicher Entsprechung. Zudem wurden den Autor rühmende Textpassagen eingefügt.</p>
                   <p>Zu den maßgeblichen Übersetzern der Haskala zählt etwa <rs type="NamesIndex" subtype="MeirLetteris"/>
                <idno sortKey="NamesIndex"/>Meir Letteris (ca. 1800–1871), der die beiden biblischen Dramen <hi rendition="#italic">Athalie</hi> – <hi rendition="#italic">Geza Yishai</hi> (Baumstumpf Isais, 1835) und <hi rendition="#italic">Esther</hi> – <hi rendition="#italic">Shlom Ester</hi> (Frieden Esthers, 1843) – von Racine sowie den ersten Teil von Goethes <rs type="GenIndex" subtype="»Faust«(Goethe)"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Faust</hi> – <hi rendition="#italic">Ben Abuya</hi> (1865) – übertrug. <rs type="NamesIndex" subtype="Salkinson,IsaacEdward"/>
-               <idno sortKey="NamesIndex"/>Isaac Edward Salkinson (1820–1883) besorgte die Übertragungen der ersten beiden Stücke Shakespeares (<!--<xref target="">-->Shylock<!--</xref>-->), namentlich von <rs type="GenIndex"
-                   subtype="Othello(Shaakespeare)–Ithi'elha-Kushi(Iti’elderKuschiter)"/>
+               <idno sortKey="NamesIndex"/>Isaac Edward Salkinson (1820–1883) besorgte die Übertragungen der ersten beiden Stücke Shakespeares (<!--<xref target="">-->Shylock<!--</xref>-->), namentlich von <rs type="GenIndex" subtype="Othello(Shaakespeare)–Ithi'elha-Kushi(Iti’elderKuschiter)"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Othello</hi> – <hi rendition="#italic">Ithi’el ha-Kushi</hi> (Iti’el der Kuschiter, 1874) – sowie <rs type="GenIndex" subtype="RomeoundJulia(Shakespeare)–Ramwe-Ya'el"/>
                <idno sortKey="GenIndex"/>
-                     <hi rendition="#italic">Romeo und Julia</hi> – <hi rendition="#italic">Ram we-Ya’el</hi> (1878) – oder auch Miltons <rs type="GenIndex"
-                   subtype="ParadiseLost(Milton)–Wa-Yegareshetha-Adam(UndervertriebAdam)"/>
+                     <hi rendition="#italic">Romeo und Julia</hi> – <hi rendition="#italic">Ram we-Ya’el</hi> (1878) – oder auch Miltons <rs type="GenIndex" subtype="ParadiseLost(Milton)–Wa-Yegareshetha-Adam(UndervertriebAdam)"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Paradise Lost</hi> – <hi rendition="#italic">Wa-Yegaresh et ha-Adam</hi> (Und er vertrieb Adam, 1871). Im Ganzen betrachtet gleichen die Übersetzungen jener Epoche allerdings einer Anhäufung willkürlich ausgewählter Schriften des mitteleuropäischen <rs type="GenIndex" subtype="Kanon"/>
                <idno sortKey="GenIndex"/>Kanons, die lose durch allgemeine Züge des hebräischen Stils und durch Ähnlichkeiten der Übersetzungstechniken verbunden sind. Kein einziges Werk und kein bedeutender Autor wurden durch die Übertragungen angemessen dargestellt. Gleichwohl brachte die <rs type="GenIndex" subtype="Haskala"/>
@@ -265,13 +253,11 @@
                <idno sortKey="GenIndex"/>Dvir-Verlag. Viele zeitgenössische jüdische Intellektuelle, insbesondere hebräische Dichter, übernahmen bereitwillig Übersetzungen, so dass deren Bestand sich in relativ kurzer Zeit mehr als verdoppelte. Die Bandbreite an Quellensprachen erweiterte sich und moderne Übersetzungsstandards hielten Einzug. Teilübersetzungen der Originale und gesäuberte oder stark manipulierte Ausgaben waren den Lesern nicht mehr zumutbar, auch der Gebrauch von <rs type="GenIndex" subtype="Sekundärübersetzung"/>
                <idno sortKey="GenIndex"/>Sekundärübersetzungen als Quellen nahm immer mehr ab. <rs type="NamesIndex" subtype="Frischmann,David"/>
                <idno sortKey="NamesIndex"/>David Frishman (1859–1922), der unter anderem <rs type="NamesIndex" subtype="Nietzsche,FriedrichWilhelm"/>
-               <idno sortKey="NamesIndex"/>Nietzsches <rs type="GenIndex"
-                   subtype="»AlsosprachZarathustra«(Nietzsche,publ.1909–1911)"/>
+               <idno sortKey="NamesIndex"/>Nietzsches <rs type="GenIndex" subtype="»AlsosprachZarathustra«(Nietzsche,publ.1909–1911)"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Also sprach Zarathustra</hi> (publ. 1909–1911; <!--<xref target="COM-0053">-->Übervolk<!--</xref>-->) ins <rs type="GenIndex" subtype="Hebräisch"/>
                <idno sortKey="GenIndex"/>Hebräische übertrug, war wohl einer der letzten bedeutenden Übersetzer, der die alten Techniken verwendete, um Texte den jüdischen Lesern zugänglich zu machen. Das beste Beispiel ist eine 1895 publizierte Fassung von <rs type="NamesIndex" subtype="Andersen,HansChristian"/>
-               <idno sortKey="NamesIndex"/>Andersens Weihnachtsgeschichte <rs type="GenIndex"
-                   subtype="»DaskleineMädchenmitdenSchwefelhölzern«(AndersensWeihnachtsgeschichte)"/>
+               <idno sortKey="NamesIndex"/>Andersens Weihnachtsgeschichte <rs type="GenIndex" subtype="»DaskleineMädchenmitdenSchwefelhölzern«(AndersensWeihnachtsgeschichte)"/>
                <idno sortKey="GenIndex"/>
                      <hi rendition="#italic">Das kleine Mädchen mit den Schwefelhölzern</hi>, die Frishman in ein <rs type="GenIndex" subtype="Chanukka"/>
                <idno sortKey="GenIndex"/>Chanukka-Märchen umwandelte.</p>
@@ -296,16 +282,16 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="COM-0952_bibl_1_1d1e734">[1] D. Almagor, Shakespeare in Hebrew Literature of the Enlightenment and Revival Periods. A Bibliographical Survey and a Bibliography, in: B. Shakhevitch/M. Peri (Hg.), Simon Halkin Jubilee Volume, Jerusalem 1975, 721–784 [hebr.].</bibl>
-               <bibl xml:id="COM-0952_bibl_2_1d1e740">[2] A. Dykman, Tchernichowsky’s Homer, in: B. Arpaly/A. Dykman (Hg.), Saul Tchernichowsky. Studies and Documents, Jerusalem 1994, 421–473 [hebr.].</bibl>
-               <bibl xml:id="COM-0952_bibl_3_1d1e746">[3] A. Dykman, The Secret of a Kiss, Be It through a Veil, in: A. Reich (Hg.), A Kiss through a Veil. Hebrew Verse Translations by Many Hand Compared, Tel Aviv 2001, 9–22 [hebr.].</bibl>
-               <bibl xml:id="COM-0952_bibl_4_1d1e752">[4] I. Even-Zohar, Polysystem Studies, in: Poetics Today 11 (1990) 1 [Sonderheft].</bibl>
-               <bibl xml:id="COM-0952_bibl_5_1d1e758">[5] I. Even-Zohar, Papers in Historical Poetics, Tel Aviv 1978.</bibl>
-               <bibl xml:id="COM-0952_bibl_6_1d1e765">[6] S. Feiner, The Jewish Enlightenment, Philadelphia 2004.</bibl>
-               <bibl xml:id="COM-0952_bibl_7_1d1e771">[7] M. Pelli, Haskalah and Beyond. The Reception of the Hebrew Enlightenment and the Emergence of Haskalah Judaism, Lanham 2010.</bibl>
-               <bibl xml:id="COM-0952_bibl_8_1d1e777">[8] R. Singerman, Jewish Translation History. A Bibliography of Bibliographies and Studies, Amsterdam/Philadelphia 2002.</bibl>
-               <bibl xml:id="COM-0952_bibl_9_1d1e783">[9] G. Toury, Descriptive Translation Studies and Beyond, Amsterdam/Philadelphia 2002.</bibl>
-               <bibl xml:id="COM-0952_bibl_10_1d1e789">[10] I. Zinberg, A History of Jewish Literature, 12 Bde., New York 1972–78.</bibl>
+               <bibl xml:id="COM-0952_bibl_1_1d1e734">D. Almagor, Shakespeare in Hebrew Literature of the Enlightenment and Revival Periods. A Bibliographical Survey and a Bibliography, in: B. Shakhevitch/M. Peri (Hg.), Simon Halkin Jubilee Volume, Jerusalem 1975, 721–784 [hebr.].</bibl>
+               <bibl xml:id="COM-0952_bibl_2_1d1e740">A. Dykman, Tchernichowsky’s Homer, in: B. Arpaly/A. Dykman (Hg.), Saul Tchernichowsky. Studies and Documents, Jerusalem 1994, 421–473 [hebr.].</bibl>
+               <bibl xml:id="COM-0952_bibl_3_1d1e746">A. Dykman, The Secret of a Kiss, Be It through a Veil, in: A. Reich (Hg.), A Kiss through a Veil. Hebrew Verse Translations by Many Hand Compared, Tel Aviv 2001, 9–22 [hebr.].</bibl>
+               <bibl xml:id="COM-0952_bibl_4_1d1e752">I. Even-Zohar, Polysystem Studies, in: Poetics Today 11 (1990) 1 [Sonderheft].</bibl>
+               <bibl xml:id="COM-0952_bibl_5_1d1e758">I. Even-Zohar, Papers in Historical Poetics, Tel Aviv 1978.</bibl>
+               <bibl xml:id="COM-0952_bibl_6_1d1e765">S. Feiner, The Jewish Enlightenment, Philadelphia 2004.</bibl>
+               <bibl xml:id="COM-0952_bibl_7_1d1e771">M. Pelli, Haskalah and Beyond. The Reception of the Hebrew Enlightenment and the Emergence of Haskalah Judaism, Lanham 2010.</bibl>
+               <bibl xml:id="COM-0952_bibl_8_1d1e777">R. Singerman, Jewish Translation History. A Bibliography of Bibliographies and Studies, Amsterdam/Philadelphia 2002.</bibl>
+               <bibl xml:id="COM-0952_bibl_9_1d1e783">G. Toury, Descriptive Translation Studies and Beyond, Amsterdam/Philadelphia 2002.</bibl>
+               <bibl xml:id="COM-0952_bibl_10_1d1e789">I. Zinberg, A History of Jewish Literature, 12 Bde., New York 1972–78.</bibl>
             </listBibl>
          </div>
       </body>

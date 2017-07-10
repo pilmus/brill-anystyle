@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-     xmlns:xs="http://relaxng.org/ns/structure/1.0"
-     xmlns:type="application/tei+xml"
-     xml:id="e1122110">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="e1122110">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -104,34 +99,20 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="e1122110_bibl_1_1d1e129">
-                        1 B. A. Sparkes, L. Talcott, Black and Plain Pottery of the 6th, 5th and 4th Cent.s B.C. (Agora 12), 1970, 22-31</bibl>
-               <bibl xml:id="e1122110_bibl_2_1d1e144">
-                        2 S. I. Rotroff, Hellenistic Pottery. Athenian and Imported Wheelmade Tableware and Related Material (Agora 29), 1997, 37-38</bibl>
-               <bibl xml:id="e1122110_bibl_3_1d1e156">
-                        3 P. E. Corbett, Palmette Stamps from an Attic Black-Glaze Workshop, in: Hesperia 24, 1955, 172-186, Abb. 1 Taf. 66-71</bibl>
-               <bibl xml:id="e1122110_bibl_4_1d1e168">
-                        4 J. P. Morel, Études de céramique campanienne, vol. 1: L'Atelier des petites estampilles, in: MEFRA 81, 1969, 59-117</bibl>
-               <bibl xml:id="e1122110_bibl_5_1d1e180">
-                        5 Id., Les importations de céramique du IIIe siècle et de la première moitié du IIe siècle. Quelques remarques à propos de l'Ibérie, in: J. Ramon et al. (ed.), Les fàcies ceràmiques d'importació a la Costa Ibèrica, Les Balears i Les Pitiüses durant el segle III aC i la primera meitat del segle II aC, 1998, 243-246</bibl>
-               <bibl xml:id="e1122110_bibl_6_1d1e199">
-                        6 E. Sanmartí-Grego, El taller de las pequeñas estampillas en la Península Ibérica in: Ampurias 35, 1973, 164-171, Abb. 12</bibl>
-               <bibl xml:id="e1122110_bibl_7_1d1e211">
-                        7 F. Chelbi, Céramique à vernis noir de Carthage, 1992, 41-42, Taf. 132-138</bibl>
-               <bibl xml:id="e1122110_bibl_8_1d1e223">
-                        8 R. Pagenstecher, Die calenische Reliefkeramik (JDAI suppl. 8), 1909, 15-16</bibl>
-               <bibl xml:id="e1122110_bibl_9_1d1e235">
-                        9 J. P. Morel, Céramique Campanienne: Les Formes, 1981, 47</bibl>
-               <bibl xml:id="e1122110_bibl_10_1d1e247">
-                        10 N. Lamboglia, Per una classificazione preliminare della ceramica campana, in: Atti del Io Congresso Internazionale di Studi Liguri, 1952, 139-206</bibl>
-               <bibl xml:id="e1122110_bibl_11_1d1e262">
-                        11 J. W. Hayes, Late Roman Pottery, 1972, 217-287, 295-296</bibl>
-               <bibl xml:id="e1122110_bibl_12_1d1e275">
-                        12 Id., A Supplement to Late Roman Pottery, 1980</bibl>
-               <bibl xml:id="e1122110_bibl_13_1d1e284">
-                        13 M. Mackensen, Die spätantiken Sigillata- und Lampentöpfereien von El Mahrine (Nordtunesien): Studien zur nordafrikanischen Feinkeramik des 4. bis 7. Jh., 1993</bibl>
-               <bibl xml:id="e1122110_bibl_14_1d1e296">
-                        14 Id., New Evidence for Central Tunisian Red Slip Ware with Stamped Decoration (ARS Style D), in: Journal of Roman Archaeology 11, 1998, 355-370.</bibl>
+               <bibl xml:id="e1122110_bibl_1_1d1e129"> B. A. Sparkes, L. Talcott, Black and Plain Pottery of the 6th, 5th and 4th Cent.s B.C. (Agora 12), 1970, 22-31</bibl>
+               <bibl xml:id="e1122110_bibl_2_1d1e144"> S. I. Rotroff, Hellenistic Pottery. Athenian and Imported Wheelmade Tableware and Related Material (Agora 29), 1997, 37-38</bibl>
+               <bibl xml:id="e1122110_bibl_3_1d1e156"> P. E. Corbett, Palmette Stamps from an Attic Black-Glaze Workshop, in: Hesperia 24, 1955, 172-186, Abb. 1 Taf. 66-71</bibl>
+               <bibl xml:id="e1122110_bibl_4_1d1e168"> J. P. Morel, Études de céramique campanienne, vol. 1: L'Atelier des petites estampilles, in: MEFRA 81, 1969, 59-117</bibl>
+               <bibl xml:id="e1122110_bibl_5_1d1e180"> Id., Les importations de céramique du IIIe siècle et de la première moitié du IIe siècle. Quelques remarques à propos de l'Ibérie, in: J. Ramon et al. (ed.), Les fàcies ceràmiques d'importació a la Costa Ibèrica, Les Balears i Les Pitiüses durant el segle III aC i la primera meitat del segle II aC, 1998, 243-246</bibl>
+               <bibl xml:id="e1122110_bibl_6_1d1e199"> E. Sanmartí-Grego, El taller de las pequeñas estampillas en la Península Ibérica in: Ampurias 35, 1973, 164-171, Abb. 12</bibl>
+               <bibl xml:id="e1122110_bibl_7_1d1e211"> F. Chelbi, Céramique à vernis noir de Carthage, 1992, 41-42, Taf. 132-138</bibl>
+               <bibl xml:id="e1122110_bibl_8_1d1e223"> R. Pagenstecher, Die calenische Reliefkeramik (JDAI suppl. 8), 1909, 15-16</bibl>
+               <bibl xml:id="e1122110_bibl_9_1d1e235"> J. P. Morel, Céramique Campanienne: Les Formes, 1981, 47</bibl>
+               <bibl xml:id="e1122110_bibl_10_1d1e247"> N. Lamboglia, Per una classificazione preliminare della ceramica campana, in: Atti del Io Congresso Internazionale di Studi Liguri, 1952, 139-206</bibl>
+               <bibl xml:id="e1122110_bibl_11_1d1e262"> J. W. Hayes, Late Roman Pottery, 1972, 217-287, 295-296</bibl>
+               <bibl xml:id="e1122110_bibl_12_1d1e275"> Id., A Supplement to Late Roman Pottery, 1980</bibl>
+               <bibl xml:id="e1122110_bibl_13_1d1e284"> M. Mackensen, Die spätantiken Sigillata- und Lampentöpfereien von El Mahrine (Nordtunesien): Studien zur nordafrikanischen Feinkeramik des 4. bis 7. Jh., 1993</bibl>
+               <bibl xml:id="e1122110_bibl_14_1d1e296"> Id., New Evidence for Central Tunisian Red Slip Ware with Stamped Decoration (ARS Style D), in: Journal of Roman Archaeology 11, 1998, 355-370.</bibl>
             </listBibl>
          </div>
       </body>

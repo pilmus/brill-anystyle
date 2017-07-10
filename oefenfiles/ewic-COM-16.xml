@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-     xmlns:xs="http://relaxng.org/ns/structure/1.0"
-     xmlns:type="application/tei+xml"
-     xml:id="COM-00016">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-00016">
 	  <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -135,18 +130,18 @@
                <bibl xml:id="COM-00016_bibl_7_1d1e270">Brand, Laurie. Women, the state, and political liberalization, New York 1998.</bibl>
                <bibl xml:id="COM-00016_bibl_8_1d1e279">Caraway, Teri L. Comparative political economy, gender and labor markets, in Politics and Gender 5:4 (2009), 568–575.</bibl>
                <bibl xml:id="COM-00016_bibl_9_1d1e288">Charrad, Mounira. States and women’s rights. The making of postcolonial Tunisia, Algeria and Morocco, Berkeley, Calif. 2001.</bibl>
-               <bibl xml:id="COM-00016_bibl_10_1d1e297">——. Kinship, Islam or oil. Culprits of gender inequality?, in Politics and Gender 5:4 (2009), 546–53.</bibl>
+               <bibl xml:id="COM-00016_bibl_10_1d1e297">Charrad, Mounira. Kinship, Islam or oil. Culprits of gender inequality?, in Politics and Gender 5:4 (2009), 546–53.</bibl>
                <bibl xml:id="COM-00016_bibl_11_1d1e307">Clark, Janine and Jillian Schwedler. Who opened the window? Women’s activism in Islamist parties, in Comparative Politics 35:3 (2003), 293–312.</bibl>
                <bibl xml:id="COM-00016_bibl_12_1d1e316">Deeb, Lara. An enchanted modern. Gender and public piety in Shiʾi Lebanon, Princeton, N.J. 2006.</bibl>
                <bibl xml:id="COM-00016_bibl_13_1d1e325">Donno, Daniela and Bruce Russet. Islam, authoritarianism, and female empowerment. What are the linkages?, in World Politics 56:4 (2004), 582–607.</bibl>
                <bibl xml:id="COM-00016_bibl_14_1d1e334">Doorn-Harder, Pieternella van. Women shaping Islam. Reading the Qur’an in Indonesia, Urbana, Ill. 2006.</bibl>
                <bibl xml:id="COM-00016_bibl_15_1d1e343">Doumato, Eleanor A. Getting God’s ear. Women, Islam, and healing in Saudi Arabia and the Gulf, New York 2000.</bibl>
-               <bibl xml:id="COM-00016_bibl_16_1d1e352">—— and Marsha P. Posusney (eds.), Women and globalization in the Arab Middle East. Gender, economy, and society, Boulder, Colo. 2003.</bibl>
+               <bibl xml:id="COM-00016_bibl_16_1d1e352">Doumato, Eleanor A.Getting God’s ear Women and Islam and Marsha P. Posusney (eds.), Women and globalization in the Arab Middle East. Gender, economy, and society, Boulder, Colo. 2003.</bibl>
                <bibl xml:id="COM-00016_bibl_17_1d1e362">Fish, M. Steven. Islam and authoritarianism, in World Politics 55:1 (2002), 4–37.</bibl>
-               <bibl xml:id="COM-00016_bibl_18_1d1e371">——. Are Muslims distinctive? A look at the evidence, New York 2011.</bibl>
+               <bibl xml:id="COM-00016_bibl_18_1d1e371">Fish, M.Steven. Are Muslims distinctive? A look at the evidence, New York 2011.</bibl>
                <bibl xml:id="COM-00016_bibl_19_1d1e380">Gonzales, Allessandra. Islamic feminism in Kuwait. The politics and paradoxes, New York 2013.</bibl>
                <bibl xml:id="COM-00016_bibl_20_1d1e389">Inglehart, Ronald and Pippa Norris. Rising tide. Gender equality and cultural change around the world, Cambridge 2003a.</bibl>
-               <bibl xml:id="COM-00016_bibl_21_1d1e398">——. The true clash of civilizations, in Foreign Policy 135 (2003b), 62–70.</bibl>
+               <bibl xml:id="COM-00016_bibl_21_1d1e398">Inglehart, Ronald and Norris, Pippa. The true clash of civilizations, in Foreign Policy 135 (2003b), 62–70.</bibl>
                <bibl xml:id="COM-00016_bibl_22_1d1e407">Jamal, Amaney and Vickie Langohr. Democratic deficit and gender attitudes. Do attitudes toward women affect women’s rights and level of democracy? Working paper, 2007.</bibl>
                <bibl xml:id="COM-00016_bibl_23_1d1e414">Kang, Alice. Studying oil, Islam and women as if institutions mattered, in Politics and Gender 5:4 (2009), 560–68.</bibl>
                <bibl xml:id="COM-00016_bibl_24_1d1e423">Langohr, Vickie and Amaney Jamal. The improvement of women’s rights in the Arab world. The importance of governing authorities, in Governance in the Middle East and North Africa. A handbook, ed. Abbas Kandhim, New York 2012, 133–54.</bibl>
@@ -156,7 +151,7 @@
                <bibl xml:id="COM-00016_bibl_28_1d1e459">Rizzo, Helen, Abdel-Hamid Abdel-Latif and Katherine Meyer. The relationship between gender equality and democracy. A comparison of Arab versus non-Arab Muslim societies, in Sociology 41:6 (2007), 1151–70.</bibl>
                <bibl xml:id="COM-00016_bibl_29_1d1e470">Ross, Michael. Oil, Islam and women, in American Political Science Review 102:1 (2008), 107–23.</bibl>
                <bibl xml:id="COM-00016_bibl_30_1d1e479">Shehabuddin, Elora. Reshaping the holy. Democracy, development, and Muslim women in Bangladesh, New York 2008a.</bibl>
-               <bibl xml:id="COM-00016_bibl_31_1d1e488">——. The Jamaat-i Islami in Bangladesh. Women, democracy, and the transformation of Islamist politics, in Modern Asian Studies 42 (2008b), 577–603.</bibl>
+               <bibl xml:id="COM-00016_bibl_31_1d1e488">Shehabuddin, Elora. The Jamaat-i Islami in Bangladesh. Women, democracy, and the transformation of Islamist politics, in Modern Asian Studies 42 (2008b), 577–603.</bibl>
                <bibl xml:id="COM-00016_bibl_32_1d1e497">Tessler, Mark and Eleanor Gao. Gauging Arab support for democracy, in Journal of Democracy 16:3 (2005), 83–97.</bibl>
                <bibl xml:id="COM-00016_bibl_33_1d1e506">Tripp, Aili. Debate. Does oil wealth hurt women?, in Politics and Gender 5:4 (2009) 545–82.</bibl>
                <bibl xml:id="COM-00016_bibl_34_1d1e515">Yadav, Stacey. Segmented publics and Islamist women in Yemen. Rethinking space and activism, in Journal of Middle East Women’s Studies 6:20 (2010), 1–30.</bibl>

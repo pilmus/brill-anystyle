@@ -282,16 +282,16 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="COM-0952_bibl_1_1d1e734"><author><name>Almagor, D.</name></author><title level="m">Shakespeare in Hebrew Literature of the Enlightenment and Revival Periods. A Bibliographical Survey and a Bibliography</title><biblScope unit="page">721–784</biblScope><editor><name>B. Shakhevitch/M. Peri (Hg</name></editor><date>1975</date><unclear>D. Almagor, , in: .), Simon Halkin Jubilee Volume, Jerusalem ,  [hebr.].</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_2_1d1e740"><title level="m">Saul Tchernichowsky. Studies and Documents</title><biblScope unit="page">421–473</biblScope><editor><name>A. Dykman, Tchernichowsky’s Homer, in, B. Arpaly/A. Dykman (Hg</name></editor><date>1994</date><pubPlace>Jerusalem</pubPlace><unclear>A. Dykman, Tchernichowsky’s Homer, in: B. Arpaly/A. Dykman (Hg.), ,  ,  [hebr.].</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_3_1d1e746"><author><name>Dykman, A.</name></author><title level="m">The Secret of a Kiss, Be It through a Veil</title><biblScope unit="page">9–22</biblScope><editor><name>A. Reich (Hg</name></editor><date>2001</date><unclear>A. Dykman, , in: .), A Kiss through a Veil. Hebrew Verse Translations by Many Hand Compared, Tel Aviv ,  [hebr.].</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_4_1d1e752"><author><name>Even-Zohar, I.</name></author><title level="m">Polysystem Studies</title><date>1990</date><pubPlace>in</pubPlace><publisher>Poetics Today</publisher><unclear>I. Even-Zohar, , :  11 () 1 [Sonderheft].</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_5_1d1e758"><author><name>Even-Zohar, I.</name></author><title level="m">Papers in Historical Poetics, Tel Aviv</title><date>1978</date><unclear>I. Even-Zohar,  .</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_6_1d1e765"><author><name>Feiner, S.</name></author><title level="m">The Jewish Enlightenment</title><date>2004</date><pubPlace>Philadelphia</pubPlace><unclear>S. Feiner, ,  .</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_7_1d1e771"><author><name>Pelli, M.</name></author><title level="m">Haskalah and Beyond. The Reception of the Hebrew Enlightenment and the Emergence of Haskalah Judaism</title><date>2010</date><publisher>Lanham</publisher><unclear>M. Pelli, ,  .</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_8_1d1e777"><author><name>Singerman, R.</name></author><title level="m">Jewish Translation History. A Bibliography of Bibliographies and Studies</title><date>2002</date><publisher>Amsterdam/Philadelphia</publisher><unclear>R. Singerman, ,  .</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_9_1d1e783"><author><name>Toury, G.</name></author><title level="m">Descriptive Translation Studies and Beyond</title><date>2002</date><publisher>Amsterdam/Philadelphia</publisher><unclear>G. Toury, ,  .</unclear></bibl>
-               <bibl xml:id="COM-0952_bibl_10_1d1e789"><author><name>Zinberg, I.</name></author><title level="m">A History of Jewish Literature, 12 Bde</title><date>1972</date><pubPlace>New York</pubPlace><unclear>I. Zinberg, .,  –78.</unclear></bibl>
+               <bibl xml:id="COM-0952_bibl_1_1d1e734">Almagor, D.Shakespeare in Hebrew Literature of the Enlightenment and Revival Periods. A Bibliographical Survey and a Bibliography721–784B. Shakhevitch/M. Peri (Hg1975D. Almagor, , in: .), Simon Halkin Jubilee Volume, Jerusalem , [hebr.].</bibl>
+               <bibl xml:id="COM-0952_bibl_2_1d1e740">Saul Tchernichowsky. Studies and Documents421–473A. Dykman, Tchernichowsky’s Homer, in, B. Arpaly/A. Dykman (Hg1994JerusalemA. Dykman, Tchernichowsky’s Homer, in: B. Arpaly/A. Dykman (Hg.), , , [hebr.].</bibl>
+               <bibl xml:id="COM-0952_bibl_3_1d1e746">Dykman, A.The Secret of a Kiss, Be It through a Veil9–22A. Reich (Hg2001A. Dykman, , in: .), A Kiss through a Veil. Hebrew Verse Translations by Many Hand Compared, Tel Aviv , [hebr.].</bibl>
+               <bibl xml:id="COM-0952_bibl_4_1d1e752">Even-Zohar, I.Polysystem Studies1990inPoetics TodayI. Even-Zohar, , : 11 () 1 [Sonderheft].</bibl>
+               <bibl xml:id="COM-0952_bibl_5_1d1e758">Even-Zohar, I.Papers in Historical Poetics, Tel Aviv1978I. Even-Zohar, .</bibl>
+               <bibl xml:id="COM-0952_bibl_6_1d1e765">Feiner, S.The Jewish Enlightenment2004PhiladelphiaS. Feiner, , .</bibl>
+               <bibl xml:id="COM-0952_bibl_7_1d1e771">Pelli, M.Haskalah and Beyond. The Reception of the Hebrew Enlightenment and the Emergence of Haskalah Judaism2010LanhamM. Pelli, , .</bibl>
+               <bibl xml:id="COM-0952_bibl_8_1d1e777">Singerman, R.Jewish Translation History. A Bibliography of Bibliographies and Studies2002Amsterdam/PhiladelphiaR. Singerman, , .</bibl>
+               <bibl xml:id="COM-0952_bibl_9_1d1e783">Toury, G.Descriptive Translation Studies and Beyond2002Amsterdam/PhiladelphiaG. Toury, , .</bibl>
+               <bibl xml:id="COM-0952_bibl_10_1d1e789">Zinberg, I.A History of Jewish Literature, 12 Bde1972New YorkI. Zinberg, ., –78.</bibl>
             </listBibl>
          </div>
       </body>

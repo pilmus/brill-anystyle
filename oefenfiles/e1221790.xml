@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-     xmlns:xs="http://relaxng.org/ns/structure/1.0"
-     xmlns:type="application/tei+xml"
-     xml:id="e1221790">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="e1221790">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -125,45 +120,19 @@
                   <div>
                <head>Bibliography</head>
                <listBibl>
-                  <bibl xml:id="e1221790_bibl_1_1d1e175">		
-                              1		
-                              B. Bar-Kochva, The Seleucid Army, 1976 </bibl>
-                  <bibl xml:id="e1221790_bibl_2_1d1e187">		
-                              2		
-                              L. Burckhardt, Bürger und Soldaten, 1996 </bibl>
-                  <bibl xml:id="e1221790_bibl_3_1d1e199">		
-                              3		
-                              G. T. Griffith, The Mercenaries of the Hellenistic World, 1935 </bibl>
-                  <bibl xml:id="e1221790_bibl_4_1d1e211">		
-                              4		
-                              D. Hamel, Athenian Generals, 1998 </bibl>
-                  <bibl xml:id="e1221790_bibl_5_1d1e223">		
-                              5HM, vol. 3 </bibl>
-                  <bibl xml:id="e1221790_bibl_6_1d1e233">		
-                              6		
-                              M. H. Hansen, Democracy and Demography, 1986 </bibl>
-                  <bibl xml:id="e1221790_bibl_7_1d1e245">		
-                              7		
-                              Kromayer/Veith	
-                           </bibl>
-                  <bibl xml:id="e1221790_bibl_8_1d1e257">		
-                              8		
-                              M. Launey, Recherches sur les armées hellénistiques, 1949/50 </bibl>
-                  <bibl xml:id="e1221790_bibl_9_1d1e269">		
-                              9		
-                              J. F. Lazenby, The Spartan Army, 1985 </bibl>
-                  <bibl xml:id="e1221790_bibl_10_1d1e281">		
-                              10		
-                              H. W. Parke, Greek Mercenary Soldiers, 1933 </bibl>
-                  <bibl xml:id="e1221790_bibl_11_1d1e293">		
-                              11		
-                              F. Prost (ed.), Armées et sociétés de la Grèce classique, 1999 </bibl>
-                  <bibl xml:id="e1221790_bibl_12_1d1e306">		
-                              13		
-                              M. Sage, Warfare in Ancient Greece, 1996 </bibl>
-                  <bibl xml:id="e1221790_bibl_13_1d1e318">		
-                              14		
-                              D. Whitehead, The Ideology of the Athenian Metic, 1977, 82-86. </bibl>
+                  <bibl xml:id="e1221790_bibl_1_1d1e175">B. Bar-Kochva, The Seleucid Army, 1976</bibl>
+                  <bibl xml:id="e1221790_bibl_2_1d1e187">L. Burckhardt, Bürger und Soldaten, 1996</bibl>
+                  <bibl xml:id="e1221790_bibl_3_1d1e199">G. T. Griffith, The Mercenaries of the Hellenistic World, 1935</bibl>
+                  <bibl xml:id="e1221790_bibl_4_1d1e211">D. Hamel, Athenian Generals, 1998</bibl>
+                  <bibl xml:id="e1221790_bibl_5_1d1e223">HM, vol. 3</bibl>
+                  <bibl xml:id="e1221790_bibl_6_1d1e233">M. H. Hansen, Democracy and Demography, 1986</bibl>
+                  <bibl xml:id="e1221790_bibl_7_1d1e245">Kromayer/Veith</bibl>
+                  <bibl xml:id="e1221790_bibl_8_1d1e257">M. Launey, Recherches sur les armées hellénistiques, 1949/50</bibl>
+                  <bibl xml:id="e1221790_bibl_9_1d1e269">J. F. Lazenby, The Spartan Army, 1985</bibl>
+                  <bibl xml:id="e1221790_bibl_10_1d1e281">H. W. Parke, Greek Mercenary Soldiers, 1933</bibl>
+                  <bibl xml:id="e1221790_bibl_11_1d1e293">F. Prost (ed.), Armées et sociétés de la Grèce classique, 1999</bibl>
+                  <bibl xml:id="e1221790_bibl_12_1d1e306">M. Sage, Warfare in Ancient Greece, 1996</bibl>
+                  <bibl xml:id="e1221790_bibl_13_1d1e318">D. Whitehead, The Ideology of the Athenian Metic, 1977, 82-86.</bibl>
                </listBibl>
             </div>
                </div>
@@ -204,29 +173,14 @@
                   <div>
                <head>Bibliography</head>
                <listBibl>
-                  <bibl xml:id="e1221790_bibl_1_1d1e518">		
-                              1		
-                              P. A. Brunt, The Army and the Land in the Roman Revolution, in: Id., The Fall of the Roman Republic, 1988, 240-280 </bibl>
-                  <bibl xml:id="e1221790_bibl_2_1d1e530">		
-                              2Id., Conscription and Volunteering in the Roman Imperial Army, in: Id., Roman Imperial Themes, 1990, 188-214 </bibl>
-                  <bibl xml:id="e1221790_bibl_3_1d1e539">		
-                              3		
-                              Brunt, 391-415; 625-638 </bibl>
-                  <bibl xml:id="e1221790_bibl_4_1d1e551">		
-                              4		
-                              H. Elton, Warfare in Roman Europe AD 350-425, 1996, 128-154 </bibl>
-                  <bibl xml:id="e1221790_bibl_5_1d1e563">		
-                              5		
-                              E. Gabba, Republican Rome. The Army and the Allies, 1976, 1-19 </bibl>
-                  <bibl xml:id="e1221790_bibl_6_1d1e576">		
-                              6		
-                              Jones, LRE, 614-623 </bibl>
-                  <bibl xml:id="e1221790_bibl_7_1d1e588">		
-                              7		
-                              L. Keppie, The Making of the Roman Army, 21998 </bibl>
-                  <bibl xml:id="e1221790_bibl_8_1d1e603">		
-                              8		
-                              E. Rawson, The Literary Sources for the Pre-Marian Army, in: PBSR 39, 1971, 13-31. </bibl>
+                  <bibl xml:id="e1221790_bibl_1_1d1e518">P. A. Brunt, The Army and the Land in the Roman Revolution, in: Id., The Fall of the Roman Republic, 1988, 240-280</bibl>
+                  <bibl xml:id="e1221790_bibl_2_1d1e530">Id., Conscription and Volunteering in the Roman Imperial Army, in: Id., Roman Imperial Themes, 1990, 188-214</bibl>
+                  <bibl xml:id="e1221790_bibl_3_1d1e539">Brunt, 391-415; 625-638</bibl>
+                  <bibl xml:id="e1221790_bibl_4_1d1e551">H. Elton, Warfare in Roman Europe AD 350-425, 1996, 128-154</bibl>
+                  <bibl xml:id="e1221790_bibl_5_1d1e563">E. Gabba, Republican Rome. The Army and the Allies, 1976, 1-19</bibl>
+                  <bibl xml:id="e1221790_bibl_6_1d1e576">Jones, LRE, 614-623</bibl>
+                  <bibl xml:id="e1221790_bibl_7_1d1e588">L. Keppie, The Making of the Roman Army, 21998</bibl>
+                  <bibl xml:id="e1221790_bibl_8_1d1e603">E. Rawson, The Literary Sources for the Pre-Marian Army, in: PBSR 39, 1971, 13-31.</bibl>
                </listBibl>
             </div>
                </div>

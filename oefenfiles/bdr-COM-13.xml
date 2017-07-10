@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0"
-     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
-     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-     xmlns:xs="http://relaxng.org/ns/structure/1.0"
-     xmlns:type="application/tei+xml"
-     xml:id="COM-00013">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-00013">
    <teiHeader xml:lang="en">
       <fileDesc>
          <titleStmt>
@@ -108,8 +103,8 @@
                   </head>
             <listBibl>
                <bibl xml:id="COM-00013_bibl_1_1d1e126">Bakunin, Mikhail, Selected Writings, ed. by Arthur Lehning, New York 1973</bibl>
-               <bibl xml:id="COM-00013_bibl_2_1d1e138">Idem, Statism and Anarchy, ed. by Marshall S. Shatz, New York 1990</bibl>
-               <bibl xml:id="COM-00013_bibl_3_1d1e147">Idem, The Basic Bakunin, ed. by Robert M. Cutler, Buffalo 1996</bibl>
+               <bibl xml:id="COM-00013_bibl_2_1d1e138">Bakunin, Mikhail, Statism and Anarchy, ed. by Marshall S. Shatz, New York 1990</bibl>
+               <bibl xml:id="COM-00013_bibl_3_1d1e147">Bakunin, Mikhail, The Basic Bakunin, ed. by Robert M. Cutler, Buffalo 1996</bibl>
                <bibl xml:id="COM-00013_bibl_4_1d1e156">Carter, April, The Political Theory of Anarchism, London 1971</bibl>
                <bibl xml:id="COM-00013_bibl_5_1d1e166">Crowder, George, Classical Anarchism: The Political Thought of Godwin, Proudhon, Bakunin, and Kropotkin, Oxford/New York 1991</bibl>
                <bibl xml:id="COM-00013_bibl_6_1d1e175">Guérin, Daniel, Anarchism: From Theory to Practice, New York 1970 (Fr. 1965)</bibl>
