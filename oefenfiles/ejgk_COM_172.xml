@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"
+     xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+     xmlns:xs="http://relaxng.org/ns/structure/1.0"
+     xmlns:type="application/tei+xml"
+     xml:id="COM-0172">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Deutsch</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Andreas Kilcher, Zürich%22">
+               <name type="person">Andreas Kilcher, Zürich</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+            <availability status="restricted">
+               <licence target="placeholder">Placeholder</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title level="m">Enzyklopädie jüdischer Geschichte und Kultur</title>
+               <editor>
+                  <persName>
+                     <forename>Dan</forename>
+                     <surname>Diner, . 7 Bände. Stuttgart, Germany. Copyright © J.B. Metzler’sche Verlagsbuchhandlung und Carl Ernst Poeschel Verlag GmbH (2011–2015)</surname>
+                  </persName>
+               </editor>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">2:100</biblScope>
+               <idno type="DOI">10.1163/2468-2845_ejgk_COM_0172</idno>
+               <idno type="sams-id">ejgk</idno>
+               <idno type="publisher-id">EJGK</idno>
+               <idno type="ISSN">2468-2845</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Die deutsche Sprache spielt in der jüdischen Geschichte eine ebenso gewichtige wie ambivalente Rolle. Auf der einen Seite wurde sie zum Medium von Säkularisierung, Integration und <rs type="GenIndex" subtype="Emanzipation"/>
+               <idno sortKey="GenIndex"/>Emanzipation. Als solche avancierte sie im 19. Jahrhundert zur Lingua franca des <rs type="GenIndex" subtype="Aschkenasim"/>
+               <idno sortKey="GenIndex"/>aschkenasischen Judentums bis weit ins <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>östliche Europa, wo sie als Ausdruck von Fortschritt, Bildung und Wissenschaft gesehen wurde. Auf der anderen Seite wurde sie zum Ort gesellschaftlicher und kultureller Ungleichheit zwischen Juden und Deutschen. Ein kultureller <rs type="GenIndex" subtype="Antisemitismus"/>
+               <idno sortKey="GenIndex"/>Antisemitismus sprach den Juden die Fähigkeit und das Recht ab, die deutsche Sprache zu verwenden. Der jüdische Nationalismus wiederum stellte sich mit seiner Forderung einer jüdischen Sprache gegen das Deutsche als der Sprache der Assimilation, wobei die zionistische Sprachpraxis bis zur Verlegung der zionistischen Weltorganisation nach London, ja darüber hinaus noch lange deutsch blieb. Mit dem <rs type="GenIndex" subtype="Nationalsozialismus"/>
+               <idno sortKey="GenIndex"/>Nationalsozialismus und dem Exil verschärfte sich diese Ambivalenz. Während die deutsche Sprache den Juden zur Sprache der Verfolgung und Vernichtung wurde, war sie im Exil der exterritoriale »geistige« Ort. Entsprechend war der Neuanfang einer deutsch-jüdischen Kultur nach 1945 begründungsbedürftig.</p>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>History</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20161001" status="first-online"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+                  <head>1. Der Eintritt der Juden in die deutsche Sprache (1750–1900)</head>
+                  <p>Vor der <rs type="GenIndex" subtype="Aufklärung"/>
+               <idno sortKey="GenIndex"/>Aufklärung waren die Juden in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Europa in Bezug auf soziale und wirtschaftliche Gegebenheiten sowie auf Religion, Kultur und Sprache isoliert. Die vormoderne Sprachsituation speziell der <rs type="GenIndex" subtype="Aschkenasim"/>
+               <idno sortKey="GenIndex"/>Aschkenasim in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Mitteleuropa und im <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>östlichen Europa war durch <rs type="GenIndex" subtype="Mehrsprachigkeit"/>
+               <idno sortKey="GenIndex"/>Mehrsprachigkeit gekennzeichnet, ein Merkmal jüdischer Diasporageschichte schlechthin: Auf der einen Seite verwendeten die Juden das <rs type="GenIndex" subtype="Jiddisch"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Jiddische<!--</xref>--> als Alltagssprache, auf der anderen Seite das <rs type="GenIndex" subtype="Hebräisch"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Hebräische<!--</xref>--> als religiöse Sprache, während sie an den Sprachen der nichtjüdischen Umwelt (wie Deutsch oder slawische Sprachen) nur in dem Maß Anteil hatten, wie ihnen diese zugänglich war. Voraussetzung für den Übergang der Juden zu einer breiten Verwendung des Deutschen war daher eine doppelte Transgression gesellschaftlicher und kultureller Grenzen, wie sie in der Aufklärung sowohl von der nichtjüdischen Gesellschaft (ideell u. a. im Toleranzpostulat, politisch in der Forderung der <rs type="GenIndex" subtype="Emanzipation"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="COM-0056">-->Emanzipation<!--</xref>-->) als auch von der jüdischen Kultur her (in der Programmatik der <rs type="GenIndex" subtype="Haskala"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="COM-0152">-->Haskala<!--</xref>-->) einsetzte.</p>
+                  <p>Dennoch ist schon die vormoderne Verwendung des Jiddischen nicht gänzlich vom Deutschen zu trennen. Kulturhistoriker der jüdischen Sprachen wie <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Heinrich Loewe (<rs type="GenIndex" subtype="DieSprachenderJuden(HeinrichLoewe,1911)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die Sprachen der Juden</hi>, 1911; <rs type="GenIndex"
+                   subtype="DiejüdischdeutscheSprachederOstjuden(HeinrichLoewe,1915)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die jüdischdeutsche Sprache der Ostjuden</hi>, 1915) haben das Jiddische als »deutsche Sprache bei den Juden« interpretiert, mit der Begründung, dass die Unterscheidung des Jiddischen vom Deutschen des späten Mittelalters und der frühen Neuzeit keine kategoriale, sondern eine graduelle war. Unterstützt wird dies auch durch den Sprachgebrauch, wonach das Jiddische im Deutschen als »Jüdischdeutsch« und im Jiddischen als <hi rendition="#italic">taytsh</hi> bezeichnet wurde. Mit diesem Argument ließ sich schon für die aschkenasischen Juden in der Folge der Massenmigration nach <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Polen-<rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Litauen angesichts der <rs type="GenIndex" subtype="Judenverfolgungen(1348)"/>
+               <idno sortKey="GenIndex"/>Judenverfolgungen von 1348 festhalten, dass »das Deutsche« bei den Juden die »gesprochene und geliebte Mutter- und Familiensprache [ist], selbst wenn sie um des wirtschaftlichen Verkehrs willen gezwungen sind, außerhalb des Hauses mit der Umgebung die herrschende Landessprache zu reden. In allen osteuropäischen Ländern und weit nach Asien hinein sprechen die Juden auch heute noch eine deutsche Mundart als ihre Mutter- und Familiensprache« . Sprachhistorisch muss dem allerdings entgegengehalten werden, dass zwar das <rs type="GenIndex" subtype="Westjiddisch"/>
+               <idno sortKey="GenIndex"/>Westjiddische den Anschluss an die deutsche Sprachentwicklung in Teilen vollzogen hatte, das von der deutschsprachigen Umwelt abgelöste <rs type="GenIndex" subtype="Ostjiddisch"/>
+               <idno sortKey="GenIndex"/>Ostjiddische der osteuropäischen Juden sich hingegen im deutschen Sprachstand kaum mehr veränderte, dafür aber slawische Sprachelemente aufnahm.</p>
+                  <p>Umso mehr ist der Übergang vom Jiddischen zum <rs type="GenIndex" subtype="Hochdeutsch"/>
+               <idno sortKey="GenIndex"/>Hochdeutschen, wie er um 1750 einsetzte, als vielschichtiger, auch soziokulturell bedeutender Sprachwechsel einzustufen. Dieser über Jahrzehnte andauernde Prozess ging mit einer neuen Mehrsprachigkeit einher: der Gleichzeitigkeit von Deutsch, Hebräisch und Jiddisch, wobei das Deutsche zunehmend sowohl das Jiddische (im alltagssprachlichen Bereich) als auch das Hebräische (im religiösen Bereich) ablöste. Dies erfolgte in einem großen Zeitraum mit regionalen Unterschieden, in den urbanen Aufklärungszentren sehr viel rascher als in ländlichen Gegenden.</p>
+                  <p>Für die Durchsetzung der deutschen Sprache unter den Juden war nicht nur der eigene Wille zur Integration ausschlaggebend, wie er durch eine intellektuelle Elite formuliert wurde. Bestimmend war auch der Assimilationsdruck der nichtjüdischen Umwelt. Formal ist er in den Toleranz- und Emanzipationsedikten dokumentiert. Tatsächlich wurde den Juden etwa im <rs type="GenIndex" subtype="FürstentumHessen-Kassel"/>
+               <idno sortKey="GenIndex"/>Fürstentum Hessen-Kassel bereits 1739 auferlegt, in Geschäftsbriefen nicht mehr das Jiddische, sondern das Deutsche zu verwenden. Insbesondere aber das für die <rs type="GenIndex" subtype="Habsburgermonarchie"/>
+               <idno sortKey="GenIndex"/>Habsburgermonarchie wegweisende <!--<xref target="">-->Toleranzpatent<!--</xref>-->
+                     <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Kaiser Josephs II. vom 2. Januar 1782 verknüpfte Emanzipationsbestrebungen wie die Aufhebung der <rs type="GenIndex" subtype="Ghetto"/>
+               <idno sortKey="GenIndex"/>Ghettos mit der Auflage, dass die Juden deutsche Namen annahmen und ihre Kinder auf deutschsprachige Schulen schickten. Vergleichbar damit forderte auch das <hi rendition="#italic">Edikt, betreffend die bürgerlichen Verhältnisse der Juden in dem Preußischen Staate</hi> von 1812 (<!--<xref target="">-->Preußisches Judenedikt<!--</xref>-->) für die bürgerlichen Rechte die sprachliche Assimilation: »§ 2. Die Fortdauer dieser ihnen beigelegten Eigenschaft als Einländer und Staatsbürger wird aber nur unter der Verpflichtung gestattet: daß sie fest bestimmte Familien-Namen führen, und daß sie nicht nur bei Führung ihrer Handelsbücher, sondern auch bei Abfassung ihrer Verträge und rechtlichen Willens-Erklärungen der deutschen oder einer andern lebenden Sprache, und bei ihren Namens-Unterschriften keiner andern, als deutscher oder lateinischer Schriftzüge sich bedienen sollen.«</p>
+                  <p>Veranlasst durch den Assimilationswillen von innen wie auch den Assimilationsdruck von außen, war die sprachliche Integration der Juden in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Deutschland ein langfristiger Prozess, der noch mitten im 19. Jahrhundert im Gang war. Das belegt die Einschätzung des jüdischen Reformpädagogen <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Anton Rée in seiner Schrift <rs type="GenIndex"
+                   subtype="DieSprachverhältnissederheutigenJuden(AntonRée,1844)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die Sprachverhältnisse der heutigen Juden</hi> (1844): »Thatsächlich sprechen noch bis auf den heutigen Tag viele Juden ihre Muttersprache auf eine Weise, durch welche sie sich entschieden als Juden kenntlich machen« . Ende des Jahrhunderts ergibt sich jedoch ein anderer Befund. Die aufblühende jüdische <!--<xref target="">-->Statistik<!--</xref>-->, wie sie namentlich das von <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Arthur Ruppin geleitete <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Berliner <rs type="GenIndex" subtype="BureaufürStatistikderJuden"/>
+               <idno sortKey="GenIndex"/>Bureau für Statistik der Juden betrieb und in der <rs type="GenIndex"
+                   subtype="ZeitschriftfürDemographieundStatistikderJuden(ab1905)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Zeitschrift für Demographie und Statistik der Juden</hi> (ab 1905) publizierte, zeigt, dass die deutsche Sprache um 1900 zu einer Lingua franca der Juden nicht nur in Deutschland, sondern in ganz Mitteleuropa und im östlichen Europa, ja darüber hinaus geworden war. Besonders aufschlussreich ist dabei die Statistik im mehrsprachigen Vielvölkerstaat <rs type="GenIndex" subtype="Österreich-Ungarn"/>
+               <idno sortKey="GenIndex"/>Österreich-Ungarn mit den Kronländern, in denen die Deutschsprachigkeit von Juden in der <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Bukowina 95,5 Prozent betrug, <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>in Böhmen 43,7 Prozent, <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/> in Mähren 77,4 Prozent und in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Ungarn 70 Prozent, wo Deutsch in allen Kronländern auch die offizielle Sprache in Verwaltung und Schulen war. Basierend auf der Volkszählung aus dem Jahr 1900 wird im Artikel <hi rendition="#italic">Die Umgangssprache der Juden in Österreich</hi> für <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Galizien neben dem Polnischen Deutsch mit 34,2 Prozent als die meistgesprochene Sprache der Juden angegeben, vor Böhmisch, Ruthenisch, Ungarisch etc.: »Nimmt man die Kronländer einzeln, so ergibt sich in ihnen sämtlich eine Bevorzugung des Deutschen bei den Juden« .</p>
+                  <p>Die These der Deutschsprachigkeit der europäischen Juden spitzte der Migrationspolitiker und Statistiker <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Davis Trietsch (1870–1935) in einer Reihe von Publikationen zu. In Zeitschriftenbeiträgen wie <rs type="GenIndex"
+                   subtype="DieDeutschsprachigkeitderJuden(DavisTrietsch,1910)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die Deutschsprachigkeit der Juden</hi> (1910) sowie der Monographie <rs type="GenIndex"
+                   subtype="JudenundDeutsche.EineSprach-undInteressengemeinschaft(DavisTrietsch,1915)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Juden und Deutsche. Eine Sprach- und Interessengemeinschaft</hi> (1915) berücksichtigt er nicht nur die Mutter- bzw. Umgangssprachen der Juden, sondern auch die »Doppelsprachigkeit« (bzw. Mehrsprachigkeit) und vermittelt so ein Bild, das die aus der Volkszählung von 1900 gewonnenen Erkenntnisse generalisiert. Unter diesen Voraussetzungen ist das Resultat für Österreich-Ungarn hundertprozentig: Alle Juden sind nach Trietsch als »deutschredende Juden« anzusehen. Zugleich erscheinen die nichtdeutschen Sprachen der Kronländer als vernachlässigbar, wie das Beispiel Böhmens zeigt: Um 1900 sprachen hier nach Trietsch nur 8,86 Prozent der Juden als Muttersprache kein Deutsch, sondern Böhmisch, Mährisch oder Slowakisch (doch selbst für diese war Deutsch die Zweitsprache). Indem er diese statistische Logik auf alle Länder anwendet, gelangt er zur Generalthese der globalen Deutschsprachigkeit der Juden: »Das Ergebnis war, dass von den etwa 14 ¾ Millionen Juden der ganzen Welt 12,93 Millionen dem deutschen Sprachraum zuzuzählen seien, und zwar […] in dem Sinne, dass deutsch und jüdisch-deutsch – sowohl als Muttersprache, wie als zweite, oder auch als irgendwie eine Verständigungsmöglichkeit bietende Sprache in Betracht gezogen waren« . Trietschs Darstellung ist freilich von einer sprachpolitischen Tendenz geleitet: Die Folgerung, dass die Deutschsprachigkeit der Juden in der Gegenwart zum wichtigsten organisatorischen und politischen Faktor der neuen Judenfrage geworden sei, zielt auf die These, deutsche und jüdische Kultur würden weitgehend zusammenfallen. Die Juden erscheinen so als die modernen Vermittler, ja Globalisierer der deutschen Kultur. Mit rund 13 Millionen Deutschsprechenden weltweit sind sie die Träger des Deutschen als Weltsprache.</p>
+               </div>
+         <div>
+                  <head>2. Jüdische Begründungsdiskurse des Deutschen (1750–1933)</head>
+                  <p>Die kulturpolitische Programmatik der intellektuellen Begründer der <rs type="GenIndex" subtype="Haskala"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="COM-0152">-->Haskala<!--</xref>--> war in der Sprachenfrage sehr dezidiert: Sie zielten auf die Ablösung des <rs type="GenIndex" subtype="Jiddisch"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Jiddischen<!--</xref>--> durch die Bildungssprache des Deutschen. Zugleich plädierten sie für eine Renaissance des <rs type="GenIndex" subtype="Hebräisch"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Hebräischen<!--</xref>--> als religiöse wie wissenschaftliche Sprache des Judentums. Beispielhaft dafür ist <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Moses Mendelssohn (<!--<xref target="">-->Bi’ur<!--</xref>-->), der jiddischsprachig in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Dessau aufgewachsen war und 1742 als Talmudschüler in die Aufklärungsstadt <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Berlin gelangte, wo er von 1755 an nur noch die deutsche Sprache verwendete. Seine Ablehnung der »deutsch-jüdischen Mundart« gegenüber der »reinen deutschen Mundart« formulierte er in einem Brief an den preußischen Assistenzrat <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Ernst Ferdinand Klein vom 29. August 1782: »Hingegen würde ich es sehr ungern sehen, wenn […] die deutsch-jüdische Mundart und die Vermischung des Hebräischen mit dem Deutschen durch die Gesetze autorisiert würden. Ich fürchte, dieser Jargon hat nicht wenig zur Unsittlichkeit des gemeinen Mannes beigetragen; und verspreche mir sehr gute Wirkung von dem unter meinen Brüdern seit einiger Zeit aufkommenden Gebrauch der reinen deutschen Mundart« . Insbesondere mit seiner Übersetzung der Tora ins Deutsche (1773–1783) galt Mendelssohn als entscheidender Förderer der deutschen Sprache unter den Juden. Dieses Deutsch war in hebräischen Lettern gedruckt, was sich als Alternative zu dem in hebräischen Lettern geschriebenen Jiddischen vor allem für religiöse Texte wie Gebetbücher und Bibeln bis weit ins 19. Jahrhundert halten konnte. Die Rolle Mendelssohns und seiner <rs type="GenIndex" subtype="Bibelübersetzung"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Bibelübersetzung<!--</xref>--> bei der Übernahme der deutschen Sprache durch die Juden ließ ihn im 19. Jahrhundert als <hi rendition="#italic">den</hi> Spracherzieher der Juden erscheinen, wie etwa der 1897 in der vom <!--<xref target="">-->Central-Verein<!--</xref>--> herausgegebenen Zeitschrift <hi rendition="#italic">Im deutschen Reich</hi> veröffentlichte Artikel <hi rendition="#italic">Moses Mendelssohn’s Verdienste um die deutsche Sprache</hi> belegt: Während die »Rabbiner und Aeltesten der Gemeinde […] diejenigen, welche durch die Erlernung der deutschen Sprache sich den Christen zu nähern suchten, mit Ausweisung aus der Stadt [bedrohten]«, habe Mendelssohn durch die deutsche Sprache »den Juden des vorigen Jahrhunderts den Weg zur europäischen Kultur eröffnet, der ihnen bis dahin verschlossen gewesen war« .</p>
+                  <p>Wegweisend war die weitere Etablierung des Deutschen in religiösen bzw. religionspädagogischen Bereichen. Exemplarisch ist etwa die Einführung des Deutschen als Unterrichtssprache in der Jüdischen <rs type="GenIndex" subtype="Freischule"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="COM-0098">-->Freischule<!--</xref>--> 1778 durch Mendelssohns Mitstreiter <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>David Friedländer, für die er auch ein deutsches Sprachlehrbuch, das <rs type="GenIndex"
+                   subtype="LesebuchfürjüdischeKinder(DavidFriedländer,1779)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Lesebuch für jüdische Kinder</hi> (1779), edierte sowie das hebräische Gebetbuch ins Deutsche übersetzte (<rs type="GenIndex" subtype="GebetederJuden(DavidFriedländer,1786)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Gebete der Juden</hi>, 1786). Damit war die sprachpädagogische Position des <rs type="GenIndex" subtype="Reform"/>
+               <idno sortKey="GenIndex"/>Reformjudentums (<!--<xref target="">-->Reform<!--</xref>-->) vorbereitet, das den Status des Hebräischen als religiöse Sprache im Gebet wie im Gottesdienst und im Ritual (<rs type="GenIndex" subtype="Liturgie"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Liturgie<!--</xref>-->) infrage stellte. Reformorientierte Rabbiner, die meist auch wissenschaftlich, pädagogisch und politisch tätig waren, zählten zu den Verfechtern der deutschen Sprache in Gottesdienst und Gebet, darunter <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Isaac Bernays (er führte die deutsche Predigt in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Hamburg ein), <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Eduard Kley (Hamburg), <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Leopold Zunz (Berlin), <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Samuel Holdheim (<rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Frankfurt/Oder und Berlin), <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Joseph Aub (<rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Bayern, <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Mainz und Berlin), <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Abraham Geiger (<rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Breslau, <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Frankfurt am Main und Berlin). Kley begründete diese Ausweitung des Deutschen auch in religiösen Belangen theologisch mit dem biblischen Narrativ der Spracheneinheit vor dem babylonischen Turmbau: »So ist Eintracht der Sprache, Einheit der Zunge der herrlichste Bau, den wir anfangen, und unsern Kindern zur Ausführung übergeben können, denn die Sprachen-Einheit erwecket auch den gleichen Sinn« . Die Einführung des Deutschen in religiösen Belangen wurde allerdings kontrovers diskutiert. Gemäßigte Reformer und vor allem die Vertreter der Orthodoxie lehnten sie ab.</p>
+                  <p>Für die Durchsetzung des Deutschen spielte neben den Reformen auf dem Gebiet der Religion auch die Etablierung einer deutsch-jüdischen Wissenschaftssprache eine tragende Rolle. Diese folgte der Begründung einer hebräischsprachigen Wissenschaft des Judentums in der Haskala, die mit der von <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Isaak Euchel ab 1783 herausgegebenen Zeitschrift <rs type="GenIndex" subtype="Ha-Me’assef(ab1783,hg.v.IsaakEuchel)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">
+                        <!--<xref target="COM-0147">-->Ha-Me’assef<!--</xref>-->
+                     </hi> (Der Sammler) ihr Organ hatte. Die Begründung einer deutschsprachigen <rs type="GenIndex" subtype="WissenschaftdesJudentums"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Wissenschaft des Judentums<!--</xref>--> erfolgte sodann einige Jahrzehnte später in Berlin mit dem <rs type="GenIndex" subtype="VereinfürCulturundWissenschaftdesJudentums"/>
+               <idno sortKey="GenIndex"/>Verein für Cultur und Wissenschaft des Judentums (1819) sowie der von Leopold Zunz redigierten <rs type="GenIndex"
+                   subtype="ZeitschriftfürdieWissenschaftdesJudentums(hg.v.LeopoldZunz,1822/1824)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Zeitschrift für die Wissenschaft des Judentums</hi> (1822/1824), während eine Reihe weiterer deutsch-jüdischer Zeitschriften wie <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>David Fränkels <rs type="GenIndex"
+                   subtype="Sulamith.ZeitschriftzurBeförderungderKulturundHumanitätunterderjüdischenNation(hg.v.DavidFraenkel,1806–1843)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">
+                        <!--<xref target="">-->Sulamith<!--</xref>-->
+                     </hi>
+                     <hi rendition="#italic">. Zeitschrift zur Beförderung der Kultur und Humanität unter der jüdischen Nation</hi> (1806–1843), <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Gabriel Riessers <rs type="GenIndex" subtype="DerJude(hg.v.GabrielRiesser,ab1832)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Der Jude</hi> (ab 1832), Abraham Geigers <rs type="GenIndex"
+                   subtype="WissenschaftlicheZeitschriftfürjüdischeTheologie(hg.v.AbrahamGeiger,1835–1839)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Wissenschaftliche Zeitschrift für jüdische Theologie</hi> (1835–1839) und <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Ludwig Philippsons <rs type="GenIndex"
+                   subtype="AllgemeineZeitungdesJudentums(hg.v.LudwigPhilippson,1837–1922)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">
+                        <!--<xref target="">-->Allgemeine Zeitung des Judentums<!--</xref>-->
+                     </hi> (1837–1922) die emanzipatorisch-universalistische Tendenz der deutschsprachigen jüdischen Wissenschaft in einem humanistischen Bildungsoptimismus populärwissenschaftlich umsetzten und deutschsprachig verbreiteten (<!--<xref target="COM-0084">-->Feuilleton<!--</xref>-->).</p>
+                  <p>Entscheidend war auch das Sprachverständnis der Wissenschaft des Judentums. Sie baute auf einem säkularisierenden und historisierenden Blick auf die jüdische Kultur und Geschichte auf, wobei sie an die leitenden geisteswissenschaftlichen Paradigmen des frühen 19. Jahrhunderts anschloss: Philologie und Geschichtsschreibung. In diesem Sinne verstanden Leopold Zunz und <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Moritz Steinschneider (<!--<xref target="">-->Bibliographie<!--</xref>-->) das Judentum nicht mehr als ein geschlossenes Korpus hebräischsprachiger, religiöser Traditionstexte, sondern als ein gewachsenes, offenes, mehrsprachiges Korpus, das auch die säkulare, wissenschaftliche und poetische Literatur Europas aufgreift, übersetzt und tradiert. Was Zunz und Steinschneider um 1850 in ihren Aufsätzen über jüdische Literatur und Bibliographie, Letzterer auch in seiner Schrift über <rs type="GenIndex"
+                   subtype="DiehebräischenÜbersetzungendesMittelaltersunddieJudenalsDolmetscher(MoritzSteinschneider,1893)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die hebräischen Übersetzungen des Mittelalters und die Juden als Dolmetscher</hi> (1893) leisteten, war eine philologisch-historische Beschreibung der Sprache und Literatur des europäischen Judentums auf der Basis dreier Prämissen: erstens der These, dass die jüdischen Sprachen nicht isoliert, sondern auf die europäischen Sprachen bezogen seien; zweitens einer daraus folgenden Dezentrierung des Hebräischen als nationaljüdischer Sprache; drittens der gesellschaftlichen Implikation dieser <rs type="GenIndex" subtype="Mehrsprachigkeit"/>
+               <idno sortKey="GenIndex"/>Mehrsprachigkeit des Judentums, nämlich der These der diasporischen, exterritorialen Stellung der Juden in Europa und des transkulturellen Charakters ihres Schreibens. Demnach ist das Defizit an Land bei den Juden durch das tragbare Medium der Sprache kompensiert: »Was hat die Juden vorzugsweise zum Volk der Sprachen gemacht? Eine Nation ohne Land, aber mit einer heiligen Schrift, – die man vor allen anderen zur ›Polyglotte‹ erhob […]. Die Juden unter den Arabern […] reden arabisch, unter den Griechen griechisch, unter den Romanen […] vernaculär, unter den Deutschen deutsch, unter den Türken türkisch, und so alles Andere« . Das Deutsch der Wissenschaft des Judentums ist Teil einer diasporischen Mehrsprachigkeit der Juden, ebenso wie die jüdische Literatur stets »Weltliteratur« ist.</p>
+                  <p>Einen besonderen Stellenwert in der Etablierung der deutschen Sprache hat die Literatur, indem sie die sprachlichen Bedingungen von Emanzipation und <rs type="GenIndex" subtype="Akkulturation"/>
+               <idno sortKey="GenIndex"/>Akkulturation auch symbolisch reflektiert. Das ist schon in einem der ersten Texte deutsch-jüdischer Belletristik der Fall: dem anonym erschienenen Band <rs type="GenIndex"
+                   subtype="GedichteeinespohlnischenJuden(IssacharFalkensohnBehr,1772)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Gedichte eines pohlnischen Juden</hi> (1772), verfasst durch den aus <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Litauen stammenden Medizinstudenten <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Issachar Falkensohn Behr, der nach Berlin kam und dort im Kreis um Mendelssohn weilte, Deutsch lernte und zu dichten anfing. 1777 wurde er in <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Friedrich Nicolais <rs type="GenIndex"
+                   subtype="AllgemeineDeutscheBibliothek(FriedrichNicolai)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Allgemeiner Deutscher Bibliothek</hi> mit Blick auf diese erworbene Sprachkompetenz porträtiert: »Der V.[erfasser] der Behr heißt, hat erst vor einigen Jahren angefangen, sich auf die Wissenschaften, besonders die Medicin, zu legen und sich zugleich mit der deutschen Sprache bekannt zu machen« . In einem einleitenden »Schreiben an einen Freund« erörterte Behr den neuen Standpunkt dieser Gedichte zwischen der deutschen und der jüdischen Kultur, dessen Titel allein Anlass sprachpolitischer Reflexion wird: »Erregen nicht die Worte: pohlnischer Jude, in der Seele das Bild eines Mannes, schwartzvermummt, das Gesicht verwachsen, die Blicke finster, und rauh die Stimme? […] Wird nicht hie und da eine liebenswürdige Leserinn neugierig wissen wollen: in wie weit der Verfasser dieser deutschen Lieder, in Ansehung derselben, das Recht hat, sich nach seinem pohlnischen Vaterlande zu nennen, da er doch schon ziemlich deutsch gelernt?« .</p>
+                  <p>In Erweiterung solcher sprachlich-ästhetischer Akkulturationsbestrebungen bildete sich im 19. Jahrhundert eine Literatur heraus, die die Integration in die deutsche Sprachkultur nicht nur ausdrücklich sucht, sondern auch problematisiert – von <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Heinrich Heine (<!--<xref target="COM-0061">-->Entreebillet<!--</xref>-->) bis <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Franz Kafka (<!--<xref target="">-->Prag<!--</xref>-->). Affirmativ zur deutschen Sprache und Kultur verhielten sich insbesondere die Vertreter eines liberalen Judentums. In diesem Sinne äußerte sich etwa der Goethe-Philologe <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Ludwig Geiger in seinen Vorlesungen <rs type="GenIndex"
+                   subtype="DieDeutscheLiteraturunddieJuden(LudwigGeigersVorlesungen1903/1904inBerlin)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die Deutsche Literatur und die Juden</hi>, die er 1903/1904 in Berlin hielt. Als Konsequenz aus Emanzipation und <rs type="GenIndex" subtype="Aufklärung"/>
+               <idno sortKey="GenIndex"/>Aufklärung verteidigte er die These der deutsch-jüdischen Sprach- und Kultursymbiose, wonach »der deutsche Gelehrte und Schriftsteller jüdischen Glaubens voll und ganz in Sprache und Gesinnung ein Deutscher ist« . In Übereinstimmung auch mit der Position des 1893 in Berlin gegründeten <rs type="GenIndex"
+                   subtype="CentralvereindeutscherStaatsbürgerjüdischenGlaubens"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Central-Vereins<!--</xref>--> deutscher Staatsbürger jüdischen Glaubens gelten ihm Sprache und Literatur als Garant der Verbindung von Juden und Deutschen: »Wir deutsche Gelehrte jüdischen Glaubens haben stets unsere Ehre und unseren Stolz darin gefunden, voll und ganz in unserer Sprechweise, in unserer Kultur, in unserem Denken und Fühlen, in unserer Art zu arbeiten, Deutsche zu sein« .</p>
+                  <p>Das jüdische Bekenntnis zur deutschen Sprache wurde aber auch antibürgerlich aus der Sicht eines nationalismuskritischen <rs type="GenIndex" subtype="Universalismus"/>
+               <idno sortKey="GenIndex"/>Universalismus begründet, insbesondere unter deutsch-jüdischen Expressionisten. Beispiel dafür ist <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Alfred Wolfensteins Essay <rs type="GenIndex" subtype="JüdischesWesenundneueDichtung(1922)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Jüdisches Wesen und neue Dichtung</hi> (1922), der eine grundlegende Verwandtschaft zwischen Juden und Deutschen behauptet: Beide sind Ortlose, Idealisten und folglich keine »Bürger«, sondern Dichter, zu Hause nur in der Sprache: »Wie zum Sinnbild einer späten Vereinigung begegnen sich im neuen Gedicht jüdisches Wesen und deutsche Sprache. Unter den westeuropäischen Sprachen scheint sich die deutsche anders als die übrigen zum jüdischen Wesen zu verhalten: in ihr bewahrt es sich selbst, es bleibt lebendig […]. Hier bewegt es sich souverän, ihr verbunden wie ein Schwimmer in seinem Element. […] Wir sehen, an allen Unterschieden vorbei, in eine seltsame Verwandtschaft. […] Diese Dichtung in einer geliebten Sprache ist wie eine Freundschaft« .</p>
+                  <p>Die Vorstellung einer Wahlverwandtschaft zwischen Juden und Deutschen in der Sprache leitet auch <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Jakob Wassermanns Essay <rs type="GenIndex"
+                   subtype="MeinWegalsDeutscherundJude(JakobWassermann,1921)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Mein Weg als Deutscher und Jude</hi> (1921). Demnach ist die Sprache für die Juden Bedingung der Möglichkeit, sich als Deutsche zu verstehen: »In aller Unschuld war ich bisher überzeugt gewesen, ich sei deutschem Leben, deutscher Menschheit nicht bloß zugehörig, sondern zugeboren. Ich atme in der Sprache. Sie ist mir weit mehr als das Mittel, mich zu verständigen […]. Ihr Wort und Rhythmus machen mein innerstes Dasein aus. Sie ist das Material, woraus eine eigene geistige Welt aufzubauen ich, wenn schon nicht die Kraft, so doch den unmittelbaren Trieb in mir spüre. Sie ist mir vertraut, als sei ich von Ewigkeit her mit diesem Element verschwistert gewesen« . Auch in einem Brief Franz Kafkas an <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Max Brod vom Juni 1921 wird die transnationale Vorstellung einer ästhetischen Symbiose von Juden und Deutschen in der Sprache thematisiert, allerdings als gefährdet erachtet. Kafka sieht die deutsch-jüdische Literatur in ihrer sprachlichen und kulturellen Disposition als »eine von allen Seiten unmögliche Literatur, eine Zigeunerliteratur« (<hi rendition="#italic">Briefe 1902–1924</hi>). Dazu gehört die »Unmöglichkeit, deutsch zu schreiben«, was der Not der Assimilation entspricht, die deutsch sein will, jedoch unwillkürlich immer »jüdisch« bleibt. Denn eben dies ist die polemische Sichtweise eines nationalistischen Kulturkonzepts, mit der die deutsch-jüdischen Autoren zunehmend konfrontiert waren. Demnach ist die Sprache nicht mehr das Medium von transkultureller Verbindung, sondern von kultureller Differenz.</p>
+               </div>
+         <div>
+                  <head>3. Renationalisierung der jüdischen Sprachen um 1900</head>
+                  <p>Auch als Reaktion auf <rs type="GenIndex" subtype="Emanzipation"/>
+               <idno sortKey="GenIndex"/>Emanzipation und <rs type="GenIndex" subtype="Assimilation"/>
+               <idno sortKey="GenIndex"/>Assimilation entstand im 19. Jahrhundert ein kulturpolitisch begründeter <rs type="GenIndex" subtype="Antisemitismus"/>
+               <idno sortKey="GenIndex"/>Antisemitismus, der sich gegen die Partizipation der Juden an der deutschen Sprache richtete. Die These war die, dass die Juden bei ihrer kulturellen »Mimikry« (Nietzsche) kein richtiges Deutsch sprechen bzw. das Deutsch usurpierten und korrumpierten. <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Richard Wagner formulierte diese These in <rs type="GenIndex"
+                   subtype="DasJudenthuminderMusik(RichardWagner,1850;1869)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Das Judenthum in der Musik</hi> (1850) wirkungsmächtig (<!--<xref target="">-->Musik<!--</xref>-->). Demnach ist die Sprache das Merkmal einer fehlgeschlagenen Emanzipation; nicht Integration der Juden, vielmehr eine »Verjüdung« der deutschen Sprache sah er am Werk: »Zunächst muß im Allgemeinen der Umstand, daß der Jude die moderne europäische Sprache nur wie eine <hi rendition="#italic">erlernte</hi>, nicht <hi rendition="#italic">angeborene</hi> redet, ihn von aller Fähigkeit, in dieser Sprache sich seinem Wesen eigenthümlich […] kund zu geben […], ausschließen.« Daraus folgt für Wagner, daß die Juden Sprachen immer »anders« sprechen: »Als durchaus fremdartig und unangenehm fällt unserem Ohr […] ein zischender, schrillender, summsender und murksender Lautausdruck der jüdischen Sprechweise auf« . Umgekehrt bedeutet dies, dass sich an der Sprache ein verborgenes »jüdisches Wesen« ablesen lässt.</p>
+                  <p>Diese These gehörte von da an zum Korpus antisemitischer Kritik von Emanzipation und Assimilation. Sie findet sich in <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Eugen Dührings <rs type="GenIndex"
+                   subtype="DieJudenfragealsRacen-,Sitten-undCulturfrage(EugenDühring,1881)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die Judenfrage als Racen-, Sitten- und Culturfrage</hi> (1881) wie in <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Adolf Bartels’ <rs type="GenIndex"
+                   subtype="JüdischeHerkunftundLiteraturwissenschaft(AdolfBartels,1925)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Jüdische Herkunft und Literaturwissenschaft</hi> (1925). »Wo überhaupt die Juden in Presse und Literatur die Hauptmacher und Hauptschreier waren«, so Dühring, »da bürgerte sich auch die Gemeinheit des Stils und der Manieren immer ein« . An der »sprachlichen, phonetischen Wesensart«, so Bartels, »ganz abgesehen davon, daß die Juden als Fremde Fehler machen«, zeige sich der »jüdische« Charakter ihrer deutschsprachigen Literatur . Bartels rekurriert dabei auf eine rassistisch begründete Phonetik, wie sie <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Eduard Sievers in seinen beiden Vorträgen <rs type="GenIndex"
+                   subtype="ZieleundWegederSchallanalyse(Vorträgev.EduardSievers,1924)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Ziele und Wege der Schallanalyse</hi> (1924) begründete. Sievers glaubte, »jüdisches Sprechen« mithilfe von »Schallanalysen« isolieren zu können. Die »Sieverschen Schallanalysen« wurden innerhalb der völkischen Germanistik wiederholt herangezogen, auch durch <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Wilhelm Stapel. In seinem Aufsatz <rs type="GenIndex"
+                   subtype="DieliterarischeVorherrschaftderJudeninDeutschland1918–1933(WilhelmStapel,1937)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die literarische Vorherrschaft der Juden in Deutschland 1918–1933</hi> (1937) sah auch er in der Sprache das wichtigste Kriterium zur Bestimmung des jüdischen Einflusses in der deutschen Literatur. Die Juden, so Stapel, veränderten und verfälschten unwillkürlich die deutsche Sprache bei ihrem Versuch, sich unter ihrem Schutz in die deutsche Literatur und Kultur »einzuschleichen«. Nach der römischen und der französischen Überfremdung der deutschen Literatur drohe nun die jüdische: »Die Gefahr kam [aber] diesmal nicht in einer fremden Sprache, sondern im Gewande der eigenen Sprache. Aber das feinere Ohr verspürte doch, daß von den jüdischen Literaten nur eine <hi rendition="#italic">scheinbar</hi> deutsche Sprache gesprochen wurde. Eine Untersuchung der deutschjüdischen Literatur auf das Sprachliche hin zeigt, daß das Judendeutsch einer anderen Innervation, einem anderen Gestus, einem anderen Klang, einem anderen Verhältnis zu Bild und Abstraktion, einem anderen Gemüt entstammt. Solange die jüdischen Dichter noch ihren Ehrgeiz in der <hi rendition="#italic">Nachahmung</hi> vorgebildeter deutscher Sprach- und Dichtformen suchen, fällt die Diskrepanz wenig auf. Sobald sie aber […] ganz sie selbst zu sein wagen, tritt eine schauerliche Barbarisierung der deutsche Sprache ein« .</p>
+                  <p>Die Integration der Juden in die deutsche Sprachkultur wurde, teilweise provoziert durch den <rs type="GenIndex" subtype="Antisemitismus"/>
+               <idno sortKey="GenIndex"/>Antisemitismus, auch von jüdischer Seite zunehmend in Zweifel gezogen. Vor dem Hintergrund der scheiternden Emanzipation wurde um 1900 dagegen die Forderung nach einer Nationalisierung von jüdischer Sprache und Kultur laut. Innerhalb der zionistischen Bewegung setzte sich zunehmend die Einsicht durch, dass die Schaffung einer nationalen Heimstätte für die Juden mit der Erneuerung ihrer Sprache einhergehen müsse (<!--<xref target="">-->Technion<!--</xref>-->).</p>
+                  <p>Beispielhaft dafür ist Loewes <rs type="GenIndex" subtype="DieSprachenderJuden(HeinrichLoewe,1911)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Die Sprachen der Juden</hi> (1911), wo der diasporischen Mehrsprachigkeit die Erneuerung der hebräischen als der nationalen Sprache der Juden entgegengehalten wird. Loewe, ein Mitbegründer des Vereins der <rs type="GenIndex"
+                   subtype="ḤoveveSefatEver(VereinderLiebhaberderhebräischenSprache)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Ḥoveve Sefat Ever</hi> (Freunde der hebräischen Sprache), machte diese Position bereits 1895 in der von ihm herausgegebenen Monatsschrift <rs type="GenIndex" subtype="Zion(Zeitschrift,hg.v.HeinrichLoewe)"/>
+               <idno sortKey="GenIndex"/> Z<hi rendition="#italic">ion</hi> stark: »Die Sprache ist das Bindemittel, um die geistige Gemeinschaft aller Glieder einer Nation […] dauernd zu erhalten« . Mit einer Rhetorik der Opposition von Bodenlosigkeit und Verwurzelung begründet Loewe eine politische Theologie des <!--<xref target="">-->Hebräischen<!--</xref>-->, die in der biblischen Sprache das Medium nationaler Sammlung schlechthin erkennt: »So spiegelt sich in den Sprachen, die die Juden in den verschiedenen Ländern ihres Aufenthaltes sprechen, das Geschick wider, das sie durch die Länder getrieben hat. Es sind die Sprachen des jüdischen Galut. [… In] ihnen hat sich der jüdische Stamm Luftwurzeln geschaffen, aus denen er, in Ermangelung gesunder Wurzeln in der eigenen angestammten Sprache, die Kraft zieht, um die Tage des Galut zu überdauern und die Lebenskraft sich zu erhalten, um wieder in heimischer Erde und heimischer Sprache wurzeln zu können« .</p>
+               </div>
+         <div>
+                  <head>4. Die deutsche Sprache in Exil und Nachkriegszeit</head>
+                  <p>Das Exil 1933–1945 veränderte die Sprachsituation der deutschen und österreichischen Juden nochmals grundlegend. Auf der einen Seite geriet die deutsche Sprache den Juden zur Un-Sprache der Verfolger, wie sie etwa der Romanist <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Victor Klemperer in seiner Schrift <rs type="GenIndex" subtype="LTI(VictorKlemperer,1947)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">
+                        <!--<xref target="">-->LTI<!--</xref>-->
+                     </hi> (1947) sowie <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Dolf Sternberger im <rs type="GenIndex"
+                   subtype="WörterbuchdesUnmenschen(DolfSternbergeru.a.,1945)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Wörterbuch des Unmenschen</hi> (1945) analysierten. Auf der anderen Seite wurde das Deutsch den Juden im Exil zu einer exterritorialen »Heimat«, die gegenüber den vorherrschenden politischen wie kulturellen Prämissen als Anachronismus erscheinen musste. Dieser Kontrast war im Falle der nach 1933 nach <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Palästina geflohenen deutschsprachigen Juden, den »<!--<xref target="">-->Jeckes<!--</xref>-->«, besonders auffällig: Diese große Einwanderergruppe gab die deutsche Sprache nur langsam auf und etablierte im neuhebräischen Palästina eine eigene deutschsprachige Kultur (Verlage, Zeitschriften), die noch im jungen Staat <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Israel präsent war.</p>
+                  <p>Das sprachliche Dispositiv des Exils wurde Gegenstand philosophischer wie literarischer Reflexion. Beispielhaft dafür ist <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Ernst Blochs (<!--<xref target="">-->Utopie<!--</xref>-->) 1939 in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>New York gehaltene Rede <rs type="GenIndex"
+                   subtype="ZerstörteSprache–zerstörteKultur(ErnstBloch,RedeinNewYork,1939)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Zerstörte Sprache – zerstörte Kultur</hi>, in der er die Fremdheit des Exils der Heimat der Sprache gegenüberstellt: »Wir sprechen nun einmal deutsch. Diese Sprache haben wir mitgenommen, mit ihr arbeiten wir. […] Sogleich aber erhebt sich die Frage: wie können wir als deutsche Schriftsteller in einem anderssprachigen Land das Unsere tun, uns lebendig erhalten?« . Bloch unterschied zwei Typen der Sprachassimilation der deutschen Exilanten: den »Schnellamerikaner« und den Konservativen. Der erste weist die zur <hi rendition="#italic">lingua tertii imperii</hi> gewordene deutsche Sprache kategorial zurück: »Der erste Typ will sich von drüben völlig abwenden, verschmäht sogar, deutsch zu sprechen; bis zum Selbsthaß ist sein Deutschlandhaß gediehen. Die Abkehr ist psychologisch verständlich, besonders bei jüdischen Immigranten; welch ein Schock, welch ein Grauen liegt hinter ihnen. Aber die Tür fällt etwas zu laut ins Schloß, der Eintritt in Amerika wird etwas zu reißerisch markiert« . Der zweite Typ orientiert sich an der Vergangenheit und versteht die Gegenwart des Exils als einen »Wartesaal« (Bertolt Brecht). Ihm wurde die deutsche Sprache zum unverrückbaren Ort: »Besonders Schriftsteller sind so fixiert an die alte Welt und so eingekapselt in das Sprach- und Denkmilieu, das sie mitgebracht haben, daß sie sich hier, wo man ihnen diese Isolation nicht läßt, fast stärker in der Emigration fühlen als vorher« . Diesem Typus gehört die Rede von der »Sprache als Heimat« an, die zu einem Topos der Exilliteratur wurde. Solche literarische Sprachreflexion leistet beispielhaft die Lyrik des in die <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Vereinigten Staaten exilierten Schriftstellers, Theaterkritikers und Regisseurs <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Berthold Viertel. Auch diese Reflexion ist getragen vom aporetischen Nebeneinander der deutschen Mörder-Sprache und der deutschen Sprache-Heimat, wie er sie in seinem Gedicht <hi rendition="#italic">Der nicht mehr deutsch spricht</hi> (1941) herausstellte: »Deutsch zu sprechen, hast du dir verboten / Wie du sagst: aus Zorn und tiefer Scham. / Doch wie sprichst du nun mit deinen Toten, / Deren keiner mit herüber kam?«</p>
+                  <p>Die Gleichzeitigkeit von Bruch und Verbundenheit mit dem Deutschen kennzeichnet noch die deutsch-jüdische Sprachsituation nach 1945. <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Paul Celans (<!--<xref target="COM-0133">-->Gruppe 47<!--</xref>-->, <!--<xref target="">-->Todesfuge<!--</xref>-->), <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Nelly Sachs’ (<!--<xref target="">-->Todesfuge<!--</xref>-->) wie <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Rose Ausländers (<!--<xref target="COM-0016">-->Czernowitz<!--</xref>-->) lyrisches Ringen um die durch Verfolgung und Tod hindurchgegangene deutsche Sprache ist beispielhaft dafür: »Mein / aus der Verzweiflung / geborenes Wort« – so beschreibt etwa Ausländer in ihrem zweiten Gedichtband <rs type="GenIndex"
+                   subtype="BlinderSommer(GedichtbandvonRoseAusländer,1965)"/>
+               <idno sortKey="GenIndex"/>
+                     <hi rendition="#italic">Blinder Sommer</hi> (1965) ihre Rückkehr zur deutschen Sprache 1956 nach der Abstinenz im Exil, wobei sie wie zahlreiche Deutsch schreibende jüdische Schriftsteller nach dem <rs type="GenIndex" subtype="Holocaust"/>
+               <idno sortKey="GenIndex"/>Holocaust bis in jüngste Generationen die deutsche Sprache zu einem zentralen Gegenstand kritischer Reflexion macht.</p>
+               </div>
+         <div type="bibliography">
+            <head>Quellen</head>
+            <listBibl>
+               <bibl xml:id="COM-0172_bibl_1_1d1e702">[1] Die Umgangssprache der Juden in Österreich, in: Zeitschrift für Demographie und Statistik der Juden 1 (1905) 2, 13 f.</bibl>
+               <bibl xml:id="COM-0172_bibl_2_1d1e708">[2] Allgemeine Deutsche Bibliothek, hg. v. F. Nicolai, Anhang Bde. 13–24, 2. Abt., Berlin/Stettin 1777.</bibl>
+               <bibl xml:id="COM-0172_bibl_3_1d1e714">[3] R. Ausländer, Blinder Sommer, Wien 1965.</bibl>
+               <bibl xml:id="COM-0172_bibl_4_1d1e720">[4] A. Bartels, Jüdische Herkunft und Literaturwissenschaft. Eine gründliche Erörterung, Leipzig 1925.</bibl>
+               <bibl xml:id="COM-0172_bibl_5_1d1e727">[5] I. F. Behr, Gedichte von einem pohlnischen Juden, Miethau/Leipzig 1772.</bibl>
+               <bibl xml:id="COM-0172_bibl_6_1d1e733">[6] E. Bloch, Zerstörte Sprache – zerstörte Kultur (Vortrag im Schutzverband Deutscher Schriftsteller, New York 1939), in: E. Bloch, Gesamtausgabe in 16 Bänden, Bd. 11: Politische Messungen, Pestzeit, Vormärz, Frankfurt a. M. 1985, 277–299.</bibl>
+               <bibl xml:id="COM-0172_bibl_7_1d1e739">[7] E. K. Dühring, Die Judenfrage als Racen-, Sitten- und Culturfrage, Karlsruhe/Leipzig 1881.</bibl>
+               <bibl xml:id="COM-0172_bibl_8_1d1e745">[8] D. Friedländer, Lesebuch für jüdische Kinder. Zum Besten der jüdischen Freyschule, Berlin 1779.</bibl>
+               <bibl xml:id="COM-0172_bibl_9_1d1e751">[9] D. Friedländer, Gebete der Juden auf das ganze Jahr, Berlin 1786.</bibl>
+               <bibl xml:id="COM-0172_bibl_10_1d1e757">[10] L. Geiger, Die deutsche Literatur und die Juden, Berlin 1910.</bibl>
+               <bibl xml:id="COM-0172_bibl_11_1d1e764">[11] F. Kafka, Gesammelte Werke, hg. v. M. Brod, 8 Bde., Frankfurt a. M. 1996.</bibl>
+               <bibl xml:id="COM-0172_bibl_12_1d1e770">[12] V. Klemperer, LTI. Notizbuch eines Philologen, Berlin 1947.</bibl>
+               <bibl xml:id="COM-0172_bibl_13_1d1e776">[13] E. Kley, Predigten in dem neuen israelitischen Tempel zu Hamburg, 2 Bde., Hamburg 1819/20.</bibl>
+               <bibl xml:id="COM-0172_bibl_14_1d1e782">[14] H. Loewe, Der Nationalismus, in: Zion. Monatsschrift für die nationalen Interessen des Judentums 1 (1895) 3, 1: 1–8; 2: 33–41.</bibl>
+               <bibl xml:id="COM-0172_bibl_15_1d1e788">[15] H. Loewe, Die Sprachen der Juden, Köln 1911.</bibl>
+               <bibl xml:id="COM-0172_bibl_16_1d1e794">[16] H. Loewe, Die jüdischdeutsche Sprache der Ostjuden, Berlin 1915.</bibl>
+               <bibl xml:id="COM-0172_bibl_17_1d1e801">[17] M. Mendelssohn, Gesammelte Schriften. Jubiläumsausgabe, begonnen v. I. Elbogen, J. Guttmann, E. Mittwoch. Fortgesetzt v. A. Altmann, E. J. Engel, M. Brocke, D. Krochmalnik, Stuttgart-Bad Cannstatt 1971 ff.</bibl>
+               <bibl xml:id="COM-0172_bibl_18_1d1e807">[18] A. Rée, Die Sprachverhältnisse der heutigen Juden, im Interesse der Gegenwart und mit besondrer Rücksicht auf Volkserziehung, Hamburg 1844.</bibl>
+               <bibl xml:id="COM-0172_bibl_19_1d1e813">[19] M. v. Schroeter, Moses Mendelssohn’s Verdienste um die deutsche Sprache, in: Im deutschen Reich 3 (1897), 311–318.</bibl>
+               <bibl xml:id="COM-0172_bibl_20_1d1e819">[20] E. Sievers, Ziele und Wege der Schallanalyse, Heidelberg 1924.</bibl>
+               <bibl xml:id="COM-0172_bibl_21_1d1e825">[21] W. Stapel, Die literarische Vorherrschaft der Juden in Deutschland 1918–1933, Hamburg 1937.</bibl>
+               <bibl xml:id="COM-0172_bibl_22_1d1e831">[22] M. Steinschneider, Die hebräischen Übersetzungen des Mittelalters und die Juden als Dolmetscher. Ein Beitrag zur Literaturgeschichte des Mittelalters, meist nach handschriftlichen Quellen, Berlin 1893.</bibl>
+               <bibl xml:id="COM-0172_bibl_23_1d1e838">[23] D. Sternberger u. a., Aus dem Wörterbuch des Unmenschen, Hamburg 1957.</bibl>
+               <bibl xml:id="COM-0172_bibl_24_1d1e844">[24] D. Trietsch, Juden und Deutsche. Eine Sprach- und Interessengemeinschaft, Wien 1915.</bibl>
+               <bibl xml:id="COM-0172_bibl_25_1d1e850">[25] R. Wagner [K. Freigedank], Das Judenthum in der Musik, in: Neue Zeitschrift für Musik 17 (1850), Bd. 33, Nr. 19: 101–107; Nr. 20: 109–112.</bibl>
+               <bibl xml:id="COM-0172_bibl_26_1d1e856">[26] J. Wassermann, Mein Weg als Deutscher und Jude, Berlin 1921.</bibl>
+               <bibl xml:id="COM-0172_bibl_27_1d1e862">[27] A. Wolfenstein, Jüdisches Wesen und neue Dichtung, Berlin 1922.</bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography">
+            <head>Sekundärliteratur</head>
+            <listBibl>
+               <bibl xml:id="COM-0172_bibl_1_1d1e874">[28] S. Braese, Eine europäische Sprache. Deutsche Sprachkultur von Juden 1760–1930, Göttingen 2010.</bibl>
+               <bibl xml:id="COM-0172_bibl_2_1d1e880">[29] M. Brenner (Hg.), Jüdische Sprachen in deutscher Umwelt. Hebräisch und Jiddisch von der Aufklärung bis ins 20. Jahrhundert, Göttingen 2002.</bibl>
+               <bibl xml:id="COM-0172_bibl_3_1d1e886">[30] P. Freimark, Language Behaviour and Assimilation. The Situation of the Jews in Northern Germany in the First Half of the 19th Century, in: Leo Baeck Institute Year Book 24 (1979), 157–177.</bibl>
+               <bibl xml:id="COM-0172_bibl_4_1d1e892">[31] S. L. Gilman, Jüdischer Selbsthaß. Antisemitismus und die verborgene Sprache der Juden, Frankfurt a. M. 1993.</bibl>
+               <bibl xml:id="COM-0172_bibl_5_1d1e899">[32] A. B. Kilcher, Was ist deutsch-jüdische Literatur? Eine historische Diskursanalyse, in: Weimarer Beiträge 4 (1999), 485–517.</bibl>
+               <bibl xml:id="COM-0172_bibl_6_1d1e905">[33] A. B. Kilcher, Sprachendiskurse im jüdischen Prag um 1900, in: M. Nekula u. a. (Hg.), Franz Kafka im sprachnationalen Kontext seiner Zeit. Sprache und nationale Identität in öffentlichen Institutionen der böhmischen Länder, Köln u. a. 2007, 61–86.</bibl>
+               <bibl xml:id="COM-0172_bibl_7_1d1e911">[34] A. B. Kilcher, »Jewish Literature« and »World Literature«. Wissenschaft des Judentums and its Concept of Literature, in: A. Gotzmann/C. Wiese (Hg.), Modern Judaism and Historical Consciousness. Identities, Encounters, Perspectives, Leiden 2007, 299–325.</bibl>
+               <bibl xml:id="COM-0172_bibl_8_1d1e917">[35] A. Kremer (Hg.), Deutsche Juden – deutsche Sprache. Jüdische und judenfeindliche Sprachkonzepte und -konflikte 1893–1933, Berlin/New York 2007.</bibl>
+               <bibl xml:id="COM-0172_bibl_9_1d1e923">[36] S. Volkov, Sprache als Ort der Auseinandersetzung mit Juden und Judentum in Deutschland, 1780–1933, in: W. Barner/C. König (Hg.), Jüdische Intellektuelle und die Philologien in Deutschland 1871–1933, Göttingen 2001, 223–238.</bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
