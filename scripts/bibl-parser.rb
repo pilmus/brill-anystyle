@@ -124,8 +124,6 @@ def stringify(tags, bibl, unclear)
   #   doi = finddoi(tagdict[:title])
   #   bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
   # end
-
-
 end
 
 # Anystyle.parser.model.path = "./origineel_plus_brill.mod" #put your model in the same folder as your script
