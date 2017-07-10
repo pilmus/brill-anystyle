@@ -1,4 +1,6 @@
 *.xml
+!oefenfiles/*.xml
+!TRUE_just_brill/*.xml
 *.csv
 .idea/
 scripts/xmls/deidemized_xmls-copy/
