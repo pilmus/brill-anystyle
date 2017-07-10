@@ -3,7 +3,7 @@
 require 'anystyle/parser'
 require 'nokogiri'
 require_relative 'bibl-counter'
-require_relative 'crossreffing'
+# require_relative 'crossreffing'
 
 
 def tag(file)
@@ -107,12 +107,12 @@ def stringify(tags, bibl, unclear)
     }
   end
 
-  puts tagdict
-
-  if tagdict.key?(:title)
-    doi = finddoi(tagdict[:title])
-    bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
-  end
+  # puts tagdict
+  #
+  # if tagdict.key?(:title)
+  #   doi = finddoi(tagdict[:title])
+  #   bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
+  # end
 
 
 end
