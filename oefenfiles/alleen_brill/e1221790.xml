@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="e1221790">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Levy</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Burckhardt, Leonhard (Basle)%22">
+               <name type="person">Burckhardt, Leonhard (Basle)</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Campbell, J. Brian (Belfast)%22">
+               <name type="person">Campbell, J. Brian (Belfast)</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+            <availability status="restricted">
+               <licence target="placeholder">Placeholder</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title level="m">Brill’s New Pauly</title>
+               <editor>
+                  <persName>
+                     <forename>Hubert</forename>
+                     <surname>Cancik and </surname>
+                  </persName>
+                  <persName>
+                     <forename>Helmuth </forename>
+                     <surname>Schneider</surname>
+                  </persName>
+                  <persName>
+                     <forename>English Edition by: Christine F.</forename>
+                     <surname>Salazar</surname>
+                  </persName>
+                  <persName>
+                     <forename>Classical Tradition volumes edited by: Manfred</forename>
+                     <surname>Landfester</surname>
+                  </persName>
+                  <persName>
+                     <forename>English Edition by: Francis G. </forename>
+                     <surname>Gentry</surname>
+                  </persName>
+               </editor>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">7:456-460</biblScope>
+               <idno type="DOI">10.1163/1574-9347_bnp_e1221790</idno>
+               <idno type="sams-id">bnp</idno>
+               <idno type="publisher-id">NPOE</idno>
+               <idno type="ISSN">1574-9347</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Classical Studies</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20110510" status="first-print">Print publication</change>
+         <change when="20061001" status="first-online"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="e1221800">
+                  <p>
+                     <ref type="NPOG" target="e1221790" n="e1221800">[German version]</ref>
+                  </p>
+                  <head>I. Greece</head>
+                  <p>In geometrical and early archaic Greece, mainly nobles and their dependents took part in wars. With the rise of the <ref type="NPOE" target="e917830"> phalanx</ref> in the 7th cent. BC, the Greek polity also levied free farmers, who could provide their weapons themselves. However, details about conscription are first known from the Classical period, especially from Athens and Sparta. In Athens, all citizens - probably with the exception of the <ref type="NPOE" target="e1211170">			
+                        thetai
+                     </ref> until the middle of the 4th cent. BC - were liable for military service between their 18th and 59th year; of these, the first two years, perhaps already from the 5th cent. BC., completed the <ref type="NPOE" target="e331340"> ephebeia</ref>. After a declaration of war by the public assembly, the <ref type="NPOE" target="e1123850">			
+                        strategos
+                     </ref> named by them, was responsible for conscription, by which all those liable for military service were gathered, either according to age (Aristot. Ath. Pol. 53,4; 53,7) or ἐν τοῖς μέρεσιν/<hi rendition="#italic">en toîs méresin</hi>, probably according to phyles (Aeschin. Leg. 168; <ref type="NPOE" target="e924630" n="e924640"> phyle [1]</ref>). A centrally kept registry (κατάλογος/<ref type="NPOE" target="e610620"> katalogos</ref>) made supervision and a balanced (admittedly not always secured) supply possible (Aristoph. Equ. 1369 ff.; Aristoph. Pax 1179 ff.; Aristoph. Lys. 9).</p>
+                  <p>The larger powers (Athens, Boeotia) had a potential of about 10,000 hoplites (<ref type="NPOE" target="e517190"> Hoplitai</ref>) at their disposal. Athens' levy consisted of 13,000 men in 431 BC (Thuc. 2,31,2); the Boeotian League could recruit 10,000 hoplites and 1,100 mounted soldiers in the early 4th cent. BC (Hell. Oxy. 16,3 f.); at the battle of Leuctra in 371 BC, however, only 6,000 Boeotian soldiers took part (Diod. Sic. 15,52,2). In emergencies metics were called to military service in addition to citizens in Athens (Thuc. 2,13,7; 2,31; cf. Xen. Vect. 2,2-5; <ref type="NPOE" target="e802740">			
+                        metoikos
+                     </ref>); the fleet (cf. <ref type="NPOE" target="e413200"> Navies</ref>) was chiefly manned by paid <hi rendition="#italic">thetai</hi> on a voluntary basis, also by allies and, from the <ref type="NPOE" target="e912670"> Peloponnesian War</ref>, also by foreign rowers. The Athenian <ref type="NPOE" target="e1020470"> cavalry</ref>, which from the middle of the 5th cent. BC, consisted of 1,000 and, including the <ref type="NPOE" target="e515330">			
+                        hippotoxotai
+                     </ref>, of 1,200 riders, was manned by landowners (Thuc. 2,13,8; on the drawing up of the list of mounted soldiers, cf. Lys. 14-15). <ref type="NPOE" target="e1116000"> Mercenaries</ref> were certainly recruited from the late 5th cent. BC onwards (Thuc. 7,27,1 f.; 7,29,1).</p>
+                  <p>At the battle of Plataeae (479 BC),  Sparta led 5,000 hoplites from the Spartiate class (<ref type="NPOE" target="e1118630"> Spartiatae</ref>) and also from the <ref type="NPOE" target="e914400">			
+                        perioikoi
+                     </ref> onto the battlefield (Hdt. 9,10 f.; 9,28). Until the battle at Leuctra, in which only 700 Spartiates took part (Xen. Hell. 6,4,15), their numbers dropped continually; Sparta was thus obliged to base the waging of its wars increasingly on social groups with a low legal status, such as <hi rendition="#italic">perioikoi</hi>, <ref type="NPOE" target="e507310"> helots</ref> or <hi rendition="#italic">neodamodai</hi> (<ref type="NPOE" target="e819760">			
+                        neodamodeis
+                     </ref>) as well as, finally, on mercenaries. After the public assembly declared war, the ephors (<ref type="NPOE" target="e331650">			
+                        ephoroi
+                     </ref>) were responsible for conscription (Thuc. 1,87 f.; Xen. Hell. 6,4,17), and recruitment took place according to age groups (Xen. Lac. 11,2); military duty lasted for 40 years ἀφ' ἥβης/<hi rendition="#italic">aph' hḗbēs</hi> (Xen. Hell. 5,4,13); accordingly, the Spartiates could be recruited probably for 40 years, after the start of their military service at the age of about 20. Sparta's allies in the League usually filled their contingents at the behest of the ephors, who likewise determined the troop commandants.</p>
+                  <p>Philippus [4] II and Alexander [4] the Great of Macedonia led armies arranged in units according to territories and kinds of weapons, in which the heavy infantry and a part of the cavalry were recruited in Macedonia, while the rest of the troops were made up of allies or mercenaries. These kings, just like their Hellenistic successors, were responsible for the declaration of war as well as for the levy. Under Alexander and the <ref type="NPOE" target="e316340"> Diadochi</ref> the size of the army reached its zenith in Greek history: at Gaugamela (331 BC), Alexander's army consisted of 40,000 heavy and light infantry and 7,000 cavalry (Arr. Anab. 3,12,5); in 301 BC at Ipsus, Antigonus [1] Monophtalmus and Demetrius [2] Poliorcetes had more than 70,000 infantry, 10,000 cavalry and 75 <ref type="NPOE" target="e328780"> elephants</ref>, their opponents more than 64,000 infantry, 10,500 cavalry, 420 elephants and 120 war chariots (<ref type="NPOE" target="e1124270"> War chariot</ref>) (Plut. Demetrius 28). The Seleucid army had a strength of 62,000 infantry and 6,000 cavalry at <ref type="NPOE" target="e1021780"> Raphia</ref> in 217 BC; Ptolemy [7] IV mustered 70,000 infantry, 5,000 cavalry and 73 elephants for this battle (Pol. 5,79). The Hellenistic kings often relied on Greek or Macedonian immigrants and veterans and their sons, often settled in genuine military colonies; at the same time they mobilized more and more natives; furthermore, they enlisted mercenaries, who were recruited outside their own governmental region by agents (cf. Diod. Sic. 18,61,4 f.; 19,60,1).</p>
+                  <p>
+                     <ref type="NPOE" target="e504780" n="e504830"> Armies (II.)</ref>; <ref type="NPOE" target="e517190"> Hoplitai</ref>; <ref type="NPOE" target="e1116000"> Mercenaries</ref>; <ref type="NPOE" target="e216330" n="e216340"> Weapons (I.)</ref>
+                  </p>
+                  <div>
+               <byline>Burckhardt, Leonhard (Basle)</byline>
+            </div>
+                  <div>
+               <head>Bibliography</head>
+               <listBibl>
+                  <bibl xml:id="e1221790_bibl_1_1d1e175"><author><name>Bar-Kochva, B.</name></author><title level="m"/><date>1976</date><unclear>B. Bar-Kochva, The Seleucid Army, </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_2_1d1e187"><author><name>Burckhardt, L.</name></author><title level="m"/><date>1996</date><unclear>L. Burckhardt, Bürger und Soldaten, </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_3_1d1e199"><author><name>Griffith, G.T.</name></author><title level="a">The Mercenaries of the Hellenistic</title><title level="j">World</title><date>1935</date><unclear>G. T. Griffith,  , </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_4_1d1e211"><author><name>Hamel, D. and Athenian</name></author><title level="m"/><date>1998</date><unclear>D. Hamel, Athenian Generals, </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_5_1d1e223"><title level="m"/><unclear>HM, vol. 3HM, vol. 3</unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_6_1d1e233"><title level="m"/><editor><name>Hansen, M.H. and Democracy and Demography</name></editor><date>1986</date><unclear>M. H. Hansen, Democracy and Demography, </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_7_1d1e245"><author><name>Kromayer/Veith</name></author><title level="m"/></bibl>
+                  <bibl xml:id="e1221790_bibl_8_1d1e257"><author><name>Launey, M.</name></author><title level="m"/><date>1949</date><unclear>M. Launey, Recherches sur les armées hellénistiques, /50</unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_9_1d1e269"><title level="m"/><editor><name>Lazenby, J.F.</name></editor><date>1985</date><unclear>J. F. Lazenby, The Spartan Army, </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_10_1d1e281"><author><name>Parke, H.W. and Greek</name></author><title level="m"/><date>1933</date><unclear>H. W. Parke, Greek Mercenary Soldiers, </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_11_1d1e293"><title level="m"/><editor><name>Prost, F.</name></editor><date>1999</date><unclear>F. Prost (ed.), Armées et sociétés de la Grèce classique, </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_12_1d1e306"><title level="m"/><editor><name>Sage, M.</name></editor><date>1996</date><pubPlace>Greece</pubPlace><unclear>M. Sage, Warfare in Ancient , </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_13_1d1e318"><author><name>Whitehead, D. and The</name></author><title level="m">Ideology of the Athenian Metic</title><date>1977</date><pubPlace>82-86</pubPlace><unclear>D. Whitehead, The , , .</unclear></bibl>
+               </listBibl>
+            </div>
+               </div>
+         <div xml:id="e1221810">
+                  <p>
+                     <ref type="NPOG" target="e1221790" n="e1221810">[German version]</ref>
+                  </p>
+                  <head>II. Rome</head>
+                  <p>Although all citizens were obliged to serve as soldiers from early Roman times, Roman military service was a privilege. The early legion (<ref type="NPOE" target="e700090">			
+                        legio
+                     </ref>) consisted of 1,000 soldiers, who were recruited from the three <ref type="NPOE" target="e1220200">			
+                        tribus
+                     </ref>; the <ref type="NPOE" target="e1020470"> cavalry</ref> (<hi rendition="#italic">equites</hi>) was made up of the <ref type="NPOE" target="e909820">			
+                        patricii
+                     </ref>. According to the ancient historians, Servius Tullius [I 4] is supposed to have carried out the first <ref type="NPOE" target="e230200"> census</ref> of Roman citizens and classified them according to their wealth into <hi rendition="#italic">classes.</hi> This classification also served military purposes, insofar as service in a certain troop unit was in each case connected with belonging to a particular <hi rendition="#italic">classis</hi>. Outside the <hi rendition="#italic">classes</hi> stood the <ref type="NPOE" target="e226640">			
+                        capite censi
+                     </ref>, who had no large possessions at their disposal and were not admitted to armed military service (Liv. 1,42,4-43,8). During the Italian expansion Rome required its allies (<ref type="NPOE" target="e1115950">			
+                        socii
+                     </ref>) to provide soldiers for the Roman army. As can be seen from the list of Roman and Italian troops who fought against the Celts in 225 BC, the allies supplied significantly more soldiers than Rome as early as the 3rd cent. BC (Pol. 2,24). In the Second <ref type="NPOE" target="e1014630" n="e1014650"> Punic War</ref>, more than 20 Roman legions were deployed between 214 and 203 BC. After the defeat of Cannae in 216 BC, <hi rendition="#italic">capite censi</hi> and even slaves were actually recruited to military service, in order to thus even out the losses (Liv. 22,57, 7-12; 23,14,2-4; 24,14,3; 24,16,9; on the fleet cf. Liv. 24,11,7-9; 26,35,5).</p>
+                  <p>Polybius gives a thorough description of conscription in his depiction of the Roman army for the period around 21 BC (<hi rendition="#italic">dilectus</hi>; Pol. 6,19-21); it remains unclear, however, which information he evaluated for this section: in the <hi rendition="#italic">dilectus</hi> the men at the age of liability for military service were called to Rome from their homes and there assigned to legions; date and place of the disposition of the legions were determined accordingly. This system was clearly based on compulsory service and recruiting, although <hi rendition="#italic">voluntarii</hi> (volunteers) were also accepted into the legions. Exemptions from service were possible, but heavy fines fell upon those who sought to avoid military service; the <ref type="NPOE" target="e602770">			
+                        iuniores
+                     </ref> were registered in lists (<hi rendition="#italic">tabulae</hi>) (Liv. 24,18,7-9).</p>
+                  <p>According to Polybius, the cavalry had a compulsory service period of ten campaigns, the infantry of sixteen. Initially, campaigns lasted probably at the most six months, the entire military time a total of seven or eight years. The wars outside Italy, however, resulted in a prolongation of military service; thus Livy mentioned a <ref type="NPOE" target="e230350"> centurio</ref>, who had served 22 years as a soldier in the early 2nd cent. BC (Liv. 42,34). The situation became more acute especially during the wars in Spain; therefore, resistance against the conscriptions grew from the middle of the 2nd cent. BC (Pol. 35,4; Liv. Per. 48; 55; App. Hisp. 49; 65). Simultaneously, the wealth qualification for soldiers was reduced, in order to raise the number of recruits (cf. Liv. 1,43,8; Pol. 6,19,2; Cic. Rep. 2,40); with these measures, the gradual impoverishment of the Roman soldiers began.</p>
+                  <p>Under these circumstances, the acceptance of <hi rendition="#italic">voluntarii</hi> from the class of the <hi rendition="#italic">capite censi</hi> into the legions of <ref type="NPOE" target="e723970" n="e723990"> Marius [I 1]</ref> was no revolutionary innovation (Sall. Iug. 86,2-4); also after Marius, recruiting remained the most important method of maintaining the strength of the legions. Although conscriptions were usually the duty of local officeholders, Roman magistrates could also send <hi rendition="#italic">conquisitores</hi> to the levy. The soldiers also came from agricultural regions and were mostly small farmers with low social status; entrance into the army gave them the chance to improve their social situation by means of a military career. During this period, it gradually became standard practice to accept soldiers who were not Roman citizens; thus Caesar's <hi rendition="#italic">legio V Alaudae</hi> was recruited in Transalpine Gaul in this way (Suet. Iul. 24,2; cf. Caes. B Gall. 7,65,1; Gallia Cisalpina: Caes. B Gall. 2,2,1). Special auxiliary troops (<ref type="NPOE" target="e210380"> Auxilia</ref>) such as cavalry and archers came from regions outside Italy (cavalry: Sall. Iug. 7,2; archers: Caes. B Gall. 2,7,1). In the Late Republic, the commanders often promised the <hi rendition="#italic">voluntarii</hi>		
+                     <ref type="NPOE" target="e622960"> war spoils</ref> and rewards (Sall. Iug. 84,4 f.; 87,1; 91,6 f.; 92,2; cf. Plut. Lucullus 17; Plut. Pompey 45; Plut. Caesar 17; cf. Caes. B Gall. 6,3,2). During the Civil Wars, the soldiers, no longer regularly recruited, fought less for their homeland than they did for their commanders (App. B Civ. 5,17).</p>
+                  <p> Augustus created a standing professional army with long periods of service (ultimately 25 years). In Italy, levies no longer took place, with the exception of the crisis years of AD 6 and 9, but Roman citizens could still be recruited in the provinces. Augustus integrated closed units of peoples on the periphery of the empire as <ref type="NPOE" target="e210380">			
+                        auxilia
+                     </ref> into the army. In the early Principate, soldiers were recruited for the legions especially in Spain and in Gallia Narbonensis in the west, in the more strongly Hellenized regions of Syria and Asia Minor in the east, and in Africa; at the same time the number of Italian soldiers in the legions dropped. From Hadrian, only the <ref type="NPOE" target="e1007440"> praetorians</ref> were still recruited in Italy. In addition, there was a tendency to influence the sons of soldiers to enter the legions by means of the offer of Roman citizenship (<ref type="NPOE" target="e235100">			
+                        civitas
+                     </ref>). During the entire period of the Principate, Roman soldiers came chiefly from agricultural regions and low social classes; military service offered the provincials the opportunity to gain Roman citizenship upon leaving military service. </p>
+                  <p>In the 3rd cent. Diocletian (284-305) returned to the levy after a phase of civil wars and enemy invasions; it was also required that the sons of <ref type="NPOE" target="e12202540"> veterans</ref> became soldiers. (Cod. Theod. 7,22,1 f.; 7,22,4; 7,22,7-10). The cities and the big landowners now had to provide recruits corresponding to the size of their territory or their land. This form of the levy was so unpopular that the provision of recruits was increasingly replaced by monetary payments. In the year 375, an imperial edict regulated the provision of recruits (Cod. Theod. 7,13,7); individual regulations regarded age and body size (Cod. Theod. 7,13,1; 7,13,3). As several edicts show, many young men attempted to avoid military service by self-mutilation; this form of resistance was supposed to be broken by the threat of severe penalties (Cod. Theod. 7,13,4 f.; 7,13,10). Longer discourses on the levy and the selection of eligible recruits, are found in <ref type="NPOE" target="e1229180"> Vegetius</ref> (Veg. Mil. 1,2-8). From the late 4th cent. onwards, members of foreign populations were also accepted into the legions; the army of Iulianus [11] consisted in part of barbarians, who served as volunteers (Amm. Marc. 20,4,4); the percentage of soldiers of Germanic origin seems to have risen significantly especially after the battle of Hadrianopolis [3] in 378.</p>
+                  <p>
+                     <ref type="NPOE" target="e504780" n="e504880"> Armies (III.)</ref>; <ref type="NPOE" target="e210380"> Auxilia</ref>; <ref type="NPOE" target="e623000"> Conscientiousobjection</ref>; <ref type="NPOE" target="e700090"> Legio</ref>; <ref type="NPOE" target="e1116000"> Mercenaries</ref>; <ref type="NPOE" target="e12202540"> Veterans</ref>
+                  </p>
+                  <div>
+               <byline>Campbell, J. Brian (Belfast)</byline>
+            </div>
+                  <div>
+               <head>Bibliography</head>
+               <listBibl>
+                  <bibl xml:id="e1221790_bibl_1_1d1e518"><author><name>Brunt, P.A. and The</name></author><title level="m"/><biblScope unit="page">240–280</biblScope><date>1988</date><unclear>P. A. Brunt, The Army and the Land in the Roman Revolution, in: Id., The Fall of the Roman Republic, , 240-280</unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_2_1d1e530"><author><name>Id., Conscription</name></author><title level="m"/><biblScope unit="page">188–214</biblScope><date>1990</date><unclear> and Volunteering in the Roman Imperial Army, in: Id., Roman Imperial Themes, , 188-214</unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_3_1d1e539"><author><name>Brunt, 391-415</name></author><title level="m"/><biblScope unit="page">625–638</biblScope><unclear>; 625-638</unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_4_1d1e551"><author><name>Elton, H.</name></author><title level="m">Warfare in Roman Europe AD</title><biblScope unit="page">["350-425,", "128-154"]</biblScope><date>1996</date><unclear>H. Elton,  350-425, , 128-154</unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_5_1d1e563"><author><name>Gabba, E. and Rome, Republican</name></author><title level="m"/><biblScope unit="page">1–19</biblScope><date>1976</date><unclear>E. Gabba, Republican Rome. The Army and the Allies, , 1-19</unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_6_1d1e576"><author><name>Jones, L.R.E.</name></author><title level="m"/><biblScope unit="page">614–623</biblScope><unclear>Jones, LRE, 614-623</unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_7_1d1e588"><author><name>Keppie, L. and The</name></author><title level="a">Making of the Roman</title><title level="j">Army</title><biblScope unit="volume">21998</biblScope><unclear>L. Keppie, The  , </unclear></bibl>
+                  <bibl xml:id="e1221790_bibl_8_1d1e603"><author><name>Rawson, E.</name></author><title level="m">The Literary Sources for the Pre-Marian Army, in: PBSR</title><unclear>39, 1971, 13-31E. Rawson,  39, 1971, 13-31.</unclear></bibl>
+               </listBibl>
+            </div>
+               </div>
+      </body>
+   </text>
+</TEI>

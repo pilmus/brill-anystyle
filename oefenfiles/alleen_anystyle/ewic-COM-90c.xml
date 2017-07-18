@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="EWICCOM-0090c">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Household Forms and Composition: Iran and Afghanistan</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Erika Loeffler Friedl%22">
+               <name type="person">Erika Loeffler Friedl</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+            <availability status="restricted">
+               <licence target="placeholder">Placeholder</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title level="m">Encyclopedia of Women &amp; Islamic Cultures</title>
+               <editor>
+                  <persName>
+                     <forename>Suad</forename>
+                     <surname>Joseph</surname>
+                  </persName>
+               </editor>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">250</biblScope>
+               <idno type="DOI">10.1163/1872-5309_ewic_EWICCOM_0090c</idno>
+               <idno type="sams-id">ewic</idno>
+               <idno type="publisher-id">EWIO</idno>
+               <idno type="ISSN">1872-5309</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p/>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>Middle East and Islamic Studies</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20090101" status="first-online"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Households vary with class and location. Traditional
+agricultural/pastoral
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+contain an extended patrilineal/patrilocal family spanning several
+generations, forming a production and consumption unit with
+complementary sexual division of labor. In urban and non-agricultural
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+women do not produce much (except children); they prepare food and
+provide care with materials provided by the men. These
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+change to nuclear family patterns earlier than agricultural ones under
+the influence of changing work patterns, limited urban spaces, and
+modernist ideas. Traditional wealthy urban
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+usually are the largest, including multiple wives of the household head,
+an extended family, other relatives, and servants.</p>
+         <p>Structurally, the developmental logic of the extended family informs
+household composition and relationships: a man will try to exert control
+over wife (wives) and sons as early and as long as possible, staying in
+his father's house, compound, or camp and identifying with
+his father's and brothers' interests as long as
+necessary or advantageous for him. Eventually, he will establish an
+independent nuclear household, which leads to the next
+ex<anchor xml:id="P-V2P253"/>
+                  <!-- <page id="P-V2P253" v="2" p="253" c="1"></page> -->tended family
+as his sons bring their wives into the household. The sons, in turn,
+will start the circle anew. Households of extended families are
+structurally unstable.</p>
+         <p>Practically, this household form ranges from a production and consumption
+unit under one roof (including several wives) to a loosely cooperating
+production unit with different contributions (cash from a teacher son,
+labor from a farmer son) and separate consumption, as different nuclear
+families (or mother and children units in polygynous families) live in
+separate rooms in a compound, apartments in a house, or tents in a camp.
+Built into these structures are the demand for cooperation, resentment
+of authoritarian relations, and competition for resources especially
+among married brothers. It is said that nothing breaks up a household
+faster than brothers' wives fighting with each other and with
+their mother-in-law. Co-wives are proverbially adversary. This is mostly
+due to the household structure: co-wives are pitched against each other
+as are sons' wives, and all against their mother-in-law over
+resources and workloads; mothers-in-law back their sons, especially in
+polygynous marriages, because sons are their source of power and of
+support in old age. The often bad relationship between mother-in-law and
+daughter-in-law leads to many old women's reliance on their
+own visiting daughters for care.</p>
+         <p>Rich men are more likely to be polygynous than are poor men (although any
+man may be saddled with his dead brother's widow in addition
+to his own wife), but they can also maintain separate homes for their
+wives, minimizing contact and potential strife among them. Such
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+in effect are headed by a woman, with a visiting husband. There are
+reports of older wives selecting a young wife for their husband for
+various reasons. The first wife will usually stay in charge of the
+household, including management of co-wives and supervising work. In the
+wealthy
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+of the past, male and female servants did most of the menial chores;
+with the trend toward nuclear families such large
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+have become rare. Modernity is expected to lower the rate of polygyny,
+but especially in
+<!--<index index="Names" display="Iran" level1="Iran">-->Iran<!--</index>-->
+today many wealthy professional men are said to maintain several wives.
+Women in
+<!--<index index="Names" display="Iran" level1="Iran">-->Iran<!--</index>-->
+today are admonished to stipulate a separate home if they contract a
+marriage with a married man.</p>
+         <p>While sons may stay in their father's household with their
+wives, daughters leave upon marriage and are replaced by their
+brother's wives. As strangers to the husband's
+people and to each other, ignorant of the new household's
+customs, the
+<anchor xml:id="P-V2P253A"/>
+                  <!-- <page id="P-V2P253A" v="2" p="253" c="2"></page> -->young wives
+must expect to be everybody's servants. Unless the
+mother-in-law is amiable and the young woman is hard-working and
+cooperative, tensions and emotional and physical abuse are frequent.
+Expected to keep wives and children under control and to side with
+father, brothers, mother (in this order), a man will not likely support
+his wives against his own people. Contrary to Islamic law, daughters
+especially in lower classes and rural areas do not inherit, making them
+the more vulnerable economically. In instances of hostile relations,
+only through separation from the extended household can a woman gain
+peace and control over resources in the house, including, eventually,
+over her own daughters-in-law. An old or widowed woman expects to live
+in the nuclear-to-extended household of a son (the youngest, where
+ultimogeniture is practiced). Only if earlier she had established warm
+relationships with the daughter-in-law who now is responsible for her
+care can she hope realistically to be treated well. Recently, there is a
+notable increase in the number of old women (but not old men) living
+alone by choice, especially in
+<!--<index index="Names" display="Iran" level1="Iran">-->Iran<!--</index>-->,
+with financial assistance of their sons. An old widower will stay with a
+son if he does not take another wife and establish a new nuclear
+household. Since about 1990, as marriage age and divorce rates are
+increasing (in
+<!--<index index="Names" display="Iran" level1="Iran">-->Iran<!--</index>-->),
+single-person
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+have increased in cities as have
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+of several unmarried young women (or men) renting an apartment to share
+costs, and even women-headed
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+with children. Any household, especially in cities, at times will
+include temporary residents such as a wife's parents, a
+relative who is indigent, in need of education or medical care, or who
+can provide childcare.</p>
+         <p>Men have few household duties and skills and rely on service from women.
+In the traditional
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+with many children and complementary gender roles, the division of labor
+made sense to people. In the new, nuclear middle-class
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+with fewer children (in
+<!--<index index="Names" display="Iran" level1="Iran">-->Iran<!--</index>-->),
+women accuse men of being lazy and indolent, especially if the women
+work outside the home. New patterns for household forms and
+relationships are developing especially in socially dynamic
+<!--<index index="Names" display="Iran" level1="Iran">-->Iran<!--</index>-->,
+where people aspire to middle-class lifestyles, while war and the social
+ideology of the
+<!--<index index="Names" display="Taliban" level1="Taliban">-->Taliban<!--</index>-->
+in
+<!--<index index="Names" display="Afghanistan" level1="Afghanistan">-->Afghanistan<!--</index>-->
+have encouraged large, traditionally structured
+<!--<index index="SubIndex" display="households" level1="households">-->households<!--</index>-->
+including many children, the extended family and/or multiple wives and
+other relatives.</p>
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <listBibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_1_1d1e142"><author><name>Afkhami, M.</name></author><title level="m">Death of the patriarch, in</title><biblScope unit="page">157–62</biblScope><editor><name>Fernea, E.W.</name></editor><date>2002</date><pubPlace>Austin</pubPlace><unclear>M. Afkhami,  E. W. Fernea (ed.), Remembering childhood in the Middle East, , Tex. , .</unclear></bibl>
+               <bibl xml:id="P-V2P254"><author><name>Doubleday, V.</name></author><title level="m">Three women of Herat</title><date>1988</date><pubPlace>Austin</pubPlace><publisher>Tex</publisher><unclear>V. Doubleday, , , . .</unclear></bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_3_1d1e177"><author><name>Farman-Farmaian, S.</name></author><title level="m">Daughter of Persia</title><date>1992</date><pubPlace>New York</pubPlace><unclear>S. Farman-Farmaian, ,  .</unclear></bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_4_1d1e186"><author><name>Friedl, E.</name></author><title level="m">Women of Deh Koh. Lives in an Iranian village</title><date>1989</date><pubPlace>Washington, D.C</pubPlace><unclear>E. Friedl, , . .</unclear></bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_5_1d1e195"><author><name>Guppy, S.</name></author><title level="m">The blindfold horse. Memories of a Persian childhood</title><date>1988</date><publisher>Boston</publisher><unclear>S. Guppy, ,  .</unclear></bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_6_1d1e205"><author><name>Hansen, H.</name></author><title level="m">The Kurdish woman's life</title><date>1961</date><publisher>Copenhagen</publisher><unclear>H. Hansen, ,  .</unclear></bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_7_1d1e214"><author><name>Kousha, M.</name></author><title level="m">Voices from Iran. The changing lives of Iranian women</title><date>2002</date><pubPlace>Syracuse, N.Y</pubPlace><unclear>M. Kousha, , . .</unclear></bibl>
+               <bibl xml:id="EWICCOM-0090c_bibl_8_1d1e227"><author><name>Tapper, N.</name></author><title level="m">Bartered brides. Politics, gender, and marriage in an Afghan tribal society</title><date>1991</date><publisher>Cambridge</publisher><unclear>N. Tapper, ,  .</unclear></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

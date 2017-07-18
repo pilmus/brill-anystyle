@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:rng="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" xmlns:sch="http://purl.oclc.org/dsdl/schematron" xmlns:xs="http://relaxng.org/ns/structure/1.0" xmlns:type="application/tei+xml" xml:id="COM-0020">
+   <teiHeader xml:lang="en">
+      <fileDesc>
+         <titleStmt>
+            <title level="a">Alterität</title>
+            <author ref="https://viaf.org/viaf/search?query=local.names+all+%22Samuel Moyn, New York%22">
+               <name type="person">Samuel Moyn, New York</name>
+               <idno type="ORCID"/>
+               <idno type="ISNI"/>
+            </author>
+            <funder ref="placeholder"/>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>BRILL</publisher>
+            <pubPlace>Leiden | Boston</pubPlace>
+            <availability status="restricted">
+               <licence target="placeholder">Placeholder</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title level="m">Enzyklopädie jüdischer Geschichte und Kultur</title>
+               <editor>
+                  <persName>
+                     <forename>Dan</forename>
+                     <surname>Diner, . 7 Bände. Stuttgart, Germany. Copyright © J.B. Metzler’sche Verlagsbuchhandlung und Carl Ernst Poeschel Verlag GmbH (2011–2015)</surname>
+                  </persName>
+               </editor>
+               <biblScope unit="volume"/>
+               <biblScope unit="page">1:55</biblScope>
+               <idno type="DOI">10.1163/2468-2845_ejgk_COM_0020</idno>
+               <idno type="sams-id">ejgk</idno>
+               <idno type="publisher-id">EJGK</idno>
+               <idno type="ISSN">2468-2845</idno>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <p>Der Begriff der Alterität (frz. <hi rendition="#italic">altérité</hi>, Andersheit) sollte die philosophische Forderung artikulieren, dass jeder Mensch in seiner einzigartigen Besonderheit ethischen Respekt verdient. Auch wenn die Fragestellung schon lange zuvor existiert hatte, war es der französisch-jüdische Philosoph <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Emmanuel Levinas (1906–1995), der ihr entscheidenden Nachdruck verlieh und zu ihrer Verbreitung beitrug. Ihm zufolge war die abendländische <rs type="GenIndex" subtype="Philosophie"/>
+               <idno sortKey="GenIndex"/>Philosophie zuvor der Versuchung erlegen, »das Andere auf das Selbe« zu reduzieren. Als Vermittler zwischen der Theologie der Zwischenkriegszeit und der zeitgenössischen <rs type="GenIndex" subtype="Ethik"/>
+               <idno sortKey="GenIndex"/>Ethik bewirkte Levinas die Humanisierung, Verweltlichung und Judaisierung des Alteritätsbegriffs innerhalb der philosophischen Tradition der <rs type="GenIndex" subtype="Phänomenologie"/>
+               <idno sortKey="GenIndex"/>Phänomenologie.</p>
+         </abstract>
+         <langUsage>
+            <language ident="en"/>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>History</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <styleDefDecl scheme="css" schemeVersion="3.0"/>
+         <tagsDecl>
+            <rendition xml:id="italic">font:italic;</rendition>
+            <rendition xml:id="bold">font:bold;</rendition>
+            <rendition xml:id="underline">font:underline;</rendition>
+            <rendition xml:id="subscript">font:subscript;</rendition>
+            <rendition xml:id="superscript">font:superscript;</rendition>
+            <rendition xml:id="smallcaps">font:smallcaps;</rendition>
+         </tagsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change when="20161001" status="first-online"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+                  <head>1. Ursprünge und Begriff </head>
+                  <p>In den Augen seiner Verfechter dient der Begriff der Alterität dazu, dasjenige zu bestimmen, was außerhalb der Sphäre der Interessen und Absichten des individuellen Selbst liegt, dieses aber dennoch herausfordern und in die Pflicht nehmen kann – insbesondere die von menschlichen Wesen repräsentierte »Andersheit«. Die Wurzeln des Alteritätsbegriffs können bis auf das <rs type="GenIndex" subtype="Neuplatonismus"/>
+               <idno sortKey="GenIndex"/>neuplatonische Problem von Einheit und Vielheit zurückgeführt werden, wenngleich die Andersheit dort nicht personifiziert wurde. In der philosophischen Tradition seit der Neuzeit mit ihrem betonten Dualismus von mentaler Repräsentation und extramentaler Existenz blieb durch die subjektive Auffassung der Vernunft die Existenz von anderem Bewusstsein – oder gar von anderen Personen – ein Rätsel, wenn nicht eine Illusion. So stellt der Erzähler in <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>René Descartes’ Zweiter Meditation fest, dass, wenn er die Hüte und Kleider, die auf der Straße an ihm vorübergingen, für Menschen halte, dies allein aufgrund seines subjektiven Urteils geschehe . Der hierbei radikal geleugneten Andersheit sollte durch das Konzept der Alterität wieder zur Geltung verholfen werden.</p>
+                  <p>Im modernen Denken nahm die Idee, etwas gerecht zu werden, das dem eigenen Selbst fremd ist (in allgemeiner Form eine alte Vorstellung), nicht immer die Gestalt einer personalen oder zwischenmenschlichen Beziehung an. So zeigen <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Sigmund Freuds <rs type="GenIndex" subtype="Psychoanalyse"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="">-->Psychoanalyse<!--</xref>--> oder <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Robert Wienes Film <hi rendition="#italic">Der Andere</hi> (1930), dass die Andersheit nicht nur in der Form anderer Menschen, sondern auch innerhalb der Tiefen der Psyche auftritt. Doch selbst wenn Andersheit verschiedenste Formen annehmen kann, ist das Problem in seiner typischsten und beängstigendsten Form dort zu erkennen, wo wir, anstatt uns dem verpflichtenden und verbindlichen ethischen Anspruch der Alterität von Mitmenschen zu fügen, diese als bloße Objekte der Unterwerfung, Beherrschung und Gewalt behandeln. Aus Levinas’ Sicht ermöglichte die Wiederherstellung dieses Anspruchs sowohl eine Neuformation der Philosophie als auch eine Wiederentdeckung des inneren Kerns jüdischer <!--<xref target="">-->Ethik<!--</xref>-->.</p>
+               </div>
+         <div>
+                  <head>2. Emmanuel Levinas</head>
+                  <p>Emmanuel Levinas wurde am 12. Januar 1906 im litauischen <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Kaunas (Kowno) geboren, das damals zum <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Russischen Reich gehörte. Abgesehen vom Unterricht in biblischem Hebräisch erhielt er als Jugendlicher keine ernstzunehmende Unterweisung in jüdischen Texttraditionen; seine Familie gehörte dem russifizierten jüdischen Bürgertum des Zarenreichs an. Für das Universitätsstudium begab er sich 1923 nach <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Straßburg, um dort die westliche Bildung zu erlangen, die viele russifizierte jüdische Familien für ihre Kinder erstrebten. Angeregt von seinen dortigen Lehrern (insbesondere <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Jean Hering, einem bedeutenden postliberalen protestantischen Theologen), entschied sich Levinas, bei <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Edmund Husserl in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Freiburg weiterzustudieren. Sein erster wichtiger intellektueller Anknüpfungspunkt war die Schule der Phänomenologie, deren Begründer Husserl in seinem Spätwerk das cartesische Problem des Status der Anderen wiederentdeckt hatte, das er entlang des Begriffs der <rs type="GenIndex" subtype="Intersubjektivität"/>
+               <idno sortKey="GenIndex"/>Intersubjektivität formulierte. Doch Husserl wurde 1928 gerade emeritiert und Levinas traf stattdessen auf <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Martin Heidegger, der Husserls Lehrstuhl übernahm und seine Phänomenologie umdeutete. In seiner ersten Arbeit <hi rendition="#italic">Théorie de l’intuition dans la phénoménologie de Husserl</hi> (1930) stellte sich Levinas die Aufgabe, die von Heidegger in ein neues Stadium gebrachte Phänomenologie in die französische Philosophie einzuführen. Dieses Projekt geriet 1933 in eine Krise, als Levinas zu seinem Schrecken von Heideggers nationalsozialistischem Engagement als Freiburger Rektor erfuhr.</p>
+                  <figure>
+               <graphic url="fig011" style="display:pop-up">
+                  <desc>
+                        Emmanuel Levinas (1906–1995), Foto von Bracha L. Ettinger
+                     </desc>
+               </graphic>
+            </figure>
+                  <p>Ein zweiter Anknüpfungspunkt fand sich in der zeitgenössischen <rs type="GenIndex" subtype="Theologie"/>
+               <idno sortKey="GenIndex"/>Theologie, mit der Levinas seit Beginn seiner Universitätsstudien vertraut war. Das Projekt der liberalen Theologie des 19. Jahrhunderts, das von Protestanten ausgearbeitet worden war, aber auch unter manchen jüdischen Denkern – etwa bei <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Hermann Cohen (<!--<xref target="">-->Gottesidee<!--</xref>-->) – Verbreitung gefunden hatte, war nun dem Vorwurf ausgesetzt, die <rs type="GenIndex" subtype="Transzendenz"/>
+               <idno sortKey="GenIndex"/>Transzendenz Gottes gegenüber seiner Schöpfung zu unterschlagen. Eine der wichtigsten Stimmen dieser Kritik war der Schweizer Theologe <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Karl Barth, dessen <hi rendition="#italic">Römerbrief</hi> (1919, 1922) mit der These Aufsehen erregte, im 19. Jahrhundert sei der »ganz andere« Gott der Bibel vergessen worden. In gewisser Weise damit vergleichbar sind auch die Argumente von Levinas’ wichtiger Quelle <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Franz Rosenzweig (<!--<xref target="">-->Stern der Erlösung<!--</xref>-->), der das jüdische Denken des 19. Jahrhunderts als »atheistische Theologie« verurteilte und forderte, dass nicht ethische Vorschriften, sondern die göttliche <rs type="GenIndex" subtype="Offenbarung"/>
+               <idno sortKey="GenIndex"/>Offenbarung im Zentrum jüdischer Theologie stehen müsse. Entscheidend für diese Entwicklungen war die Begeisterung für das Denken <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Sören Kierkegaards, der eine bedeutende Wirkung auf Karl Barth ausgeübt hatte. Barths zentrale Forderung war, in Denken und Handeln die unbeschreibliche Andersheit des Göttlichen zu bewahren, wobei er sich auf Kierkegaards These vom »unendlichen qualitativen Unterschied« zwischen Gott und Mensch berief ; . Levinas’ enger Freund, der ebenfalls jüdische (aber ausgesprochen weltliche) Philosoph <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Jean Wahl, hatte großen Anteil daran, dass Kierkegaard der französischen akademischen Philosophie zugänglich wurde (<hi rendition="#italic">Études kierkegaardiennes</hi>, 1938).</p>
+               </div>
+         <div>
+                  <head>3. Transformationen des Alteritätsbegriffs</head>
+                  <p>Levinas’ Phänomenologie des Anderen entwickelte sich über lange Zeiträume und in mehreren Stadien. Ein wichtiger Schritt erfolgte in der Kriegszeit, die Levinas, nachdem er 1940 als Angehöriger der französischen Armee gefangen genommen worden war, in einem deutschen Lager in der <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Lüneburger Heide überlebte. (Seine Familie in <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Frankreich war untergetaucht, aber seine osteuropäische Verwandtschaft fiel dem Holocaust zum Opfer.) Das zum Teil während der Kriegszeit geschriebene Werk <hi rendition="#italic">Vom Sein zum Seienden</hi> (<hi rendition="#italic">De l’existence à l’existant</hi>, 1947) präsentiert eine explizite Umkehrung von Heideggers berühmter »ontologischer Differenz« zwischen Sein und Seiendem; die »<rs type="GenIndex" subtype="Differenz"/>
+               <idno sortKey="GenIndex"/>Differenz«, für die Levinas sich bereits 1947 ausschließlich interessierte, war diejenige von anderen Menschen.</p>
+                  <p>Interessanterweise zog diese Konzeption der Alterität aber noch nicht den metaphilosophischen Primat der Ethik nach sich. Dieses Stadium der Moralisierung erreichte Levinas’ Philosophie in der Zeit des Kalten Kriegs, als eine transkonfessionelle Bewegung allen Forderungen, dass politische Revolution die Aufhebung oder Zurückstellung moralischer Normen verlange, die strikte Priorität dieser Normen entgegensetzte – selbst wenn die Aufhebung oder Zurückstellung dadurch gerechtfertigt wäre, dass sie die Bedingungen für soziale Gerechtigkeit schaffen würde. Das Beispiel des engen Kollegen und christlichen <rs type="GenIndex" subtype="Existentialismus"/>
+               <idno sortKey="GenIndex"/>Existentialisten <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Gabriel Marcel, der sich in eine ähnliche Richtung bewegte, belegt, dass die Moralisierung des Alteritätsbegriffs über Religionsgrenzen hinwegging. Levinas’ Beharren auf dem ethischen Anspruch des Anderen hat vor dem Hintergrund des <rs type="GenIndex" subtype="KalterKrieg"/>
+               <idno sortKey="GenIndex"/>Kalten Kriegs Bedenken darüber hinterlassen, welche Art von Lehren durch seine Philosophie autorisiert werden könnten. In den ersten Jahren nach der Gründung des jüdischen Staats hatte Levinas gehofft, dass <rs type="GeoIndex" subtype="placeholder"/>
+               <idno sortKey="GeoIndex"/>Israel die Achtung vor dem Anderen konkretisieren könnte, indem es in gewisser Weise staatliche Politik durch zwischenmenschliche Moralität ersetzte; doch schließlich kam Levinas in einigen Interviews und Texten nah daran, den Palästinensern den Status des Anderen abzusprechen – eine Aussage, die zu kontroversen Diskussionen unter seinen Interpreten geführt hat.</p>
+                  <p>Nachdem Levinas seit der Zwischenkriegszeit für die jüdische Hilfsorganisation <rs type="GenIndex" subtype="Allianceisraéliteuniverselle"/>
+               <idno sortKey="GenIndex"/>
+                     <!--<xref target="COM-0017">-->Alliance israélite universelle<!--</xref>--> tätig gewesen war (nach dem Krieg leitete er deren École normale israélite orientale), führte ihn die Veröffentlichung von <hi rendition="#italic">Totalität und Unendlichkeit</hi> (<hi rendition="#italic">Totalité et infini</hi>) im Jahr 1961 als Professor ins französische Universitätssystem. Levinas brachte hier vor allem sein berühmtes Argument vor, dass die Philosophie seit ihren griechischen Anfängen beharrlich »das Andere auf das Selbe« reduziert habe . Gewandelt von seiner Begegnung mit dem geheimnisvollen umherziehenden Talmudgelehrten <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Chouchani kurz nach dem Krieg, hielt Levinas ab 1960 bei den jährlichen Konferenzen französisch-jüdischer Intellektueller auch Lesungen zu <rs type="GenIndex" subtype="Talmud"/>
+               <idno sortKey="GenIndex"/>Talmudpassagen. In diesen Lesungen wurde die Ethik der Alterität in die Nähe des Kerns jahrtausendealter jüdischer Überlieferung gerückt.</p>
+                  <p>Zum Zeitpunkt seines Tods war Levinas zu internationalem Ansehen gelangt, an erster Stelle dank seines frühen Einflusses auf <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Jacques Derrida, der bis zu seinem Tod im Jahr 2004 die Betonung ethischer Andersheit im Sinne seines Mentors (wenn auch mit vielen kreativen Modifikationen) weiterführte. Derridas berühmte Hommage und Kritik an Levinas hatte eine umfangreiche Überarbeitung von dessen philosophischer Verteidigung der Alterität zur Folge, die zu <hi rendition="#italic">Jenseits des Seins oder anders als Sein geschieht</hi> (<hi rendition="#italic">Autrement qu’être ou au-delà de l’essence</hi>, 1974) führte. In den späten 1970er Jahren wurde Levinas auch von der <rs type="GenIndex" subtype="NouvellePhilosophie"/>
+               <idno sortKey="GenIndex"/>»Nouvelle Philosophie« aufgenommen und jüdische Intellektuelle wie <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Bernard-Henri Lévy und <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Benny Lévy spendeten ihm in ihrer Absage an den <rs type="GenIndex" subtype="Marxismus"/>
+               <idno sortKey="GenIndex"/>Marxismus zugunsten der Moralität Beifall. Zudem erreichte er mit seinen fortlaufenden Talmud-Lesungen, die in einer Reihe von Bänden zusammengeführt sind, schließlich auch ein weltweites Publikum innerhalb des jüdischen Denkens.</p>
+                  <p>Und doch führt die Frage, inwiefern der Begriff der Alterität seiner Herkunft oder seinem Wesen nach »jüdisch« sei, wohl in die Irre. Bezüglich ihres konkreten begrifflichen Ursprungs war ein solcher Einfluss sehr gering. Das phänomenologische Problem des Anderen, wie es von Husserl aufgebracht worden war, stand für lange Zeit in keinem jüdischen Zusammenhang. Die Lokalisierung der unmittelbaren Ursprünge von Levinas’ starkem und asymmetrischem Begriff der Alterität in einer theologischen Revolution, die – obschon unter jüdischer Mitwirkung – von Protestanten angeführt wurde, führt zu dem Schluss, dass die Konzeption am besten als kulturelles Konglomerat betrachtet wird und nicht als eine jüdische Korrektur »griechischer« Metaphysik, wie es Levinas manchmal zu tun pflegte . Selbst Levinas’ ethische Umdeutung des Begriffs nach dem Zweiten Weltkrieg gründete sich neben seiner intensiven Befassung mit jüdischen Texten und Traditionen zusammen mit Chouchani ebenso sehr auf eine während des <rs type="GenIndex" subtype="KalterKrieg"/>
+               <idno sortKey="GenIndex"/>Kalten Kriegs verbreitete, transkonfessionelle Wahrnehmung der Notwendigkeit einer absoluten Moral. So liegt eine Ironie von Levinas’ Umwandlung der Alterität Gottes in eine menschliche Ethik darin, dass der Begriff ursprünglich gegen die Versuchung gerichtet war, Theologie auf <rs type="GenIndex" subtype="Ethik"/>
+               <idno sortKey="GenIndex"/>Ethik zu reduzieren, während Levinas nun selbst nicht weit davon entfernt war, eben dies zu tun. »Die Ethik ist nicht die Folge der Gottesschau«, schrieb er beispielsweise 1956, »sie ist diese Schau selbst« . In diesem Sinn war Levinas’ wichtigster Beitrag zur Theorie der Alterität ebenso sehr deren Vermenschlichung oder Verweltlichung wie deren Judaisierung und Moralisierung. Selbstverständlich hatten auch andere jüdische Denker der Moderne das Selbst und das Andere auf verschiedene Weisen erörtert, die aus Levinas’ Sicht kritikwürdig (wie im Fall <rs type="NamesIndex" subtype="placeholder"/>
+               <idno sortKey="NamesIndex"/>Martin Bubers; <!--<xref target="">-->Dialog<!--</xref>-->) oder auch übernehmenswert (so im Fall Rosenzweig; <!--<xref target="">-->Stern der Erlösung<!--</xref>-->) sein konnten. Jedenfalls bestätigt der seltsame Werdegang des Alteritätsbegriffs – ohne dass dadurch seine Verbindung zum heutigen Judentum geschmälert würde – die allgemeine Regel, dass kulturelle Vermischung und kreative Anverwandlung bis in den innersten Kern dessen vorgedrungen sind, was die Bedeutung des Judentums in moderner Zeit ausmacht.</p>
+               </div>
+         <div type="bibliography">
+            <head>Quellen</head>
+            <listBibl>
+               <bibl xml:id="COM-0020_bibl_1_1d1e244"><author><name>Barth, K. and Der</name></author><title level="m"/><pubPlace>Zürich</pubPlace><unclear>161999K. Barth, Der Römerbrief. Zweite Fassung,  161999.</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_2_1d1e253"><author><name>J.</name></author><title level="m"/><date>1985</date><pubPlace>Frankfurt a. M</pubPlace><unclear> Derrida, Gewalt und Metaphysik. Essay über das Denken Emmanuel Lévinas’, in: J. Derrida, Die Schrift und die Differenz, Frankfurt a. M. , 121–235.</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_3_1d1e259"><author><name>Descartes, R.</name></author><title level="m"/><date>1994</date><pubPlace>Hamburg</pubPlace><unclear>R. Descartes, Meditationen über die Grundlagen der Philosophie, hg. v.A. Buchenau,  .</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_4_1d1e265"><author><name>S.</name></author><title level="m"/><date>2003</date><pubPlace>Simmerath</pubPlace><unclear> Kierkegaard, Gesammelte Werke und Tagebücher, Bd. 2: Entweder – Oder, Zweiter Teil, hg. v. E. Hirsch,  .</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_5_1d1e272"><author><name>Levinas, E. and Freiheit, Schwierige</name></author><title level="m"/><pubPlace>Frankfurt a. M</pubPlace><unclear>21996E. Levinas, Schwierige Freiheit. Versuch über das Judentum, Frankfurt a. M. 21996.</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_6_1d1e281"><author><name>E.</name></author><title level="m"/><pubPlace>Freiburg/München</pubPlace><unclear>32002 Lévinas, Totalität und Unendlichkeit. Versuch über die Exteriorität,  32002.</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_7_1d1e290"><author><name>Rosenzweig, F. and Atheistische</name></author><title level="m"/><editor><name>v. R. u. A. Meyer and Dordrecht</name></editor><date>1984</date><pubPlace>687–697</pubPlace><unclear>F. Rosenzweig, Atheistische Theologie, in: F. Rosenzweig, Der Mensch und sein Werk. Gesammelte Schriften, Bd. 3: Zweistromland. Kleinere Schriften zu Glauben und Denken, hg. v. R. u. A. Meyer, Dordrecht , .</unclear></bibl>
+            </listBibl>
+         </div>
+         <div type="bibliography">
+            <head>Sekundärliteratur</head>
+            <listBibl>
+               <bibl xml:id="COM-0020_bibl_1_1d1e302"><author><name>Morgan, M. and Levinas, Discovering</name></author><title level="m"/><date>2007</date><pubPlace>Cambridge</pubPlace><unclear>M. Morgan, Discovering Levinas,  .</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_2_1d1e308"><author><name>Moyn, S.</name></author><title level="m"/><date>2005</date><pubPlace>Ithaca</pubPlace><unclear>S. Moyn, Origins of the Other. Emmanuel Levinas between Revelation and Ethics,  .</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_3_1d1e314"><author><name>Theunissen, M. and Der</name></author><title level="m"/><date>1965</date><unclear>M. Theunissen, Der Andere. Studien zur Sozialontologie der Gegenwart, Berlin .</unclear></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>
