@@ -61,8 +61,6 @@ def transformall
   totalu = 0
 
   # select all the xml folders in the current directory
-  # !!NOTE!! this assumes the only folders in the current directory are folders with xml files that
-  # need to be converted!
   xmlfolders = Dir.glob('*').select {|f| File.directory? f}
 
   xmlfolders.each do |folder|
@@ -95,7 +93,6 @@ end
 
 if ARGV.length == 0
   Anystyle.parser.train "/home/pilmus/Anystyle/training_files/originele_training_file.txt", true
-  exit!
   deidemizeall
   transformall
   # if you have supplied an xml file as a command line argument, this part of the script will be run

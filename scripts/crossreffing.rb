@@ -6,10 +6,6 @@ require 'nokogiri'
 
 def finddoi(query)
 
-  # puts "bibl: " + bibl.to_s
-  # query = bibl.css("title")
-  # puts query
-
   response = Serrano.works(query: query)
   items = response['message']['items']
 
@@ -23,26 +19,3 @@ def finddoi(query)
 
   return ""
 end
-
-
-# def findcrossref(bibl)
-#   title = bibl.css("title").text
-#   publisher = bibl.css("publisher")
-#
-# end
-
-# x = Serrano.works(query: "The Brill Dictionary of Religion")
-#
-# items = x['message']['items']
-#
-#
-# title = items['title']
-#
-# puts items[0]
-
-# items.each do |item|
-#   puts item.keys
-#   puts item['title']
-#   puts item['publisher']
-#   puts item['author']
-# end

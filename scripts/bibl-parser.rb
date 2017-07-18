@@ -130,8 +130,6 @@ def stringify(tags, bibl, unclear)
   # end
 end
 
-# Anystyle.parser.model.path = "./origineel_plus_brill.mod" #put your model in the same folder as your script
-
 if ARGV.length != 0
   tagged = tag(ARGV[0])
   outfile = File.new("taggedfile.xml", "w")
