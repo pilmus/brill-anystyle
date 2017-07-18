@@ -1,5 +1,6 @@
 *.xml
-!oefenfiles/
+!oefenfiles/*.xml
+!oefenfiles/*
 !TRUE_just_brill/*.xml
 *.csv
 .idea/
