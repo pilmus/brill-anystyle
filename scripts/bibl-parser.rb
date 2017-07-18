@@ -3,7 +3,7 @@
 require 'anystyle/parser'
 require 'nokogiri'
 require_relative 'bibl-counter'
-# require_relative 'crossreffing'
+require_relative 'crossreffing'
 
 
 def tag(file)
@@ -34,15 +34,7 @@ def tag(file)
     # empty the tag so we can fill it with tagged information
     bibl.content = ""
 
-    # puts "DIR: " + Dir.pwd
-    # Anystyle.parser.model.path = "/home/pilmus/Anystyle/new.mod" #put your model in the same folder as your script
-    # puts Anystyle.parser.model.path
-
-    # Anystyle.parser.train "/home/pilmus/Anystyle/train.txt", true
-
     tagged = Anystyle.parse bt
-
-    # puts tagged
 
     stringify(tagged, bibl, bt)
   end
@@ -122,12 +114,12 @@ def stringify(tags, bibl, unclear)
     }
   end
 
-  # puts tagdict
-  #
-  # if tagdict.key?(:title)
-  #   doi = finddoi(tagdict[:title])
-  #   bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
-  # end
+  puts tagdict
+
+  if tagdict.key?(:title)
+    doi = finddoi(tagdict[:title])
+    bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
+  end
 end
 
 if ARGV.length != 0
