@@ -85,6 +85,9 @@ def deidemize(filename)
       if btsplitcomma.include?("id.") || btsplitdot.include?("id.")
         bt.sub! "id.", prevauthor.to_s
       end
+      if btsplitcomma.include?("Id.") || btsplitdot.include?("id.")
+        bt.sub! "Id.", prevauthor.to_s
+      end
       if btsplitcomma.include?("[id.]") || btsplitdot.include?("[id.]")
         bt.sub! "[id.]", prevauthor.to_s
       end

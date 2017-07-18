@@ -14,8 +14,6 @@ def finddoi(query)
   items = response['message']['items']
 
   items.each do |item|
-    puts "LOOOOOOOOOL: " + item.to_s
-
     if item['title'].include?(query) ||
         item['subtitle'].include?(query) ||
         item['container-title'].include?(query)

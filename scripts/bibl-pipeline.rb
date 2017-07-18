@@ -95,6 +95,7 @@ end
 
 if ARGV.length == 0
   Anystyle.parser.train "/home/pilmus/Anystyle/training_files/originele_training_file.txt", true
+  exit!
   deidemizeall
   transformall
   # if you have supplied an xml file as a command line argument, this part of the script will be run

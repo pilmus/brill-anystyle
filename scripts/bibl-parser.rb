@@ -8,7 +8,9 @@ require_relative 'bibl-counter'
 
 def tag(file)
 
-  # puts file.to_s
+  puts "file " + file.to_s
+
+  puts file.to_s
   xml = Nokogiri::XML(File.open(file))
 
   # find the tag named listBibl and every bibl under it
@@ -27,6 +29,8 @@ def tag(file)
     bt.gsub!(/^\[\d{1,2}\]/, '')
     bt.gsub!(/^\d{1,2}/, '')
 
+    puts bt
+
     # empty the tag so we can fill it with tagged information
     bibl.content = ""
 
@@ -38,7 +42,7 @@ def tag(file)
 
     tagged = Anystyle.parse bt
 
-    puts tagged
+    # puts tagged
 
     stringify(tagged, bibl, bt)
   end
