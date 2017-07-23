@@ -37,9 +37,8 @@ def biblcounter(xml)
   return totalbibls, mbibls, jbibls, abibls, sbibls, ubibls
 end
 
-
-if ARGV.length != 0
-  xml = Nokogiri::XML(File.open(ARGV[0]))
+def count_one(file)
+  xml = Nokogiri::XML(File.open(file))
   totalbibls, mbibls, jbibls, abibls, sbibls, ubibls = biblcounter(xml)
   puts "total bibls: " + totalbibls.to_s
   puts "m-level bibls: " + mbibls.to_s

@@ -90,17 +90,17 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="e512830_bibl_1_1d1e61"><author><name>Welles</name></author><title level="m"/><unclear> .</unclear></bibl>
+               <bibl xml:id="e512830_bibl_1_1d1e61">Welles .</bibl>
             </listBibl>
          </div>
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="e512830_bibl_1_1d1e76"><author><name>Bürchner, L. and s.v. H.K. and H.</name></author><title level="m"/><biblScope unit="volume">2</biblScope><biblScope unit="page">1401</biblScope><unclear>L. Bürchner, s.v. H.K., H., RE VIII , f.</unclear></bibl>
-               <bibl xml:id="e512830_bibl_2_1d1e85"><author><name>Imhoof-Blumer, F. and Stadtmünzen, Lydische</name></author><title level="m"/><biblScope unit="volume">5</biblScope><biblScope unit="page">12</biblScope><date>1897</date><unclear>F. Imhoof-Blumer, Lydische Stadtmünzen, , ff., f.</unclear></bibl>
-               <bibl xml:id="e512830_bibl_3_1d1e94"><author><name>Keil, J. and v. Premerstein, A. and Denkschr</name></author><title level="a">der Akad. der Wiss</title><title level="j">Wien</title><biblScope unit="volume">53</biblScope><date>1910</date><unclear>J. Keil, A. v. Premerstein, Denkschr. .  ,2, , no. 18</unclear></bibl>
-               <bibl xml:id="e512830_bibl_4_1d1e106"><title level="m"/><biblScope unit="volume">2</biblScope><biblScope unit="page">1019</biblScope><unclear>Magie , f.</unclear></bibl>
-               <bibl xml:id="e512830_bibl_5_1d1e115"><author><name>Robert, Villes</name></author><title level="m"/><biblScope unit="volume">39</biblScope><biblScope unit="page">266</biblScope><unclear>, , 84, .</unclear></bibl>
+               <bibl xml:id="e512830_bibl_1_1d1e76">Bürchner, L. and s.v. H.K. and H.21401L. Bürchner, s.v. H.K., H., RE VIII , f.</bibl>
+               <bibl xml:id="e512830_bibl_2_1d1e85">Imhoof-Blumer, F. and Stadtmünzen, Lydische5121897F. Imhoof-Blumer, Lydische Stadtmünzen, , ff., f.</bibl>
+               <bibl xml:id="e512830_bibl_3_1d1e94">Keil, J. and v. Premerstein, A. and Denkschrder Akad. der WissWien531910J. Keil, A. v. Premerstein, Denkschr. . ,2, , no. 18</bibl>
+               <bibl xml:id="e512830_bibl_4_1d1e106">019Magie , f.</bibl>
+               <bibl xml:id="e512830_bibl_5_1d1e115">Robert, Villes39266, , 84, .</bibl>
             </listBibl>
          </div>
       </body>

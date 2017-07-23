@@ -2,15 +2,11 @@
 
 require 'anystyle/parser'
 require 'nokogiri'
-require_relative 'bibl-counter'
+require_relative 'biblcounter'
 require_relative 'crossreffing'
 
 
 def tag(file)
-
-  puts "file " + file.to_s
-
-  puts file.to_s
   xml = Nokogiri::XML(File.open(file))
 
   # find the tag named listBibl and every bibl under it
@@ -29,8 +25,6 @@ def tag(file)
     bt.gsub!(/^\[\d{1,2}\]/, '')
     bt.gsub!(/^\d{1,2}/, '')
 
-    puts bt
-
     # empty the tag so we can fill it with tagged information
     bibl.content = ""
 
@@ -43,10 +37,7 @@ def tag(file)
 end
 
 def stringify(tags, bibl, unclear)
-  # puts bibl
   tagdict = tags[0]
-
-  # puts "tagdict: " + tagdict.to_s
 
   if tagdict.key?(:author)
     bibl.add_child "<author><name>#{tagdict[:author]}</name></author>"
@@ -114,17 +105,8 @@ def stringify(tags, bibl, unclear)
     }
   end
 
-  puts tagdict
-
   if tagdict.key?(:title)
     doi = finddoi(tagdict[:title])
     bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
   end
-end
-
-if ARGV.length != 0
-  tagged = tag(ARGV[0])
-  outfile = File.new("taggedfile.xml", "w")
-  outfile.write(tagged)
-  outfile.close
 end

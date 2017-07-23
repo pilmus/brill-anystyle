@@ -76,6 +76,21 @@ def deidemize(filename)
       if btsplitcomma.include?("[id.]") || btsplitdot.include?("[id.]")
         bt.sub! "[id.]", prevauthor.to_s
       end
+      if btsplitcomma.include?("[Id.]") || btsplitdot.include?("[Id.]")
+        bt.sub! "[Id.]", prevauthor.to_s
+      end
+      if btsplitcomma.include?("ders.") || btsplitdot.include?("ders.")
+        bt.sub! "ders.", prevauthor.to_s
+      end
+      if btsplitcomma.include?("Ders.") || btsplitdot.include?("Ders.")
+        bt.sub! "Ders.", prevauthor.to_s
+      end
+      if btsplitcomma.include?("dies.") || btsplitdot.include?("dies.")
+        bt.sub! "dies.", prevauthor.to_s
+      end
+      if btsplitcomma.include?("Dies.") || btsplitdot.include?("Dies.")
+        bt.sub! "Dies.", prevauthor.to_s
+      end
       if bt.include? "â€”â€”"
         bt.sub! "â€”â€”", prevauthor.to_s
       end
@@ -88,16 +103,4 @@ def deidemize(filename)
 
   end
   File.write(filename, doc.to_xml)
-end
-
-if ARGV.length == 0
-  deidemizeall
-elsif ARGV.length != 0
-  deidemized = deidemize(ARGV[0])
-
-  filename = File.join(Dir.pwd, ARGV[0].to_s + "-deidemized").to_s
-
-  outfile = File.new(filename, "w")
-  outfile.write(deidemized)
-  outfile.close
 end

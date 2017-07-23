@@ -3,9 +3,7 @@
 require 'serrano'
 require 'nokogiri'
 
-
 def finddoi(query)
-
   response = Serrano.works(query: query)
   items = response['message']['items']
 

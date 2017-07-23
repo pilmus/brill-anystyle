@@ -1,10 +1,7 @@
 *.xml
-!oefenfiles/*.xml
-!oefenfiles/*
-!oefenfiles/*/*.xml
-!TRUE_just_brill/*.xml
+#!oefenfiles/*.xml
+#!oefenfiles/*
+#!oefenfiles/*/*.xml
+#!TRUE_just_brill/*.xml
 *.csv
 .idea/
-scripts/xmls/deidemized_xmls-copy/
-scripts/xmls/tagged_xmls-copy/
-save-the-xmls/xmls/

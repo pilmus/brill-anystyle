@@ -1,15 +1,14 @@
 require 'csv'
 require 'fileutils'
 require 'anystyle/parser'
-require_relative 'bibl-parser'
-require_relative 'bibl-counter'
-require_relative 'bibl-deidemizer'
+require_relative 'bibl_parser'
+require_relative 'biblcounter'
+require_relative 'deidemizer'
 
 def transformxml(xml)
   tagged = tag(xml)
   biblcounter(tagged)
 
-  # create the folder that will contain the new xmls if it does not yet exist
   outfilename = "transformedfile.xml"
   outfile = File.new(outfilename, "w")
   outfile.write(tagged)
@@ -18,14 +17,13 @@ end
 
 def transformfolder(folder)
   # create the folder that will contain the new xmls if it does not yet exist
-  FileUtils.mkdir("tagged_xmls-copy") unless Dir.exists?("tagged_xmls-copy")
-
+  FileUtils.mkdir("tagged_xmls") unless Dir.exists?("tagged_xmls")
 
   # list all the xml files in the folder
   xmls = Dir.glob('*.xml')
 
   csvname = folder.to_s + "_biblcounts.csv"
-  # puts csvname
+
   countfile = CSV.open(csvname, 'w')
   countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level"]
 
@@ -38,7 +36,7 @@ def transformfolder(folder)
     countfile << [xml.to_s, totalbibls, totalm, totalj, totala, totals, totalu]
 
     # make new file to write the tagged xml into
-    outfile = File.new(File.join(Dir.pwd, "tagged_xmls-copy", xml), "w")
+    outfile = File.new(File.join(Dir.pwd, "tagged_xmls", xml), "w")
     outfile.write(tagged)
     outfile.close
   end
@@ -49,7 +47,19 @@ end
 def transformall
 
   rootpath = Dir.pwd
+  CSV.foreach(ARGV[0], headers: true) do |row|
+    folder = row[0]
 
+    Dir.chdir folder
+
+    Anystyle.parser.train "training.txt", true
+
+    deidemizefolder(folder)
+    transformfolder(folder)
+    Dir.chdir rootpath
+  end
+
+  # count the bibls
   countfile = CSV.open("total_biblcounts.csv", 'w')
   countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level"]
 
@@ -59,19 +69,8 @@ def transformall
   totala = 0
   totals = 0
   totalu = 0
-
-  # select all the xml folders in the current directory
-  xmlfolders = Dir.glob('*').select {|f| File.directory? f}
-
-  xmlfolders.each do |folder|
-    # go to the folder with the xml files
-    Dir.chdir folder
-
-    transformfolder(folder)
-    Dir.chdir rootpath
-  end
-
-  xmlfolders.each do |folder|
+  CSV.foreach(ARGV[0], headers: true) do |row|
+    folder = row[0]
     Dir.chdir folder
     csvname = folder.to_s + "_biblcounts.csv"
 
@@ -90,16 +89,6 @@ def transformall
   countfile.close
 end
 
-
-if ARGV.length == 0
-  Anystyle.parser.train "/home/pilmus/Anystyle/training_files/originele_training_file.txt", true
-  deidemizeall
-  transformall
-  # if you have supplied an xml file as a command line argument, this part of the script will be run
-else
-  xml = ARGV[0]
-  deidemize(xml)
-  transformxml(xml)
-end
+transformall
 
 

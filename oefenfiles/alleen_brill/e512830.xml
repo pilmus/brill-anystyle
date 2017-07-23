@@ -90,17 +90,17 @@
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="e512830_bibl_1_1d1e61"><author><name>Welles</name></author><title level="m"/><unclear> .</unclear></bibl>
+               <bibl xml:id="e512830_bibl_1_1d1e61">Welles .</bibl>
             </listBibl>
          </div>
          <div type="bibliography">
             <head>Bibliography</head>
             <listBibl>
-               <bibl xml:id="e512830_bibl_1_1d1e76"><author><name>Bürchner, L. and sv</name></author><title level="m">H.K., H., RE VIII</title><biblScope unit="page">2</biblScope><date>1401</date><unclear>L. Bürchner, s.v.  , f.</unclear></bibl>
-               <bibl xml:id="e512830_bibl_2_1d1e85"><author><name>Imhoof-Blumer, F. and Lydische</name></author><title level="m"/><unclear>Stadtmünzen, 1897, 5ff., 12fF. Imhoof-Blumer, Lydische Stadtmünzen, 1897, 5ff., 12f.</unclear></bibl>
-               <bibl xml:id="e512830_bibl_3_1d1e94"><title level="m"/><editor><name>Keil, J. and v, A.</name></editor><date>1910</date><pubPlace>no</pubPlace><unclear>J. Keil, A. v. Premerstein, Denkschr. der Akad. der Wiss. Wien 53,2, , . 18</unclear></bibl>
-               <bibl xml:id="e512830_bibl_4_1d1e106"><title level="m"/><unclear>Magie 2, 1019fMagie 2, 1019f.</unclear></bibl>
-               <bibl xml:id="e512830_bibl_5_1d1e115"><author><name>Robert, Villes</name></author><title level="m"/><unclear>39, 84, 266, 39, 84, 266.</unclear></bibl>
+               <bibl xml:id="e512830_bibl_1_1d1e76">Bürchner, L. and svH.K., H., RE VIII21401L. Bürchner, s.v. , f.</bibl>
+               <bibl xml:id="e512830_bibl_2_1d1e85">Imhoof-Blumer, F. and LydischeStadtmünzen, 1897, 5ff., 12fF. Imhoof-Blumer, Lydische Stadtmünzen, 1897, 5ff., 12f.</bibl>
+               <bibl xml:id="e512830_bibl_3_1d1e94">Keil, J. and v, A.1910noJ. Keil, A. v. Premerstein, Denkschr. der Akad. der Wiss. Wien 53,2, , . 18</bibl>
+               <bibl xml:id="e512830_bibl_4_1d1e106">Magie 2, 1019fMagie 2, 1019f.</bibl>
+               <bibl xml:id="e512830_bibl_5_1d1e115">Robert, Villes39, 84, 266, 39, 84, 266.</bibl>
             </listBibl>
          </div>
       </body>

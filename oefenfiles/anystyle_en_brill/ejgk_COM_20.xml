@@ -139,21 +139,21 @@
          <div type="bibliography">
             <head>Quellen</head>
             <listBibl>
-               <bibl xml:id="COM-0020_bibl_1_1d1e244"><author><name>Barth, K.</name></author><title level="m"/><pubPlace>Zürich</pubPlace><unclear>161999K. Barth, Der Römerbrief. Zweite Fassung,  161999.</unclear></bibl>
-               <bibl xml:id="COM-0020_bibl_2_1d1e253"><author><name>Derrida, J.</name></author><title level="m">Gewalt und Metaphysik. Essay über das Denken Emmanuel Lévinas’</title><biblScope unit="page">121–235</biblScope><editor><name>Derrida, J.</name></editor><date>1985</date><pubPlace>die Differenz, Frankfurt a. M</pubPlace><unclear>J. Derrida, , in: J. Derrida, Die Schrift und die Differenz, Frankfurt a. M. , .</unclear></bibl>
-               <bibl xml:id="COM-0020_bibl_3_1d1e259"><author><name>Descartes, R.</name></author><title level="m">Meditationen über die Grundlagen der Philosophie, hg</title><date>1994</date><pubPlace>v.A. Buchenau, Hamburg</pubPlace><unclear>R. Descartes, .  .</unclear></bibl>
-               <bibl xml:id="COM-0020_bibl_4_1d1e265"><author><name>Kierkegaard, S.</name></author><title level="m"/><date>2003</date><pubPlace>Hirsch, Simmerath</pubPlace><unclear>S. Kierkegaard, Gesammelte Werke und Tagebücher, Bd. 2: Entweder – Oder, Zweiter Teil, hg. v. E.  .</unclear></bibl>
-               <bibl xml:id="COM-0020_bibl_5_1d1e272"><author><name>Levinas, E.</name></author><title level="m"/><pubPlace>Frankfurt a. M</pubPlace><unclear>21996E. Levinas, Schwierige Freiheit. Versuch über das Judentum, Frankfurt a. M. 21996.</unclear></bibl>
-               <bibl xml:id="COM-0020_bibl_6_1d1e281"><author><name>Lévinas, E.</name></author><title level="m"/><unclear>E. Lévinas, Totalität und Unendlichkeit. Versuch über die Exteriorität, Freiburg/München 32002.</unclear></bibl>
-               <bibl xml:id="COM-0020_bibl_7_1d1e290"><author><name>Rosenzweig, F.</name></author><title level="m">Atheistische Theologie</title><biblScope unit="page">687–697</biblScope><editor><name>Rosenzweig, F.</name></editor><date>1984</date><pubPlace>Dordrecht</pubPlace><unclear>F. Rosenzweig, , in: F. Rosenzweig, Der Mensch und sein Werk. Gesammelte Schriften, Bd. 3: Zweistromland. Kleinere Schriften zu Glauben und Denken, hg. v. R. u. A. Meyer,  , .</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_1_1d1e244">Barth, K.Zürich161999K. Barth, Der Römerbrief. Zweite Fassung, 161999.</bibl>
+               <bibl xml:id="COM-0020_bibl_2_1d1e253">Derrida, J.Gewalt und Metaphysik. Essay über das Denken Emmanuel Lévinas’121–235Derrida, J.1985die Differenz, Frankfurt a. MJ. Derrida, , in: J. Derrida, Die Schrift und die Differenz, Frankfurt a. M. , .</bibl>
+               <bibl xml:id="COM-0020_bibl_3_1d1e259">Descartes, R.Meditationen über die Grundlagen der Philosophie, hg1994v.A. Buchenau, HamburgR. Descartes, . .</bibl>
+               <bibl xml:id="COM-0020_bibl_4_1d1e265">Kierkegaard, S.2003Hirsch, SimmerathS. Kierkegaard, Gesammelte Werke und Tagebücher, Bd. 2: Entweder – Oder, Zweiter Teil, hg. v. E. .</bibl>
+               <bibl xml:id="COM-0020_bibl_5_1d1e272">Levinas, E.Frankfurt a. M21996E. Levinas, Schwierige Freiheit. Versuch über das Judentum, Frankfurt a. M. 21996.</bibl>
+               <bibl xml:id="COM-0020_bibl_6_1d1e281">Lévinas, E.E. Lévinas, Totalität und Unendlichkeit. Versuch über die Exteriorität, Freiburg/München 32002.</bibl>
+               <bibl xml:id="COM-0020_bibl_7_1d1e290">Rosenzweig, F.Atheistische Theologie687–697Rosenzweig, F.1984DordrechtF. Rosenzweig, , in: F. Rosenzweig, Der Mensch und sein Werk. Gesammelte Schriften, Bd. 3: Zweistromland. Kleinere Schriften zu Glauben und Denken, hg. v. R. u. A. Meyer, , .</bibl>
             </listBibl>
          </div>
          <div type="bibliography">
             <head>Sekundärliteratur</head>
             <listBibl>
-               <bibl xml:id="COM-0020_bibl_1_1d1e302"><author><name>Morgan, M.</name></author><title level="m"/><date>2007</date><pubPlace>Cambridge</pubPlace><unclear>M. Morgan, Discovering Levinas,  .</unclear></bibl>
-               <bibl xml:id="COM-0020_bibl_2_1d1e308"><author><name>Moyn, S.</name></author><title level="m"/><date>2005</date><pubPlace>Ithaca</pubPlace><unclear>S. Moyn, Origins of the Other. Emmanuel Levinas between Revelation and Ethics,  .</unclear></bibl>
-               <bibl xml:id="COM-0020_bibl_3_1d1e314"><author><name>Theunissen, M.</name></author><title level="m"/><date>1965</date><pubPlace>Berlin</pubPlace><unclear>M. Theunissen, Der Andere. Studien zur Sozialontologie der Gegenwart,  .</unclear></bibl>
+               <bibl xml:id="COM-0020_bibl_1_1d1e302">Morgan, M.2007CambridgeM. Morgan, Discovering Levinas, .</bibl>
+               <bibl xml:id="COM-0020_bibl_2_1d1e308">Moyn, S.2005IthacaS. Moyn, Origins of the Other. Emmanuel Levinas between Revelation and Ethics, .</bibl>
+               <bibl xml:id="COM-0020_bibl_3_1d1e314">Theunissen, M.1965BerlinM. Theunissen, Der Andere. Studien zur Sozialontologie der Gegenwart, .</bibl>
             </listBibl>
          </div>
       </body>
