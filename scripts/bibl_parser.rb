@@ -30,7 +30,14 @@ def tag(file)
 
     tagged = Anystyle.parse bt
 
-    stringify(tagged, bibl, bt)
+    begin
+      stringify(tagged, bibl, bt)
+    rescue
+      puts "Something went wrong when transforming " + file.to_s
+      wrongfiles = CSV.open("transformation_error.csv", 'w')
+      wrongfiles << [file.to_s]
+    end
+
   end
 
   return xml
@@ -40,6 +47,24 @@ def stringify(tags, bibl, unclear)
   tagdict = tags[0]
 
   if tagdict.key?(:author)
+
+    if tagdict[:author].include? 'and'
+      authors = tagdict[:author].split(' and ')
+    else
+      authors = [tagdict[:author]]
+    end
+
+    authors.each {|potential_author|
+      if potential_author.include? ','
+        author = potential_author.split(', ')
+        surname = author[0]
+        forename = author[1]
+
+        puts "sur: " + surname.to_s
+        puts "for: " + forename.to_s
+      end
+    }
+
     bibl.add_child "<author><name>#{tagdict[:author]}</name></author>"
     unclear.sub! "#{tagdict[:author]}", ""
   end
@@ -106,7 +131,12 @@ def stringify(tags, bibl, unclear)
   end
 
   if tagdict.key?(:title)
-    doi = finddoi(tagdict[:title])
-    bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
+    begin
+      doi = finddoi(tagdict[:title])
+      bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
+    rescue
+      bibl.add_child "<idno type=\"DOI\"></idno>"
+      raise
+    end
   end
 end
