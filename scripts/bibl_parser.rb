@@ -32,7 +32,8 @@ def tag(file)
 
     begin
       stringify(tagged, bibl, bt)
-    rescue
+    rescue => e
+      puts e
       puts "Something went wrong when transforming " + file.to_s
       wrongfiles = CSV.open("transformation_error.csv", 'w')
       wrongfiles << [file.to_s]
@@ -49,24 +50,29 @@ def stringify(tags, bibl, unclear)
   if tagdict.key?(:author)
 
     if tagdict[:author].include? 'and'
-      authors = tagdict[:author].split(' and ')
+      authors = tagdict[:author].split('and')
     else
-      authors = [tagdict[:author]]
+      bibl.add_child "<author><name>#{tagdict[:author]}</name></author>"
+      unclear.sub! "#{tagdict[:author]}", ""
     end
 
-    authors.each {|potential_author|
-      if potential_author.include? ','
-        author = potential_author.split(', ')
-        surname = author[0]
-        forename = author[1]
+    unless authors.nil?
+      authors.each {|potential_author|
+        # remove leading and trailing whitespace
+        potential_author.strip!
 
-        puts "sur: " + surname.to_s
-        puts "for: " + forename.to_s
-      end
-    }
+        if potential_author.include? ','
+          author = potential_author.split(', ')
+          surname = author[0].to_s
+          forename = author[1].to_s
 
-    bibl.add_child "<author><name>#{tagdict[:author]}</name></author>"
-    unclear.sub! "#{tagdict[:author]}", ""
+          bibl.add_child "<author><name><surname>" + surname + "</surname><forename>" + forename + "</forename></name></author>"
+
+          puts "sur: " + surname.to_s
+          puts "for: " + forename.to_s
+        end
+      }
+    end
   end
 
   # check if journal, if so title level article, otherwise book
@@ -140,3 +146,17 @@ def stringify(tags, bibl, unclear)
     end
   end
 end
+#
+# def verify_author(potential_author)
+#   wskey = OCLC::Auth::WSKey.new('api-key', 'api-key-secret', :services => ['WorldCatDiscoveryAPI'])
+#   WorldCat::Discovery.configure(wskey, 128807, 128807)
+#
+#   params = Hash.new
+#   params[:q] = potential_author
+#   params[:facetFields] = ['itemType:10', 'inLanguage:10']
+#   params[:startNum] = 0
+#   results = WorldCat::Discovery::Bib.search(params)
+#
+#   puts "snkt: " + results.bibs.class.to_s
+#   exit!
+# end

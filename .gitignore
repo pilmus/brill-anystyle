@@ -4,4 +4,6 @@
 #!oefenfiles/*/*.xml
 #!TRUE_just_brill/*.xml
 *.csv
+*.txt
+*.zip
 .idea/
