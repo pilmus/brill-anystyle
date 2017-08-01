@@ -1,4 +1,5 @@
 *.xml
+*.txt
 #!oefenfiles/*.xml
 #!oefenfiles/*
 #!oefenfiles/*/*.xml
