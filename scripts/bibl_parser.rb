@@ -4,6 +4,7 @@ require 'anystyle/parser'
 require 'nokogiri'
 require_relative 'biblcounter'
 require_relative 'crossreffing'
+require_relative 'stringify'
 
 
 def tag(file)
@@ -31,11 +32,13 @@ def tag(file)
     tagged = Anystyle.parse bt
 
     begin
-      stringify(tagged, bibl, bt)
-    rescue
+      stringify(tagged[0], bibl, bt)
+    rescue => e
       puts "Something went wrong when transforming " + file.to_s
+      puts e.to_s
       wrongfiles = CSV.open("transformation_error.csv", 'w')
       wrongfiles << [file.to_s]
+      raise
     end
 
   end
@@ -43,30 +46,10 @@ def tag(file)
   return xml
 end
 
-def stringify(tags, bibl, unclear)
-  tagdict = tags[0]
+def stringify(tagdict, bibl, unclear)
 
   if tagdict.key?(:author)
-
-    if tagdict[:author].include? 'and'
-      authors = tagdict[:author].split(' and ')
-    else
-      authors = [tagdict[:author]]
-    end
-
-    authors.each {|potential_author|
-      if potential_author.include? ','
-        author = potential_author.split(', ')
-        surname = author[0]
-        forename = author[1]
-
-        puts "sur: " + surname.to_s
-        puts "for: " + forename.to_s
-      end
-    }
-
-    bibl.add_child "<author><name>#{tagdict[:author]}</name></author>"
-    unclear.sub! "#{tagdict[:author]}", ""
+    stringify_author(tagdict[:author], bibl)
   end
 
   # check if journal, if so title level article, otherwise book
