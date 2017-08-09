@@ -3,7 +3,7 @@
 require_relative 'worldcat_api_interaction'
 
 def stringify_author(tagdict_author, bibl)
-  if tagdict_author.contains? " / "
+  if tagdict_author.include? " / "
     authors = tagdict_author.split(' / ')
   elsif tagdict_author.include? ' and ' # case: multiple authors
     authors = tagdict_author.split(' and ')
@@ -54,7 +54,7 @@ def stringify_author(tagdict_author, bibl)
 end
 
 def stringify_editor(tagdict_editor, bibl)
-  if tagdict_editor.contains? " / "
+  if tagdict_editor.include? " / "
     editors = tagdict_editor.split(' / ')
   elsif tagdict_editor.include? ' and ' # case: multiple editors
     editors = tagdict_editor.split(' and ')
