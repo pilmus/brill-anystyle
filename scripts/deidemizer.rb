@@ -37,12 +37,24 @@ def deidemize(filename)
   prevauthor = ""
 
   bibls.each do |bibl|
+
+    # puts "thisbibl: " + bibl.to_s
+
     bt = bibl.text
+
+    if /[a-zA-Z]/ !~ bt
+      bibl.remove
+      next
+    end
+
     # skips certain tags we wish to leave unchanged
     if bt.to_s.empty? || bt == " "
       bibl.remove
+      next
     end
     next if (bt.include? ("Primary sources" || "Secondary sources")) || bt.to_s.empty? || bt == " "
+
+    # puts "\nprebt: " + bt.to_s + "\n"
 
     bt.gsub!(/\s+/, ' ')
 
@@ -54,10 +66,17 @@ def deidemize(filename)
     bt.sub!(/^\(\d{1,2}\)\s?/, '')
     bt.sub!(/^\d{1,2}\s?/, '')
 
+    # puts "\npostbt: " + bt.to_s + "\n"
+
     btsplitcomma = bt.split(',')[0]
     btsplitdot = bt.split('.')[0]
 
-    if !prevauthor.to_s.empty?
+    # puts "btsplitcom: " + btsplitcomma.to_s + "\nbtsplitdot: " + btsplitdot.to_s + "\n"
+
+    if !prevauthor.to_s.empty? && !bt.to_s.empty?
+
+      # puts "\nprev: " + prevauthor.to_s + "\n"
+
       if bt.include? "——"
         bt.sub! "——", prevauthor.to_s
       end

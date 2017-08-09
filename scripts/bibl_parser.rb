@@ -35,11 +35,10 @@ def tag(file)
 
     begin
       stringify(tagged[0], bibl, bt)
-    rescue => e
+    rescue
       puts "Something went wrong when transforming " + file.to_s
-
       wrongfiles << [file.to_s]
-      #raise #TODO: comment this out when done
+      raise #TODO: comment this out when done
     end
 
   end
