@@ -3,13 +3,10 @@
 require_relative 'worldcat_api_interaction'
 
 def stringify_author(tagdict_author, bibl)
-  if tagdict_author.include? 'and' # case: multiple authors
-
-    puts "\n\n\nANDDD: " + tagdict_author.to_s + "\n\n\n"
-
-    authors = tagdict_author.split('and')
-
-    puts "\n\n\nANDDD: " + authors.to_s + "\n\n\n"
+  if tagdict_author.contains? " / "
+    authors = tagdict_author.split(' / ')
+  elsif tagdict_author.include? ' and ' # case: multiple authors
+    authors = tagdict_author.split(' and ')
   else # case: one author
     authors = [tagdict_author]
   end
@@ -55,6 +52,41 @@ def stringify_author(tagdict_author, bibl)
     end
   }
 end
+
+def stringify_editor(tagdict_editor, bibl)
+  if tagdict_editor.contains? " / "
+    editors = tagdict_editor.split(' / ')
+  elsif tagdict_editor.include? ' and ' # case: multiple editors
+    editors = tagdict_editor.split(' and ')
+  else
+    editors = [tagdict_editor]
+  end
+
+  editors.each {|potential_editor|
+
+    potential_editor.strip!
+    if includes_nums_punct?(potential_editor)
+      bibl.add_child "<editor><name type=\"misparsed\">" + potential_editor + "</name></editor>"
+      next # return
+    end
+
+    if single_word?(potential_editor) # case: author name is a single word (ie. Homerus)
+      bibl.add_child "<author ref=\"" + viaflink + "\"><name type=\"mononym\">" + potential_editor + "</name></author>"
+      next # return
+
+    elsif potential_editor.include? ',' # case: first and last name
+      author = potential_editor.split(', ')
+      surname = author[0]
+      forename = author[1]
+
+      bibl.add_child "<editor><name type =\"polynym\"><surname>"+surname+"</surname><forename>"+forename+"</forename></name></editor>"
+
+    else
+      bibl.add_child "<editor><name type=\"misparsed\">" + potential_editor + "</name></editor>"
+    end
+  }
+end
+
 
 def single_word?(string)
   !string.strip.include? " "
