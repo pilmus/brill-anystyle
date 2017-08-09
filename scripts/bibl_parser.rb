@@ -2,8 +2,9 @@
 
 require 'anystyle/parser'
 require 'nokogiri'
-require_relative 'biblcounter'
+require_relative 'bibl_counter'
 require_relative 'crossreffing'
+require_relative 'stringify'
 
 
 def tag(file)
@@ -31,12 +32,12 @@ def tag(file)
     tagged = Anystyle.parse bt
 
     begin
-      stringify(tagged, bibl, bt)
+      stringify(tagged[0], bibl, bt)
     rescue => e
-      puts e
       puts "Something went wrong when transforming " + file.to_s
       wrongfiles = CSV.open("transformation_error.csv", 'w')
       wrongfiles << [file.to_s]
+      raise #TODO: comment this out when done
     end
 
   end
@@ -44,35 +45,10 @@ def tag(file)
   return xml
 end
 
-def stringify(tags, bibl, unclear)
-  tagdict = tags[0]
+def stringify(tagdict, bibl, unclear)
 
   if tagdict.key?(:author)
-
-    if tagdict[:author].include? 'and'
-      authors = tagdict[:author].split('and')
-    else
-      bibl.add_child "<author><name>#{tagdict[:author]}</name></author>"
-      unclear.sub! "#{tagdict[:author]}", ""
-    end
-
-    unless authors.nil?
-      authors.each {|potential_author|
-        # remove leading and trailing whitespace
-        potential_author.strip!
-
-        if potential_author.include? ','
-          author = potential_author.split(', ')
-          surname = author[0].to_s
-          forename = author[1].to_s
-
-          bibl.add_child "<author><name><surname>" + surname + "</surname><forename>" + forename + "</forename></name></author>"
-
-          puts "sur: " + surname.to_s
-          puts "for: " + forename.to_s
-        end
-      }
-    end
+    stringify_author(tagdict[:author], bibl)
   end
 
   # check if journal, if so title level article, otherwise book
@@ -136,27 +112,14 @@ def stringify(tags, bibl, unclear)
     }
   end
 
-  if tagdict.key?(:title)
-    begin
-      doi = finddoi(tagdict[:title])
-      bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
-    rescue
-      bibl.add_child "<idno type=\"DOI\"></idno>"
-      raise
-    end
-  end
-end
-#
-# def verify_author(potential_author)
-#   wskey = OCLC::Auth::WSKey.new('api-key', 'api-key-secret', :services => ['WorldCatDiscoveryAPI'])
-#   WorldCat::Discovery.configure(wskey, 128807, 128807)
-#
-#   params = Hash.new
-#   params[:q] = potential_author
-#   params[:facetFields] = ['itemType:10', 'inLanguage:10']
-#   params[:startNum] = 0
-#   results = WorldCat::Discovery::Bib.search(params)
-#
-#   puts "snkt: " + results.bibs.class.to_s
-#   exit!
+
+# if tagdict.key?(:title)
+#   begin
+#     doi = finddoi(tagdict[:title])
+#     bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
+#   rescue
+#     bibl.add_child "<idno type=\"DOI\"></idno>"
+#     raise
+#   end
 # end
+end

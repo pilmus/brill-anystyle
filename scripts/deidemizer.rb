@@ -61,6 +61,18 @@ def deidemize(filename)
       if bt.include? "——"
         bt.sub! "——", prevauthor.to_s
       end
+      if btsplitcomma.include?("eidem")|| btsplitdot.include?("eidem")
+        bt.sub! "eidem", prevauthor.to_s
+      end
+      if btsplitcomma.include?("Eidem") || btsplitdot.include?("Eidem")
+        bt.sub! "Eidem", prevauthor.to_s
+      end
+      if btsplitcomma.include?("eadem")|| btsplitdot.include?("eadem")
+        bt.sub! "eadem", prevauthor.to_s
+      end
+      if btsplitcomma.include?("Eadem") || btsplitdot.include?("Eadem")
+        bt.sub! "Eadem", prevauthor.to_s
+      end
       if btsplitcomma.include?("idem")|| btsplitdot.include?("idem")
         bt.sub! "idem", prevauthor.to_s
       end

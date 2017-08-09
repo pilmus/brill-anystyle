@@ -2,12 +2,12 @@ require 'csv'
 require 'fileutils'
 require 'anystyle/parser'
 require_relative 'bibl_parser'
-require_relative 'biblcounter'
+require_relative 'bibl_counter'
 require_relative 'deidemizer'
 
 def transformxml(xml)
   tagged = tag(xml)
-  biblcounter(tagged)
+  bibl_counter(tagged)
 
   outfilename = "transformedfile.xml"
   outfile = File.new(outfilename, "w")
@@ -25,15 +25,15 @@ def transformfolder(folder)
   csvname = folder.to_s + "_biblcounts.csv"
 
   countfile = CSV.open(csvname, 'w')
-  countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level"]
+  countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level", "misparsed", "mononym", "polynym"]
 
   # for each xml file in the folder, perform the transformation and save the result
   xmls.each do |xml|
     tagged = tag(xml)
 
     # count the number of m and j level bibls
-    totalbibls, totalm, totalj, totala, totals, totalu = biblcounter(tagged)
-    countfile << [xml.to_s, totalbibls, totalm, totalj, totala, totals, totalu]
+    totalbibls, totalm, totalj, totala, totals, totalu, totalmis, totalmono, totalpoly = bibl_counter(tagged)
+    countfile << [xml.to_s, totalbibls, totalm, totalj, totala, totals, totalu, totalmis, totalmono, totalpoly]
 
     # make new file to write the tagged xml into
     outfile = File.new(File.join(Dir.pwd, "tagged_xmls", xml), "w")
@@ -61,7 +61,7 @@ def transformall
 
   # count the bibls
   countfile = CSV.open("total_biblcounts.csv", 'w')
-  countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level"]
+  countfile << ["file", "total bibls", "m-level", "j-level", "a-level", "s-level", "u-level", "misparsed", "mononym", "polynym"]
 
   totalbibls = 0
   totalm = 0
@@ -69,6 +69,9 @@ def transformall
   totala = 0
   totals = 0
   totalu = 0
+  totalmis = 0
+  totalmono = 0
+  totalpoly = 0
   CSV.foreach(ARGV[0], headers: true) do |row|
     folder = row[0]
     Dir.chdir folder
@@ -81,9 +84,12 @@ def transformall
       totala += row[4]
       totals += row[5]
       totalu += row[6]
+      totalmis += row[7]
+      totalmono += row[8]
+      totalpoly += row[9]
     end
 
-    countfile << [folder, totalbibls, totalm, totalj, totala, totals, totalu]
+    countfile << [folder, totalbibls, totalm, totalj, totala, totals, totalu, totalmis, totalmono, totalpoly]
     Dir.chdir rootpath
   end
   countfile.close
