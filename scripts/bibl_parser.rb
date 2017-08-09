@@ -2,7 +2,7 @@
 
 require 'anystyle/parser'
 require 'nokogiri'
-require_relative 'biblcounter'
+require_relative 'bibl_counter'
 require_relative 'crossreffing'
 require_relative 'stringify'
 
@@ -35,10 +35,9 @@ def tag(file)
       stringify(tagged[0], bibl, bt)
     rescue => e
       puts "Something went wrong when transforming " + file.to_s
-      puts e.to_s
       wrongfiles = CSV.open("transformation_error.csv", 'w')
       wrongfiles << [file.to_s]
-      raise
+      raise #TODO: comment this out when done
     end
 
   end
@@ -113,13 +112,13 @@ def stringify(tagdict, bibl, unclear)
     }
   end
 
-  if tagdict.key?(:title)
-    begin
-      doi = finddoi(tagdict[:title])
-      bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
-    rescue
-      bibl.add_child "<idno type=\"DOI\"></idno>"
-      raise
-    end
-  end
+  # if tagdict.key?(:title)
+  #   begin
+  #     doi = finddoi(tagdict[:title])
+  #     bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
+  #   rescue
+  #     bibl.add_child "<idno type=\"DOI\"></idno>"
+  #     raise
+  #   end
+  # end
 end
