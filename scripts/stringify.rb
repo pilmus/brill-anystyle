@@ -13,8 +13,6 @@ def stringify_author(tagdict_author, bibl)
 
   authors.each {|potential_author|
 
-    puts "PAUTHOR: " + potential_author.to_s
-
     potential_author.strip!
     if includes_nums_punct?(potential_author)
       bibl.add_child "<author><name type=\"misparsed\">" + potential_author + "</name></author>"
