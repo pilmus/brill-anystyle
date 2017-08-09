@@ -13,6 +13,8 @@ def tag(file)
   # find the tag named listBibl and every bibl under it
   bibls = xml.css("listBibl bibl")
 
+  wrongfiles = CSV.open("transformation_error.csv", 'w')
+
   bibls.each do |bibl|
     bt = bibl.text
 
@@ -35,12 +37,14 @@ def tag(file)
       stringify(tagged[0], bibl, bt)
     rescue => e
       puts "Something went wrong when transforming " + file.to_s
-      wrongfiles = CSV.open("transformation_error.csv", 'w')
+
       wrongfiles << [file.to_s]
-      raise #TODO: comment this out when done
+      #raise #TODO: comment this out when done
     end
 
   end
+
+  wrongfiles.close
 
   return xml
 end

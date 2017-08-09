@@ -30,7 +30,7 @@ def stringify_author(tagdict_author, bibl)
       surname = author[0]
       forename = author[1]
 
-      if letter_forename?(forename)
+      if letter_and_name_forename?(forename)
         bibl.add_child "<author><name type =\"polynym\"><surname>"+surname+"</surname><forename>"+forename+"</forename></name></author>"
         return
       else
@@ -53,7 +53,11 @@ def single_word?(string)
 end
 
 def letter_forename?(forename)
-  /^([A-Z]\. ?)+$/ =~ forename
+  /^([-]?[A-Z]\. ?)+$/ =~ forename
+end
+
+def letter_and_name_forename?(forename)
+  /([-]?[A-Z]\.)+/ =~ forename
 end
 
 def includes_nums_punct?(name)
