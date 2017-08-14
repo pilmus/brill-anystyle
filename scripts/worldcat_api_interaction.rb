@@ -32,7 +32,14 @@ def get_author_and_viaf(name)
   url = "http://www.viaf.org/viaf/search?query=cql.any+=+\"" + name + "\"&maximumRecords=1&httpAccept=application/json"
   uri = URI(url)
 
-  response = Net::HTTP.get(uri)
+  begin
+    response = Net::HTTP.get(uri)
+  rescue => e
+    puts "The connection failed because of the following reason: "
+    puts e
+    return "", ""
+  end
+
   parsed = JSON.parse(response)
 
   sRR = parsed["searchRetrieveResponse"]
