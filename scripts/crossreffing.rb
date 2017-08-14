@@ -11,7 +11,7 @@ def finddoi(query)
     puts e
     return ""
   end
-  
+
 
   items = response['message']['items']
 

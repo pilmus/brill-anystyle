@@ -69,7 +69,7 @@ def stringify_editor(tagdict_editor, bibl)
     end
 
     if single_word?(potential_editor) # case: author name is a single word (ie. Homerus)
-      bibl.add_child "<author ref=\"" + viaflink + "\"><name type=\"mononym\">" + potential_editor + "</name></author>"
+      bibl.add_child "<editor><name type=\"mononym\">" + potential_editor + "</name></editor>"
       next # return
 
     elsif potential_editor.include? ',' # case: first and last name
