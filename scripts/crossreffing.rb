@@ -4,7 +4,14 @@ require 'serrano'
 require 'nokogiri'
 
 def finddoi(query)
-  response = Serrano.works(query: query)
+  begin
+    response = Serrano.works(query: query)
+  rescue => e
+    puts "Something went wrong while getting the DOI: "
+    puts e
+    return ""
+  end
+  
 
   items = response['message']['items']
 
