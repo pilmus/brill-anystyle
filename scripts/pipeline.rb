@@ -54,8 +54,18 @@ def transformall
 
     Anystyle.parser.train "training.txt", true
 
+    start = Time.now
     deidemizefolder(folder)
     transformfolder(folder)
+
+
+    finish = Time.now
+
+    diff = finish - start
+
+    puts "It took " + diff.to_s + " seconds to transform " + folder.to_s
+
+
     Dir.chdir rootpath
   end
 
@@ -95,6 +105,12 @@ def transformall
   countfile.close
 end
 
+
+
 transformall
+
+
+
+puts "The transformation of"
 
 
