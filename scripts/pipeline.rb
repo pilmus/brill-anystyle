@@ -105,12 +105,6 @@ def transformall
   countfile.close
 end
 
-
-
 transformall
-
-
-
-puts "The transformation of"
 
 
