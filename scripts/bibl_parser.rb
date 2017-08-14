@@ -116,13 +116,13 @@ def stringify(tagdict, bibl, unclear)
     }
   end
 
-  # if tagdict.key?(:title)
-  #   begin
-  #     doi = finddoi(tagdict[:title])
-  #     bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
-  #   rescue
-  #     bibl.add_child "<idno type=\"DOI\"></idno>"
-  #     raise
-  #   end
-  # end
+  if tagdict.key?(:title)
+    begin
+      doi = finddoi(tagdict[:title])
+      bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
+    rescue
+      bibl.add_child "<idno type=\"DOI\"></idno>"
+      raise
+    end
+  end
 end
