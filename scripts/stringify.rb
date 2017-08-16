@@ -2,7 +2,7 @@
 
 require_relative 'worldcat_api_interaction'
 
-def stringify_author(tagdict_author, bibl)
+def stringify_author(tagdict_author, bibl, do_viaf)
   if tagdict_author.include? " / "
     authors = tagdict_author.split(' / ')
   elsif tagdict_author.include? ' and ' # case: multiple authors
@@ -20,6 +20,10 @@ def stringify_author(tagdict_author, bibl)
     end
 
     if single_word?(potential_author) # case: author name is a single word (ie. Homerus)
+      if do_viaf == "no"
+        bibl.add_child "<author><name type=\"misparsed\">" + potential_author + "</name></author>"
+        next
+      end
       viaflink = find_single_author(potential_author)
       unless viaflink.to_s.empty?
         bibl.add_child "<author ref=\"" + viaflink + "\"><name type=\"mononym\">" + potential_author + "</name></author>"
@@ -37,6 +41,10 @@ def stringify_author(tagdict_author, bibl)
         bibl.add_child "<author><name type =\"polynym\"><surname>"+surname+"</surname><forename>"+forename+"</forename></name></author>"
         next # return
       else
+        if do_viaf == "no"
+          bibl.add_child "<author><name type=\"misparsed\">" + potential_author + "</name></author>"
+          next
+        end
         viaflink = find_author(forename, surname)
         unless viaflink.to_s.empty?
           bibl.add_child "<author ref=\"" + viaflink + "\"><name type=\"polynym\"><surname>"+surname+"</surname><forename>"+forename+"</forename></name></author>"

@@ -7,7 +7,7 @@ require_relative 'crossreffing'
 require_relative 'stringify'
 
 
-def tag(file)
+def tag(file, do_doi, do_viaf)
   xml = Nokogiri::XML(File.open(file))
 
   # find the tag named listBibl and every bibl under it
@@ -34,7 +34,7 @@ def tag(file)
     tagged = Anystyle.parse bt
 
     begin
-      stringify(tagged[0], bibl, bt)
+      stringify(tagged[0], bibl, bt, do_doi, do_viaf)
     rescue => e
       puts "Something went wrong when transforming " + file.to_s
       puts e.to_s
@@ -49,10 +49,10 @@ def tag(file)
   return xml
 end
 
-def stringify(tagdict, bibl, unclear)
+def stringify(tagdict, bibl, unclear, do_doi, do_viaf)
 
   if tagdict.key?(:author)
-    stringify_author(tagdict[:author], bibl)
+    stringify_author(tagdict[:author], bibl, do_viaf)
   end
 
   # check if journal, if so title level article, otherwise book
@@ -116,13 +116,15 @@ def stringify(tagdict, bibl, unclear)
     }
   end
 
-  if tagdict.key?(:title)
-    begin
-      doi = finddoi(tagdict[:title])
-      bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
-    rescue
-      bibl.add_child "<idno type=\"DOI\"></idno>"
-      raise
+  if do_doi == "yes"
+    if tagdict.key?(:title)
+      begin
+        doi = finddoi(tagdict[:title])
+        bibl.add_child "<idno type=\"DOI\">" + doi.to_s + "</idno>"
+      rescue
+        bibl.add_child "<idno type=\"DOI\"></idno>"
+        raise
+      end
     end
   end
 end

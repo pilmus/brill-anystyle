@@ -15,7 +15,7 @@ def transformxml(xml)
   outfile.close
 end
 
-def transformfolder(folder)
+def transformfolder(folder,do_doi,do_viaf)
   # create the folder that will contain the new xmls if it does not yet exist
   FileUtils.mkdir("tagged_xmls") unless Dir.exists?("tagged_xmls")
 
@@ -29,7 +29,7 @@ def transformfolder(folder)
 
   # for each xml file in the folder, perform the transformation and save the result
   xmls.each do |xml|
-    tagged = tag(xml)
+    tagged = tag(xml,do_doi, do_viaf)
 
     # count the number of m and j level bibls
     totalbibls, totalm, totalj, totala, totals, totalu, totalmis, totalmono, totalpoly = bibl_counter(tagged)
@@ -49,6 +49,8 @@ def transformall
   rootpath = Dir.pwd
   CSV.foreach(ARGV[0], headers: true) do |row|
     folder = row[0]
+    do_doi = row[1]
+    do_viaf = row[2]
 
     Dir.chdir folder
 
@@ -56,7 +58,7 @@ def transformall
 
     start = Time.now
     deidemizefolder(folder)
-    transformfolder(folder)
+    transformfolder(folder, do_doi,do_viaf)
 
 
     finish = Time.now
