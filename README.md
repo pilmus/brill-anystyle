@@ -4,10 +4,10 @@
 Before you can use the Brill Anystyle scripts, there are a number of prerequisites that have to be fulfilled:
 * You must have a basic knowledge of the **Linux Terminal**. If you do not, I recommend having a look at [this](http://linuxcommand.org/) tutorial.
 * You must be using a **Linux Machine**. If you are working on a computer with a different operating system, you must [create a virtual machine](#creating-a-virtual-machine-vm).
-* Ruby 2.3 or higher must be installed on your computer. 
+* Ruby 2.3 or higher must be [installed](#installing-ruby) on your computer. 
 * Although not necessary for this project, it is convenient to have a basic knowledge of GIT. If you do not, I recommend having a look at this website, as well as the Brill Freelancer’s Introduction to Git.
 
-NOTE: In this guide, whenever the instruction “type xyz” is given, you should type this in the terminal.
+**NOTE**: In this guide, whenever the instruction “type xyz” is given, you should type this in the terminal.
 
 # Creating a Virtual Machine (VM)
 ## Creating the Client Machine
@@ -28,7 +28,7 @@ Now, you can choose whether the space necessary for your virtual hard disk shoul
 Give your new virtual hard disk a name and location, as well as a maximum size. If you are planning on making more VMs, it is a good idea to create a separate folder for the hard disks, for example in your Documents folder or on your C-Drive. Set the size of the hard disk to 8,00GB. Click “Create”.
 Done!
 
-2.2. Installing an Operating System
+## Installing an Operating System
 Download an installation CD. You need this to install an operating system (OS) on your VM. I recommend installing Lubuntu, as it is a lightweight OS, so most laptops can handle it. Since our VM is a 64-bit system, choose the 64-bit version.
 Note: the creators of Lubuntu recommend downloading the CD through a torrent. If you go with this option, you will need a torrent client such as qBittorrent.
 If you haven’t already, start VirtualBox. Then, start your VM by double clicking its name in the list of VMs. You will be prompted to select a start-up disk. Click the folder icon and navigate to the folder where you saved the installation and select it. Click Start.
@@ -51,9 +51,9 @@ Restart your VM.
 Once your VM has restarted, press Enter. You do not have to remove the installation medium yourself; VirtualBox does this for you.
 
 
-2.3. Connecting the VM to the Host System
+## Connecting the VM to the Host System
 When working on the VM, it is not automatically possible to access files on the host system. This is because for all intents and purposes, the VM and the host machine are two different computers. Therefore, in order to access files on the host system from the VM, you need to create a connection between the two. The following steps are taken from this guide.
-2.3.1. Installing Guest Additions
+### Installing Guest Additions
 Add a terminal to your desktop by going to Start → System Tools, right-clicking the LXTerminal icon and selecting Add to desktop. Open the terminal.
 
 From Virtual Box’ menu (so the window containing your VM), go to Devices → Insert Guest Additions CD image… When prompted, you can open the file in the file explorer, but this is not necessary.
@@ -74,14 +74,14 @@ Type:
     
     Give your password when prompted.
 When the program has completed running, reboot your VM.
-2.3.2. Marking shared folders
+### Marking shared folders
 With the Guest Additions installed, you can mark folders on your host system you want to share with the VM.
 From VirtualBox’ menu go to Devices → Shared Folders → Shared Folders Settings… In the dialog that appears, click the icon of a folder with a small plus to add a folder.
 
 In the next dialog screen, select the folder you want to mount and give it a name. You will need this name later so make sure it is something you can remember. Tick the boxes Auto-mount and Make Permanent.
 
 Reboot your VM.
-2.3.3. Mounting shared folders
+### Mounting shared folders
 By mounting the shared folders, you allow the VM to actually access them. It is convenient to create a script that does this for you.
 Open a terminal and type:
 
@@ -109,13 +109,13 @@ Type:
         cd <folder-name>
 
 to access your files.
-3. Setting up Brill Anystyle
+# Setting up Brill Anystyle
 There are a number of software libraries that need to be installed before you can use Brill Anystyle.
-3.1. Installing Ruby
+## Installing Ruby
 Install Ruby by typing:
 
 sudo apt-get install ruby; sudo apt-get install ruby-dev
-3.2. Installing the Anystyle Parser
+## Installing the Anystyle Parser
 First type:
 
 sudo apt-get install build-essential zlib1g-dev libssl-dev
@@ -126,19 +126,19 @@ sudo gem install anystyle-parser
 
 to install the Anystyle Parser
 
-3.3. Installing Nokogiri
+## Installing Nokogiri
 Nokogiri allows your scripts to traverse xml-documents.
 Type:
 
 sudo gem install nokogiri
-3.4. Installing Serrano
+## Installing Serrano
 Serrano is necessary for connecting to the Crossref database and retrieve the DOIs of the different references.
 Type:
 
 
 sudo gem install serrano
 
-4. Using Brill Anystyle
+# Using Brill Anystyle
 The Brill Anystyle scripts take all the xmls in (a) specified folder(s) and find the bibliographic references contained therein. These references are split into for example authors and titles, which are then tagged with the right xml tags. The transformed xmls are placed in a separate folder so that the source material is preserved.
 
 Create a .csv file containing the absolute paths to the folders containing the xmls you wish to transform. Note: an absolute path on Linux looks different than on Windows! Your path should look something like this:
