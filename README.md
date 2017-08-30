@@ -5,15 +5,17 @@ Before you can use the Brill Anystyle scripts, there are a number of prerequisit
 * You must have a basic knowledge of the **Linux Terminal**. If you do not, I recommend having a look at [this](http://linuxcommand.org/) tutorial.
 * You must be using a **Linux Machine**. If you are working on a computer with a different operating system, you must [create a virtual machine](#creating-a-virtual-machine-vm).
 * Ruby 2.3 or higher must be [installed](#installing-ruby) on your computer. 
-* Although not necessary for this project, it is convenient to have a basic knowledge of GIT. If you do not, I recommend having a look at this website, as well as the Brill Freelancer’s Introduction to Git.
+* Although not necessary for this project, it is convenient to have a basic knowledge of Git. If you do not, I recommend having a look at [this](https://git-scm.com/) website, as well as the [Brill Freelancer’s Introduction to Git](https://docs.google.com/document/d/1Cj_wtMWNfGEaftnEn2obqSZFCPtB9izL_AKJejD-JB4/edit?usp=sharing).
 
 **NOTE**: In this guide, whenever the instruction “type xyz” is given, you should type this in the terminal.
 
 # Creating a Virtual Machine (VM)
 ## Creating the Client Machine
-Install VirtualBox or another VM manager of your choice. (This guide will assume you have downloaded VirtualBox.) Select the version appropriate for your operating system.
-NOTE: From here on, your regular system will be known as the host (system). The Virtual Machine will be known as the guest (system) or the VM.
-Create a new VM by clicking the “New” button.
+1. Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) or another VM manager of your choice. (This guide will assume you have downloaded VirtualBox.) Select the version appropriate for your operating system.
+**NOTE**: From here on, your regular system will be known as the **host (system)**. The Virtual Machine will be known as the **guest (system)** or the **VM**.
+2. Create a new VM by clicking the “New” button.
+
+![Create a new VM](/../readmeImages/readme-images/image.1png?raw=true)
 
 A window appears prompting you to name the VM and choose an operating system. You can name your VM whatever you like. You must select Linux as the Type of your VM, and Other Linux (64-bit) as the Version. When you’re done, click “Next”.
 
